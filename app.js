@@ -537,17 +537,15 @@ function renderRegionChips() {
         container.appendChild(chip);
     });
 
-    // Add action buttons
-    const actionsDiv = document.createElement('div');
-    actionsDiv.className = 'region-actions';
-    actionsDiv.innerHTML = `
+    // Add action buttons to separate container
+    const actionsContainer = document.getElementById('regionActions');
+    actionsContainer.innerHTML = `
         <button class="region-action-btn ${state.radiusMode ? 'active' : ''}" id="toggle20kmRadius">
             📍 20km 반경
         </button>
         <button class="region-action-btn" id="selectAllRegions">전체 선택</button>
         <button class="region-action-btn" id="clearAllRegions">전체 해제</button>
     `;
-    container.appendChild(actionsDiv);
 
     // Add event listeners
     document.getElementById('toggle20kmRadius').addEventListener('click', toggle20kmRadius);
