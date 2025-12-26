@@ -753,6 +753,34 @@ body {
     background: transparent !important;
 }
 
+/* Location Control */
+.leaflet-control-location {
+    margin-top: 10px !important;
+}
+
+.location-button {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background: var(--bg-secondary) !important;
+    border: none !important;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.location-button:hover {
+    background: var(--bg-hover) !important;
+}
+
+.location-button svg {
+    width: 18px;
+    height: 18px;
+    stroke: var(--text-primary);
+}
+
 /* ==========================================
    Mobile Toggle
    ========================================== */
@@ -1205,8 +1233,9 @@ body {
         top: 70px;
     }
 
-    /* Hide zoom controls when sidebar is open */
-    body.sidebar-open .leaflet-control-zoom {
+    /* Hide map controls when sidebar is open */
+    body.sidebar-open .leaflet-control-zoom,
+    body.sidebar-open .leaflet-control-location {
         display: none;
     }
 }

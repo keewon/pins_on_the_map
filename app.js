@@ -251,8 +251,47 @@ function initMap() {
     // Position zoom control
     state.map.zoomControl.setPosition('topright');
 
+    // Add location control
+    const LocationControl = L.Control.extend({
+        options: { position: 'topright' },
+        onAdd: function() {
+            const container = L.DomUtil.create('div', 'leaflet-bar leaflet-control leaflet-control-location');
+            const button = L.DomUtil.create('a', 'location-button', container);
+            button.href = '#';
+            button.title = '내 위치로 이동';
+            button.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3"/><circle cx="12" cy="12" r="8"/></svg>';
+            
+            L.DomEvent.on(button, 'click', function(e) {
+                L.DomEvent.preventDefault(e);
+                goToMyLocation();
+            });
+            
+            return container;
+        }
+    });
+    state.map.addControl(new LocationControl());
+
     // Auto-region selection on map move
     state.map.on('moveend', onMapMove);
+}
+
+/**
+ * Go to user's current location
+ */
+function goToMyLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(
+            (position) => {
+                state.map.setView([position.coords.latitude, position.coords.longitude], ZOOM_10KM);
+            },
+            (error) => {
+                console.warn('위치 정보를 가져올 수 없습니다:', error);
+                alert('위치 정보를 가져올 수 없습니다. 위치 권한을 확인해주세요.');
+            }
+        );
+    } else {
+        alert('이 브라우저는 위치 정보를 지원하지 않습니다.');
+    }
 }
 
 /**
