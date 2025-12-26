@@ -885,6 +885,12 @@ body {
     color: var(--text-primary);
 }
 
+.region-action-btn.active {
+    background: var(--accent-teal);
+    color: var(--bg-primary);
+    border-color: var(--accent-teal);
+}
+
 /* ==========================================
    Responsive - Tablet
    ========================================== */

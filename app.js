@@ -145,6 +145,9 @@ function isFirstVisit() {
     return getCookie(COOKIE_FIRST_VISIT) === null;
 }
 
+// 기본으로 켜져있을 리스트 ID (도서관 = 4)
+const DEFAULT_VISIBLE_LIST_ID = 4;
+
 // Application State
 const state = {
     map: null,
@@ -155,6 +158,9 @@ const state = {
     selectedRegions: [], // Store selected regions
     regionCounts: {}, // Pin counts per region
     regionFilterCollapsed: false,
+    radiusMode: false, // 20km 반경 모드
+    userLocation: null, // 사용자 위치
+    radiusCircle: null, // 반경 표시 원
 };
 
 // DOM Elements
@@ -294,6 +300,100 @@ function findClosestRegion(userLat, userLng) {
 }
 
 /**
+ * Calculate distance between two coordinates in kilometers (Haversine formula)
+ */
+function calculateDistance(lat1, lng1, lat2, lng2) {
+    const R = 6371; // Earth's radius in km
+    const dLat = (lat2 - lat1) * Math.PI / 180;
+    const dLng = (lng2 - lng1) * Math.PI / 180;
+    const a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+              Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+              Math.sin(dLng / 2) * Math.sin(dLng / 2);
+    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+    return R * c;
+}
+
+/**
+ * Toggle 20km radius mode
+ */
+function toggle20kmRadius() {
+    if (state.radiusMode) {
+        // Turn off radius mode
+        state.radiusMode = false;
+        state.userLocation = null;
+        
+        // Remove radius circle
+        if (state.radiusCircle) {
+            state.map.removeLayer(state.radiusCircle);
+            state.radiusCircle = null;
+        }
+        
+        renderRegionChips();
+        refreshAllMarkers();
+        updatePinCounts();
+    } else {
+        // Turn on radius mode
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(
+                (position) => {
+                    state.radiusMode = true;
+                    state.userLocation = {
+                        lat: position.coords.latitude,
+                        lng: position.coords.longitude
+                    };
+                    
+                    // Add radius circle to map
+                    if (state.radiusCircle) {
+                        state.map.removeLayer(state.radiusCircle);
+                    }
+                    state.radiusCircle = L.circle(
+                        [state.userLocation.lat, state.userLocation.lng],
+                        {
+                            radius: 20000, // 20km in meters
+                            color: '#4a9d8e',
+                            fillColor: '#4a9d8e',
+                            fillOpacity: 0.1,
+                            weight: 2
+                        }
+                    ).addTo(state.map);
+                    
+                    // Center map on user location
+                    state.map.setView([state.userLocation.lat, state.userLocation.lng], 11);
+                    
+                    renderRegionChips();
+                    refreshAllMarkers();
+                    updatePinCounts();
+                },
+                (error) => {
+                    console.warn('위치 정보를 가져올 수 없습니다:', error);
+                    alert('위치 정보를 가져올 수 없습니다. 위치 권한을 확인해주세요.');
+                }
+            );
+        } else {
+            alert('이 브라우저에서는 위치 기능을 지원하지 않습니다.');
+        }
+    }
+}
+
+/**
+ * Check if a pin is within 20km radius
+ */
+function isPinInRadius(pin) {
+    if (!state.radiusMode || !state.userLocation) {
+        return true; // Not in radius mode, show all
+    }
+    
+    const distance = calculateDistance(
+        state.userLocation.lat,
+        state.userLocation.lng,
+        pin.latitude,
+        pin.longitude
+    );
+    
+    return distance <= 20;
+}
+
+/**
  * Initialize Leaflet map
  */
 function initMap() {
@@ -373,10 +473,10 @@ async function loadPinData() {
             state.listColors[list.id] = savedColors.hasOwnProperty(list.id)
                 ? savedColors[list.id]
                 : (list.color || COLORS[index % COLORS.length].value);
-            // Use saved visibility if exists, otherwise default to true
+            // Use saved visibility if exists, otherwise default to only libraries (id 4)
             state.listVisibility[list.id] = savedVisibility.hasOwnProperty(list.id) 
                 ? savedVisibility[list.id] 
-                : true;
+                : (list.id === DEFAULT_VISIBLE_LIST_ID);
         });
 
         renderRegionChips();
@@ -441,12 +541,17 @@ function renderRegionChips() {
     const actionsDiv = document.createElement('div');
     actionsDiv.className = 'region-actions';
     actionsDiv.innerHTML = `
+        <button class="region-action-btn ${state.radiusMode ? 'active' : ''}" id="toggle20kmRadius">
+            📍 20km 반경
+        </button>
         <button class="region-action-btn" id="selectAllRegions">전체 선택</button>
         <button class="region-action-btn" id="clearAllRegions">전체 해제</button>
     `;
     container.appendChild(actionsDiv);
 
     // Add event listeners
+    document.getElementById('toggle20kmRadius').addEventListener('click', toggle20kmRadius);
+
     document.getElementById('selectAllRegions').addEventListener('click', () => {
         state.selectedRegions = [...REGIONS];
         saveRegionsToCookie();
@@ -499,9 +604,11 @@ function refreshAllMarkers() {
  */
 function updatePinCounts() {
     state.pinLists.forEach(list => {
-        const filteredCount = list.pins.filter(pin => 
-            state.selectedRegions.includes(pin.region || '기타')
-        ).length;
+        const filteredCount = list.pins.filter(pin => {
+            const regionOk = state.radiusMode || state.selectedRegions.includes(pin.region || '기타');
+            const radiusOk = isPinInRadius(pin);
+            return regionOk && radiusOk;
+        }).length;
         
         const countElement = document.querySelector(
             `.pin-list-item[data-list-id="${list.id}"] .pin-count`
@@ -523,10 +630,12 @@ function renderPinLists() {
         const color = state.listColors[list.id];
         const isActive = state.listVisibility[list.id];
         
-        // Count pins in selected regions
-        const filteredCount = list.pins.filter(pin => 
-            state.selectedRegions.includes(pin.region || '기타')
-        ).length;
+        // Count pins in selected regions/radius
+        const filteredCount = list.pins.filter(pin => {
+            const regionOk = state.radiusMode || state.selectedRegions.includes(pin.region || '기타');
+            const radiusOk = isPinInRadius(pin);
+            return regionOk && radiusOk;
+        }).length;
         
         const listElement = document.createElement('div');
         listElement.className = `pin-list-item ${isActive ? 'active' : ''}`;
@@ -674,10 +783,14 @@ function showMarkers(listId) {
     const color = state.listColors[listId];
     state.markers[listId] = [];
 
-    // Filter pins by selected regions
-    const filteredPins = list.pins.filter(pin => 
-        state.selectedRegions.includes(pin.region || '기타')
-    );
+    // Filter pins by selected regions and radius
+    const filteredPins = list.pins.filter(pin => {
+        // Check region filter (skip if in radius mode)
+        const regionOk = state.radiusMode || state.selectedRegions.includes(pin.region || '기타');
+        // Check radius filter
+        const radiusOk = isPinInRadius(pin);
+        return regionOk && radiusOk;
+    });
 
     filteredPins.forEach(pin => {
         const marker = createMarker(pin, color, list.title);
