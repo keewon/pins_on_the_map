@@ -982,19 +982,18 @@ function createMarker(pin, color, listTitle, listId) {
             badges.push(`<span class="school-badge found">${pin.found_type}</span>`);
         }
         
-        // 학생수 (남/녀 별도 표시)
-        if (pin.student_total) {
-            if (pin.student_male > 0 || pin.student_female > 0) {
-                badges.push(`<span class="school-badge students">👨‍🎓 ${pin.student_total}명 (♂${pin.student_male} ♀${pin.student_female})</span>`);
-            } else {
-                badges.push(`<span class="school-badge students">👨‍🎓 ${pin.student_total}명</span>`);
-            }
-        }
-        
-        // 진학률 (고등학교만)
-        if (listId === 9 && pin.advancement_rate) {
-            badges.push(`<span class="school-badge rate">📈 진학률 ${pin.advancement_rate}%</span>`);
-        }
+        // 학생수, 진학률 - API 데이터 오류로 임시 비활성화
+        // TODO: 학교알리미 API 정상화 후 다시 활성화
+        // if (pin.student_total) {
+        //     if (pin.student_male > 0 || pin.student_female > 0) {
+        //         badges.push(`<span class="school-badge students">👨‍🎓 ${pin.student_total}명 (♂${pin.student_male} ♀${pin.student_female})</span>`);
+        //     } else {
+        //         badges.push(`<span class="school-badge students">👨‍🎓 ${pin.student_total}명</span>`);
+        //     }
+        // }
+        // if (listId === 9 && pin.advancement_rate) {
+        //     badges.push(`<span class="school-badge rate">📈 진학률 ${pin.advancement_rate}%</span>`);
+        // }
         
         if (badges.length > 0) {
             schoolInfoHtml = `<div class="school-info">${badges.join('')}</div>`;
