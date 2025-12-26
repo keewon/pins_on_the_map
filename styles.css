@@ -532,7 +532,7 @@ body {
     position: fixed;
     top: 16px;
     left: 16px;
-    z-index: 90;
+    z-index: 500;
     width: 48px;
     height: 48px;
     background: var(--bg-secondary);
@@ -541,7 +541,7 @@ body {
     cursor: pointer;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 4px 16px var(--shadow-dark);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
     transition: all var(--transition-fast);
 }
 
