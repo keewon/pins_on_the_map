@@ -25,21 +25,7 @@
             </header>
             
             <div class="sidebar-content">
-                <p class="sidebar-description">지도에서 다양한 장소를 확인하세요</p>
-                
-                <!-- Region Filter -->
-                <div class="region-filter" id="regionFilter">
-                    <div class="region-filter-header">
-                        <span class="region-filter-title">🗺️ 지역 필터</span>
-                        <button class="region-toggle-btn" id="regionToggleBtn">접기</button>
-                    </div>
-                    <div class="region-chips" id="regionChips">
-                        <!-- Region chips will be dynamically inserted here -->
-                    </div>
-                    <div class="region-actions" id="regionActions">
-                        <!-- Action buttons will be dynamically inserted here -->
-                    </div>
-                </div>
+                <p class="sidebar-description">지도를 움직이면 보이는 장소만 표시됩니다</p>
                 
                 <div class="list-container" id="listContainer">
                     <!-- Pin lists will be dynamically inserted here -->
@@ -48,6 +34,7 @@
             
             <footer class="sidebar-footer">
                 <p>체크박스로 리스트를 표시/숨김</p>
+                <button class="reset-btn" id="resetSettings">⟳ 설정 초기화</button>
             </footer>
         </aside>
 
@@ -69,29 +56,27 @@
             <div class="modal">
                 <div class="modal-header">
                     <span class="modal-icon">🗺️</span>
-                    <h2>지역 선택</h2>
+                    <h2>시작 위치 선택</h2>
                 </div>
                 <p class="modal-description">
-                    전국 데이터를 한 번에 로드하면 느릴 수 있어요.<br>
-                    원하는 방식을 선택해주세요.
+                    어디서 시작할까요?
                 </p>
                 <div class="modal-buttons">
                     <button class="modal-btn modal-btn-primary" id="btnLocationBased">
                         <span class="btn-icon">📍</span>
                         <span class="btn-text">
-                            <strong>내 위치 기반</strong>
-                            <small>가장 가까운 지역 자동 선택</small>
+                            <strong>내 위치</strong>
+                            <small>현재 위치에서 시작</small>
                         </span>
                     </button>
-                    <button class="modal-btn modal-btn-secondary" id="btnSeoulOnly">
-                        <span class="btn-icon">🏙️</span>
+                    <button class="modal-btn modal-btn-secondary" id="btnSeoulCityHall">
+                        <span class="btn-icon">🏛️</span>
                         <span class="btn-text">
-                            <strong>서울만 보기</strong>
-                            <small>서울특별시만 활성화</small>
+                            <strong>서울시청</strong>
+                            <small>서울 중심에서 시작</small>
                         </span>
                     </button>
                 </div>
-                <button class="modal-skip" id="btnShowAll">전체 지역 보기 (느릴 수 있음)</button>
             </div>
         </div>
     </div>

@@ -122,10 +122,38 @@ body {
     display: none;
     width: 36px;
     height: 36px;
-    background: transparent;
-    border: none;
+    background: var(--bg-hover);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
     cursor: pointer;
     position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar-toggle .toggle-icon {
+    width: 16px;
+    height: 2px;
+    background: transparent;
+    position: relative;
+}
+
+.sidebar-toggle .toggle-icon::before,
+.sidebar-toggle .toggle-icon::after {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 2px;
+    background: var(--text-primary);
+    left: 0;
+}
+
+.sidebar-toggle .toggle-icon::before {
+    transform: rotate(45deg);
+}
+
+.sidebar-toggle .toggle-icon::after {
+    transform: rotate(-45deg);
 }
 
 .sidebar-content {
@@ -383,6 +411,25 @@ body {
     font-size: 0.8rem;
     color: var(--text-muted);
     text-align: center;
+    margin-bottom: 12px;
+}
+
+.reset-btn {
+    width: 100%;
+    padding: 10px 16px;
+    background: transparent;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.reset-btn:hover {
+    background: var(--bg-hover);
+    color: var(--text-primary);
+    border-color: var(--accent-coral);
 }
 
 /* ==========================================
@@ -532,7 +579,7 @@ body {
     position: fixed;
     top: 16px;
     left: 16px;
-    z-index: 500;
+    z-index: 700;
     width: 48px;
     height: 48px;
     background: var(--bg-secondary);
@@ -599,11 +646,13 @@ body {
     background: rgba(0, 0, 0, 0.6);
     z-index: 95;
     opacity: 0;
+    pointer-events: none;
     transition: opacity var(--transition-medium);
 }
 
 .overlay.active {
     opacity: 1;
+    pointer-events: auto;
 }
 
 /* ==========================================
@@ -935,6 +984,14 @@ body {
         transform: translateX(0);
     }
 
+    .sidebar.open .sidebar-toggle {
+        display: flex;
+    }
+
+    .sidebar.open ~ .mobile-toggle {
+        display: none;
+    }
+
     .overlay {
         display: block;
         z-index: 550;
@@ -963,6 +1020,11 @@ body {
     /* Adjust map controls for mobile */
     .leaflet-top.leaflet-left {
         top: 70px;
+    }
+
+    /* Hide zoom controls when sidebar is open */
+    body.sidebar-open .leaflet-control-zoom {
+        display: none;
     }
 }
 
