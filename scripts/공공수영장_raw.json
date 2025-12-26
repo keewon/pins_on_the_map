@@ -33,6 +33,138 @@
     "category": "스포츠,레저 > 수영,수상 > 수영장"
   },
   {
+    "id": "8016583",
+    "name": "올림픽공원 올림픽수영장",
+    "address": "서울 송파구 방이동 88-2",
+    "road_address": "서울 송파구 올림픽로 424",
+    "latitude": 37.5210001306853,
+    "longitude": 127.126596292547,
+    "phone": "02-2180-3743",
+    "url": "http://place.map.kakao.com/8016583",
+    "category": "스포츠,레저 > 수영,수상 > 수영장"
+  },
+  {
+    "id": "2068787746",
+    "name": "올림픽공원 올림픽수영장 다이빙풀",
+    "address": "서울 송파구 방이동 88",
+    "road_address": "서울 송파구 올림픽로 424",
+    "latitude": 37.520982910991,
+    "longitude": 127.126690154058,
+    "phone": "02-424-0735",
+    "url": "http://place.map.kakao.com/2068787746",
+    "category": "스포츠,레저 > 수영,수상 > 수영장"
+  },
+  {
+    "id": "1961378727",
+    "name": "올림픽수영장 1-1출입문",
+    "address": "서울 송파구 방이동 88-2",
+    "road_address": "서울 송파구 올림픽로 424",
+    "latitude": 37.5215042489882,
+    "longitude": 127.127008908365,
+    "phone": "",
+    "url": "http://place.map.kakao.com/1961378727",
+    "category": "교통,수송 > 입출구"
+  },
+  {
+    "id": "1393465344",
+    "name": "올림픽수영장 1-2출입문",
+    "address": "서울 송파구 방이동 88",
+    "road_address": "서울 송파구 올림픽로 424",
+    "latitude": 37.5211336527721,
+    "longitude": 127.127272984341,
+    "phone": "",
+    "url": "http://place.map.kakao.com/1393465344",
+    "category": "교통,수송 > 입출구"
+  },
+  {
+    "id": "281546344",
+    "name": "GS25 올림픽수영장점",
+    "address": "서울 송파구 방이동 88",
+    "road_address": "서울 송파구 올림픽로 424",
+    "latitude": 37.52080097557144,
+    "longitude": 127.12662762992822,
+    "phone": "080-999-5425",
+    "url": "http://place.map.kakao.com/281546344",
+    "category": "가정,생활 > 편의점 > GS25"
+  },
+  {
+    "id": "1100980083",
+    "name": "88다이빙",
+    "address": "서울 송파구 방이동 88",
+    "road_address": "서울 송파구 올림픽로 424",
+    "latitude": 37.5207892564978,
+    "longitude": 127.126633266169,
+    "phone": "010-2068-6883",
+    "url": "http://place.map.kakao.com/1100980083",
+    "category": "스포츠,레저 > 수영,수상 > 스킨스쿠버"
+  },
+  {
+    "id": "398567385",
+    "name": "티막스토어",
+    "address": "서울 송파구 방이동 88",
+    "road_address": "서울 송파구 올림픽로 424",
+    "latitude": 37.52117223636748,
+    "longitude": 127.12658300875073,
+    "phone": "070-4677-1114",
+    "url": "http://place.map.kakao.com/398567385",
+    "category": "스포츠,레저 > 스포츠용품 > 수상,수영용품"
+  },
+  {
+    "id": "711247096",
+    "name": "하나은행365 올림픽수영장",
+    "address": "서울 송파구 방이동 88-2",
+    "road_address": "서울 송파구 올림픽로 424",
+    "latitude": 37.5210361852627,
+    "longitude": 127.126582778909,
+    "phone": "",
+    "url": "http://place.map.kakao.com/711247096",
+    "category": "금융,보험 > 금융서비스 > 은행 > ATM"
+  },
+  {
+    "id": "8371501",
+    "name": "서울곰두리체육센터",
+    "address": "서울 송파구 오금동 51",
+    "road_address": "서울 송파구 동남로 271",
+    "latitude": 37.5005122103537,
+    "longitude": 127.135522971382,
+    "phone": "02-404-6240",
+    "url": "http://place.map.kakao.com/8371501",
+    "category": "스포츠,레저 > 스포츠시설 > 체육관"
+  },
+  {
+    "id": "1179118731",
+    "name": "시립서울곰두리체육센터 주차장",
+    "address": "서울 송파구 오금동 51",
+    "road_address": "",
+    "latitude": 37.5001579601971,
+    "longitude": 127.135658038868,
+    "phone": "",
+    "url": "http://place.map.kakao.com/1179118731",
+    "category": "교통,수송 > 교통시설 > 주차장"
+  },
+  {
+    "id": "26335519",
+    "name": "서울곰두리체육센터 개방화장실",
+    "address": "서울 송파구 오금동 51",
+    "road_address": "서울 송파구 동남로 271",
+    "latitude": 37.500470829047366,
+    "longitude": 127.13546635146764,
+    "phone": "",
+    "url": "http://place.map.kakao.com/26335519",
+    "category": "가정,생활 > 화장실"
+  },
+  {
+    "id": "2068068290",
+    "name": "신한은행 365코너 곰두리체육센터",
+    "address": "서울 송파구 오금동 51",
+    "road_address": "서울 송파구 동남로 271",
+    "latitude": 37.5005410268968,
+    "longitude": 127.135536594306,
+    "phone": "",
+    "url": "http://place.map.kakao.com/2068068290",
+    "category": "금융,보험 > 금융서비스 > 은행 > ATM"
+  },
+  {
     "id": "11586088",
     "name": "중랑구민체육센터 수영장",
     "address": "서울 중랑구 묵동 22-1",
@@ -52,6 +184,17 @@
     "longitude": 127.014439877311,
     "phone": "02-3672-2530",
     "url": "http://place.map.kakao.com/11586085",
+    "category": "스포츠,레저 > 수영,수상 > 수영장"
+  },
+  {
+    "id": "24632929",
+    "name": "올림픽기념국민생활관 수영장",
+    "address": "서울 종로구 혜화동 1-21",
+    "road_address": "서울 종로구 성균관로 91",
+    "latitude": 37.5904555978096,
+    "longitude": 126.998799800714,
+    "phone": "02-745-6701",
+    "url": "http://place.map.kakao.com/24632929",
     "category": "스포츠,레저 > 수영,수상 > 수영장"
   },
   {
@@ -198,6 +341,17 @@
     "category": "스포츠,레저 > 수영,수상 > 수영장"
   },
   {
+    "id": "11530428",
+    "name": "일산올림픽스포츠센터 수영장",
+    "address": "경기 고양시 일산동구 마두동 801",
+    "road_address": "경기 고양시 일산동구 중앙로 1182",
+    "latitude": 37.652603420148196,
+    "longitude": 126.77813758930026,
+    "phone": "031-900-1780",
+    "url": "http://place.map.kakao.com/11530428",
+    "category": "스포츠,레저 > 수영,수상 > 수영장"
+  },
+  {
     "id": "11586340",
     "name": "소사국민체육센터 수영장",
     "address": "경기 부천시 소사구 소사본동 400-1",
@@ -229,6 +383,61 @@
     "phone": "032-340-0815",
     "url": "http://place.map.kakao.com/365979082",
     "category": "스포츠,레저 > 수영,수상 > 수영장"
+  },
+  {
+    "id": "11586076",
+    "name": "올림픽기념 국민생활관 수영장",
+    "address": "인천 남동구 구월동 1246",
+    "road_address": "인천 남동구 구월로 251",
+    "latitude": 37.4566931946919,
+    "longitude": 126.718714265465,
+    "phone": "032-468-8182",
+    "url": "http://place.map.kakao.com/11586076",
+    "category": "스포츠,레저 > 수영,수상 > 수영장"
+  },
+  {
+    "id": "8023910",
+    "name": "안산올림픽수영장",
+    "address": "경기 안산시 단원구 고잔동 604",
+    "road_address": "경기 안산시 단원구 적금로 202",
+    "latitude": 37.3262009709186,
+    "longitude": 126.828265861799,
+    "phone": "031-481-4980",
+    "url": "http://place.map.kakao.com/8023910",
+    "category": "스포츠,레저 > 수영,수상 > 수영장"
+  },
+  {
+    "id": "16310642",
+    "name": "올림픽수영장 매점",
+    "address": "경기 안산시 단원구 고잔동 604",
+    "road_address": "경기 안산시 단원구 적금로 202",
+    "latitude": 37.3264701239751,
+    "longitude": 126.827470933792,
+    "phone": "",
+    "url": "http://place.map.kakao.com/16310642",
+    "category": "가정,생활 > 슈퍼마켓"
+  },
+  {
+    "id": "1885473661",
+    "name": "안산올림픽수영장 전기차충전소",
+    "address": "경기 안산시 단원구 고잔동 604",
+    "road_address": "경기 안산시 단원구 적금로 202",
+    "latitude": 37.326962065795676,
+    "longitude": 126.82745626945515,
+    "phone": "1566-1704",
+    "url": "http://place.map.kakao.com/1885473661",
+    "category": "교통,수송 > 자동차 > 전기차 충전소"
+  },
+  {
+    "id": "822716297",
+    "name": "안산올림픽수영장 전기차충전소",
+    "address": "경기 안산시 단원구 고잔동 604",
+    "road_address": "경기 안산시 단원구 적금로 202",
+    "latitude": 37.3262864572477,
+    "longitude": 126.82818894378153,
+    "phone": "",
+    "url": "http://place.map.kakao.com/822716297",
+    "category": "교통,수송 > 자동차 > 전기차 충전소"
   },
   {
     "id": "11586004",
@@ -385,6 +594,39 @@
     "category": "스포츠,레저 > 수영,수상 > 수영장"
   },
   {
+    "id": "958531489",
+    "name": "아이올림픽수영장 남구점",
+    "address": "부산 남구 용호동 370-5",
+    "road_address": "부산 남구 용호로 132",
+    "latitude": 35.1206165384658,
+    "longitude": 129.11185594738,
+    "phone": "051-626-7783",
+    "url": "http://place.map.kakao.com/958531489",
+    "category": "스포츠,레저 > 수영,수상 > 수영장 > 어린이수영장"
+  },
+  {
+    "id": "8652008",
+    "name": "곰두리스포츠센터",
+    "address": "부산 연제구 거제동 801-89",
+    "road_address": "부산 연제구 화지로 109",
+    "latitude": 35.18453424889281,
+    "longitude": 129.0664853645592,
+    "phone": "051-503-6363",
+    "url": "http://place.map.kakao.com/8652008",
+    "category": "스포츠,레저 > 스포츠시설"
+  },
+  {
+    "id": "320165940",
+    "name": "아이올림픽유소년체육센터",
+    "address": "부산 동래구 명륜동 84-1",
+    "road_address": "부산 동래구 시실로 60",
+    "latitude": 35.21421805017752,
+    "longitude": 129.0887046979693,
+    "phone": "051-556-9090",
+    "url": "http://place.map.kakao.com/320165940",
+    "category": "스포츠,레저 > 수영,수상 > 수영장"
+  },
+  {
     "id": "864879169",
     "name": "돌핀어린이수영장",
     "address": "부산 북구 화명동 1150",
@@ -440,6 +682,17 @@
     "category": "스포츠,레저 > 수영,수상 > 수상스포츠"
   },
   {
+    "id": "258368592",
+    "name": "아이올림픽수영장",
+    "address": "부산 강서구 명지동 3395-7",
+    "road_address": "부산 강서구 명지국제8로 293",
+    "latitude": 35.09783316177739,
+    "longitude": 128.92502745969662,
+    "phone": "051-294-7784",
+    "url": "http://place.map.kakao.com/258368592",
+    "category": "스포츠,레저 > 수영,수상 > 수영장 > 어린이수영장"
+  },
+  {
     "id": "1487450250",
     "name": "대구남구 공공실내수영장 (2026년예정)",
     "address": "대구 남구 대명동 1745-9",
@@ -470,6 +723,17 @@
     "longitude": 128.573962222192,
     "phone": "054-380-6884",
     "url": "http://place.map.kakao.com/11585887",
+    "category": "스포츠,레저 > 수영,수상 > 수영장"
+  },
+  {
+    "id": "13336405",
+    "name": "올림픽기념국민생활관 수영장",
+    "address": "대구 달서구 본동 산 37-5",
+    "road_address": "대구 달서구 학산로 130",
+    "latitude": 35.8331471821569,
+    "longitude": 128.540556669083,
+    "phone": "053-634-8688",
+    "url": "http://place.map.kakao.com/13336405",
     "category": "스포츠,레저 > 수영,수상 > 수영장"
   },
   {
@@ -525,6 +789,17 @@
     "longitude": 127.398402581749,
     "phone": "042-488-5605",
     "url": "http://place.map.kakao.com/8223078",
+    "category": "스포츠,레저 > 수영,수상 > 수영장"
+  },
+  {
+    "id": "7830390",
+    "name": "올림픽기념국민생활관 수영장",
+    "address": "대전 서구 갈마동 820-1",
+    "road_address": "대전 서구 신갈마로230번길 77",
+    "latitude": 36.3547894941073,
+    "longitude": 127.373264689953,
+    "phone": "042-724-3500",
+    "url": "http://place.map.kakao.com/7830390",
     "category": "스포츠,레저 > 수영,수상 > 수영장"
   },
   {
@@ -781,6 +1056,28 @@
     "category": "스포츠,레저 > 수영,수상 > 수영장"
   },
   {
+    "id": "11586012",
+    "name": "함열올림픽스포츠센터 수영장",
+    "address": "전북특별자치도 익산시 함열읍 와리 173-7",
+    "road_address": "전북특별자치도 익산시 함열읍 함낭로 511",
+    "latitude": 36.0749853090471,
+    "longitude": 126.963946904175,
+    "phone": "",
+    "url": "http://place.map.kakao.com/11586012",
+    "category": "스포츠,레저 > 수영,수상 > 수영장"
+  },
+  {
+    "id": "26620819",
+    "name": "정읍곰두리스포츠센터",
+    "address": "전북특별자치도 정읍시 수성동 966-3",
+    "road_address": "전북특별자치도 정읍시 수성1로 64-12",
+    "latitude": 35.5769989859964,
+    "longitude": 126.853605511125,
+    "phone": "",
+    "url": "http://place.map.kakao.com/26620819",
+    "category": "스포츠,레저 > 스포츠시설 > 스포츠센터"
+  },
+  {
     "id": "105699489",
     "name": "화순군민종합문화센터 수영장",
     "address": "전남 화순군 화순읍 신기리 405-2",
@@ -990,6 +1287,39 @@
     "category": "스포츠,레저 > 수영,수상 > 수영장"
   },
   {
+    "id": "14605551",
+    "name": "마산올림픽수영장",
+    "address": "경남 창원시 마산회원구 양덕동 477",
+    "road_address": "경남 창원시 마산회원구 삼호로 63",
+    "latitude": 35.2220629451457,
+    "longitude": 128.579425457058,
+    "phone": "055-712-0533",
+    "url": "http://place.map.kakao.com/14605551",
+    "category": "스포츠,레저 > 수영,수상 > 수영장"
+  },
+  {
+    "id": "17778187",
+    "name": "곰두리국민체육센터",
+    "address": "경남 창원시 의창구 도계동 470",
+    "road_address": "경남 창원시 의창구 원이대로114번길 6",
+    "latitude": 35.2526155199862,
+    "longitude": 128.636595323578,
+    "phone": "055-238-0220",
+    "url": "http://place.map.kakao.com/17778187",
+    "category": "스포츠,레저 > 스포츠시설 > 체육관"
+  },
+  {
+    "id": "724429227",
+    "name": "창원시립곰두리체육센터 누비자터미널",
+    "address": "경남 창원시 의창구 도계동 456-4",
+    "road_address": "",
+    "latitude": 35.2528483985948,
+    "longitude": 128.637500916542,
+    "phone": "",
+    "url": "http://place.map.kakao.com/724429227",
+    "category": "스포츠,레저 > 자전거,싸이클 > 자전거대여소"
+  },
+  {
     "id": "1018446572",
     "name": "제주시국민체육센터 수영장",
     "address": "제주특별자치도 제주시 건입동 513",
@@ -999,5 +1329,145 @@
     "phone": "064-728-3461",
     "url": "http://place.map.kakao.com/1018446572",
     "category": "스포츠,레저 > 수영,수상 > 수영장"
+  },
+  {
+    "address_name": "경북 구미시 원평동 964-451",
+    "category_group_code": "",
+    "category_group_name": "",
+    "category_name": "스포츠,레저 > 스포츠시설 > 체육관",
+    "distance": "",
+    "id": "11584268",
+    "phone": "054-480-2050",
+    "place_name": "올림픽기념 국민생활관",
+    "place_url": "http://place.map.kakao.com/11584268",
+    "road_address_name": "경북 구미시 산책길 63",
+    "x": "128.329299088409",
+    "y": "36.1234071124515"
+  },
+  {
+    "address_name": "서울 송파구 방이동 88",
+    "category_group_code": "",
+    "category_group_name": "",
+    "category_name": "스포츠,레저 > 테니스",
+    "distance": "",
+    "id": "16733226",
+    "phone": "02-410-1270",
+    "place_name": "서울올림픽기념관 테니스",
+    "place_url": "http://place.map.kakao.com/16733226",
+    "road_address_name": "서울 송파구 올림픽로 424",
+    "x": "127.115726513043",
+    "y": "37.5202940833329"
+  },
+  {
+    "address_name": "서울 송파구 방이동 88",
+    "category_group_code": "PS3",
+    "category_group_name": "어린이집,유치원",
+    "category_name": "교육,학문 > 유아교육 > 어린이집",
+    "distance": "",
+    "id": "14698650",
+    "phone": "02-410-1248",
+    "place_name": "국민체육진흥공단 어린이집",
+    "place_url": "http://place.map.kakao.com/14698650",
+    "road_address_name": "서울 송파구 올림픽로 424",
+    "x": "127.125949203884",
+    "y": "37.52097919844044"
+  },
+  {
+    "address_name": "서울 강동구 성내동 434-10",
+    "category_group_code": "",
+    "category_group_name": "",
+    "category_name": "스포츠,레저 > 스포츠시설 > 스포츠센터",
+    "distance": "",
+    "id": "201102994",
+    "phone": "0507-1425-4203",
+    "place_name": "류다이브",
+    "place_url": "http://place.map.kakao.com/201102994",
+    "road_address_name": "서울 강동구 성내로 89",
+    "x": "127.12967340621096",
+    "y": "37.52700737575365"
+  },
+  {
+    "address_name": "서울 송파구 방이동 88",
+    "category_group_code": "CE7",
+    "category_group_name": "카페",
+    "category_name": "음식점 > 카페",
+    "distance": "",
+    "id": "167516493",
+    "phone": "",
+    "place_name": "원샷인커피",
+    "place_url": "http://place.map.kakao.com/167516493",
+    "road_address_name": "서울 송파구 올림픽로 424",
+    "x": "127.12679793158087",
+    "y": "37.521167500818436"
+  },
+  {
+    "address_name": "충북 청주시 청원구 사천동 623-5",
+    "category_group_code": "",
+    "category_group_name": "",
+    "category_name": "스포츠,레저 > 스포츠시설 > 체육관",
+    "distance": "",
+    "id": "10838143",
+    "phone": "043-216-0035",
+    "place_name": "충청북도곰두리체육관",
+    "place_url": "http://place.map.kakao.com/10838143",
+    "road_address_name": "충북 청주시 청원구 토성로 21",
+    "x": "127.46487688237808",
+    "y": "36.66932290955284"
+  },
+  {
+    "address_name": "충북 청주시 청원구 사천동 623-5",
+    "category_group_code": "",
+    "category_group_name": "",
+    "category_name": "스포츠,레저 > 스포츠시설 > 체육관",
+    "distance": "",
+    "id": "17577943",
+    "phone": "043-216-0031",
+    "place_name": "충청북도 곰두리체육관 2관",
+    "place_url": "http://place.map.kakao.com/17577943",
+    "road_address_name": "충북 청주시 청원구 토성로 21",
+    "x": "127.465613503796",
+    "y": "36.6692326228917"
+  },
+  {
+    "address_name": "충북 청주시 청원구 사천동 623-5",
+    "category_group_code": "PK6",
+    "category_group_name": "주차장",
+    "category_name": "교통,수송 > 교통시설 > 주차장",
+    "distance": "",
+    "id": "17578566",
+    "phone": "",
+    "place_name": "충청북도곰두리체육관 주차장",
+    "place_url": "http://place.map.kakao.com/17578566",
+    "road_address_name": "충북 청주시 청원구 토성로 21",
+    "x": "127.46481635628",
+    "y": "36.669116788386"
+  },
+  {
+    "address_name": "충북 청주시 청원구 사천동 623-5",
+    "category_group_code": "",
+    "category_group_name": "",
+    "category_name": "스포츠,레저 > 게이트볼 > 게이트볼장",
+    "distance": "",
+    "id": "236704417",
+    "phone": "043-216-0031",
+    "place_name": "충청북도 곰두리체육관 게이트볼장",
+    "place_url": "http://place.map.kakao.com/236704417",
+    "road_address_name": "충북 청주시 청원구 토성로 21",
+    "x": "127.465727338764",
+    "y": "36.6688176607182"
+  },
+  {
+    "address_name": "충북 청주시 청원구 사천동 623-5",
+    "category_group_code": "",
+    "category_group_name": "",
+    "category_name": "교통,수송 > 자동차 > 전기차 충전소",
+    "distance": "",
+    "id": "323474817",
+    "phone": "",
+    "place_name": "충청북도곰두리체육관 전기차충전소",
+    "place_url": "http://place.map.kakao.com/323474817",
+    "road_address_name": "충북 청주시 청원구 토성로 21",
+    "x": "127.465418863947",
+    "y": "36.6694181141251"
   }
 ]
