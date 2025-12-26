@@ -1024,6 +1024,13 @@ function createMarker(pin, color, listTitle, listId) {
         const containerPoint = map.latLngToContainerPoint(latlng);
         const mapSize = map.getSize();
         
+        // 디버그 로그
+        console.log('=== 팝업 위치 디버그 ===');
+        console.log('containerPoint:', containerPoint);
+        console.log('mapSize:', mapSize);
+        console.log('y 비율:', containerPoint.y / mapSize.y);
+        console.log('isNearTop:', containerPoint.y < mapSize.y * 0.35);
+        
         // 화면 상단 35% 이내면 팝업을 아래로
         const isNearTop = containerPoint.y < mapSize.y * 0.35;
         
