@@ -13,6 +13,8 @@ const COLORS = [
     { name: 'emerald', value: '#4caf50' },
     { name: 'amber', value: '#ffa726' },
     { name: 'blue', value: '#3b82f6' },
+    { name: 'cyan', value: '#06b6d4' },
+    { name: 'violet', value: '#8b5cf6' },
 ];
 
 // Icon options for specific lists
