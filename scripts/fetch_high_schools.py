@@ -9,7 +9,7 @@ KEYWORDS = ["고등학교"]
 
 
 def filter_school(doc):
-    """고등학교만 필터링 (교무실, 행정실 제외)"""
+    """고등학교만 필터링 ('학교'로 끝나는 것만)"""
     name = doc.get("place_name", "")
     category = doc.get("category_name", "")
     
@@ -17,9 +17,8 @@ def filter_school(doc):
         return False
     if "교육" not in category and "학교" not in category:
         return False
-    # 교무실, 행정실, 교장실, 별관, 체육관, 학생체육관 제외
-    exclude = ["교무실", "행정실", "교장실", "별관", "체육관", "학생체육관"]
-    if any(ex in name for ex in exclude):
+    # '학교'로 끝나지 않으면 제외 (건물명, 휴교/폐교/예정 등)
+    if not name.endswith("학교"):
         return False
     return True
 
