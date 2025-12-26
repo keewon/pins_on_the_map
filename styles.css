@@ -3,7 +3,21 @@
    ========================================== */
 
 :root {
-    /* Color Palette - Earthy map aesthetic */
+    /* Sizing */
+    --sidebar-width: 360px;
+    --header-height: 70px;
+    --border-radius: 12px;
+    --border-radius-sm: 8px;
+    
+    /* Transitions */
+    --transition-fast: 0.2s ease;
+    --transition-medium: 0.3s ease;
+    --transition-slow: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Dark Theme (default) */
+:root, [data-theme="dark"] {
+    /* Color Palette - Dark earthy map aesthetic */
     --bg-primary: #1a1d21;
     --bg-secondary: #242830;
     --bg-tertiary: #2d323c;
@@ -18,18 +32,60 @@
     --accent-teal: #4a9d8e;
     
     --border-color: rgba(255, 255, 255, 0.08);
-    --shadow-dark: rgba(0, 0, 0, 0.4);
+    --shadow-color: rgba(0, 0, 0, 0.4);
     
-    /* Sizing */
-    --sidebar-width: 360px;
-    --header-height: 70px;
-    --border-radius: 12px;
-    --border-radius-sm: 8px;
+    --popup-bg: #2d323c;
+    --popup-text: #f5f5f0;
+    --popup-border: rgba(255, 255, 255, 0.1);
+}
+
+/* Light Theme */
+[data-theme="light"] {
+    /* Color Palette - Light clean aesthetic */
+    --bg-primary: #f8f9fa;
+    --bg-secondary: #ffffff;
+    --bg-tertiary: #f0f2f5;
+    --bg-hover: #e4e6e9;
     
-    /* Transitions */
-    --transition-fast: 0.2s ease;
-    --transition-medium: 0.3s ease;
-    --transition-slow: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --text-primary: #1a1d21;
+    --text-secondary: #5c5f66;
+    --text-muted: #9ca3af;
+    
+    --accent-gold: #b8860b;
+    --accent-copper: #a0522d;
+    --accent-teal: #2e8b7a;
+    
+    --border-color: rgba(0, 0, 0, 0.1);
+    --shadow-color: rgba(0, 0, 0, 0.15);
+    
+    --popup-bg: #ffffff;
+    --popup-text: #1a1d21;
+    --popup-border: rgba(0, 0, 0, 0.1);
+}
+
+/* Auto-detect system preference */
+@media (prefers-color-scheme: light) {
+    :root:not([data-theme="dark"]) {
+        --bg-primary: #f8f9fa;
+        --bg-secondary: #ffffff;
+        --bg-tertiary: #f0f2f5;
+        --bg-hover: #e4e6e9;
+        
+        --text-primary: #1a1d21;
+        --text-secondary: #5c5f66;
+        --text-muted: #9ca3af;
+        
+        --accent-gold: #b8860b;
+        --accent-copper: #a0522d;
+        --accent-teal: #2e8b7a;
+        
+        --border-color: rgba(0, 0, 0, 0.1);
+        --shadow-color: rgba(0, 0, 0, 0.15);
+        
+        --popup-bg: #ffffff;
+        --popup-text: #1a1d21;
+        --popup-border: rgba(0, 0, 0, 0.1);
+    }
 }
 
 /* Reset & Base */
@@ -97,7 +153,7 @@ body {
 
 .logo-icon {
     font-size: 28px;
-    filter: drop-shadow(0 2px 4px var(--shadow-dark));
+    filter: drop-shadow(0 2px 4px var(--shadow-color));
     animation: float 3s ease-in-out infinite;
 }
 
@@ -116,6 +172,12 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+}
+
+.header-controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
 .sidebar-toggle {
@@ -154,6 +216,52 @@ body {
 
 .sidebar-toggle .toggle-icon::after {
     transform: rotate(-45deg);
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+    width: 36px;
+    height: 36px;
+    background: var(--bg-hover);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-sm);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    transition: all var(--transition-fast);
+}
+
+.theme-toggle:hover {
+    background: var(--bg-tertiary);
+    transform: scale(1.05);
+}
+
+.theme-toggle .theme-icon-light,
+.theme-toggle .theme-icon-dark {
+    display: none;
+}
+
+/* Show sun icon in dark mode */
+[data-theme="dark"] .theme-toggle .theme-icon-light,
+:root:not([data-theme]) .theme-toggle .theme-icon-light {
+    display: block;
+}
+
+/* Show moon icon in light mode */
+[data-theme="light"] .theme-toggle .theme-icon-dark {
+    display: block;
+}
+
+/* Auto-detect for system preference */
+@media (prefers-color-scheme: light) {
+    :root:not([data-theme]) .theme-toggle .theme-icon-light {
+        display: none;
+    }
+    :root:not([data-theme]) .theme-toggle .theme-icon-dark {
+        display: block;
+    }
 }
 
 .sidebar-content {
@@ -499,7 +607,7 @@ body {
     background: var(--bg-secondary);
     color: var(--text-primary);
     border-radius: var(--border-radius);
-    box-shadow: 0 8px 32px var(--shadow-dark);
+    box-shadow: 0 8px 32px var(--shadow-color);
     border: 1px solid var(--border-color);
 }
 
@@ -522,6 +630,28 @@ body {
 
 .leaflet-popup-close-button:hover {
     color: var(--text-primary) !important;
+}
+
+/* Leaflet Controls Theming */
+.leaflet-control-zoom a,
+.leaflet-control-location button {
+    background: var(--bg-secondary) !important;
+    color: var(--text-primary) !important;
+    border-color: var(--border-color) !important;
+}
+
+.leaflet-control-zoom a:hover,
+.leaflet-control-location button:hover {
+    background: var(--bg-hover) !important;
+}
+
+.leaflet-control-attribution {
+    background: var(--bg-secondary) !important;
+    color: var(--text-muted) !important;
+}
+
+.leaflet-control-attribution a {
+    color: var(--text-secondary) !important;
 }
 
 .popup-content {
@@ -1258,7 +1388,7 @@ body {
         width: 85%;
         max-width: 360px;
         transform: translateX(-100%);
-        box-shadow: 8px 0 32px var(--shadow-dark);
+        box-shadow: 8px 0 32px var(--shadow-color);
         z-index: 600;
     }
 

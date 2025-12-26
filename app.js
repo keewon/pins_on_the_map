@@ -42,7 +42,14 @@ const COOKIE_COLORS = 'pins_colors';
 const COOKIE_ICONS = 'pins_icons';
 const COOKIE_FIRST_VISIT = 'pins_first_visit';
 const COOKIE_MAP_VIEW = 'pins_map_view';
+const COOKIE_THEME = 'pins_theme';
 const COOKIE_EXPIRY_DAYS = 365;
+
+// Map tile URLs
+const MAP_TILES = {
+    dark: 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
+    light: 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',
+};
 
 /**
  * Cookie utility functions
@@ -112,9 +119,55 @@ function loadMapViewFromCookie() {
 }
 
 function clearAllCookies() {
-    const cookies = [COOKIE_VISIBILITY, COOKIE_COLORS, COOKIE_ICONS, COOKIE_FIRST_VISIT, COOKIE_MAP_VIEW];
+    const cookies = [COOKIE_VISIBILITY, COOKIE_COLORS, COOKIE_ICONS, COOKIE_FIRST_VISIT, COOKIE_MAP_VIEW, COOKIE_THEME];
     cookies.forEach(name => {
         document.cookie = `${name}=;expires=Thu, 01 Jan 1970 00:00:00 GMT;path=/`;
+    });
+}
+
+// Theme functions
+function getSystemTheme() {
+    return window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+}
+
+function saveThemeToCookie(theme) {
+    setCookie(COOKIE_THEME, theme, COOKIE_EXPIRY_DAYS);
+}
+
+function loadThemeFromCookie() {
+    return getCookie(COOKIE_THEME);
+}
+
+function applyTheme(theme) {
+    state.theme = theme;
+    document.documentElement.setAttribute('data-theme', theme);
+    
+    // Update map tiles if map is initialized
+    if (state.map && state.tileLayer) {
+        state.map.removeLayer(state.tileLayer);
+        state.tileLayer = L.tileLayer(MAP_TILES[theme], {
+            attribution: '&copy; <a href="https://carto.com/">CARTO</a>',
+            maxZoom: 19,
+        }).addTo(state.map);
+    }
+}
+
+function toggleTheme() {
+    const newTheme = state.theme === 'dark' ? 'light' : 'dark';
+    applyTheme(newTheme);
+    saveThemeToCookie(newTheme);
+}
+
+function initTheme() {
+    const savedTheme = loadThemeFromCookie();
+    const theme = savedTheme || getSystemTheme();
+    applyTheme(theme);
+    
+    // Listen for system theme changes
+    window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', (e) => {
+        if (!loadThemeFromCookie()) {
+            applyTheme(e.matches ? 'light' : 'dark');
+        }
     });
 }
 
@@ -131,6 +184,8 @@ const DEFAULT_VISIBLE_LIST_ID = 6;
 // Application State
 const state = {
     map: null,
+    tileLayer: null, // Current tile layer
+    theme: null, // Current theme ('light' or 'dark')
     pinLists: [],
     markers: {}, // Grouped by list id
     clusterGroups: {}, // Cluster groups per list id
@@ -151,6 +206,7 @@ const elements = {
     listContainer: null,
     map: null,
     regionModal: null,
+    themeToggle: null,
 };
 
 /**
@@ -164,6 +220,10 @@ async function init() {
     elements.listContainer = document.getElementById('listContainer');
     elements.map = document.getElementById('map');
     elements.regionModal = document.getElementById('regionModal');
+    elements.themeToggle = document.getElementById('themeToggle');
+
+    // Initialize theme first (before map)
+    initTheme();
 
     // Setup event listeners
     setupEventListeners();
@@ -243,8 +303,9 @@ function initMap() {
         zoomControl: true,
     });
 
-    // Add tile layer (CartoDB dark matter for dark theme)
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+    // Add tile layer based on current theme
+    const tileUrl = MAP_TILES[state.theme] || MAP_TILES.dark;
+    state.tileLayer = L.tileLayer(tileUrl, {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
         subdomains: 'abcd',
         maxZoom: 19,
@@ -982,6 +1043,11 @@ function setupEventListeners() {
     const sidebarToggle = document.getElementById('sidebarToggle');
     if (sidebarToggle) {
         sidebarToggle.addEventListener('click', closeSidebar);
+    }
+
+    // Theme toggle
+    if (elements.themeToggle) {
+        elements.themeToggle.addEventListener('click', toggleTheme);
     }
 
     // Overlay click closes sidebar
