@@ -38,11 +38,47 @@ APARTMENT_BRANDS = [
         'list_id': 18,
         'color': '#00A651',  # 대우 녹색
     },
+    {
+        'name': '이편한세상',
+        'keywords': ['이편한세상', 'e편한세상'],
+        'list_id': 19,
+        'color': '#0072BC',  # DL이앤씨 파란색
+    },
+    {
+        'name': '힐스테이트',
+        'keywords': ['힐스테이트'],
+        'list_id': 20,
+        'color': '#003366',  # 현대건설 네이비
+    },
+    {
+        'name': '롯데캐슬',
+        'keywords': ['롯데캐슬'],
+        'list_id': 21,
+        'color': '#C8102E',  # 롯데 빨간색
+    },
+    {
+        'name': '위브',
+        'keywords': ['위브 아파트', '위브아파트'],
+        'list_id': 22,
+        'color': '#7B2D8E',  # 두산 보라색
+    },
+    {
+        'name': '더샵',
+        'keywords': ['더샵'],
+        'list_id': 23,
+        'color': '#005BAC',  # 포스코 파란색
+    },
 ]
 
 
 def create_apartment_filter(brand_name):
     """브랜드별 아파트 필터 함수 생성"""
+    # 이편한세상은 e편한세상도 허용
+    if brand_name == '이편한세상':
+        brand_variants = ['이편한세상', 'e편한세상']
+    else:
+        brand_variants = [brand_name]
+    
     def filter_func(doc):
         name = doc.get('place_name', '')
         category = doc.get('category_name', '')
@@ -52,7 +88,11 @@ def create_apartment_filter(brand_name):
             return False
         
         # 브랜드 이름이 포함되어야 함
-        if brand_name not in name:
+        if not any(variant in name for variant in brand_variants):
+            return False
+        
+        # 상가동 제외
+        if '상가동' in name:
             return False
         
         return True

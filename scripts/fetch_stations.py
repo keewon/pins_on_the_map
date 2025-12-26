@@ -123,7 +123,7 @@ def filter_station(doc):
     # 지하철/전철 카테고리인 경우
     if '지하철' in category or '전철' in category:
         # 제외 키워드
-        exclude = ['주차장', '화장실', '편의점', '보관함', '출입구', '환승', '대합실', '매표소']
+        exclude = ['주차장', '화장실', '편의점', '보관함', '출입구', '환승', '대합실', '매표소', '출구']
         for ex in exclude:
             if ex in name:
                 return False

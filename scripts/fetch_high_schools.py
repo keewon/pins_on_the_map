@@ -17,8 +17,9 @@ def filter_school(doc):
         return False
     if "교육" not in category and "학교" not in category:
         return False
-    # 교무실, 행정실 제외
-    if "교무실" in name or "행정실" in name:
+    # 교무실, 행정실, 교장실, 별관, 체육관, 학생체육관 제외
+    exclude = ["교무실", "행정실", "교장실", "별관", "체육관", "학생체육관"]
+    if any(ex in name for ex in exclude):
         return False
     return True
 

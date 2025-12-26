@@ -298,48 +298,41 @@ def get_coed_type(code):
 
 def get_school_type(school):
     """학교 유형 분류 (고등학교)"""
-    # HS_SC_CODE: 고등학교 구분 (일반고, 특수목적고, 특성화고, 자율고)
-    # HS_GNRL_BUSNS_SC_CODE: 일반/실업계 구분
+    # HS_KND_SC_NM: 고등학교 종류 (일반고등학교, 특수목적고등학교, 특성화고등학교, 자율고등학교)
     
-    hs_sc = school.get("HS_SC_CODE", "")
-    gnrl_busns = school.get("HS_GNRL_BUSNS_SC_CODE", "")
+    hs_kind = school.get("HS_KND_SC_NM", "")
     fond_sc = school.get("FOND_SC_CODE", "")  # 공립/사립
     schul_nm = school.get("SCHUL_NM", "")
     
     # 특수목적고 세분화
-    if hs_sc == "특수목적고" or "특목" in hs_sc:
-        if "과학고" in schul_nm or "과학" in schul_nm:
+    if "특수목적" in hs_kind:
+        if "과학고" in schul_nm:
             return "과학고"
         elif "외국어고" in schul_nm or "외고" in schul_nm:
             return "외고"
         elif "국제고" in schul_nm:
             return "국제고"
-        elif "예술고" in schul_nm or "예고" in schul_nm:
+        elif "예술고" in schul_nm:
             return "예술고"
         elif "체육고" in schul_nm:
             return "체육고"
-        elif "마이스터고" in schul_nm or "마이스터" in hs_sc:
+        elif "마이스터" in schul_nm:
             return "마이스터고"
         return "특목고"
     
     # 자율고 (자사고/자공고)
-    if hs_sc == "자율고" or "자율" in hs_sc:
+    if "자율" in hs_kind:
         if fond_sc == "사립":
             return "자사고"
         else:
             return "자공고"
     
-    # 특성화고 (직업계열)
-    if hs_sc == "특성화고" or "특성화" in hs_sc:
+    # 특성화고
+    if "특성화" in hs_kind:
         return "특성화고"
     
     # 일반고
-    if hs_sc == "일반고" or hs_sc == "":
-        if gnrl_busns == "실업계":
-            return "실업계"
-        return "일반고"
-    
-    return hs_sc if hs_sc else "일반고"
+    return "일반고"
 
 
 def fetch_all_schools(school_type):

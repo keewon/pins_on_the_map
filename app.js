@@ -18,86 +18,6 @@ const COLORS = [
 ];
 
 // Icon options for specific lists
-const LIST_ICONS = {
-    1: [ // 중학교
-        { name: 'color', value: 'color', label: '색상' },
-        { name: 'emoji', value: '🏫', label: '🏫' },
-        { name: 'korean', value: '중', label: '중' },
-        { name: 'hanja', value: '中', label: '中' },
-    ],
-    2: [ // 맥도날드
-        { name: 'color', value: 'color', label: '색상' },
-        { name: 'emoji', value: '🍔', label: '🍔' },
-        { name: 'korean', value: '맥', label: '맥' },
-    ],
-    3: [ // 서브웨이
-        { name: 'color', value: 'color', label: '색상' },
-        { name: 'emoji', value: '🥪', label: '🥪' },
-    ],
-    4: [ // 도서관
-        { name: 'color', value: 'color', label: '색상' },
-        { name: 'emoji', value: '📚', label: '📚' },
-        { name: 'hanja', value: '書', label: '書' },
-    ],
-    5: [ // 수영장
-        { name: 'color', value: 'color', label: '색상' },
-        { name: 'emoji', value: '🏊', label: '🏊' },
-        { name: 'hanja', value: '水', label: '水' },
-        { name: 'hanja2', value: '泳', label: '泳' },
-    ],
-    10: [ // 롯데리아
-        { name: 'color', value: 'color', label: '색상' },
-        { name: 'emoji', value: '🍔', label: '🍔' },
-        { name: 'korean', value: '롯', label: '롯' },
-    ],
-    11: [ // 버거킹
-        { name: 'color', value: 'color', label: '색상' },
-        { name: 'emoji', value: '🍔', label: '🍔' },
-        { name: 'korean', value: '킹', label: '킹' },
-    ],
-    12: [ // 파리바게뜨
-        { name: 'color', value: 'color', label: '색상' },
-        { name: 'emoji', value: '🥐', label: '🥐' },
-        { name: 'korean', value: '빵', label: '빵' },
-    ],
-    13: [ // 스타벅스
-        { name: 'color', value: 'color', label: '색상' },
-        { name: 'emoji', value: '☕', label: '☕' },
-        { name: 'korean', value: '별', label: '별' },
-    ],
-    14: [ // 뚜레쥬르
-        { name: 'color', value: 'color', label: '색상' },
-        { name: 'emoji', value: '🥐', label: '🥐' },
-        { name: 'korean', value: '뚜', label: '뚜' },
-    ],
-    9: [ // 고등학교
-        { name: 'color', value: 'color', label: '색상' },
-        { name: 'emoji', value: '🏫', label: '🏫' },
-        { name: 'korean', value: '고', label: '고' },
-        { name: 'hanja', value: '高', label: '高' },
-    ],
-    15: [ // 래미안
-        { name: 'color', value: 'color', label: '색상' },
-        { name: 'emoji', value: '🏢', label: '🏢' },
-        { name: 'korean', value: '래', label: '래' },
-    ],
-    16: [ // 아이파크
-        { name: 'color', value: 'color', label: '색상' },
-        { name: 'emoji', value: '🏢', label: '🏢' },
-        { name: 'korean', value: '파', label: '파' },
-    ],
-    17: [ // 자이
-        { name: 'color', value: 'color', label: '색상' },
-        { name: 'emoji', value: '🏢', label: '🏢' },
-        { name: 'korean', value: '자', label: '자' },
-    ],
-    18: [ // 푸르지오
-        { name: 'color', value: 'color', label: '색상' },
-        { name: 'emoji', value: '🏢', label: '🏢' },
-        { name: 'korean', value: '푸', label: '푸' },
-    ],
-};
-
 // 서울시청 좌표 (기본 위치)
 const SEOUL_CITY_HALL = { lat: 37.5666, lng: 126.9784 };
 
@@ -110,10 +30,11 @@ const COOKIE_MAP_VIEW = 'pins_map_view';
 const COOKIE_THEME = 'pins_theme';
 const COOKIE_EXPIRY_DAYS = 365;
 
-// Map tile URLs
+// Map tile URLs (한글 라벨 지원)
 const MAP_TILES = {
-    dark: 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
-    light: 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',
+    // OpenStreetMap 표준 타일 - 한글 라벨 지원
+    dark: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+    light: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
 };
 
 /**
@@ -211,7 +132,7 @@ function applyTheme(theme) {
     if (state.map && state.tileLayer) {
         state.map.removeLayer(state.tileLayer);
         state.tileLayer = L.tileLayer(MAP_TILES[theme], {
-            attribution: '&copy; <a href="https://carto.com/">CARTO</a>',
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
             maxZoom: 19,
         }).addTo(state.map);
     }
@@ -371,8 +292,7 @@ function initMap() {
     // Add tile layer based on current theme
     const tileUrl = MAP_TILES[state.theme] || MAP_TILES.dark;
     state.tileLayer = L.tileLayer(tileUrl, {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-        subdomains: 'abcd',
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
         maxZoom: 19,
     }).addTo(state.map);
 
@@ -477,7 +397,7 @@ async function loadPinData() {
                 ? savedColors[list.id]
                 : (list.color || COLORS[index % COLORS.length].value);
             // Use saved icon if exists, otherwise default to 'color'
-            if (LIST_ICONS[list.id]) {
+            if (list.icons) {
                 state.listIcons[list.id] = savedIcons.hasOwnProperty(list.id)
                     ? savedIcons[list.id]
                     : 'color';
@@ -562,7 +482,7 @@ function renderPinLists() {
         listElement.style.setProperty('--list-color', color);
         listElement.dataset.listId = list.id;
 
-        const iconOptions = LIST_ICONS[list.id];
+        const iconOptions = list.icons;
         const currentIcon = state.listIcons[list.id] || 'color';
 
         listElement.innerHTML = `
@@ -589,11 +509,11 @@ function renderPinLists() {
                 <div class="icon-options">
                     ${iconOptions.map(ic => `
                         <button 
-                            class="icon-option ${ic.value === currentIcon ? 'selected' : ''}" 
-                            data-icon="${ic.value}"
+                            class="icon-option ${ic === currentIcon ? 'selected' : ''}" 
+                            data-icon="${ic}"
                             data-list-id="${list.id}"
-                            aria-label="${ic.name}"
-                        >${ic.label}</button>
+                            aria-label="${ic}"
+                        >${ic === 'color' ? '색상' : ic}</button>
                     `).join('')}
                 </div>
             </div>
@@ -952,6 +872,7 @@ function hideTrainLines() {
  */
 function createMarker(pin, color, listTitle, listId) {
     let icon;
+    const list = state.pinLists.find(l => l.id === listId);
     
     // 지하철역은 심플한 동그라미로 표시
     if (listId === 6) {
@@ -973,7 +894,7 @@ function createMarker(pin, color, listTitle, listId) {
             iconAnchor: [8, 8],
             popupAnchor: [0, -8],
         });
-    } else if (LIST_ICONS[listId]) {
+    } else if (list && list.icons) {
         // 아이콘 옵션이 있는 리스트는 선택된 아이콘에 따라 표시
         const selectedIcon = state.listIcons[listId] || 'color';
         if (selectedIcon === 'color') {
@@ -985,7 +906,7 @@ function createMarker(pin, color, listTitle, listId) {
                 iconAnchor: [16, 32],
                 popupAnchor: [0, -32],
             });
-        } else if (['🏫', '🍔', '🥪', '📚', '🏊', '☕', '🥐'].includes(selectedIcon)) {
+        } else if (['🏫', '🍔', '🥪', '📚', '🏊', '☕', '🥐', '🏢'].includes(selectedIcon)) {
             // 이모지 마커
             icon = L.divIcon({
                 className: 'emoji-marker-wrapper',
