@@ -4,34 +4,40 @@
 """
 
 import sys
-from common import fetch_all
+from common import fetch_all, DETAILED_REGIONS
 
 # 브랜드별 설정
+# use_detailed: True면 시/군/구 단위로 검색 (매장이 많은 브랜드용)
 BRANDS = {
     'lotteria': {
         'id': 10,
         'name': '롯데리아',
         'keywords': ['롯데리아'],
+        'use_detailed': True,
     },
     'burgerking': {
         'id': 11,
         'name': '버거킹',
         'keywords': ['버거킹'],
+        'use_detailed': False,  # 매장 수가 적어서 광역단체 검색으로 충분
     },
     'paris': {
         'id': 12,
         'name': '파리바게뜨',
         'keywords': ['파리바게뜨'],
+        'use_detailed': True,
     },
     'starbucks': {
         'id': 13,
         'name': '스타벅스',
         'keywords': ['스타벅스'],
+        'use_detailed': True,
     },
     'tous': {
         'id': 14,
         'name': '뚜레쥬르',
         'keywords': ['뚜레쥬르'],
+        'use_detailed': True,
     },
 }
 
@@ -55,11 +61,13 @@ def fetch_brand(brand_key):
         return
     
     brand = BRANDS[brand_key]
+    regions = DETAILED_REGIONS if brand.get('use_detailed', False) else None
     fetch_all(
         name=brand['name'],
         keywords=brand['keywords'],
         list_id=brand['id'],
-        filter_func=make_filter(brand['keywords'])
+        filter_func=make_filter(brand['keywords']),
+        regions=regions
     )
 
 
