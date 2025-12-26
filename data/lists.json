@@ -83,6 +83,30 @@
       "title": "뚜레쥬르",
       "description": "뚜레쥬르 매장 위치",
       "color": "#c62828"
+    },
+    {
+      "id": 15,
+      "title": "래미안",
+      "description": "삼성물산 래미안 아파트",
+      "color": "#1428A0"
+    },
+    {
+      "id": 16,
+      "title": "아이파크",
+      "description": "HDC현대산업개발 아이파크",
+      "color": "#E31837"
+    },
+    {
+      "id": 17,
+      "title": "자이",
+      "description": "GS건설 자이 아파트",
+      "color": "#FF6600"
+    },
+    {
+      "id": 18,
+      "title": "푸르지오",
+      "description": "대우건설 푸르지오 아파트",
+      "color": "#00A651"
     }
   ]
 }

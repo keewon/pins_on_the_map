@@ -76,6 +76,26 @@ const LIST_ICONS = {
         { name: 'korean', value: '고', label: '고' },
         { name: 'hanja', value: '高', label: '高' },
     ],
+    15: [ // 래미안
+        { name: 'color', value: 'color', label: '색상' },
+        { name: 'emoji', value: '🏢', label: '🏢' },
+        { name: 'korean', value: '래', label: '래' },
+    ],
+    16: [ // 아이파크
+        { name: 'color', value: 'color', label: '색상' },
+        { name: 'emoji', value: '🏢', label: '🏢' },
+        { name: 'korean', value: '파', label: '파' },
+    ],
+    17: [ // 자이
+        { name: 'color', value: 'color', label: '색상' },
+        { name: 'emoji', value: '🏢', label: '🏢' },
+        { name: 'korean', value: '자', label: '자' },
+    ],
+    18: [ // 푸르지오
+        { name: 'color', value: 'color', label: '색상' },
+        { name: 'emoji', value: '🏢', label: '🏢' },
+        { name: 'korean', value: '푸', label: '푸' },
+    ],
 };
 
 // 서울시청 좌표 (기본 위치)
