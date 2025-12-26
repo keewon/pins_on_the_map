@@ -585,94 +585,6 @@
       "lng": 127.18155831371149
     },
     {
-      "title": "명일중학교 행정실",
-      "description": "서울 강동구 양재대로156길 57",
-      "url": "http://place.map.kakao.com/12444121",
-      "region": "서울특별시",
-      "lat": 37.5572748787492,
-      "lng": 127.147866825403
-    },
-    {
-      "title": "고덕중학교 교무실",
-      "description": "서울 강동구 동남로82길 94",
-      "url": "http://place.map.kakao.com/11872773",
-      "region": "서울특별시",
-      "lat": 37.5601770746806,
-      "lng": 127.160892834521
-    },
-    {
-      "title": "강명중학교 행정실",
-      "description": "서울 강동구 상일로12길 56",
-      "url": "http://place.map.kakao.com/24418725",
-      "region": "서울특별시",
-      "lat": 37.5554864078142,
-      "lng": 127.174889075822
-    },
-    {
-      "title": "한산중학교 행정실",
-      "description": "서울 강동구 풍성로 251",
-      "url": "http://place.map.kakao.com/8633174",
-      "region": "서울특별시",
-      "lat": 37.5287621703299,
-      "lng": 127.140235141923
-    },
-    {
-      "title": "성내중학교 교무실",
-      "description": "서울 강동구 성안로7길 36",
-      "url": "http://place.map.kakao.com/10491973",
-      "region": "서울특별시",
-      "lat": 37.5291921591361,
-      "lng": 127.129805029241
-    },
-    {
-      "title": "고덕중학교 행정실",
-      "description": "서울 강동구 동남로82길 94",
-      "url": "http://place.map.kakao.com/17780720",
-      "region": "서울특별시",
-      "lat": 37.5601302230257,
-      "lng": 127.160892733775
-    },
-    {
-      "title": "둔촌중학교 교무실",
-      "description": "서울 강동구 진황도로61길 25-30",
-      "url": "http://place.map.kakao.com/8956187",
-      "region": "서울특별시",
-      "lat": 37.5306430437435,
-      "lng": 127.146515436259
-    },
-    {
-      "title": "상일중학교 교무실",
-      "description": "서울 강동구 천호대로219길 61",
-      "url": "http://place.map.kakao.com/11471686",
-      "region": "서울특별시",
-      "lat": 37.5496545323624,
-      "lng": 127.170385082734
-    },
-    {
-      "title": "강명중학교 교무실",
-      "description": "서울 강동구 상일로12길 56",
-      "url": "http://place.map.kakao.com/24425869",
-      "region": "서울특별시",
-      "lat": 37.5554864078142,
-      "lng": 127.174889075822
-    },
-    {
-      "title": "강빛중학교 교무실",
-      "description": "서울 강동구 아리수로93다길 1",
-      "url": "http://place.map.kakao.com/1424057046",
-      "region": "서울특별시",
-      "lat": 37.5744644453794,
-      "lng": 127.172180375609
-    },
-    {
-      "title": "동신중학교 행정실",
-      "description": "서울 강동구 천호대로 1089",
-      "url": "http://place.map.kakao.com/7840623",
-      "region": "서울특별시",
-      "lat": 37.5368419981215,
-      "lng": 127.134330516953
-    },
-    {
       "title": "신암중학교 후관",
       "description": "서울 강동구 고덕로 65",
       "url": "http://place.map.kakao.com/714891975",
@@ -967,14 +879,6 @@
       "region": "서울특별시",
       "lat": 37.6516443867498,
       "lng": 127.063531264447
-    },
-    {
-      "title": "길음중학교 교무실",
-      "description": "서울 성북구 길음로 144",
-      "url": "http://place.map.kakao.com/17060798",
-      "region": "서울특별시",
-      "lat": 37.61420447916487,
-      "lng": 127.01706297245698
     },
     {
       "title": "중원중학교",
@@ -1721,14 +1625,6 @@
       "lng": 126.907095854101
     },
     {
-      "title": "신길중학교 교무실",
-      "description": "서울 영등포구 신길로28길 43",
-      "url": "http://place.map.kakao.com/1420513047",
-      "region": "서울특별시",
-      "lat": 37.5020229409285,
-      "lng": 126.91547454464
-    },
-    {
       "title": "동일중학교",
       "description": "서울 금천구 탑골로10길 45",
       "url": "http://place.map.kakao.com/12621077",
@@ -2231,126 +2127,6 @@
       "region": "경기도",
       "lat": 37.4302557604595,
       "lng": 126.881994366714
-    },
-    {
-      "title": "시흥중학교 교무실",
-      "description": "서울 금천구 시흥대로38길 60",
-      "url": "http://place.map.kakao.com/9221862",
-      "region": "서울특별시",
-      "lat": 37.4460013618794,
-      "lng": 126.905443712629
-    },
-    {
-      "title": "한울중학교 행정실",
-      "description": "서울 금천구 독산로50길 60",
-      "url": "http://place.map.kakao.com/27482457",
-      "region": "서울특별시",
-      "lat": 37.4624479615163,
-      "lng": 126.907100415549
-    },
-    {
-      "title": "세일중학교 교무실",
-      "description": "서울 금천구 시흥대로147길 34",
-      "url": "http://place.map.kakao.com/626946295",
-      "region": "서울특별시",
-      "lat": 37.4745110679798,
-      "lng": 126.89567523287
-    },
-    {
-      "title": "가산중학교 교무실",
-      "description": "서울 금천구 시흥대로115길 48",
-      "url": "http://place.map.kakao.com/10118421",
-      "region": "서울특별시",
-      "lat": 37.4688993294365,
-      "lng": 126.894381910427
-    },
-    {
-      "title": "문성중학교 행정실",
-      "description": "서울 금천구 독산로102길 78",
-      "url": "http://place.map.kakao.com/27472188",
-      "region": "서울특별시",
-      "lat": 37.4752214742913,
-      "lng": 126.908106599281
-    },
-    {
-      "title": "세일중학교 행정실",
-      "description": "서울 금천구 시흥대로147길 34",
-      "url": "http://place.map.kakao.com/934443628",
-      "region": "서울특별시",
-      "lat": 37.4744822646483,
-      "lng": 126.895708057728
-    },
-    {
-      "title": "시흥중학교 행정실",
-      "description": "서울 금천구 시흥대로38길 60",
-      "url": "http://place.map.kakao.com/2083135072",
-      "region": "서울특별시",
-      "lat": 37.4459860491761,
-      "lng": 126.905449382312
-    },
-    {
-      "title": "문일중학교 교무실",
-      "description": "서울 금천구 시흥대로47길 45",
-      "url": "http://place.map.kakao.com/8985743",
-      "region": "서울특별시",
-      "lat": 37.4500722683981,
-      "lng": 126.899060057579
-    },
-    {
-      "title": "한울중학교 교무실",
-      "description": "서울 금천구 독산로50길 60",
-      "url": "http://place.map.kakao.com/27482387",
-      "region": "서울특별시",
-      "lat": 37.4624191611564,
-      "lng": 126.907141143046
-    },
-    {
-      "title": "안천중학교 교무실",
-      "description": "서울 금천구 한내로 69-44",
-      "url": "http://place.map.kakao.com/1172029304",
-      "region": "서울특별시",
-      "lat": 37.459508882676,
-      "lng": 126.887432559489
-    },
-    {
-      "title": "가산중학교 행정실",
-      "description": "서울 금천구 시흥대로115길 48",
-      "url": "http://place.map.kakao.com/27579028",
-      "region": "서울특별시",
-      "lat": 37.4688993375192,
-      "lng": 126.894390953832
-    },
-    {
-      "title": "경일중학교 행정실",
-      "description": "서울 금천구 시흥대로47길 28-5",
-      "url": "http://place.map.kakao.com/10165014",
-      "region": "서울특별시",
-      "lat": 37.450033736234,
-      "lng": 126.900371075383
-    },
-    {
-      "title": "난곡중학교 교무실",
-      "description": "서울 금천구 문성로 67",
-      "url": "http://place.map.kakao.com/27517390",
-      "region": "서울특별시",
-      "lat": 37.477922148243195,
-      "lng": 126.91091500275724
-    },
-    {
-      "title": "국립전통예술중학교 교무실",
-      "description": "서울 금천구 시흥대로38길 62",
-      "url": "http://place.map.kakao.com/11471167",
-      "region": "서울특별시",
-      "lat": 37.4454507832856,
-      "lng": 126.906502155027
-    },
-    {
-      "title": "동일중학교 교무실",
-      "description": "서울 금천구 탑골로10길 45",
-      "url": "http://place.map.kakao.com/12448686",
-      "region": "서울특별시",
-      "lat": 37.4521982134526,
-      "lng": 126.917013433379
     },
     {
       "title": "난곡중학교 강당",
@@ -3383,102 +3159,6 @@
       "region": "서울특별시",
       "lat": 37.542525198976,
       "lng": 126.984448138602
-    },
-    {
-      "title": "선린중학교 행정실",
-      "description": "서울 용산구 원효로97길 33-4",
-      "url": "http://place.map.kakao.com/26915039",
-      "region": "서울특별시",
-      "lat": 37.542553482671,
-      "lng": 126.965035456016
-    },
-    {
-      "title": "성심여자중학교 교무실",
-      "description": "서울 용산구 원효로19길 49",
-      "url": "http://place.map.kakao.com/1733338784",
-      "region": "서울특별시",
-      "lat": 37.5345527534915,
-      "lng": 126.954858695217
-    },
-    {
-      "title": "선린중학교 교무실",
-      "description": "서울 용산구 원효로97길 33-4",
-      "url": "http://place.map.kakao.com/12306537",
-      "region": "서울특별시",
-      "lat": 37.5425606893264,
-      "lng": 126.965030926495
-    },
-    {
-      "title": "용강중학교 교무실",
-      "description": "서울 용산구 이촌로65가길 91",
-      "url": "http://place.map.kakao.com/8525237",
-      "region": "서울특별시",
-      "lat": 37.5211844783222,
-      "lng": 126.97603632311
-    },
-    {
-      "title": "신광여자중학교 교무실",
-      "description": "서울 용산구 청파로 263",
-      "url": "http://place.map.kakao.com/8445208",
-      "region": "서울특별시",
-      "lat": 37.5433081332549,
-      "lng": 126.970194971664
-    },
-    {
-      "title": "용산중학교 교무실",
-      "description": "서울 용산구 두텁바위로 74",
-      "url": "http://place.map.kakao.com/9276485",
-      "region": "서울특별시",
-      "lat": 37.5460169691542,
-      "lng": 126.981007376618
-    },
-    {
-      "title": "배문중학교 교무실",
-      "description": "서울 용산구 효창원로 258",
-      "url": "http://place.map.kakao.com/17430523",
-      "region": "서울특별시",
-      "lat": 37.5498872647667,
-      "lng": 126.963873221467
-    },
-    {
-      "title": "용산중학교 행정실",
-      "description": "서울 용산구 두텁바위로 74",
-      "url": "http://place.map.kakao.com/12442198",
-      "region": "서울특별시",
-      "lat": 37.5459989484453,
-      "lng": 126.981002854827
-    },
-    {
-      "title": "배문중학교 행정실",
-      "description": "서울 용산구 효창원로 258",
-      "url": "http://place.map.kakao.com/17431652",
-      "region": "서울특별시",
-      "lat": 37.5498836676959,
-      "lng": 126.963895856191
-    },
-    {
-      "title": "한강중학교 교무실",
-      "description": "서울 용산구 녹사평대로 73",
-      "url": "http://place.map.kakao.com/12448666",
-      "region": "서울특별시",
-      "lat": 37.5242032038008,
-      "lng": 126.992126420302
-    },
-    {
-      "title": "한강중학교 행정실",
-      "description": "서울 용산구 녹사평대로 73",
-      "url": "http://place.map.kakao.com/9564917",
-      "region": "서울특별시",
-      "lat": 37.5241923911681,
-      "lng": 126.992117371348
-    },
-    {
-      "title": "보성여자중학교 교무실",
-      "description": "서울 용산구 신흥로3가길 66",
-      "url": "http://place.map.kakao.com/12448553",
-      "region": "서울특별시",
-      "lat": 37.5425251965902,
-      "lng": 126.984430033991
     },
     {
       "title": "신도중학교",
@@ -5777,14 +5457,6 @@
       "lng": 126.813329961622
     },
     {
-      "title": "신길중학교 행정실",
-      "description": "경기 안산시 단원구 신길로 81",
-      "url": "http://place.map.kakao.com/24902606",
-      "region": "경기도",
-      "lat": 37.33704193616579,
-      "lng": 126.78760242924899
-    },
-    {
       "title": "신기중학교",
       "description": "경기 안양시 동안구 경수대로610번길 57",
       "url": "http://place.map.kakao.com/10520927",
@@ -7345,158 +7017,6 @@
       "lng": 127.044556837841
     },
     {
-      "title": "효자중학교 행정실",
-      "description": "경기 의정부시 부용로185번길 15",
-      "url": "http://place.map.kakao.com/9626808",
-      "region": "경기도",
-      "lat": 37.7522497587496,
-      "lng": 127.077438125775
-    },
-    {
-      "title": "경민중학교 교무실",
-      "description": "경기 의정부시 서부로 545",
-      "url": "http://place.map.kakao.com/1490257743",
-      "region": "경기도",
-      "lat": 37.7463135089936,
-      "lng": 127.025167311133
-    },
-    {
-      "title": "호원중학교 교무실",
-      "description": "경기 의정부시 호암로 205",
-      "url": "http://place.map.kakao.com/193582492",
-      "region": "경기도",
-      "lat": 37.7194245872657,
-      "lng": 127.044640768198
-    },
-    {
-      "title": "충의중학교 교무실",
-      "description": "경기 의정부시 용현로 125",
-      "url": "http://place.map.kakao.com/10843700",
-      "region": "경기도",
-      "lat": 37.74213811447306,
-      "lng": 127.09021872920188
-    },
-    {
-      "title": "신곡중학교 교무실",
-      "description": "경기 의정부시 추동로24번길 23",
-      "url": "http://place.map.kakao.com/9218723",
-      "region": "경기도",
-      "lat": 37.7431926678191,
-      "lng": 127.059833530563
-    },
-    {
-      "title": "의정부중학교 교무실",
-      "description": "경기 의정부시 가능로 75",
-      "url": "http://place.map.kakao.com/12457327",
-      "region": "경기도",
-      "lat": 37.74814025624442,
-      "lng": 127.0397630819046
-    },
-    {
-      "title": "민락중학교 교무실",
-      "description": "경기 의정부시 오목로 151",
-      "url": "http://place.map.kakao.com/26470978",
-      "region": "경기도",
-      "lat": 37.74092658050805,
-      "lng": 127.09559276210017
-    },
-    {
-      "title": "효자중학교 교무실",
-      "description": "경기 의정부시 부용로185번길 15",
-      "url": "http://place.map.kakao.com/12457033",
-      "region": "경기도",
-      "lat": 37.7522569366529,
-      "lng": 127.077483522226
-    },
-    {
-      "title": "다온중학교 교무실",
-      "description": "경기 의정부시 둔야로49번길 30",
-      "url": "http://place.map.kakao.com/1332246085",
-      "region": "경기도",
-      "lat": 37.7412234230365,
-      "lng": 127.03730420246
-    },
-    {
-      "title": "송양중학교 행정실",
-      "description": "경기 의정부시 용민로 308",
-      "url": "http://place.map.kakao.com/23247997",
-      "region": "경기도",
-      "lat": 37.7517992656558,
-      "lng": 127.10432477924155
-    },
-    {
-      "title": "천보중학교 행정실",
-      "description": "경기 의정부시 부용로 61",
-      "url": "http://place.map.kakao.com/9420498",
-      "region": "경기도",
-      "lat": 37.7504516555032,
-      "lng": 127.065145217091
-    },
-    {
-      "title": "다온중학교 행정실",
-      "description": "경기 의정부시 둔야로49번길 30",
-      "url": "http://place.map.kakao.com/644930341",
-      "region": "경기도",
-      "lat": 37.7412234230365,
-      "lng": 127.03730420246
-    },
-    {
-      "title": "금오중학교 교무실",
-      "description": "경기 의정부시 금신로 380",
-      "url": "http://place.map.kakao.com/11301312",
-      "region": "경기도",
-      "lat": 37.74970301163592,
-      "lng": 127.05813901348897
-    },
-    {
-      "title": "솔뫼중학교 교무실",
-      "description": "경기 의정부시 시민로 464-14",
-      "url": "http://place.map.kakao.com/10566409",
-      "region": "경기도",
-      "lat": 37.73075564340174,
-      "lng": 127.08231292479486
-    },
-    {
-      "title": "녹양중학교 행정실",
-      "description": "경기 의정부시 체육로 187",
-      "url": "http://place.map.kakao.com/8852967",
-      "region": "경기도",
-      "lat": 37.7619447165185,
-      "lng": 127.027722664846
-    },
-    {
-      "title": "의정부중학교 행정실",
-      "description": "경기 의정부시 가능로 75",
-      "url": "http://place.map.kakao.com/10675891",
-      "region": "경기도",
-      "lat": 37.7484375741201,
-      "lng": 127.039767779653
-    },
-    {
-      "title": "금오중학교 행정실",
-      "description": "경기 의정부시 금신로 380",
-      "url": "http://place.map.kakao.com/8804328",
-      "region": "경기도",
-      "lat": 37.7496840790037,
-      "lng": 127.058163961748
-    },
-    {
-      "title": "민락중학교 행정실",
-      "description": "경기 의정부시 오목로 151",
-      "url": "http://place.map.kakao.com/26470917",
-      "region": "경기도",
-      "lat": 37.74090405170772,
-      "lng": 127.09559840588253
-    },
-    {
-      "title": "의정부여자중학교 행정실",
-      "description": "경기 의정부시 신흥로365번길 40",
-      "url": "http://place.map.kakao.com/9942137",
-      "region": "경기도",
-      "lat": 37.749951213734,
-      "lng": 127.039727740862
-    },
-    {
       "title": "소래중학교",
       "description": "경기 시흥시 은행로 60",
       "url": "http://place.map.kakao.com/1686965598",
@@ -7937,84 +7457,12 @@
       "lng": 126.99004122629
     },
     {
-      "title": "운정중학교 행정실",
-      "description": "경기 파주시 와석순환로 35-33",
-      "url": "http://place.map.kakao.com/944421875",
-      "region": "경기도",
-      "lat": 37.7079805626885,
-      "lng": 126.755560443572
-    },
-    {
-      "title": "심학중학교 교무실",
-      "description": "경기 파주시 양지로 75",
-      "url": "http://place.map.kakao.com/1188795621",
-      "region": "경기도",
-      "lat": 37.709952281927,
-      "lng": 126.717061157059
-    },
-    {
-      "title": "교하중학교 행정실",
-      "description": "경기 파주시 책향기로 194",
-      "url": "http://place.map.kakao.com/27466692",
-      "region": "경기도",
-      "lat": 37.7228434250458,
-      "lng": 126.72086638549314
-    },
-    {
       "title": "문산북중학교 신관",
       "description": "경기 파주시 문산읍 당동1로 22",
       "url": "http://place.map.kakao.com/1544873224",
       "region": "경기도",
       "lat": 37.86234116010132,
       "lng": 126.77686371718792
-    },
-    {
-      "title": "심학중학교 행정실",
-      "description": "경기 파주시 양지로 75",
-      "url": "http://place.map.kakao.com/1176232902",
-      "region": "경기도",
-      "lat": 37.7099881026981,
-      "lng": 126.716970294774
-    },
-    {
-      "title": "교하중학교 교무실",
-      "description": "경기 파주시 책향기로 194",
-      "url": "http://place.map.kakao.com/27466798",
-      "region": "경기도",
-      "lat": 37.72278932708288,
-      "lng": 126.72084957443334
-    },
-    {
-      "title": "산들중학교 행정실",
-      "description": "경기 파주시 교하로 43",
-      "url": "http://place.map.kakao.com/1837549583",
-      "region": "경기도",
-      "lat": 37.7307916864239,
-      "lng": 126.732090871331
-    },
-    {
-      "title": "산들중학교 교무실",
-      "description": "경기 파주시 교하로 43",
-      "url": "http://place.map.kakao.com/1838215242",
-      "region": "경기도",
-      "lat": 37.7307755464638,
-      "lng": 126.732124961284
-    },
-    {
-      "title": "파주광일중학교 교무실",
-      "description": "경기 파주시 월롱면 함영골길 10",
-      "url": "http://place.map.kakao.com/12458054",
-      "region": "경기도",
-      "lat": 37.7744919632564,
-      "lng": 126.787248220108
-    },
-    {
-      "title": "문산중학교 교무실",
-      "description": "경기 파주시 평화로 190",
-      "url": "http://place.map.kakao.com/467632509",
-      "region": "경기도",
-      "lat": 37.7723837823404,
-      "lng": 126.762301765599
     },
     {
       "title": "빛가온중학교",
@@ -8361,62 +7809,6 @@
       "lng": 126.895542878982
     },
     {
-      "title": "군포중학교 행정실",
-      "description": "경기 군포시 금당로124번길 19",
-      "url": "http://place.map.kakao.com/8828000",
-      "region": "경기도",
-      "lat": 37.3578596330938,
-      "lng": 126.9448961931065
-    },
-    {
-      "title": "곡란중학교 행정실",
-      "description": "경기 군포시 곡란로 95",
-      "url": "http://place.map.kakao.com/8747421",
-      "region": "경기도",
-      "lat": 37.372866283510746,
-      "lng": 126.92969924474998
-    },
-    {
-      "title": "당정중학교 행정실",
-      "description": "경기 군포시 이당로 152",
-      "url": "http://place.map.kakao.com/27523397",
-      "region": "경기도",
-      "lat": 37.3487720964399,
-      "lng": 126.958751050586
-    },
-    {
-      "title": "도장중학교 행정실",
-      "description": "경기 군포시 고산로 460",
-      "url": "http://place.map.kakao.com/10313823",
-      "region": "경기도",
-      "lat": 37.35556215256267,
-      "lng": 126.92686986931163
-    },
-    {
-      "title": "군포중학교 교무실",
-      "description": "경기 군포시 금당로124번길 19",
-      "url": "http://place.map.kakao.com/12453318",
-      "region": "경기도",
-      "lat": 37.3579677595389,
-      "lng": 126.944902886627
-    },
-    {
-      "title": "수리중학교 행정실",
-      "description": "경기 군포시 수리산로 139",
-      "url": "http://place.map.kakao.com/10550555",
-      "region": "경기도",
-      "lat": 37.36116833588029,
-      "lng": 126.918578969058
-    },
-    {
-      "title": "수리중학교 교무실",
-      "description": "경기 군포시 수리산로 139",
-      "url": "http://place.map.kakao.com/10547779",
-      "region": "경기도",
-      "lat": 37.36122511996681,
-      "lng": 126.91860712796486
-    },
-    {
       "title": "곡란중학교 당직실",
       "description": "경기 군포시 곡란로 95",
       "url": "http://place.map.kakao.com/560098019",
@@ -8433,68 +7825,12 @@
       "lng": 126.91976702741736
     },
     {
-      "title": "곡란중학교 교무실",
-      "description": "경기 군포시 곡란로 95",
-      "url": "http://place.map.kakao.com/10157677",
-      "region": "경기도",
-      "lat": 37.37291402440546,
-      "lng": 126.92967662049037
-    },
-    {
-      "title": "궁내중학교 교무실",
-      "description": "경기 군포시 수리산로 171",
-      "url": "http://place.map.kakao.com/10222886",
-      "region": "경기도",
-      "lat": 37.3638140766122,
-      "lng": 126.91905361362102
-    },
-    {
-      "title": "도장중학교 교무실",
-      "description": "경기 군포시 고산로 460",
-      "url": "http://place.map.kakao.com/8264442",
-      "region": "경기도",
-      "lat": 37.35558015566358,
-      "lng": 126.92684163370356
-    },
-    {
-      "title": "부곡중앙중학교 행정실",
-      "description": "경기 군포시 송부로 241",
-      "url": "http://place.map.kakao.com/11781308",
-      "region": "경기도",
-      "lat": 37.3235705737868,
-      "lng": 126.938691060557
-    },
-    {
-      "title": "호성중학교 교무실",
-      "description": "경기 안양시 동안구 호성로 55",
-      "url": "http://place.map.kakao.com/1494555168",
-      "region": "경기도",
-      "lat": 37.3666870454326,
-      "lng": 126.963676762157
-    },
-    {
-      "title": "호성중학교 행정실",
-      "description": "경기 안양시 동안구 호성로 55",
-      "url": "http://place.map.kakao.com/10053609",
-      "region": "경기도",
-      "lat": 37.36672315077199,
-      "lng": 126.96388671880868
-    },
-    {
       "title": "호성중학교 누리관",
       "description": "경기 안양시 동안구 호성로 55",
       "url": "http://place.map.kakao.com/322945719",
       "region": "경기도",
       "lat": 37.3668090185563,
       "lng": 126.964783019541
-    },
-    {
-      "title": "신기중학교 행정실",
-      "description": "경기 안양시 동안구 경수대로610번길 57",
-      "url": "http://place.map.kakao.com/1494931246",
-      "region": "경기도",
-      "lat": 37.3791008420768,
-      "lng": 126.95927527438
     },
     {
       "title": "경안중학교",
@@ -8857,14 +8193,6 @@
       "lng": 127.539776795173
     },
     {
-      "title": "마장중학교 행정실",
-      "description": "경기 이천시 마장면 오천로 130",
-      "url": "http://place.map.kakao.com/893954202",
-      "region": "경기도",
-      "lat": 37.2466714529503,
-      "lng": 127.35799098429
-    },
-    {
       "title": "덕계중학교",
       "description": "경기 양주시 평화로1416번길 66-13",
       "url": "http://place.map.kakao.com/7835329",
@@ -9073,14 +8401,6 @@
       "lng": 127.030538471573
     },
     {
-      "title": "오산중학교 행정실",
-      "description": "경기 오산시 청학로 43",
-      "url": "http://place.map.kakao.com/1998544463",
-      "region": "경기도",
-      "lat": 37.154117684178,
-      "lng": 127.062080313659
-    },
-    {
       "title": "동탄13중학교 (2027년3월예정)",
       "description": "경기 화성시 장지동 920",
       "url": "http://place.map.kakao.com/985778261",
@@ -9231,30 +8551,6 @@
       "region": "충청북도",
       "lat": 37.025142416957,
       "lng": 127.499769233152
-    },
-    {
-      "title": "서운중학교 교무실",
-      "description": "경기 안성시 서운면 바우덕이로 25",
-      "url": "http://place.map.kakao.com/12455293",
-      "region": "경기도",
-      "lat": 36.9446524717193,
-      "lng": 127.263962659678
-    },
-    {
-      "title": "양진중학교 교무실",
-      "description": "경기 안성시 공도읍 진사1길 37",
-      "url": "http://place.map.kakao.com/445491707",
-      "region": "경기도",
-      "lat": 36.9860391646235,
-      "lng": 127.143932296274
-    },
-    {
-      "title": "죽산중학교 행정실",
-      "description": "경기 안성시 죽산면 죽산향교길 52-9",
-      "url": "http://place.map.kakao.com/1916277636",
-      "region": "경기도",
-      "lat": 37.0820257487289,
-      "lng": 127.424872006597
     },
     {
       "title": "일동중학교",
@@ -9537,124 +8833,12 @@
       "lng": 127.209285155919
     },
     {
-      "title": "감일백제중학교 교무실",
-      "description": "경기 하남시 감일백제로 210",
-      "url": "http://place.map.kakao.com/263518626",
-      "region": "경기도",
-      "lat": 37.5098430997034,
-      "lng": 127.151050973739
-    },
-    {
-      "title": "위례중학교 행정실",
-      "description": "경기 하남시 위례순환로 343",
-      "url": "http://place.map.kakao.com/2094062169",
-      "region": "경기도",
-      "lat": 37.477159715959,
-      "lng": 127.148428990769
-    },
-    {
-      "title": "감일중학교 행정실",
-      "description": "경기 하남시 감일백제로 55",
-      "url": "http://place.map.kakao.com/1470203176",
-      "region": "경기도",
-      "lat": 37.501188392986144,
-      "lng": 127.1623404057691
-    },
-    {
-      "title": "하남중학교 행정실",
-      "description": "경기 하남시 천현로 113",
-      "url": "http://place.map.kakao.com/8125425",
-      "region": "경기도",
-      "lat": 37.5364196498545,
-      "lng": 127.222935441805
-    },
-    {
-      "title": "덕풍중학교 교무실",
-      "description": "경기 하남시 덕풍북로71번길 10",
-      "url": "http://place.map.kakao.com/17789890",
-      "region": "경기도",
-      "lat": 37.55375374203243,
-      "lng": 127.19936609980604
-    },
-    {
-      "title": "감일백제중학교 행정실",
-      "description": "경기 하남시 감일백제로 210",
-      "url": "http://place.map.kakao.com/471833844",
-      "region": "경기도",
-      "lat": 37.5098900168549,
-      "lng": 127.151000171285
-    },
-    {
-      "title": "윤슬중학교 교무실",
-      "description": "경기 하남시 풍산로 168",
-      "url": "http://place.map.kakao.com/661040786",
-      "region": "경기도",
-      "lat": 37.563264417414,
-      "lng": 127.18164403009
-    },
-    {
-      "title": "덕풍중학교 행정실",
-      "description": "경기 하남시 덕풍북로71번길 10",
-      "url": "http://place.map.kakao.com/17799523",
-      "region": "경기도",
-      "lat": 37.553772691535265,
-      "lng": 127.19934917468845
-    },
-    {
-      "title": "감일중학교 교무실",
-      "description": "경기 하남시 감일백제로 55",
-      "url": "http://place.map.kakao.com/2042344865",
-      "region": "경기도",
-      "lat": 37.501188392986144,
-      "lng": 127.1623404057691
-    },
-    {
-      "title": "윤슬중학교 행정실",
-      "description": "경기 하남시 풍산로 168",
-      "url": "http://place.map.kakao.com/735195519",
-      "region": "경기도",
-      "lat": 37.563264417414,
-      "lng": 127.18164403009
-    },
-    {
       "title": "남한중학교 라온관",
       "description": "경기 하남시 신장동 367-5",
       "url": "http://place.map.kakao.com/1254591786",
       "region": "경기도",
       "lat": 37.5423805400244,
       "lng": 127.209718768764
-    },
-    {
-      "title": "미사강변중학교 행정실",
-      "description": "경기 하남시 미사강변한강로 89",
-      "url": "http://place.map.kakao.com/26200868",
-      "region": "경기도",
-      "lat": 37.577839109731926,
-      "lng": 127.18556356461491
-    },
-    {
-      "title": "신장중학교 교무실",
-      "description": "경기 하남시 대청로59번길 37",
-      "url": "http://place.map.kakao.com/12456732",
-      "region": "경기도",
-      "lat": 37.5431308783058,
-      "lng": 127.218764180823
-    },
-    {
-      "title": "신장중학교 행정실",
-      "description": "경기 하남시 대청로59번길 37",
-      "url": "http://place.map.kakao.com/8412587",
-      "region": "경기도",
-      "lat": 37.54311017014175,
-      "lng": 127.2187561994997
-    },
-    {
-      "title": "미사강변중학교 교무실",
-      "description": "경기 하남시 미사강변한강로 89",
-      "url": "http://place.map.kakao.com/26204916",
-      "region": "경기도",
-      "lat": 37.5774720989897,
-      "lng": 127.185758501135
     },
     {
       "title": "강천중학교",
@@ -9689,14 +8873,6 @@
       "lng": 127.752725576444
     },
     {
-      "title": "여주중학교 교무실",
-      "description": "경기 여주시 세종대왕면 농도원1길 78",
-      "url": "http://place.map.kakao.com/8501300",
-      "region": "경기도",
-      "lat": 37.2972233563291,
-      "lng": 127.620753704535
-    },
-    {
       "title": "강천중학교 체육관",
       "description": "경기 여주시 강천면 강문로 594",
       "url": "http://place.map.kakao.com/1784823552",
@@ -9713,78 +8889,6 @@
       "lng": 127.439533137942
     },
     {
-      "title": "세정중학교 행정실",
-      "description": "경기 여주시 세종대왕면 양화로 697",
-      "url": "http://place.map.kakao.com/27482652",
-      "region": "경기도",
-      "lat": 37.2801797541687,
-      "lng": 127.563815100274
-    },
-    {
-      "title": "점동중학교 교무실",
-      "description": "경기 여주시 점동면 청안로 152",
-      "url": "http://place.map.kakao.com/12457728",
-      "region": "경기도",
-      "lat": 37.2065889043051,
-      "lng": 127.663609987114
-    },
-    {
-      "title": "흥천중학교 교무실",
-      "description": "경기 여주시 흥천면 흥천로 308-27",
-      "url": "http://place.map.kakao.com/27490364",
-      "region": "경기도",
-      "lat": 37.3270755345517,
-      "lng": 127.5553985485695
-    },
-    {
-      "title": "세정중학교 교무실",
-      "description": "경기 여주시 세종대왕면 양화로 697",
-      "url": "http://place.map.kakao.com/27482649",
-      "region": "경기도",
-      "lat": 37.2801797541687,
-      "lng": 127.563815100274
-    },
-    {
-      "title": "이포중학교 교무실",
-      "description": "경기 여주시 흥천면 이여로 1075",
-      "url": "http://place.map.kakao.com/11471572",
-      "region": "경기도",
-      "lat": 37.3762381779147,
-      "lng": 127.517566033307
-    },
-    {
-      "title": "이포중학교 행정실",
-      "description": "경기 여주시 흥천면 이여로 1075",
-      "url": "http://place.map.kakao.com/587678381",
-      "region": "경기도",
-      "lat": 37.3762192423405,
-      "lng": 127.517569290261
-    },
-    {
-      "title": "여주여자중학교 교무실",
-      "description": "경기 여주시 청심로 221",
-      "url": "http://place.map.kakao.com/11895233",
-      "region": "경기도",
-      "lat": 37.295681974659445,
-      "lng": 127.64414087983064
-    },
-    {
-      "title": "창명여자중학교 교무실",
-      "description": "경기 여주시 대신면 여양로 1416",
-      "url": "http://place.map.kakao.com/11471787",
-      "region": "경기도",
-      "lat": 37.375837391927,
-      "lng": 127.5900686474
-    },
-    {
-      "title": "창명여자중학교 행정실",
-      "description": "경기 여주시 대신면 여양로 1416",
-      "url": "http://place.map.kakao.com/11471878",
-      "region": "경기도",
-      "lat": 37.37580856065684,
-      "lng": 127.59006842153691
-    },
-    {
       "title": "부발중학교 체육관",
       "description": "경기 이천시 부발읍 죽당로 21",
       "url": "http://place.map.kakao.com/1643439384",
@@ -9793,36 +8897,12 @@
       "lng": 127.494401324981
     },
     {
-      "title": "이천사동중학교 행정실",
-      "description": "경기 이천시 대월면 경충대로2050번길 68-13",
-      "url": "http://place.map.kakao.com/27535837",
-      "region": "경기도",
-      "lat": 37.24797284003755,
-      "lng": 127.49650661028342
-    },
-    {
-      "title": "이천사동중학교 교무실",
-      "description": "경기 이천시 대월면 경충대로2050번길 68-13",
-      "url": "http://place.map.kakao.com/27536061",
-      "region": "경기도",
-      "lat": 37.2479715940144,
-      "lng": 127.496588880957
-    },
-    {
       "title": "효양중학교 효양관",
       "description": "경기 이천시 부발읍 효양로 231",
       "url": "http://place.map.kakao.com/26327235",
       "region": "경기도",
       "lat": 37.2660786533651,
       "lng": 127.481790296826
-    },
-    {
-      "title": "부론중학교 행정실",
-      "description": "강원특별자치도 원주시 부론면 부귀로 35",
-      "url": "http://place.map.kakao.com/2015764377",
-      "region": "강원특별자치도",
-      "lat": 37.208157572970514,
-      "lng": 127.75268844008372
     },
     {
       "title": "양평중학교",
@@ -9937,70 +9017,6 @@
       "lng": 127.846791481301
     },
     {
-      "title": "양동중학교 교무실",
-      "description": "경기 양평군 양동면 학둔지윗길 47-7",
-      "url": "http://place.map.kakao.com/1509490751",
-      "region": "경기도",
-      "lat": 37.42065491978633,
-      "lng": 127.75571961367292
-    },
-    {
-      "title": "서종중학교 행정실",
-      "description": "경기 양평군 서종면 북한강로 854",
-      "url": "http://place.map.kakao.com/7935417",
-      "region": "경기도",
-      "lat": 37.6136123415749,
-      "lng": 127.35076221340054
-    },
-    {
-      "title": "강하중학교 교무실",
-      "description": "경기 양평군 강하면 왕창부로길 74-3",
-      "url": "http://place.map.kakao.com/27460671",
-      "region": "경기도",
-      "lat": 37.48253529563696,
-      "lng": 127.40497261300469
-    },
-    {
-      "title": "국수중학교 교무실",
-      "description": "경기 양평군 양서면 대심상심길 13",
-      "url": "http://place.map.kakao.com/12456541",
-      "region": "경기도",
-      "lat": 37.510123879823134,
-      "lng": 127.4004979208759
-    },
-    {
-      "title": "청운중학교 교무실",
-      "description": "경기 양평군 청운면 청운로 28",
-      "url": "http://place.map.kakao.com/685935891",
-      "region": "경기도",
-      "lat": 37.5533426048094,
-      "lng": 127.711468988678
-    },
-    {
-      "title": "양동중학교 행정실",
-      "description": "경기 양평군 양동면 학둔지윗길 47-7",
-      "url": "http://place.map.kakao.com/1508518066",
-      "region": "경기도",
-      "lat": 37.4206161288304,
-      "lng": 127.755727131561
-    },
-    {
-      "title": "단월중학교 교무실",
-      "description": "경기 양평군 단월면 보룡길 83",
-      "url": "http://place.map.kakao.com/12456488",
-      "region": "경기도",
-      "lat": 37.54106534818772,
-      "lng": 127.67250130372629
-    },
-    {
-      "title": "단월중학교 행정실",
-      "description": "경기 양평군 단월면 보룡길 83",
-      "url": "http://place.map.kakao.com/8848332",
-      "region": "경기도",
-      "lat": 37.5410509331858,
-      "lng": 127.672501174249
-    },
-    {
       "title": "단월중학교 교장실",
       "description": "경기 양평군 단월면 보룡길 83",
       "url": "http://place.map.kakao.com/10254106",
@@ -10023,14 +9039,6 @@
       "region": "경기도",
       "lat": 37.6860416460923,
       "lng": 127.541216467431
-    },
-    {
-      "title": "광수중학교 행정실",
-      "description": "경기 광주시 퇴촌면 도수길23번길 23",
-      "url": "http://place.map.kakao.com/25669392",
-      "region": "경기도",
-      "lat": 37.47348288624016,
-      "lng": 127.31978199610452
     },
     {
       "title": "청평중학교",
@@ -10113,14 +9121,6 @@
       "lng": 127.721853508152
     },
     {
-      "title": "청평중학교 교무실",
-      "description": "경기 가평군 청평면 골안길 7",
-      "url": "http://place.map.kakao.com/12454714",
-      "region": "경기도",
-      "lat": 37.74343814483862,
-      "lng": 127.4222366490675
-    },
-    {
       "title": "가정중학교",
       "description": "강원특별자치도 춘천시 남면 여우내길 20",
       "url": "http://place.map.kakao.com/1359065832",
@@ -10129,52 +9129,12 @@
       "lng": 127.577850128966
     },
     {
-      "title": "가정중학교 행정실",
-      "description": "강원특별자치도 춘천시 남면 여우내길 20",
-      "url": "http://place.map.kakao.com/1995227034",
-      "region": "강원특별자치도",
-      "lat": 37.7367484449806,
-      "lng": 127.577732008196
-    },
-    {
       "title": "춘천중학교 급식소",
       "description": "강원특별자치도 춘천시 공지로 442-10",
       "url": "http://place.map.kakao.com/946130890",
       "region": "강원특별자치도",
       "lat": 37.8752107882547,
       "lng": 127.719228515314
-    },
-    {
-      "title": "춘천중학교 교무실",
-      "description": "강원특별자치도 춘천시 공지로 442-10",
-      "url": "http://place.map.kakao.com/980041980",
-      "region": "강원특별자치도",
-      "lat": 37.8751914907297,
-      "lng": 127.719231396462
-    },
-    {
-      "title": "남춘천중학교 행정실",
-      "description": "강원특별자치도 춘천시 충혼길 51",
-      "url": "http://place.map.kakao.com/8244469",
-      "region": "강원특별자치도",
-      "lat": 37.8604239974816,
-      "lng": 127.721065239544
-    },
-    {
-      "title": "춘천중학교 행정실",
-      "description": "강원특별자치도 춘천시 공지로 442-10",
-      "url": "http://place.map.kakao.com/8096872",
-      "region": "강원특별자치도",
-      "lat": 37.87522687369073,
-      "lng": 127.7192352639131
-    },
-    {
-      "title": "남춘천중학교 교무실",
-      "description": "강원특별자치도 춘천시 충혼길 51",
-      "url": "http://place.map.kakao.com/8244468",
-      "region": "강원특별자치도",
-      "lat": 37.85966707063526,
-      "lng": 127.7218237628166
     },
     {
       "title": "백학중학교",
@@ -10225,30 +9185,6 @@
       "lng": 127.21065205880538
     },
     {
-      "title": "전곡중학교 행정실",
-      "description": "경기 연천군 전곡읍 전은길 21",
-      "url": "http://place.map.kakao.com/12456929",
-      "region": "경기도",
-      "lat": 38.0343145848147,
-      "lng": 127.071168601675
-    },
-    {
-      "title": "군남중학교 행정실",
-      "description": "경기 연천군 군남면 진상17길 46",
-      "url": "http://place.map.kakao.com/10144520",
-      "region": "경기도",
-      "lat": 38.067861098829816,
-      "lng": 127.01550743392777
-    },
-    {
-      "title": "관인중학교 행정실",
-      "description": "경기 포천시 관인면 관인로 20",
-      "url": "http://place.map.kakao.com/11471819",
-      "region": "경기도",
-      "lat": 38.1588782817458,
-      "lng": 127.250412195822
-    },
-    {
       "title": "철원중학교 체육관",
       "description": "강원특별자치도 철원군 철원읍 금학로251번안길 12",
       "url": "http://place.map.kakao.com/1892782329",
@@ -10257,44 +9193,12 @@
       "lng": 127.210660404875
     },
     {
-      "title": "철원여자중학교 행정실",
-      "description": "강원특별자치도 철원군 동송읍 이평로123번길 40",
-      "url": "http://place.map.kakao.com/11251356",
-      "region": "강원특별자치도",
-      "lat": 38.20476515962206,
-      "lng": 127.21022352524152
-    },
-    {
-      "title": "철원중학교 행정실",
-      "description": "강원특별자치도 철원군 철원읍 금학로251번안길 12",
-      "url": "http://place.map.kakao.com/27523756",
-      "region": "강원특별자치도",
-      "lat": 38.210862571918334,
-      "lng": 127.2111453738002
-    },
-    {
       "title": "영중중학교 영중누리관",
       "description": "경기 포천시 영중면 양문로1길 23",
       "url": "http://place.map.kakao.com/1573450758",
       "region": "경기도",
       "lat": 38.0000709712522,
       "lng": 127.245849932403
-    },
-    {
-      "title": "영중중학교 교무실",
-      "description": "경기 포천시 영중면 양문로1길 23",
-      "url": "http://place.map.kakao.com/1369432069",
-      "region": "경기도",
-      "lat": 38.00064515286706,
-      "lng": 127.24527916437647
-    },
-    {
-      "title": "영중중학교 행정실",
-      "description": "경기 포천시 영중면 양문로1길 23",
-      "url": "http://place.map.kakao.com/9284329",
-      "region": "경기도",
-      "lat": 38.0006128645316,
-      "lng": 127.245209606005
     },
     {
       "title": "삼성중학교 목련관",
@@ -10913,14 +9817,6 @@
       "lng": 126.677144774972
     },
     {
-      "title": "인천미송중학교 교무실",
-      "description": "인천 연수구 아카데미로 679",
-      "url": "http://place.map.kakao.com/1120962111",
-      "region": "인천광역시",
-      "lat": 37.415957471592,
-      "lng": 126.613160773318
-    },
-    {
       "title": "논곡중학교",
       "description": "인천 남동구 논곡로 84",
       "url": "http://place.map.kakao.com/8190208",
@@ -11289,22 +10185,6 @@
       "lng": 126.480021295505
     },
     {
-      "title": "강화중학교 교무실",
-      "description": "인천 강화군 강화읍 동문로 53",
-      "url": "http://place.map.kakao.com/12462642",
-      "region": "인천광역시",
-      "lat": 37.75062433407763,
-      "lng": 126.4904932219457
-    },
-    {
-      "title": "강남중학교 교무실",
-      "description": "인천 강화군 길상면 강화남로 62-2",
-      "url": "http://place.map.kakao.com/24421036",
-      "region": "인천광역시",
-      "lat": 37.644502942020544,
-      "lng": 126.47952793081106
-    },
-    {
       "title": "강남중학교 길상관",
       "description": "인천 강화군 길상면 강화남로 62-2",
       "url": "http://place.map.kakao.com/408164266",
@@ -11313,36 +10193,12 @@
       "lng": 126.480171085558
     },
     {
-      "title": "강화중학교 행정실",
-      "description": "인천 강화군 강화읍 동문로 53",
-      "url": "http://place.map.kakao.com/9704905",
-      "region": "인천광역시",
-      "lat": 37.75063324529501,
-      "lng": 126.49047046707592
-    },
-    {
       "title": "심도중학교 강당",
       "description": "인천 강화군 화도면 마니산로 703-20",
       "url": "http://place.map.kakao.com/1808365008",
       "region": "인천광역시",
       "lat": 37.6316492377762,
       "lng": 126.421595142421
-    },
-    {
-      "title": "강화여자중학교 교무실",
-      "description": "인천 강화군 강화읍 갑룡길 11",
-      "url": "http://place.map.kakao.com/8740935",
-      "region": "인천광역시",
-      "lat": 37.74449733942239,
-      "lng": 126.49519954633624
-    },
-    {
-      "title": "분진중학교 행정실",
-      "description": "경기 김포시 월곶면 애기봉로11번길 86",
-      "url": "http://place.map.kakao.com/27126176",
-      "region": "경기도",
-      "lat": 37.71927022617748,
-      "lng": 126.55295922126318
     },
     {
       "title": "인천영흥중학교",
@@ -11919,86 +10775,6 @@
       "region": "부산광역시",
       "lat": 35.1195677200648,
       "lng": 129.116806036073
-    },
-    {
-      "title": "해동중학교 행정실",
-      "description": "부산 영도구 절영로490번길 8-22",
-      "url": "http://place.map.kakao.com/8610299",
-      "region": "부산광역시",
-      "lat": 35.0696719278293,
-      "lng": 129.069646252885
-    },
-    {
-      "title": "영도제일중학교 행정실",
-      "description": "부산 영도구 중리로 64",
-      "url": "http://place.map.kakao.com/229948184",
-      "region": "부산광역시",
-      "lat": 35.0773768765984,
-      "lng": 129.068699717605
-    },
-    {
-      "title": "해동중학교 교무실",
-      "description": "부산 영도구 절영로490번길 8-22",
-      "url": "http://place.map.kakao.com/9648072",
-      "region": "부산광역시",
-      "lat": 35.0696719278293,
-      "lng": 129.069646252885
-    },
-    {
-      "title": "부산남중학교 교무실",
-      "description": "부산 영도구 절영로73번길 7",
-      "url": "http://place.map.kakao.com/19383006",
-      "region": "부산광역시",
-      "lat": 35.0881907100174,
-      "lng": 129.040213998571
-    },
-    {
-      "title": "신선중학교 행정실",
-      "description": "부산 영도구 복지관길 40",
-      "url": "http://place.map.kakao.com/9191955",
-      "region": "부산광역시",
-      "lat": 35.0807174907922,
-      "lng": 129.045601295037
-    },
-    {
-      "title": "부산영선중학교 교무실",
-      "description": "부산 영도구 영상길 83",
-      "url": "http://place.map.kakao.com/10471615",
-      "region": "부산광역시",
-      "lat": 35.0855245864209,
-      "lng": 129.044839899463
-    },
-    {
-      "title": "태종대중학교 교무실",
-      "description": "부산 영도구 함지로79번길 9",
-      "url": "http://place.map.kakao.com/9542494",
-      "region": "부산광역시",
-      "lat": 35.0735714909399,
-      "lng": 129.063978892952
-    },
-    {
-      "title": "영도제일중학교 교무실",
-      "description": "부산 영도구 중리로 64",
-      "url": "http://place.map.kakao.com/1506442990",
-      "region": "부산광역시",
-      "lat": 35.0773589544377,
-      "lng": 129.068693783945
-    },
-    {
-      "title": "남도여자중학교 교무실",
-      "description": "부산 영도구 남도여중길 130",
-      "url": "http://place.map.kakao.com/11548200",
-      "region": "부산광역시",
-      "lat": 35.0871215978239,
-      "lng": 129.045686692888
-    },
-    {
-      "title": "부산남중학교 행정실",
-      "description": "부산 영도구 절영로73번길 7",
-      "url": "http://place.map.kakao.com/19385585",
-      "region": "부산광역시",
-      "lat": 35.0881977688243,
-      "lng": 129.040222945409
     },
     {
       "title": "배정중학교 (폐교)",
@@ -12665,142 +11441,6 @@
       "lng": 129.131119686412
     },
     {
-      "title": "장산중학교 행정실",
-      "description": "부산 해운대구 선수촌로 47",
-      "url": "http://place.map.kakao.com/10075199",
-      "region": "부산광역시",
-      "lat": 35.1987269050709,
-      "lng": 129.117716908004
-    },
-    {
-      "title": "부흥중학교 교무실",
-      "description": "부산 해운대구 좌동순환로 226",
-      "url": "http://place.map.kakao.com/12480249",
-      "region": "부산광역시",
-      "lat": 35.1751757776025,
-      "lng": 129.178794852473
-    },
-    {
-      "title": "센텀중학교 행정실",
-      "description": "부산 해운대구 센텀북대로 32",
-      "url": "http://place.map.kakao.com/9127163",
-      "region": "부산광역시",
-      "lat": 35.17530589712,
-      "lng": 129.123593254723
-    },
-    {
-      "title": "동백중학교 행정실",
-      "description": "부산 해운대구 좌동순환로468번가길 97",
-      "url": "http://place.map.kakao.com/8912137",
-      "region": "부산광역시",
-      "lat": 35.1657601630002,
-      "lng": 129.174413031942
-    },
-    {
-      "title": "해강중학교 행정실",
-      "description": "부산 해운대구 해운대해변로 17",
-      "url": "http://place.map.kakao.com/9567843",
-      "region": "부산광역시",
-      "lat": 35.1641335676587,
-      "lng": 129.135781974512
-    },
-    {
-      "title": "해강중학교 교무실",
-      "description": "부산 해운대구 해운대해변로 17",
-      "url": "http://place.map.kakao.com/12480378",
-      "region": "부산광역시",
-      "lat": 35.1641624684347,
-      "lng": 129.135778340937
-    },
-    {
-      "title": "재송중학교 교무실",
-      "description": "부산 해운대구 재반로165번길 16",
-      "url": "http://place.map.kakao.com/12480642",
-      "region": "부산광역시",
-      "lat": 35.1933628369461,
-      "lng": 129.128634340077
-    },
-    {
-      "title": "신곡중학교 행정실",
-      "description": "부산 해운대구 좌동순환로 316",
-      "url": "http://place.map.kakao.com/9193521",
-      "region": "부산광역시",
-      "lat": 35.1680050381977,
-      "lng": 129.181869370039
-    },
-    {
-      "title": "반여중학교 행정실",
-      "description": "부산 해운대구 재반로256번길 57-12",
-      "url": "http://place.map.kakao.com/11471533",
-      "region": "부산광역시",
-      "lat": 35.199792596589,
-      "lng": 129.136249976763
-    },
-    {
-      "title": "양운중학교 행정실",
-      "description": "부산 해운대구 좌동순환로99번길 7",
-      "url": "http://place.map.kakao.com/9896708",
-      "region": "부산광역시",
-      "lat": 35.1752691932674,
-      "lng": 129.166961792467
-    },
-    {
-      "title": "센텀중학교 교무실",
-      "description": "부산 해운대구 센텀북대로 32",
-      "url": "http://place.map.kakao.com/126761055",
-      "region": "부산광역시",
-      "lat": 35.1753967259092,
-      "lng": 129.123758051367
-    },
-    {
-      "title": "부흥중학교 행정실",
-      "description": "부산 해운대구 좌동순환로 226",
-      "url": "http://place.map.kakao.com/8398832",
-      "region": "부산광역시",
-      "lat": 35.1752009183445,
-      "lng": 129.178799913597
-    },
-    {
-      "title": "반안중학교 행정실",
-      "description": "부산 해운대구 명장로67번길 40-32",
-      "url": "http://place.map.kakao.com/9844832",
-      "region": "부산광역시",
-      "lat": 35.2033438735668,
-      "lng": 129.112382429719
-    },
-    {
-      "title": "해운대중학교 교무실",
-      "description": "부산 해운대구 우동2로30번길 99",
-      "url": "http://place.map.kakao.com/1040890344",
-      "region": "부산광역시",
-      "lat": 35.1721407615456,
-      "lng": 129.161650394572
-    },
-    {
-      "title": "인지중학교 행정실",
-      "description": "부산 해운대구 반여로 142",
-      "url": "http://place.map.kakao.com/12479397",
-      "region": "부산광역시",
-      "lat": 35.2038648145292,
-      "lng": 129.125452258629
-    },
-    {
-      "title": "상당중학교 행정실",
-      "description": "부산 해운대구 대천로103번길 48",
-      "url": "http://place.map.kakao.com/11308537",
-      "region": "부산광역시",
-      "lat": 35.1787855533013,
-      "lng": 129.176099033803
-    },
-    {
-      "title": "해운대여자중학교 행정실",
-      "description": "부산 해운대구 우동1로85번길 25",
-      "url": "http://place.map.kakao.com/11277597",
-      "region": "부산광역시",
-      "lat": 35.1682794581089,
-      "lng": 129.153655510544
-    },
-    {
       "title": "상당중학교 해오름관",
       "description": "부산 해운대구 대천로103번길 48",
       "url": "http://place.map.kakao.com/1372370252",
@@ -13009,148 +11649,12 @@
       "lng": 129.240814443658
     },
     {
-      "title": "일광중학교 교무실",
-      "description": "부산 기장군 일광읍 해빛3로 99",
-      "url": "http://place.map.kakao.com/968397288",
-      "region": "부산광역시",
-      "lat": 35.2651646439651,
-      "lng": 129.220257300654
-    },
-    {
-      "title": "장안중학교 행정실",
-      "description": "부산 기장군 장안읍 좌천2길 43",
-      "url": "http://place.map.kakao.com/10090994",
-      "region": "부산광역시",
-      "lat": 35.3152263989038,
-      "lng": 129.240840417718
-    },
-    {
-      "title": "장안중학교 교무실",
-      "description": "부산 기장군 장안읍 좌천2길 43",
-      "url": "http://place.map.kakao.com/949766647",
-      "region": "부산광역시",
-      "lat": 35.3152196826851,
-      "lng": 129.240813847132
-    },
-    {
-      "title": "대청중학교 행정실",
-      "description": "부산 기장군 기장읍 차성서로 3",
-      "url": "http://place.map.kakao.com/8904449",
-      "region": "부산광역시",
-      "lat": 35.2343036033068,
-      "lng": 129.212410721831
-    },
-    {
-      "title": "신정중학교 교무실",
-      "description": "부산 기장군 정관읍 정관3로 44",
-      "url": "http://place.map.kakao.com/836685212",
-      "region": "부산광역시",
-      "lat": 35.3290525041295,
-      "lng": 129.168957630251
-    },
-    {
-      "title": "대청중학교 교무실",
-      "description": "부산 기장군 기장읍 차성서로 3",
-      "url": "http://place.map.kakao.com/10316761",
-      "region": "부산광역시",
-      "lat": 35.2343688533717,
-      "lng": 129.212390528414
-    },
-    {
-      "title": "기장중학교 행정실",
-      "description": "부산 기장군 기장읍 읍내로 120",
-      "url": "http://place.map.kakao.com/8797940",
-      "region": "부산광역시",
-      "lat": 35.2443070504612,
-      "lng": 129.21757275148124
-    },
-    {
-      "title": "정관중학교 행정실",
-      "description": "부산 기장군 정관읍 정관로 531",
-      "url": "http://place.map.kakao.com/778631576",
-      "region": "부산광역시",
-      "lat": 35.323829158888,
-      "lng": 129.172996225726
-    },
-    {
       "title": "장안중학교 흥진관",
       "description": "부산 기장군 장안읍 좌천2길 43",
       "url": "http://place.map.kakao.com/1973408385",
       "region": "부산광역시",
       "lat": 35.3154394327204,
       "lng": 129.2412090949
-    },
-    {
-      "title": "일광중학교 행정실",
-      "description": "부산 기장군 일광읍 해빛3로 99",
-      "url": "http://place.map.kakao.com/960576588",
-      "region": "부산광역시",
-      "lat": 35.2654812479311,
-      "lng": 129.220927368952
-    },
-    {
-      "title": "모전중학교 행정실",
-      "description": "부산 기장군 정관읍 정관1로 9",
-      "url": "http://place.map.kakao.com/23258755",
-      "region": "부산광역시",
-      "lat": 35.337911639482,
-      "lng": 129.162156291226
-    },
-    {
-      "title": "모전중학교 교무실",
-      "description": "부산 기장군 정관읍 정관1로 9",
-      "url": "http://place.map.kakao.com/23258754",
-      "region": "부산광역시",
-      "lat": 35.337911639482,
-      "lng": 129.162156291226
-    },
-    {
-      "title": "부산중앙중학교 교무실",
-      "description": "부산 기장군 정관읍 정관덕산길 73",
-      "url": "http://place.map.kakao.com/19190374",
-      "region": "부산광역시",
-      "lat": 35.3223709561833,
-      "lng": 129.187492539007
-    },
-    {
-      "title": "기장중학교 교무실",
-      "description": "부산 기장군 기장읍 읍내로 120",
-      "url": "http://place.map.kakao.com/12480270",
-      "region": "부산광역시",
-      "lat": 35.24416686294239,
-      "lng": 129.21760078738748
-    },
-    {
-      "title": "부산중앙중학교 행정실",
-      "description": "부산 기장군 정관읍 정관덕산길 73",
-      "url": "http://place.map.kakao.com/19191539",
-      "region": "부산광역시",
-      "lat": 35.3223426914869,
-      "lng": 129.18746099151
-    },
-    {
-      "title": "신정중학교 행정실",
-      "description": "부산 기장군 정관읍 정관3로 44",
-      "url": "http://place.map.kakao.com/1397259148",
-      "region": "부산광역시",
-      "lat": 35.329074199516,
-      "lng": 129.1689538117
-    },
-    {
-      "title": "반송중학교 행정실",
-      "description": "부산 해운대구 반송로911번길 59",
-      "url": "http://place.map.kakao.com/406275533",
-      "region": "부산광역시",
-      "lat": 35.2349302330881,
-      "lng": 129.151838220349
-    },
-    {
-      "title": "반송중학교 교무실",
-      "description": "부산 해운대구 반송로911번길 59",
-      "url": "http://place.map.kakao.com/1525620447",
-      "region": "부산광역시",
-      "lat": 35.2349361034031,
-      "lng": 129.15176149303
     },
     {
       "title": "왕선중학교",
@@ -14825,100 +13329,12 @@
       "lng": 127.31146614322724
     },
     {
-      "title": "새롬중학교 교무실",
-      "description": "세종특별자치시 어울로 41",
-      "url": "http://place.map.kakao.com/24806867",
-      "region": "세종특별자치시",
-      "lat": 36.4814301558793,
-      "lng": 127.249688177865
-    },
-    {
-      "title": "조치원중학교 행정실",
-      "description": "세종특별자치시 조치원읍 대첩로 90",
-      "url": "http://place.map.kakao.com/249525325",
-      "region": "세종특별자치시",
-      "lat": 36.5956556952851,
-      "lng": 127.286426533778
-    },
-    {
-      "title": "두루중학교 교무실",
-      "description": "세종특별자치시 만남로 211",
-      "url": "http://place.map.kakao.com/26534486",
-      "region": "세종특별자치시",
-      "lat": 36.5182417739118,
-      "lng": 127.238530339655
-    },
-    {
-      "title": "도담중학교 교무실",
-      "description": "세종특별자치시 보람로 80",
-      "url": "http://place.map.kakao.com/1477646092",
-      "region": "세종특별자치시",
-      "lat": 36.51556781846414,
-      "lng": 127.26348043097421
-    },
-    {
-      "title": "세종중학교 교무실",
-      "description": "세종특별자치시 조치원읍 새내로 160",
-      "url": "http://place.map.kakao.com/1052090443",
-      "region": "세종특별자치시",
-      "lat": 36.60618180716518,
-      "lng": 127.298223716516
-    },
-    {
-      "title": "금호중학교 교무실",
-      "description": "세종특별자치시 대평로 27",
-      "url": "http://place.map.kakao.com/19341849",
-      "region": "세종특별자치시",
-      "lat": 36.4703355877435,
-      "lng": 127.28030456523
-    },
-    {
       "title": "전의중학교 씨름장",
       "description": "세종특별자치시 전의면 운주산로 1260-6",
       "url": "http://place.map.kakao.com/1544888781",
       "region": "세종특별자치시",
       "lat": 36.6815734426081,
       "lng": 127.198307204408
-    },
-    {
-      "title": "부강중학교 행정실",
-      "description": "세종특별자치시 부강면 부강로 25-7",
-      "url": "http://place.map.kakao.com/9807689",
-      "region": "세종특별자치시",
-      "lat": 36.526116350752176,
-      "lng": 127.36546859769928
-    },
-    {
-      "title": "연서중학교 교무실",
-      "description": "세종특별자치시 연서면 연서로 115",
-      "url": "http://place.map.kakao.com/8502807",
-      "region": "세종특별자치시",
-      "lat": 36.5807646269206,
-      "lng": 127.25787710852792
-    },
-    {
-      "title": "금호중학교 행정실",
-      "description": "세종특별자치시 대평로 27",
-      "url": "http://place.map.kakao.com/19342490",
-      "region": "세종특별자치시",
-      "lat": 36.470317501808,
-      "lng": 127.280331278175
-    },
-    {
-      "title": "연서중학교 행정실",
-      "description": "세종특별자치시 연서면 연서로 115",
-      "url": "http://place.map.kakao.com/11107419",
-      "region": "세종특별자치시",
-      "lat": 36.580737587979094,
-      "lng": 127.2578792532816
-    },
-    {
-      "title": "조치원중학교 교무실",
-      "description": "세종특별자치시 조치원읍 대첩로 90",
-      "url": "http://place.map.kakao.com/17514178",
-      "region": "세종특별자치시",
-      "lat": 36.59573231034734,
-      "lng": 127.28641899406219
     },
     {
       "title": "전의중학교 의향관",
