@@ -12,6 +12,7 @@ const COLORS = [
     { name: 'rose', value: '#d4648a' },
     { name: 'emerald', value: '#4caf50' },
     { name: 'amber', value: '#ffa726' },
+    { name: 'blue', value: '#3b82f6' },
 ];
 
 // 서울시청 좌표 (기본 위치)
@@ -21,6 +22,7 @@ const SEOUL_CITY_HALL = { lat: 37.5666, lng: 126.9784 };
 const COOKIE_VISIBILITY = 'pins_visibility';
 const COOKIE_COLORS = 'pins_colors';
 const COOKIE_FIRST_VISIT = 'pins_first_visit';
+const COOKIE_MAP_VIEW = 'pins_map_view';
 const COOKIE_EXPIRY_DAYS = 365;
 
 /**
@@ -72,8 +74,18 @@ function isFirstVisit() {
     return getCookie(COOKIE_FIRST_VISIT) === null;
 }
 
+function saveMapViewToCookie() {
+    const center = state.map.getCenter();
+    const zoom = state.map.getZoom();
+    setCookie(COOKIE_MAP_VIEW, { lat: center.lat, lng: center.lng, zoom: zoom }, COOKIE_EXPIRY_DAYS);
+}
+
+function loadMapViewFromCookie() {
+    return getCookie(COOKIE_MAP_VIEW);
+}
+
 function clearAllCookies() {
-    const cookies = [COOKIE_VISIBILITY, COOKIE_COLORS, COOKIE_FIRST_VISIT];
+    const cookies = [COOKIE_VISIBILITY, COOKIE_COLORS, COOKIE_FIRST_VISIT, COOKIE_MAP_VIEW];
     cookies.forEach(name => {
         document.cookie = `${name}=;expires=Thu, 01 Jan 1970 00:00:00 GMT;path=/`;
     });
@@ -87,7 +99,7 @@ function resetSettings() {
 }
 
 // 기본으로 켜져있을 리스트 ID (도서관 = 4)
-const DEFAULT_VISIBLE_LIST_ID = 4;
+const DEFAULT_VISIBLE_LIST_ID = 6;
 
 // Application State
 const state = {
@@ -186,10 +198,15 @@ function selectSeoulCityHall() {
  * Initialize Leaflet map
  */
 function initMap() {
-    // Create map centered on South Korea
+    // Load saved map view or use default
+    const savedView = loadMapViewFromCookie();
+    const initialCenter = savedView ? [savedView.lat, savedView.lng] : [36.5, 127.5];
+    const initialZoom = savedView ? savedView.zoom : 7;
+
+    // Create map
     state.map = L.map('map', {
-        center: [36.5, 127.5],
-        zoom: 7,
+        center: initialCenter,
+        zoom: initialZoom,
         zoomControl: true,
     });
 
@@ -211,6 +228,7 @@ function initMap() {
  * Handle map move - auto select visible regions
  */
 function onMapMove() {
+    saveMapViewToCookie();
     refreshAllMarkers();
 }
 
@@ -298,7 +316,7 @@ function updatePinCounts() {
     
     state.pinLists.forEach(list => {
         const filteredCount = list.pins.filter(pin => 
-            bounds.contains([pin.latitude, pin.longitude])
+            bounds.contains([pin.lat, pin.lng])
         ).length;
         
         const countElement = document.querySelector(
@@ -325,7 +343,7 @@ function renderPinLists() {
         
         // Count pins in current view
         const filteredCount = list.pins.filter(pin => 
-            bounds.contains([pin.latitude, pin.longitude])
+            bounds.contains([pin.lat, pin.lng])
         ).length;
         
         const listElement = document.createElement('div');
@@ -478,7 +496,7 @@ function showMarkers(listId) {
 
     // Filter pins by map bounds
     const filteredPins = list.pins.filter(pin => 
-        bounds.contains([pin.latitude, pin.longitude])
+        bounds.contains([pin.lat, pin.lng])
     );
 
     filteredPins.forEach(pin => {
@@ -513,7 +531,7 @@ function createMarker(pin, color, listTitle) {
         popupAnchor: [0, -32],
     });
 
-    const marker = L.marker([pin.latitude, pin.longitude], { icon });
+    const marker = L.marker([pin.lat, pin.lng], { icon });
 
     // Title with optional Kakao Map link
     const titleContent = pin.url 

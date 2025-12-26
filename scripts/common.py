@@ -161,8 +161,8 @@ def fetch_places_in_region(region: str, keywords: list, filter_func=None) -> lis
                         "name": doc.get("place_name", ""),
                         "address": doc.get("address_name", ""),
                         "road_address": doc.get("road_address_name", ""),
-                        "latitude": float(doc.get("y", 0)),
-                        "longitude": float(doc.get("x", 0)),
+                        "lat": float(doc.get("y", 0)),
+                        "lng": float(doc.get("x", 0)),
                         "phone": doc.get("phone", ""),
                         "url": doc.get("place_url", ""),
                         "category": doc.get("category_name", ""),
@@ -220,8 +220,8 @@ def convert_to_pins(places: list) -> list:
     """핀 데이터 형식으로 변환"""
     return [
         {
-            "latitude": place["latitude"],
-            "longitude": place["longitude"],
+            "lat": place["lat"],
+            "lng": place["lng"],
             "title": place["name"],
             "description": place["road_address"] or place["address"],
             "url": place.get("url", ""),  # 카카오맵 URL

@@ -1,6 +1,12 @@
 {
   "lists": [
     {
+      "id": 6,
+      "title": "지하철역",
+      "description": "지하철/국철역 위치",
+      "color": "#3b82f6"
+    },
+    {
       "id": 1,
       "title": "중학교",
       "description": "주요 중학교 위치",
@@ -22,7 +28,7 @@
       "id": 4,
       "title": "도서관",
       "description": "도서관 위치",
-      "color": "#5c6bc0"
+      "color": "#d4648a"
     },
     {
       "id": 5,
@@ -32,4 +38,3 @@
     }
   ]
 }
-
