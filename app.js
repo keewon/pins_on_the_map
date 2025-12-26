@@ -106,6 +106,7 @@ const state = {
     map: null,
     pinLists: [],
     markers: {}, // Grouped by list id
+    clusterGroups: {}, // Cluster groups per list id
     listColors: {}, // Store selected colors per list
     listVisibility: {}, // Store visibility state per list
 };
@@ -490,7 +491,31 @@ function showMarkers(listId) {
     if (!list) return;
 
     const color = state.listColors[listId];
-    state.markers[listId] = [];
+    
+    // Remove existing cluster group if any
+    if (state.clusterGroups[listId]) {
+        state.map.removeLayer(state.clusterGroups[listId]);
+    }
+    
+    // Create new cluster group with custom icon
+    const clusterGroup = L.markerClusterGroup({
+        maxClusterRadius: 50,
+        spiderfyOnMaxZoom: true,
+        showCoverageOnHover: false,
+        zoomToBoundsOnClick: true,
+        iconCreateFunction: function(cluster) {
+            const count = cluster.getChildCount();
+            let size = 'small';
+            if (count > 50) size = 'large';
+            else if (count > 10) size = 'medium';
+            
+            return L.divIcon({
+                html: `<div class="cluster-marker cluster-${size}" style="background: ${color}"><span>${count}</span></div>`,
+                className: 'custom-cluster-wrapper',
+                iconSize: L.point(40, 40)
+            });
+        }
+    });
     
     const bounds = state.map.getBounds();
 
@@ -501,20 +526,20 @@ function showMarkers(listId) {
 
     filteredPins.forEach(pin => {
         const marker = createMarker(pin, color, list.title);
-        marker.addTo(state.map);
-        state.markers[listId].push(marker);
+        clusterGroup.addLayer(marker);
     });
+    
+    clusterGroup.addTo(state.map);
+    state.clusterGroups[listId] = clusterGroup;
 }
 
 /**
  * Hide markers for a specific list
  */
 function hideMarkers(listId) {
-    if (state.markers[listId]) {
-        state.markers[listId].forEach(marker => {
-            state.map.removeLayer(marker);
-        });
-        state.markers[listId] = [];
+    if (state.clusterGroups[listId]) {
+        state.map.removeLayer(state.clusterGroups[listId]);
+        delete state.clusterGroups[listId];
     }
 }
 

@@ -32,9 +32,21 @@
     },
     {
       "id": 5,
-      "title": "수영장",
+      "title": "수영장 (beta)",
       "description": "수영장 위치",
       "color": "#e07a5f"
+    },
+    {
+      "id": 7,
+      "title": "고속철도역",
+      "description": "KTX/SRT 정차역",
+      "color": "#c47d4e"
+    },
+    {
+      "id": 8,
+      "title": "일반기차역",
+      "description": "무궁화/새마을/ITX 정차역",
+      "color": "#5c6bc0"
     }
   ]
 }
