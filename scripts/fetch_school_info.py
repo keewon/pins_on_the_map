@@ -3,7 +3,8 @@
 학교 상세 정보 수집 (학교알리미 OpenAPI)
 - 남/여/공학 구분
 - 설립유형 (공립/사립)
-- 학생수
+- 학생수 (남녀별)
+- 학교유형: 인문계/실업계/자사고/특목고/특성화고 등
 - 고등학교: 졸업생 진로현황 (성별, 진학률)
 
 출처: 학교알리미 (https://www.schoolinfo.go.kr)
@@ -202,7 +203,7 @@ def fetch_schools_basic(sido_code, sgg_code, school_kind_code):
 
 
 def fetch_student_count(school_code, school_kind_code, year="2025"):
-    """학생수 조회 (apiType=10)"""
+    """학생수 조회 (apiType=10) - 남녀별 학생수 포함"""
     params = {
         "apiKey": SCHOOLINFO_API_KEY,
         "apiType": "10",
@@ -215,7 +216,49 @@ def fetch_student_count(school_code, school_kind_code, year="2025"):
         response = requests.get(BASE_URL, params=params, timeout=10)
         data = response.json()
         if "list" in data and len(data["list"]) > 0:
-            return data["list"][0]
+            raw = data["list"][0]
+            
+            # 학년별 남녀 학생수 계산
+            result = {
+                "total": raw.get("STDNT_SUM", 0),
+            }
+            
+            if school_kind_code == "03":  # 중학교
+                # 남학생: MAN_STDNT_31, MAN_STDNT_32, MAN_STDNT_33
+                # 여학생: WOMAN_STDNT_31, WOMAN_STDNT_32, WOMAN_STDNT_33
+                male_total = (
+                    int(raw.get("MAN_STDNT_31", 0) or 0) +
+                    int(raw.get("MAN_STDNT_32", 0) or 0) +
+                    int(raw.get("MAN_STDNT_33", 0) or 0)
+                )
+                female_total = (
+                    int(raw.get("WOMAN_STDNT_31", 0) or 0) +
+                    int(raw.get("WOMAN_STDNT_32", 0) or 0) +
+                    int(raw.get("WOMAN_STDNT_33", 0) or 0)
+                )
+                result["male"] = male_total
+                result["female"] = female_total
+                result["g1"] = raw.get("STDNT_SUM_31", 0)
+                result["g2"] = raw.get("STDNT_SUM_32", 0)
+                result["g3"] = raw.get("STDNT_SUM_33", 0)
+            else:  # 고등학교
+                male_total = (
+                    int(raw.get("MAN_STDNT_41", 0) or 0) +
+                    int(raw.get("MAN_STDNT_42", 0) or 0) +
+                    int(raw.get("MAN_STDNT_43", 0) or 0)
+                )
+                female_total = (
+                    int(raw.get("WOMAN_STDNT_41", 0) or 0) +
+                    int(raw.get("WOMAN_STDNT_42", 0) or 0) +
+                    int(raw.get("WOMAN_STDNT_43", 0) or 0)
+                )
+                result["male"] = male_total
+                result["female"] = female_total
+                result["g1"] = raw.get("STDNT_SUM_41", 0)
+                result["g2"] = raw.get("STDNT_SUM_42", 0)
+                result["g3"] = raw.get("STDNT_SUM_43", 0)
+            
+            return result
         return None
     except:
         return None
@@ -251,6 +294,52 @@ def get_coed_type(code):
         return "공학"
     else:
         return "미분류"
+
+
+def get_school_type(school):
+    """학교 유형 분류 (고등학교)"""
+    # HS_SC_CODE: 고등학교 구분 (일반고, 특수목적고, 특성화고, 자율고)
+    # HS_GNRL_BUSNS_SC_CODE: 일반/실업계 구분
+    
+    hs_sc = school.get("HS_SC_CODE", "")
+    gnrl_busns = school.get("HS_GNRL_BUSNS_SC_CODE", "")
+    fond_sc = school.get("FOND_SC_CODE", "")  # 공립/사립
+    schul_nm = school.get("SCHUL_NM", "")
+    
+    # 특수목적고 세분화
+    if hs_sc == "특수목적고" or "특목" in hs_sc:
+        if "과학고" in schul_nm or "과학" in schul_nm:
+            return "과학고"
+        elif "외국어고" in schul_nm or "외고" in schul_nm:
+            return "외고"
+        elif "국제고" in schul_nm:
+            return "국제고"
+        elif "예술고" in schul_nm or "예고" in schul_nm:
+            return "예술고"
+        elif "체육고" in schul_nm:
+            return "체육고"
+        elif "마이스터고" in schul_nm or "마이스터" in hs_sc:
+            return "마이스터고"
+        return "특목고"
+    
+    # 자율고 (자사고/자공고)
+    if hs_sc == "자율고" or "자율" in hs_sc:
+        if fond_sc == "사립":
+            return "자사고"
+        else:
+            return "자공고"
+    
+    # 특성화고 (직업계열)
+    if hs_sc == "특성화고" or "특성화" in hs_sc:
+        return "특성화고"
+    
+    # 일반고
+    if hs_sc == "일반고" or hs_sc == "":
+        if gnrl_busns == "실업계":
+            return "실업계"
+        return "일반고"
+    
+    return hs_sc if hs_sc else "일반고"
 
 
 def fetch_all_schools(school_type):
@@ -289,18 +378,19 @@ def fetch_all_schools(school_type):
                     "school_code": school_code,
                 }
                 
-                # 학생수 조회
+                # 고등학교는 학교유형 추가 (인문계/실업계/자사고 등)
+                if is_high_school:
+                    school_info["school_type"] = get_school_type(school)
+                
+                # 학생수 조회 (남녀별)
                 student_data = fetch_student_count(school_code, school_kind_code)
                 if student_data:
-                    school_info["student_total"] = student_data.get("STDNT_SUM", 0)
-                    if school_kind_code == "03":  # 중학교
-                        school_info["student_g1"] = student_data.get("STDNT_SUM_31", 0)
-                        school_info["student_g2"] = student_data.get("STDNT_SUM_32", 0)
-                        school_info["student_g3"] = student_data.get("STDNT_SUM_33", 0)
-                    else:  # 고등학교
-                        school_info["student_g1"] = student_data.get("STDNT_SUM_41", 0)
-                        school_info["student_g2"] = student_data.get("STDNT_SUM_42", 0)
-                        school_info["student_g3"] = student_data.get("STDNT_SUM_43", 0)
+                    school_info["student_total"] = student_data.get("total", 0)
+                    school_info["student_male"] = student_data.get("male", 0)
+                    school_info["student_female"] = student_data.get("female", 0)
+                    school_info["student_g1"] = student_data.get("g1", 0)
+                    school_info["student_g2"] = student_data.get("g2", 0)
+                    school_info["student_g3"] = student_data.get("g3", 0)
                 
                 # 고등학교는 졸업생 진로현황도 조회
                 if is_high_school:
@@ -341,11 +431,15 @@ def merge_with_existing_data(school_info_list, existing_data_path, output_path):
             pin["coed_type"] = info.get("coed_type", "")
             pin["found_type"] = info.get("found_type", "")
             pin["student_total"] = info.get("student_total", 0)
+            pin["student_male"] = info.get("student_male", 0)
+            pin["student_female"] = info.get("student_female", 0)
             pin["student_g1"] = info.get("student_g1", 0)
             pin["student_g2"] = info.get("student_g2", 0)
             pin["student_g3"] = info.get("student_g3", 0)
             
-            # 고등학교 추가 정보
+            # 고등학교 추가 정보 (학교유형, 졸업생 진로)
+            if "school_type" in info:
+                pin["school_type"] = info.get("school_type", "")
             if "grad_male" in info:
                 pin["grad_male"] = info.get("grad_male", 0)
                 pin["grad_female"] = info.get("grad_female", 0)

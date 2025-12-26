@@ -898,26 +898,50 @@ function createMarker(pin, color, listTitle, listId) {
 
     // 학교 상세정보 (중학교, 고등학교)
     let schoolInfoHtml = '';
-    if ((listId === 1 || listId === 9) && pin.coed_type) {
+    if ((listId === 1 || listId === 9) && (pin.coed_type || pin.school_type)) {
         const badges = [];
+        
+        // 학교유형 (고등학교만: 일반고/자사고/특목고/특성화고 등)
+        if (listId === 9 && pin.school_type) {
+            const typeColors = {
+                '일반고': 'general',
+                '자사고': 'autonomous',
+                '자공고': 'autonomous',
+                '특목고': 'special',
+                '과학고': 'special',
+                '외고': 'special',
+                '국제고': 'special',
+                '예술고': 'special',
+                '체육고': 'special',
+                '마이스터고': 'special',
+                '특성화고': 'vocational',
+                '실업계': 'vocational',
+            };
+            const typeClass = typeColors[pin.school_type] || 'general';
+            badges.push(`<span class="school-badge ${typeClass}">${pin.school_type}</span>`);
+        }
         
         // 남/녀/공학 배지
         if (pin.coed_type === '남학교') {
-            badges.push('<span class="school-badge male">♂ 남학교</span>');
+            badges.push('<span class="school-badge male">♂ 남</span>');
         } else if (pin.coed_type === '여학교') {
-            badges.push('<span class="school-badge female">♀ 여학교</span>');
+            badges.push('<span class="school-badge female">♀ 여</span>');
         } else if (pin.coed_type === '공학') {
-            badges.push('<span class="school-badge coed">⚥ 공학</span>');
+            badges.push('<span class="school-badge coed">공학</span>');
         }
         
-        // 설립유형
+        // 설립유형 (공립/사립)
         if (pin.found_type) {
-            badges.push(`<span class="school-badge type">${pin.found_type}</span>`);
+            badges.push(`<span class="school-badge found">${pin.found_type}</span>`);
         }
         
-        // 학생수
+        // 학생수 (남/녀 별도 표시)
         if (pin.student_total) {
-            badges.push(`<span class="school-badge students">👨‍🎓 ${pin.student_total}명</span>`);
+            if (pin.student_male > 0 || pin.student_female > 0) {
+                badges.push(`<span class="school-badge students">👨‍🎓 ${pin.student_total}명 (♂${pin.student_male} ♀${pin.student_female})</span>`);
+            } else {
+                badges.push(`<span class="school-badge students">👨‍🎓 ${pin.student_total}명</span>`);
+            }
         }
         
         // 진학률 (고등학교만)

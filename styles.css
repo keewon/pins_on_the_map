@@ -608,6 +608,31 @@ body {
     color: #fbbf24;
 }
 
+.school-badge.found {
+    background: rgba(156, 163, 175, 0.2);
+    color: #9ca3af;
+}
+
+.school-badge.general {
+    background: rgba(75, 85, 99, 0.3);
+    color: #d1d5db;
+}
+
+.school-badge.autonomous {
+    background: rgba(245, 158, 11, 0.2);
+    color: #fbbf24;
+}
+
+.school-badge.special {
+    background: rgba(59, 130, 246, 0.2);
+    color: #60a5fa;
+}
+
+.school-badge.vocational {
+    background: rgba(16, 185, 129, 0.2);
+    color: #34d399;
+}
+
 /* Kakao Map Link */
 .popup-kakao-link {
     display: flex;
