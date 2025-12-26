@@ -525,7 +525,7 @@ function showMarkers(listId) {
     );
 
     filteredPins.forEach(pin => {
-        const marker = createMarker(pin, color, list.title);
+        const marker = createMarker(pin, color, list.title, listId);
         clusterGroup.addLayer(marker);
     });
     
@@ -546,15 +546,30 @@ function hideMarkers(listId) {
 /**
  * Create a custom marker
  */
-function createMarker(pin, color, listTitle) {
-    // Create custom icon
-    const icon = L.divIcon({
-        className: 'custom-marker-wrapper',
-        html: `<div class="custom-marker" style="background: ${color}"></div>`,
-        iconSize: [32, 32],
-        iconAnchor: [16, 32],
-        popupAnchor: [0, -32],
-    });
+function createMarker(pin, color, listTitle, listId) {
+    let icon;
+    
+    // 지하철역은 심플한 동그라미로 표시
+    if (listId === 6) {
+        const isTransfer = pin.description && pin.description.includes(',');
+        const markerClass = isTransfer ? 'subway-marker transfer' : 'subway-marker';
+        icon = L.divIcon({
+            className: 'subway-marker-wrapper',
+            html: `<div class="${markerClass}" style="background: ${color}"></div>`,
+            iconSize: [isTransfer ? 18 : 14, isTransfer ? 18 : 14],
+            iconAnchor: [isTransfer ? 9 : 7, isTransfer ? 9 : 7],
+            popupAnchor: [0, isTransfer ? -9 : -7],
+        });
+    } else {
+        // 기본 마커 (핀 모양)
+        icon = L.divIcon({
+            className: 'custom-marker-wrapper',
+            html: `<div class="custom-marker" style="background: ${color}"></div>`,
+            iconSize: [32, 32],
+            iconAnchor: [16, 32],
+            popupAnchor: [0, -32],
+        });
+    }
 
     const marker = L.marker([pin.lat, pin.lng], { icon });
 
