@@ -6,7 +6,8 @@
       "lng": 129.04154985192403,
       "address": "부산 동구 중앙대로 206",
       "url": "http://place.map.kakao.com/8329752",
-      "region": "부산"
+      "region": "부산",
+      "description": "KTX, SRT"
     },
     {
       "title": "수원역",
@@ -14,7 +15,8 @@
       "lng": 127.000094700292,
       "address": "경기 수원시 팔달구 덕영대로 924",
       "url": "http://place.map.kakao.com/26981264",
-      "region": "경기"
+      "region": "경기",
+      "description": "KTX"
     },
     {
       "title": "서울역",
@@ -22,7 +24,8 @@
       "lng": 126.97070335253385,
       "address": "서울 중구 한강대로 405",
       "url": "http://place.map.kakao.com/9113903",
-      "region": "서울"
+      "region": "서울",
+      "description": "KTX"
     },
     {
       "title": "대전역",
@@ -30,7 +33,8 @@
       "lng": 127.4346445159045,
       "address": "대전 동구 중앙로 215",
       "url": "http://place.map.kakao.com/7830504",
-      "region": "대전"
+      "region": "대전",
+      "description": "KTX, SRT"
     },
     {
       "title": "광명역",
@@ -38,7 +42,8 @@
       "lng": 126.88468123606266,
       "address": "경기 광명시 광명역로 21",
       "url": "http://place.map.kakao.com/8658728",
-      "region": "경기"
+      "region": "경기",
+      "description": "KTX"
     },
     {
       "title": "용산역",
@@ -46,7 +51,8 @@
       "lng": 126.964824061815,
       "address": "서울 용산구 한강대로23길 55",
       "url": "http://place.map.kakao.com/8014275",
-      "region": "서울"
+      "region": "서울",
+      "description": "KTX"
     },
     {
       "title": "동대구역",
@@ -54,7 +60,8 @@
       "lng": 128.628393775388,
       "address": "대구 동구 동대구로 550",
       "url": "http://place.map.kakao.com/7842981",
-      "region": "대구"
+      "region": "대구",
+      "description": "KTX, SRT"
     },
     {
       "title": "천안아산역",
@@ -62,7 +69,8 @@
       "lng": 127.10444383891124,
       "address": "충남 아산시 배방읍 희망로 100",
       "url": "http://place.map.kakao.com/8598201",
-      "region": "충남"
+      "region": "충남",
+      "description": "KTX, SRT"
     },
     {
       "title": "울산역",
@@ -70,7 +78,8 @@
       "lng": 129.1385985245419,
       "address": "울산 울주군 삼남읍 울산역로 177",
       "url": "http://place.map.kakao.com/12656962",
-      "region": "울산"
+      "region": "울산",
+      "description": "KTX, SRT"
     },
     {
       "title": "광주송정역",
@@ -78,7 +87,8 @@
       "lng": 126.79080503506053,
       "address": "광주 광산구 상무대로 201",
       "url": "http://place.map.kakao.com/15135890",
-      "region": "광주"
+      "region": "광주",
+      "description": "KTX, SRT"
     },
     {
       "title": "오송역",
@@ -86,7 +96,8 @@
       "lng": 127.32760329697118,
       "address": "충북 청주시 흥덕구 오송읍 오송가락로 123",
       "url": "http://place.map.kakao.com/9265313",
-      "region": "충북"
+      "region": "충북",
+      "description": "KTX, SRT"
     },
     {
       "title": "경주역",
@@ -94,7 +105,8 @@
       "lng": 129.1389994195668,
       "address": "경북 경주시 건천읍 경주역로 80",
       "url": "http://place.map.kakao.com/12650630",
-      "region": "경북"
+      "region": "경북",
+      "description": "KTX, SRT"
     },
     {
       "title": "익산역",
@@ -102,7 +114,8 @@
       "lng": 126.94571730566378,
       "address": "전북특별자치도 익산시 익산대로 153",
       "url": "http://place.map.kakao.com/38198980",
-      "region": "전북특별자치도"
+      "region": "전북특별자치도",
+      "description": "KTX, SRT"
     },
     {
       "title": "영등포역",
@@ -110,7 +123,8 @@
       "lng": 126.9078782908411,
       "address": "서울 영등포구 경인로 846",
       "url": "http://place.map.kakao.com/8001349",
-      "region": "서울"
+      "region": "서울",
+      "description": "KTX"
     },
     {
       "title": "청량리역",
@@ -118,7 +132,8 @@
       "lng": 127.04773632414528,
       "address": "서울 동대문구 왕산로 214",
       "url": "http://place.map.kakao.com/8088565",
-      "region": "서울"
+      "region": "서울",
+      "description": "KTX"
     },
     {
       "title": "목포역",
@@ -126,7 +141,8 @@
       "lng": 126.38657548066539,
       "address": "전남 목포시 영산로 98",
       "url": "http://place.map.kakao.com/7875967",
-      "region": "전남"
+      "region": "전남",
+      "description": "KTX, SRT"
     },
     {
       "title": "전주역",
@@ -134,7 +150,8 @@
       "lng": 127.16180338402,
       "address": "전북특별자치도 전주시 덕진구 동부대로 680",
       "url": "http://place.map.kakao.com/8508642",
-      "region": "전북특별자치도"
+      "region": "전북특별자치도",
+      "description": "KTX, SRT"
     },
     {
       "title": "강릉역",
@@ -142,7 +159,8 @@
       "lng": 128.899627553491,
       "address": "강원특별자치도 강릉시 용지로 176",
       "url": "http://place.map.kakao.com/8632588",
-      "region": "강원특별자치도"
+      "region": "강원특별자치도",
+      "description": "KTX"
     },
     {
       "title": "서대전역",
@@ -150,7 +168,8 @@
       "lng": 127.40330579565601,
       "address": "대전 중구 오류로 23",
       "url": "http://place.map.kakao.com/7946425",
-      "region": "대전"
+      "region": "대전",
+      "description": "KTX"
     },
     {
       "title": "행신역",
@@ -158,7 +177,8 @@
       "lng": 126.83413241404135,
       "address": "경기 고양시 덕양구 소원로 102",
       "url": "http://place.map.kakao.com/8671080",
-      "region": "경기"
+      "region": "경기",
+      "description": "KTX"
     },
     {
       "title": "순천역",
@@ -166,7 +186,8 @@
       "lng": 127.5030852726651,
       "address": "전남 순천시 팔마로 135",
       "url": "http://place.map.kakao.com/18049670",
-      "region": "전남"
+      "region": "전남",
+      "description": "KTX, SRT"
     },
     {
       "title": "상봉역",
@@ -174,7 +195,8 @@
       "lng": 127.08565745176551,
       "address": "서울 중랑구 망우로 297",
       "url": "http://place.map.kakao.com/97032322",
-      "region": "서울"
+      "region": "서울",
+      "description": "KTX"
     },
     {
       "title": "구포역",
@@ -182,7 +204,8 @@
       "lng": 128.9971139605,
       "address": "부산 북구 구포만세길 82",
       "url": "http://place.map.kakao.com/8700019",
-      "region": "부산"
+      "region": "부산",
+      "description": "KTX"
     },
     {
       "title": "제천역",
@@ -190,7 +213,8 @@
       "lng": 128.20550124214293,
       "address": "충북 제천시 의림대로 1",
       "url": "http://place.map.kakao.com/8065014",
-      "region": "충북"
+      "region": "충북",
+      "description": "KTX"
     },
     {
       "title": "포항역",
@@ -198,7 +222,8 @@
       "lng": 129.34192815800867,
       "address": "경북 포항시 북구 흥해읍 포항역로 1",
       "url": "http://place.map.kakao.com/26102196",
-      "region": "경북"
+      "region": "경북",
+      "description": "KTX, SRT"
     },
     {
       "title": "창원역",
@@ -206,7 +231,8 @@
       "lng": 128.60662676517705,
       "address": "경남 창원시 의창구 의창대로 67",
       "url": "http://place.map.kakao.com/8083948",
-      "region": "경남"
+      "region": "경남",
+      "description": "KTX, SRT"
     },
     {
       "title": "마산역",
@@ -214,7 +240,8 @@
       "lng": 128.57702912364888,
       "address": "경남 창원시 마산회원구 마산역광장로 18",
       "url": "http://place.map.kakao.com/7871141",
-      "region": "경남"
+      "region": "경남",
+      "description": "KTX, SRT"
     },
     {
       "title": "여수엑스포역",
@@ -222,7 +249,8 @@
       "lng": 127.74864067327242,
       "address": "전남 여수시 망양로 2",
       "url": "http://place.map.kakao.com/10652213",
-      "region": "전남"
+      "region": "전남",
+      "description": "KTX, SRT"
     },
     {
       "title": "부전역",
@@ -230,7 +258,8 @@
       "lng": 129.060119800439,
       "address": "부산 부산진구 부전로 181",
       "url": "http://place.map.kakao.com/1959151038",
-      "region": "부산"
+      "region": "부산",
+      "description": "KTX"
     },
     {
       "title": "태화강역",
@@ -238,7 +267,8 @@
       "lng": 129.3533323026285,
       "address": "울산 남구 산업로 654",
       "url": "http://place.map.kakao.com/8031674",
-      "region": "울산"
+      "region": "울산",
+      "description": "KTX"
     },
     {
       "title": "안동역",
@@ -246,7 +276,8 @@
       "lng": 128.67487678751093,
       "address": "경북 안동시 경동로 122-16",
       "url": "http://place.map.kakao.com/10591681",
-      "region": "경북"
+      "region": "경북",
+      "description": "KTX"
     },
     {
       "title": "창원중앙역",
@@ -254,7 +285,8 @@
       "lng": 128.70130739661,
       "address": "경남 창원시 의창구 상남로 381",
       "url": "http://place.map.kakao.com/12750428",
-      "region": "경남"
+      "region": "경남",
+      "description": "KTX, SRT"
     },
     {
       "title": "원주역",
@@ -262,7 +294,8 @@
       "lng": 127.9218879220676,
       "address": "강원특별자치도 원주시 북원로 1860",
       "url": "http://place.map.kakao.com/8026641",
-      "region": "강원특별자치도"
+      "region": "강원특별자치도",
+      "description": "KTX"
     },
     {
       "title": "서대구역",
@@ -270,7 +303,8 @@
       "lng": 128.54000702442872,
       "address": "대구 서구 와룡로 527",
       "url": "http://place.map.kakao.com/1439119117",
-      "region": "대구"
+      "region": "대구",
+      "description": "KTX, SRT"
     },
     {
       "title": "진주역",
@@ -278,7 +312,8 @@
       "lng": 128.1179167693619,
       "address": "경남 진주시 진주역로 130",
       "url": "http://place.map.kakao.com/18214366",
-      "region": "경남"
+      "region": "경남",
+      "description": "KTX, SRT"
     },
     {
       "title": "김천(구미)역",
@@ -286,7 +321,8 @@
       "lng": 128.18100354342397,
       "address": "경북 김천시 남면 혁신1로 51",
       "url": "http://place.map.kakao.com/12657946",
-      "region": "경북"
+      "region": "경북",
+      "description": "KTX, SRT"
     },
     {
       "title": "정읍역",
@@ -294,7 +330,8 @@
       "lng": 126.842249568528,
       "address": "전북특별자치도 정읍시 서부산업도로 305",
       "url": "http://place.map.kakao.com/10714926",
-      "region": "전북특별자치도"
+      "region": "전북특별자치도",
+      "description": "KTX, SRT"
     },
     {
       "title": "논산역",
@@ -302,7 +339,8 @@
       "lng": 127.09248485232577,
       "address": "충남 논산시 해월로 236-12",
       "url": "http://place.map.kakao.com/86026504",
-      "region": "충남"
+      "region": "충남",
+      "description": "KTX"
     },
     {
       "title": "영주역",
@@ -310,7 +348,8 @@
       "lng": 128.62501800405286,
       "address": "경북 영주시 선비로 64",
       "url": "http://place.map.kakao.com/8441216",
-      "region": "경북"
+      "region": "경북",
+      "description": "KTX"
     },
     {
       "title": "양평역",
@@ -318,7 +357,8 @@
       "lng": 127.491361792674,
       "address": "경기 양평군 양평읍 역전길 30",
       "url": "http://place.map.kakao.com/25411318",
-      "region": "경기"
+      "region": "경기",
+      "description": "KTX"
     },
     {
       "title": "물금역",
@@ -326,7 +366,8 @@
       "lng": 128.98531922704757,
       "address": "경남 양산시 물금읍 황산로 347",
       "url": "http://place.map.kakao.com/8344197",
-      "region": "경남"
+      "region": "경남",
+      "description": "KTX"
     },
     {
       "title": "밀양역",
@@ -334,7 +375,8 @@
       "lng": 128.771192798788,
       "address": "경남 밀양시 중앙로 62",
       "url": "http://place.map.kakao.com/7880953",
-      "region": "경남"
+      "region": "경남",
+      "description": "KTX, SRT"
     },
     {
       "title": "충주역",
@@ -342,7 +384,8 @@
       "lng": 127.909175345928,
       "address": "충북 충주시 충원대로 539",
       "url": "http://place.map.kakao.com/8095018",
-      "region": "충북"
+      "region": "충북",
+      "description": "KTX"
     },
     {
       "title": "나주역",
@@ -350,7 +393,8 @@
       "lng": 126.71717488854414,
       "address": "전남 나주시 나주역길 56",
       "url": "http://place.map.kakao.com/8201653",
-      "region": "전남"
+      "region": "전남",
+      "description": "KTX, SRT"
     },
     {
       "title": "경산역",
@@ -358,7 +402,8 @@
       "lng": 128.72761819017762,
       "address": "경북 경산시 중앙로 1",
       "url": "http://place.map.kakao.com/8181980",
-      "region": "경북"
+      "region": "경북",
+      "description": "KTX"
     },
     {
       "title": "수서역",
@@ -366,7 +411,8 @@
       "lng": 127.10437056849396,
       "address": "서울 강남구 밤고개로 99",
       "url": "http://place.map.kakao.com/2104449482",
-      "region": "서울"
+      "region": "서울",
+      "description": "SRT"
     },
     {
       "title": "동탄역",
@@ -374,7 +420,8 @@
       "lng": 127.0957376046916,
       "address": "경기 화성시 동탄역로 지하 151",
       "url": "http://place.map.kakao.com/1589447336",
-      "region": "경기"
+      "region": "경기",
+      "description": "SRT"
     },
     {
       "title": "평택지제역",
@@ -382,7 +429,8 @@
       "lng": 127.069832738374,
       "address": "경기 평택시 경기대로 777",
       "url": "http://place.map.kakao.com/1246854638",
-      "region": "경기"
+      "region": "경기",
+      "description": "SRT"
     },
     {
       "title": "공주역",
@@ -390,7 +438,8 @@
       "lng": 127.096832710763,
       "address": "충남 공주시 이인면 새빛로 100",
       "url": "http://place.map.kakao.com/18520874",
-      "region": "충남"
+      "region": "충남",
+      "description": "KTX, SRT"
     },
     {
       "title": "남원역",
@@ -398,7 +447,8 @@
       "lng": 127.36138998636785,
       "address": "전북특별자치도 남원시 교룡로 71",
       "url": "http://place.map.kakao.com/8230241",
-      "region": "전북특별자치도"
+      "region": "전북특별자치도",
+      "description": "KTX, SRT"
     },
     {
       "title": "진영역",
@@ -406,7 +456,8 @@
       "lng": 128.77392752974413,
       "address": "경남 김해시 진영읍 김해대로 809",
       "url": "http://place.map.kakao.com/12395948",
-      "region": "경남"
+      "region": "경남",
+      "description": "KTX, SRT"
     },
     {
       "title": "구례구역",
@@ -414,7 +465,8 @@
       "lng": 127.45257855850603,
       "address": "전남 순천시 황전면 섬진강로 217",
       "url": "http://place.map.kakao.com/8210548",
-      "region": "전남"
+      "region": "전남",
+      "description": "KTX, SRT"
     },
     {
       "title": "여천역",
@@ -422,7 +474,8 @@
       "lng": 127.664167710114,
       "address": "전남 여수시 시청로 200",
       "url": "http://place.map.kakao.com/25049684",
-      "region": "전남"
+      "region": "전남",
+      "description": "KTX, SRT"
     },
     {
       "title": "곡성역",
@@ -430,7 +483,8 @@
       "lng": 127.30368393397947,
       "address": "전남 곡성군 곡성읍 곡성로 920",
       "url": "http://place.map.kakao.com/8188247",
-      "region": "전남"
+      "region": "전남",
+      "description": "KTX, SRT"
     },
     {
       "title": "가남역",
@@ -438,7 +492,8 @@
       "lng": 127.53555419017886,
       "address": "경기 여주시 가남읍 설가로 820",
       "url": "http://place.map.kakao.com/1336842263",
-      "region": "경기"
+      "region": "경기",
+      "description": "KTX"
     },
     {
       "title": "덕소역",
@@ -446,7 +501,8 @@
       "lng": 127.208883449736,
       "address": "경기 남양주시 와부읍 덕소로 56",
       "url": "http://place.map.kakao.com/2073186443",
-      "region": "경기"
+      "region": "경기",
+      "description": "KTX"
     },
     {
       "title": "부발역",
@@ -454,7 +510,8 @@
       "lng": 127.49046790502555,
       "address": "경기 이천시 부발읍 신아로 87",
       "url": "http://place.map.kakao.com/1577310426",
-      "region": "경기"
+      "region": "경기",
+      "description": "KTX"
     },
     {
       "title": "단양역",
@@ -462,7 +519,8 @@
       "lng": 128.34370071690336,
       "address": "충북 단양군 단양읍 단양로 896",
       "url": "http://place.map.kakao.com/8218483",
-      "region": "충북"
+      "region": "충북",
+      "description": "KTX"
     },
     {
       "title": "수안보온천역",
@@ -470,7 +528,8 @@
       "lng": 128.00474878444751,
       "address": "충북 충주시 수안보면 안보리 산 22-5",
       "url": "http://place.map.kakao.com/148579818",
-      "region": "충북"
+      "region": "충북",
+      "description": "KTX"
     },
     {
       "title": "연풍역",
@@ -478,7 +537,8 @@
       "lng": 128.01805400857762,
       "address": "충북 괴산군 연풍면 원풍리 452-1",
       "url": "http://place.map.kakao.com/867762439",
-      "region": "충북"
+      "region": "충북",
+      "description": "KTX"
     },
     {
       "title": "감곡장호원역",
@@ -486,7 +546,8 @@
       "lng": 127.63549873087771,
       "address": "충북 음성군 감곡면 성주로 96",
       "url": "http://place.map.kakao.com/1068519963",
-      "region": "충북"
+      "region": "충북",
+      "description": "KTX"
     },
     {
       "title": "살미역",
@@ -494,7 +555,8 @@
       "lng": 127.96047762165756,
       "address": "충북 충주시 살미면 중원대로 2437",
       "url": "http://place.map.kakao.com/1249938402",
-      "region": "충북"
+      "region": "충북",
+      "description": "KTX"
     },
     {
       "title": "앙성온천역",
@@ -502,7 +564,8 @@
       "lng": 127.78710741630962,
       "address": "충북 충주시 앙성면 가곡로 1390-22",
       "url": "http://place.map.kakao.com/1056714694",
-      "region": "충북"
+      "region": "충북",
+      "description": "KTX"
     },
     {
       "title": "계룡역",
@@ -510,7 +573,8 @@
       "lng": 127.265253922439,
       "address": "충남 계룡시 두마면 팥거리로 95",
       "url": "http://place.map.kakao.com/8180580",
-      "region": "충남"
+      "region": "충남",
+      "description": "KTX"
     },
     {
       "title": "김제역",
@@ -518,7 +582,8 @@
       "lng": 126.902986005603,
       "address": "전북특별자치도 김제시 두월로 198",
       "url": "http://place.map.kakao.com/8243114",
-      "region": "전북특별자치도"
+      "region": "전북특별자치도",
+      "description": "KTX"
     },
     {
       "title": "장성역",
@@ -526,7 +591,8 @@
       "lng": 126.78019386686799,
       "address": "전남 장성군 장성읍 역전로 87",
       "url": "http://place.map.kakao.com/8537613",
-      "region": "전남"
+      "region": "전남",
+      "description": "KTX"
     },
     {
       "title": "문경역",
@@ -534,7 +600,8 @@
       "lng": 128.11064390941584,
       "address": "경북 문경시 문경읍 마원리 415-8",
       "url": "http://place.map.kakao.com/22923852",
-      "region": "경북"
+      "region": "경북",
+      "description": "KTX"
     },
     {
       "title": "영천역",
@@ -542,7 +609,8 @@
       "lng": 128.939164635821,
       "address": "경북 영천시 금완로 98",
       "url": "http://place.map.kakao.com/8005622",
-      "region": "경북"
+      "region": "경북",
+      "description": "KTX"
     },
     {
       "title": "풍기역",
@@ -550,7 +618,8 @@
       "lng": 128.52444099490708,
       "address": "경북 영주시 풍기읍 인삼로 1",
       "url": "http://place.map.kakao.com/8138088",
-      "region": "경북"
+      "region": "경북",
+      "description": "KTX"
     },
     {
       "title": "의성역",
@@ -558,7 +627,8 @@
       "lng": 128.69348317146265,
       "address": "경북 의성군 의성읍 문소3길 89-8",
       "url": "http://place.map.kakao.com/8042258",
-      "region": "경북"
+      "region": "경북",
+      "description": "KTX"
     },
     {
       "title": "동해역",
@@ -566,7 +636,8 @@
       "lng": 129.12379419694,
       "address": "강원특별자치도 동해시 동해역길 69",
       "url": "http://place.map.kakao.com/864462473",
-      "region": "강원특별자치도"
+      "region": "강원특별자치도",
+      "description": "KTX"
     },
     {
       "title": "정동진역",
@@ -574,7 +645,8 @@
       "lng": 129.03268957371495,
       "address": "강원특별자치도 강릉시 강동면 정동역길 17",
       "url": "http://place.map.kakao.com/1995540275",
-      "region": "강원특별자치도"
+      "region": "강원특별자치도",
+      "description": "KTX"
     },
     {
       "title": "묵호역",
@@ -582,7 +654,8 @@
       "lng": 129.1076923125885,
       "address": "강원특별자치도 동해시 해안로 520",
       "url": "http://place.map.kakao.com/10415195",
-      "region": "강원특별자치도"
+      "region": "강원특별자치도",
+      "description": "KTX"
     },
     {
       "title": "만종역",
@@ -590,7 +663,8 @@
       "lng": 127.892993447308,
       "address": "강원특별자치도 원주시 호저면 운동들2길 21-33",
       "url": "http://place.map.kakao.com/1848117661",
-      "region": "강원특별자치도"
+      "region": "강원특별자치도",
+      "description": "KTX"
     },
     {
       "title": "진부(오대산)역",
@@ -598,7 +672,8 @@
       "lng": 128.5744966341257,
       "address": "강원특별자치도 평창군 진부면 송정길 120",
       "url": "http://place.map.kakao.com/1104868973",
-      "region": "강원특별자치도"
+      "region": "강원특별자치도",
+      "description": "KTX"
     },
     {
       "title": "평창역",
@@ -606,7 +681,8 @@
       "lng": 128.42973960787825,
       "address": "강원특별자치도 평창군 용평면 평창대로 1715",
       "url": "http://place.map.kakao.com/1643526010",
-      "region": "강원특별자치도"
+      "region": "강원특별자치도",
+      "description": "KTX"
     },
     {
       "title": "서원주역",
@@ -614,7 +690,8 @@
       "lng": 127.83994525034443,
       "address": "강원특별자치도 원주시 지정면 지정로 145",
       "url": "http://place.map.kakao.com/1790218887",
-      "region": "강원특별자치도"
+      "region": "강원특별자치도",
+      "description": "KTX"
     },
     {
       "title": "횡성역",
@@ -622,7 +699,8 @@
       "lng": 128.010038038557,
       "address": "강원특별자치도 횡성군 횡성읍 덕고로 591",
       "url": "http://place.map.kakao.com/2057426370",
-      "region": "강원특별자치도"
+      "region": "강원특별자치도",
+      "description": "KTX"
     },
     {
       "title": "둔내역",
@@ -630,7 +708,8 @@
       "lng": 128.2212155341101,
       "address": "강원특별자치도 횡성군 둔내면 고원로 116",
       "url": "http://place.map.kakao.com/1654613179",
-      "region": "강원특별자치도"
+      "region": "강원특별자치도",
+      "description": "KTX"
     }
   ]
 }

@@ -109,6 +109,10 @@ const state = {
     clusterGroups: {}, // Cluster groups per list id
     listColors: {}, // Store selected colors per list
     listVisibility: {}, // Store visibility state per list
+    subwayLines: null, // GeoJSON data for subway lines
+    subwayLinesLayer: null, // Leaflet layer for subway lines
+    trainLines: null, // GeoJSON data for train lines
+    trainLinesLayer: null, // Leaflet layer for train lines
 };
 
 // DOM Elements
@@ -286,6 +290,12 @@ async function loadPinData() {
 
         renderPinLists();
         renderAllMarkers();
+        
+        // Load subway lines GeoJSON
+        await loadSubwayLines();
+        
+        // Load train lines GeoJSON
+        await loadTrainLines();
 
     } catch (error) {
         console.error('Error loading pin data:', error);
@@ -436,6 +446,25 @@ function toggleListVisibility(listId) {
     } else {
         hideMarkers(listId);
     }
+    
+    // Toggle subway lines when subway station list is toggled
+    if (listId === 6) {
+        if (isVisible) {
+            showSubwayLines();
+        } else {
+            hideSubwayLines();
+        }
+    }
+    
+    // Toggle train lines when train station lists are toggled
+    if (listId === 7 || listId === 8) {
+        const anyTrainListVisible = state.listVisibility[7] || state.listVisibility[8];
+        if (anyTrainListVisible) {
+            showTrainLines();
+        } else {
+            hideTrainLines();
+        }
+    }
 }
 
 /**
@@ -540,6 +569,128 @@ function hideMarkers(listId) {
     if (state.clusterGroups[listId]) {
         state.map.removeLayer(state.clusterGroups[listId]);
         delete state.clusterGroups[listId];
+    }
+}
+
+/**
+ * Load subway lines GeoJSON
+ */
+async function loadSubwayLines() {
+    try {
+        const response = await fetch('data/subway_lines.json');
+        if (!response.ok) return;
+        
+        state.subwayLines = await response.json();
+        console.log(`Loaded ${state.subwayLines.features.length} subway lines`);
+        
+        // Show subway lines if subway station list is visible
+        if (state.listVisibility[6]) {
+            showSubwayLines();
+        }
+    } catch (error) {
+        console.error('Error loading subway lines:', error);
+    }
+}
+
+/**
+ * Show subway lines on map
+ */
+function showSubwayLines() {
+    if (!state.subwayLines || state.subwayLinesLayer) return;
+    
+    state.subwayLinesLayer = L.geoJSON(state.subwayLines, {
+        style: function(feature) {
+            const isDashed = feature.properties.dashed === true;
+            return {
+                color: feature.properties.colour || '#888888',
+                weight: isDashed ? 4 : 3,
+                opacity: 0.8,
+                dashArray: isDashed ? '10, 10' : null
+            };
+        },
+        onEachFeature: function(feature, layer) {
+            if (feature.properties.name) {
+                layer.bindTooltip(feature.properties.name, {
+                    permanent: false,
+                    direction: 'top'
+                });
+            }
+        }
+    });
+    
+    // Add to map below markers
+    state.subwayLinesLayer.addTo(state.map);
+    state.subwayLinesLayer.bringToBack();
+}
+
+/**
+ * Hide subway lines from map
+ */
+function hideSubwayLines() {
+    if (state.subwayLinesLayer) {
+        state.map.removeLayer(state.subwayLinesLayer);
+        state.subwayLinesLayer = null;
+    }
+}
+
+/**
+ * Load train lines GeoJSON
+ */
+async function loadTrainLines() {
+    try {
+        const response = await fetch('data/train_lines.json');
+        if (!response.ok) return;
+        
+        state.trainLines = await response.json();
+        console.log(`Loaded ${state.trainLines.features.length} train lines`);
+        
+        // Show train lines if either train station list is visible
+        if (state.listVisibility[7] || state.listVisibility[8]) {
+            showTrainLines();
+        }
+    } catch (error) {
+        console.error('Error loading train lines:', error);
+    }
+}
+
+/**
+ * Show train lines on map
+ */
+function showTrainLines() {
+    if (!state.trainLines || state.trainLinesLayer) return;
+    
+    state.trainLinesLayer = L.geoJSON(state.trainLines, {
+        style: function(feature) {
+            const isDashed = feature.properties.dashed === true;
+            return {
+                color: feature.properties.colour || '#666666',
+                weight: isDashed ? 4 : 3,
+                opacity: 0.7,
+                dashArray: isDashed ? '10, 10' : null
+            };
+        },
+        onEachFeature: function(feature, layer) {
+            if (feature.properties.name) {
+                layer.bindTooltip(feature.properties.name, {
+                    permanent: false,
+                    direction: 'top'
+                });
+            }
+        }
+    });
+    
+    // Add to map below markers
+    state.trainLinesLayer.addTo(state.map);
+    state.trainLinesLayer.bringToBack();
+}
+
+/**
+ * Hide train lines from map
+ */
+function hideTrainLines() {
+    if (state.trainLinesLayer) {
+        state.map.removeLayer(state.trainLinesLayer);
+        state.trainLinesLayer = null;
     }
 }
 

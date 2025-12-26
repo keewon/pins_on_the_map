@@ -6,7 +6,8 @@
       "lng": 127.14677293470254,
       "address": "충남 천안시 동남구 대흥로 239",
       "url": "http://place.map.kakao.com/23150933",
-      "region": "충남"
+      "region": "충남",
+      "description": "경부선"
     },
     {
       "title": "대구역",
@@ -14,7 +15,8 @@
       "lng": 128.59584204595706,
       "address": "대구 북구 태평로 161",
       "url": "http://place.map.kakao.com/21367546",
-      "region": "대구"
+      "region": "대구",
+      "description": "경부선"
     },
     {
       "title": "평택역",
@@ -22,7 +24,8 @@
       "lng": 127.08557042067781,
       "address": "경기 평택시 평택로 51",
       "url": "http://place.map.kakao.com/17492492",
-      "region": "경기"
+      "region": "경기",
+      "description": "경부선"
     },
     {
       "title": "안양역",
@@ -30,7 +33,8 @@
       "lng": 126.922643794145,
       "address": "경기 안양시 만안구 만안로 232",
       "url": "http://place.map.kakao.com/7987355",
-      "region": "경기"
+      "region": "경기",
+      "description": "경부선"
     },
     {
       "title": "구미역",
@@ -38,7 +42,8 @@
       "lng": 128.331016235023,
       "address": "경북 구미시 구미중앙로 76",
       "url": "http://place.map.kakao.com/917705188",
-      "region": "경북"
+      "region": "경북",
+      "description": "경부선"
     },
     {
       "title": "조치원역",
@@ -46,7 +51,8 @@
       "lng": 127.29626722125276,
       "address": "세종특별자치시 조치원읍 으뜸길 215",
       "url": "http://place.map.kakao.com/8082473",
-      "region": "세종특별자치시"
+      "region": "세종특별자치시",
+      "description": "일반열차"
     },
     {
       "title": "광주역",
@@ -54,7 +60,8 @@
       "lng": 126.90933350743458,
       "address": "광주 북구 무등로 235",
       "url": "http://place.map.kakao.com/8235448",
-      "region": "광주"
+      "region": "광주",
+      "description": "일반열차"
     },
     {
       "title": "사상역",
@@ -62,7 +69,8 @@
       "lng": 128.988724714287,
       "address": "부산 사상구 광장로 108",
       "url": "http://place.map.kakao.com/7918859",
-      "region": "부산"
+      "region": "부산",
+      "description": "일반열차"
     },
     {
       "title": "김천역",
@@ -70,7 +78,8 @@
       "lng": 128.114703116642,
       "address": "경북 김천시 김천로 111",
       "url": "http://place.map.kakao.com/959654583",
-      "region": "경북"
+      "region": "경북",
+      "description": "경부선"
     },
     {
       "title": "용문역",
@@ -78,7 +87,8 @@
       "lng": 127.594385099556,
       "address": "경기 양평군 용문면 용문역길 21",
       "url": "http://place.map.kakao.com/8464146",
-      "region": "경기"
+      "region": "경기",
+      "description": "일반열차"
     },
     {
       "title": "향남역",
@@ -86,7 +96,8 @@
       "lng": 126.91263265278076,
       "address": "경기 화성시 향남읍 평리 197-2",
       "url": "http://place.map.kakao.com/175162538",
-      "region": "경기"
+      "region": "경기",
+      "description": "일반열차"
     },
     {
       "title": "안중역",
@@ -94,7 +105,8 @@
       "lng": 126.93804758811179,
       "address": "경기 평택시 안중읍 안중역로 2",
       "url": "http://place.map.kakao.com/175042033",
-      "region": "경기"
+      "region": "경기",
+      "description": "일반열차"
     },
     {
       "title": "의정부역",
@@ -102,7 +114,8 @@
       "lng": 127.046119896907,
       "address": "경기 의정부시 평화로 525",
       "url": "http://place.map.kakao.com/1292619299",
-      "region": "경기"
+      "region": "경기",
+      "description": "일반열차"
     },
     {
       "title": "화성시청역",
@@ -110,7 +123,8 @@
       "lng": 126.8203535140045,
       "address": "경기 화성시 남양읍 남양로 553",
       "url": "http://place.map.kakao.com/175374474",
-      "region": "경기"
+      "region": "경기",
+      "description": "일반열차"
     },
     {
       "title": "오산역",
@@ -118,7 +132,8 @@
       "lng": 127.066815431787,
       "address": "경기 오산시 역광장로 59",
       "url": "http://place.map.kakao.com/8015216",
-      "region": "경기"
+      "region": "경기",
+      "description": "일반열차"
     },
     {
       "title": "장흥역",
@@ -126,7 +141,8 @@
       "lng": 126.94155176287124,
       "address": "경기 양주시 장흥면 권율로 17-16",
       "url": "http://place.map.kakao.com/17686859",
-      "region": "경기"
+      "region": "경기",
+      "description": "일반열차"
     },
     {
       "title": "대곡역",
@@ -134,7 +150,8 @@
       "lng": 126.81212229731544,
       "address": "경기 고양시 덕양구 대주로107번길 71-81",
       "url": "http://place.map.kakao.com/376923763",
-      "region": "경기"
+      "region": "경기",
+      "description": "일반열차"
     },
     {
       "title": "서화성역",
@@ -142,7 +159,8 @@
       "lng": 126.78646061019681,
       "address": "경기 화성시 남양읍 송산비봉로 398",
       "url": "http://place.map.kakao.com/175592347",
-      "region": "경기"
+      "region": "경기",
+      "description": "일반열차"
     },
     {
       "title": "송추역",
@@ -150,7 +168,8 @@
       "lng": 126.97949855529748,
       "address": "경기 양주시 장흥면 호국로597번길 23",
       "url": "http://place.map.kakao.com/7956741",
-      "region": "경기"
+      "region": "경기",
+      "description": "일반열차"
     },
     {
       "title": "서정리역",
@@ -158,7 +177,8 @@
       "lng": 127.052927007911,
       "address": "경기 평택시 탄현로 51",
       "url": "http://place.map.kakao.com/26983032",
-      "region": "경기"
+      "region": "경기",
+      "description": "일반열차"
     },
     {
       "title": "일영역",
@@ -166,7 +186,8 @@
       "lng": 126.92917309309618,
       "address": "경기 양주시 장흥면 일영로647번길 25",
       "url": "http://place.map.kakao.com/8060698",
-      "region": "경기"
+      "region": "경기",
+      "description": "일반열차"
     },
     {
       "title": "대광리역",
@@ -174,7 +195,8 @@
       "lng": 127.108168338895,
       "address": "경기 연천군 신서면 연신로 1156",
       "url": "http://place.map.kakao.com/7815818",
-      "region": "경기"
+      "region": "경기",
+      "description": "일반열차"
     },
     {
       "title": "지평역",
@@ -182,7 +204,8 @@
       "lng": 127.629671068247,
       "address": "경기 양평군 지평면 지평역길 32",
       "url": "http://place.map.kakao.com/25041486",
-      "region": "경기"
+      "region": "경기",
+      "description": "일반열차"
     },
     {
       "title": "원릉역",
@@ -190,7 +213,8 @@
       "lng": 126.83987554371748,
       "address": "경기 고양시 덕양구 원당로 130",
       "url": "http://place.map.kakao.com/21058151",
-      "region": "경기"
+      "region": "경기",
+      "description": "일반열차"
     },
     {
       "title": "양동역",
@@ -198,7 +222,8 @@
       "lng": 127.754478169319,
       "address": "경기 양평군 양동면 양동역길 19",
       "url": "http://place.map.kakao.com/11107523",
-      "region": "경기"
+      "region": "경기",
+      "description": "일반열차"
     },
     {
       "title": "신탄리역",
@@ -206,7 +231,8 @@
       "lng": 127.139066881642,
       "address": "경기 연천군 신서면 고대산길 4",
       "url": "http://place.map.kakao.com/1797854745",
-      "region": "경기"
+      "region": "경기",
+      "description": "일반열차"
     },
     {
       "title": "문산역",
@@ -214,7 +240,8 @@
       "lng": 126.78756596113608,
       "address": "경기 파주시 문산읍 문산역로 94",
       "url": "http://place.map.kakao.com/11651347",
-      "region": "경기"
+      "region": "경기",
+      "description": "일반열차"
     },
     {
       "title": "신망리역",
@@ -222,7 +249,8 @@
       "lng": 127.078363004655,
       "address": "경기 연천군 연천읍 연신로483번길 1",
       "url": "http://place.map.kakao.com/7968643",
-      "region": "경기"
+      "region": "경기",
+      "description": "일반열차"
     },
     {
       "title": "일신역",
@@ -230,7 +258,8 @@
       "lng": 127.688599498753,
       "address": "경기 양평군 지평면 일신리 1815-27",
       "url": "http://place.map.kakao.com/18052088",
-      "region": "경기"
+      "region": "경기",
+      "description": "일반열차"
     },
     {
       "title": "오봉화물역",
@@ -238,7 +267,8 @@
       "lng": 126.961145664087,
       "address": "경기 의왕시 오봉로 168",
       "url": "http://place.map.kakao.com/8011206",
-      "region": "경기"
+      "region": "경기",
+      "description": "일반열차"
     },
     {
       "title": "석불역",
@@ -246,7 +276,8 @@
       "lng": 127.655043929671,
       "address": "경기 양평군 지평면 망미리 1319-2",
       "url": "http://place.map.kakao.com/7952303",
-      "region": "경기"
+      "region": "경기",
+      "description": "일반열차"
     },
     {
       "title": "임진강역",
@@ -254,7 +285,8 @@
       "lng": 126.746977405278,
       "address": "경기 파주시 문산읍 임진각로 115",
       "url": "http://place.map.kakao.com/10749035",
-      "region": "경기"
+      "region": "경기",
+      "description": "일반열차"
     },
     {
       "title": "신해운대역",
@@ -262,7 +294,8 @@
       "lng": 129.177149896917,
       "address": "부산 해운대구 장산로 427",
       "url": "http://place.map.kakao.com/20174971",
-      "region": "부산"
+      "region": "부산",
+      "description": "일반열차"
     },
     {
       "title": "기장역",
@@ -270,7 +303,8 @@
       "lng": 129.21862425976923,
       "address": "부산 기장군 기장읍 차성로288번길 86",
       "url": "http://place.map.kakao.com/25040983",
-      "region": "부산"
+      "region": "부산",
+      "description": "일반열차"
     },
     {
       "title": "화명역",
@@ -278,7 +312,8 @@
       "lng": 129.007640378399,
       "address": "부산 북구 학사로 135",
       "url": "http://place.map.kakao.com/8156728",
-      "region": "부산"
+      "region": "부산",
+      "description": "일반열차"
     },
     {
       "title": "부산진화물역",
@@ -286,7 +321,8 @@
       "lng": 129.04761201930125,
       "address": "부산 동구 충장대로 255",
       "url": "http://place.map.kakao.com/7909372",
-      "region": "부산"
+      "region": "부산",
+      "description": "경부선"
     },
     {
       "title": "센텀역",
@@ -294,7 +330,8 @@
       "lng": 129.124610266798,
       "address": "부산 해운대구 해운대로 210",
       "url": "http://place.map.kakao.com/27079080",
-      "region": "부산"
+      "region": "부산",
+      "description": "일반열차"
     },
     {
       "title": "가야화물역",
@@ -302,7 +339,8 @@
       "lng": 129.039564120691,
       "address": "부산 부산진구 백양대로 91",
       "url": "http://place.map.kakao.com/8115613",
-      "region": "부산"
+      "region": "부산",
+      "description": "일반열차"
     },
     {
       "title": "부산신항화물역",
@@ -310,7 +348,8 @@
       "lng": 128.84570694158165,
       "address": "부산 강서구 가락대로 394",
       "url": "http://place.map.kakao.com/12750429",
-      "region": "부산"
+      "region": "부산",
+      "description": "경부선"
     },
     {
       "title": "북철송장화물역",
@@ -318,7 +357,8 @@
       "lng": 128.812394456849,
       "address": "부산 강서구 성북동 1524",
       "url": "http://place.map.kakao.com/26920080",
-      "region": "부산"
+      "region": "부산",
+      "description": "일반열차"
     },
     {
       "title": "남철송장화물역",
@@ -326,7 +366,8 @@
       "lng": 128.813517659351,
       "address": "부산 강서구 성북동 1526",
       "url": "http://place.map.kakao.com/1653902571",
-      "region": "부산"
+      "region": "부산",
+      "description": "일반열차"
     },
     {
       "title": "군위역",
@@ -334,7 +375,8 @@
       "lng": 128.7459855564001,
       "address": "대구 군위군 의흥면 연계리 640-3",
       "url": "http://place.map.kakao.com/1052037269",
-      "region": "대구"
+      "region": "대구",
+      "description": "일반열차"
     },
     {
       "title": "가천화물역",
@@ -342,7 +384,8 @@
       "lng": 128.692693169419,
       "address": "대구 수성구 천을로23길 259",
       "url": "http://place.map.kakao.com/8117624",
-      "region": "대구"
+      "region": "대구",
+      "description": "일반열차"
     },
     {
       "title": "신탄진역",
@@ -350,7 +393,8 @@
       "lng": 127.42861910696047,
       "address": "대전 대덕구 신탄진로 807",
       "url": "http://place.map.kakao.com/10604169",
-      "region": "대전"
+      "region": "대전",
+      "description": "일반열차"
     },
     {
       "title": "회덕화물역",
@@ -358,7 +402,8 @@
       "lng": 127.421769544586,
       "address": "대전 대덕구 회덕로34번길 83",
       "url": "http://place.map.kakao.com/8163638",
-      "region": "대전"
+      "region": "대전",
+      "description": "일반열차"
     },
     {
       "title": "흑석리화물역",
@@ -366,7 +411,8 @@
       "lng": 127.339241015135,
       "address": "대전 서구 세점길 29",
       "url": "http://place.map.kakao.com/10961436",
-      "region": "대전"
+      "region": "대전",
+      "description": "일반열차"
     },
     {
       "title": "서광주역",
@@ -374,7 +420,8 @@
       "lng": 126.847098389431,
       "address": "광주 서구 풍서좌로 203",
       "url": "http://place.map.kakao.com/7930685",
-      "region": "광주"
+      "region": "광주",
+      "description": "일반열차"
     },
     {
       "title": "효천역",
@@ -382,7 +429,8 @@
       "lng": 126.87757443971049,
       "address": "광주 남구 효천길 5",
       "url": "http://place.map.kakao.com/8182053",
-      "region": "광주"
+      "region": "광주",
+      "description": "일반열차"
     },
     {
       "title": "극락강역",
@@ -390,7 +438,8 @@
       "lng": 126.83029486172833,
       "address": "광주 광산구 목련로 310-23",
       "url": "http://place.map.kakao.com/11317390",
-      "region": "광주"
+      "region": "광주",
+      "description": "일반열차"
     },
     {
       "title": "하남화물역",
@@ -398,7 +447,8 @@
       "lng": 126.79750969545168,
       "address": "광주 광산구 산정동 882-66",
       "url": "http://place.map.kakao.com/8620334",
-      "region": "광주"
+      "region": "광주",
+      "description": "일반열차"
     },
     {
       "title": "남창역",
@@ -406,7 +456,8 @@
       "lng": 129.2826514685178,
       "address": "울산 울주군 온양읍 남창리 42-36",
       "url": "http://place.map.kakao.com/10184234",
-      "region": "울산"
+      "region": "울산",
+      "description": "일반열차"
     },
     {
       "title": "북울산역",
@@ -414,7 +465,8 @@
       "lng": 129.37180096339375,
       "address": "울산 북구 오토밸리로 620",
       "url": "http://place.map.kakao.com/279046719",
-      "region": "울산"
+      "region": "울산",
+      "description": "일반열차"
     },
     {
       "title": "울산항화물역",
@@ -422,7 +474,8 @@
       "lng": 129.374877652529,
       "address": "울산 남구 장생포로 303",
       "url": "http://place.map.kakao.com/8462301",
-      "region": "울산"
+      "region": "울산",
+      "description": "일반열차"
     },
     {
       "title": "울산신항화물역",
@@ -430,7 +483,8 @@
       "lng": 129.371287042107,
       "address": "울산 남구 황성동 840-1",
       "url": "http://place.map.kakao.com/1038825472",
-      "region": "울산"
+      "region": "울산",
+      "description": "일반열차"
     },
     {
       "title": "용암화물역",
@@ -438,7 +492,8 @@
       "lng": 129.321069330709,
       "address": "울산 울주군 청량읍 용암리 산 36-6",
       "url": "http://place.map.kakao.com/1296483402",
-      "region": "울산"
+      "region": "울산",
+      "description": "일반열차"
     },
     {
       "title": "청주역",
@@ -446,7 +501,8 @@
       "lng": 127.392335249207,
       "address": "충북 청주시 흥덕구 청주역로 363",
       "url": "http://place.map.kakao.com/10834444",
-      "region": "충북"
+      "region": "충북",
+      "description": "일반열차"
     },
     {
       "title": "영동역",
@@ -454,7 +510,8 @@
       "lng": 127.786281760168,
       "address": "충북 영동군 영동읍 계산로 87",
       "url": "http://place.map.kakao.com/10640531",
-      "region": "충북"
+      "region": "충북",
+      "description": "일반열차"
     },
     {
       "title": "옥천역",
@@ -462,7 +519,8 @@
       "lng": 127.565597314127,
       "address": "충북 옥천군 옥천읍 옥천로 1624",
       "url": "http://place.map.kakao.com/11252460",
-      "region": "충북"
+      "region": "충북",
+      "description": "일반열차"
     },
     {
       "title": "청주공항역",
@@ -470,7 +528,8 @@
       "lng": 127.48957659911582,
       "address": "충북 청주시 청원구 내수읍 입상리 256-2",
       "url": "http://place.map.kakao.com/8107818",
-      "region": "충북"
+      "region": "충북",
+      "description": "일반열차"
     },
     {
       "title": "증평역",
@@ -478,7 +537,8 @@
       "lng": 127.58318315592,
       "address": "충북 증평군 증평읍 역전로 92",
       "url": "http://place.map.kakao.com/8086999",
-      "region": "충북"
+      "region": "충북",
+      "description": "일반열차"
     },
     {
       "title": "음성역",
@@ -486,7 +546,8 @@
       "lng": 127.703896219721,
       "address": "충북 음성군 음성읍 한불로 60",
       "url": "http://place.map.kakao.com/8047850",
-      "region": "충북"
+      "region": "충북",
+      "description": "일반열차"
     },
     {
       "title": "오근장역",
@@ -494,7 +555,8 @@
       "lng": 127.47856811890439,
       "address": "충북 청주시 청원구 토성로 443",
       "url": "http://place.map.kakao.com/402140602",
-      "region": "충북"
+      "region": "충북",
+      "description": "일반열차"
     },
     {
       "title": "주덕역",
@@ -502,7 +564,8 @@
       "lng": 127.802317773764,
       "address": "충북 충주시 주덕읍 신양로 138",
       "url": "http://place.map.kakao.com/8072464",
-      "region": "충북"
+      "region": "충북",
+      "description": "일반열차"
     },
     {
       "title": "봉양역",
@@ -510,7 +573,8 @@
       "lng": 128.12978836196183,
       "address": "충북 제천시 봉양읍 주포로8길 58",
       "url": "http://place.map.kakao.com/7900855",
-      "region": "충북"
+      "region": "충북",
+      "description": "일반열차"
     },
     {
       "title": "황간역",
@@ -518,7 +582,8 @@
       "lng": 127.911282019011,
       "address": "충북 영동군 황간면 하옥포2길 14",
       "url": "http://place.map.kakao.com/8167172",
-      "region": "충북"
+      "region": "충북",
+      "description": "일반열차"
     },
     {
       "title": "각계역",
@@ -526,7 +591,8 @@
       "lng": 127.725443667032,
       "address": "충북 영동군 심천면 각계길 55",
       "url": "http://place.map.kakao.com/22028350",
-      "region": "충북"
+      "region": "충북",
+      "description": "일반열차"
     },
     {
       "title": "추풍령역",
@@ -534,7 +600,8 @@
       "lng": 127.99634402833726,
       "address": "충북 영동군 추풍령면 추풍령로 444",
       "url": "http://place.map.kakao.com/9510694",
-      "region": "충북"
+      "region": "충북",
+      "description": "일반열차"
     },
     {
       "title": "심천역",
@@ -542,7 +609,8 @@
       "lng": 127.72033715448265,
       "address": "충북 영동군 심천면 심천로5길 5",
       "url": "http://place.map.kakao.com/8476152",
-      "region": "충북"
+      "region": "충북",
+      "description": "일반열차"
     },
     {
       "title": "지탄역",
@@ -550,7 +618,8 @@
       "lng": 127.675910725643,
       "address": "충북 옥천군 이원면 지탄1길 28",
       "url": "http://place.map.kakao.com/20689496",
-      "region": "충북"
+      "region": "충북",
+      "description": "일반열차"
     },
     {
       "title": "이원역",
@@ -558,7 +627,8 @@
       "lng": 127.618000002329,
       "address": "충북 옥천군 이원면 이원역길 51",
       "url": "http://place.map.kakao.com/8055331",
-      "region": "충북"
+      "region": "충북",
+      "description": "일반열차"
     },
     {
       "title": "삼탄역",
@@ -566,7 +636,8 @@
       "lng": 128.0386503699074,
       "address": "충북 충주시 산척면 삼여울길 108",
       "url": "http://place.map.kakao.com/7928319",
-      "region": "충북"
+      "region": "충북",
+      "description": "일반열차"
     },
     {
       "title": "제천조차장역",
@@ -574,7 +645,8 @@
       "lng": 128.17571491475633,
       "address": "충북 제천시 북부로13길 142",
       "url": "http://place.map.kakao.com/13311520",
-      "region": "충북"
+      "region": "충북",
+      "description": "중앙선"
     },
     {
       "title": "도담화물역",
@@ -582,7 +654,8 @@
       "lng": 128.326907571035,
       "address": "충북 단양군 매포읍 매포길 113-10",
       "url": "http://place.map.kakao.com/8261291",
-      "region": "충북"
+      "region": "충북",
+      "description": "일반열차"
     },
     {
       "title": "달천화물역",
@@ -590,7 +663,8 @@
       "lng": 127.879895492861,
       "address": "충북 충주시 대소원면 상용두2길 15",
       "url": "http://place.map.kakao.com/7813871",
-      "region": "충북"
+      "region": "충북",
+      "description": "일반열차"
     },
     {
       "title": "도안화물역",
@@ -598,7 +672,8 @@
       "lng": 127.614399707444,
       "address": "충북 증평군 도안면 화성로 66",
       "url": "http://place.map.kakao.com/7834356",
-      "region": "충북"
+      "region": "충북",
+      "description": "일반열차"
     },
     {
       "title": "고명화물역",
@@ -606,7 +681,8 @@
       "lng": 128.241572060271,
       "address": "충북 제천시 단양로10길 20-34",
       "url": "http://place.map.kakao.com/18417328",
-      "region": "충북"
+      "region": "충북",
+      "description": "일반열차"
     },
     {
       "title": "삼곡화물역",
@@ -614,7 +690,8 @@
       "lng": 128.27488642926326,
       "address": "충북 단양군 매포읍 삼곡리 6",
       "url": "http://place.map.kakao.com/18416667",
-      "region": "충북"
+      "region": "충북",
+      "description": "일반열차"
     },
     {
       "title": "성환역",
@@ -622,7 +699,8 @@
       "lng": 127.126886792061,
       "address": "충남 천안시 서북구 성환읍 성환1로 237-5",
       "url": "http://place.map.kakao.com/10557965",
-      "region": "충남"
+      "region": "충남",
+      "description": "일반열차"
     },
     {
       "title": "합덕역",
@@ -630,7 +708,8 @@
       "lng": 126.79897175336295,
       "address": "충남 당진시 합덕읍 도리 16-5",
       "url": "http://place.map.kakao.com/60868521",
-      "region": "충남"
+      "region": "충남",
+      "description": "일반열차"
     },
     {
       "title": "홍성역",
@@ -638,7 +717,8 @@
       "lng": 126.680537588096,
       "address": "충남 홍성군 홍성읍 조양로 272",
       "url": "http://place.map.kakao.com/8163679",
-      "region": "충남"
+      "region": "충남",
+      "description": "일반열차"
     },
     {
       "title": "대천역",
@@ -646,7 +726,8 @@
       "lng": 126.586421045005,
       "address": "충남 보령시 대해로 116",
       "url": "http://place.map.kakao.com/7828429",
-      "region": "충남"
+      "region": "충남",
+      "description": "일반열차"
     },
     {
       "title": "온양온천역",
@@ -654,7 +735,8 @@
       "lng": 127.003185952248,
       "address": "충남 아산시 온천대로 1496",
       "url": "http://place.map.kakao.com/8016123",
-      "region": "충남"
+      "region": "충남",
+      "description": "일반열차"
     },
     {
       "title": "아산역",
@@ -662,7 +744,8 @@
       "lng": 127.10406212719947,
       "address": "충남 아산시 배방읍 희망로 90",
       "url": "http://place.map.kakao.com/232490054",
-      "region": "충남"
+      "region": "충남",
+      "description": "일반열차"
     },
     {
       "title": "예산역",
@@ -670,7 +753,8 @@
       "lng": 126.828888392301,
       "address": "충남 예산군 예산읍 역전로 83",
       "url": "http://place.map.kakao.com/11524675",
-      "region": "충남"
+      "region": "충남",
+      "description": "일반열차"
     },
     {
       "title": "강경역",
@@ -678,7 +762,8 @@
       "lng": 127.01552321803025,
       "address": "충남 논산시 강경읍 대흥로 1",
       "url": "http://place.map.kakao.com/792965278",
-      "region": "충남"
+      "region": "충남",
+      "description": "일반열차"
     },
     {
       "title": "광천역",
@@ -686,7 +771,8 @@
       "lng": 126.622565789492,
       "address": "충남 홍성군 광천읍 광천로273번길 85",
       "url": "http://place.map.kakao.com/10139180",
-      "region": "충남"
+      "region": "충남",
+      "description": "일반열차"
     },
     {
       "title": "삽교역",
@@ -694,7 +780,8 @@
       "lng": 126.751666527959,
       "address": "충남 예산군 삽교읍 삽교역로 101-14",
       "url": "http://place.map.kakao.com/11523148",
-      "region": "충남"
+      "region": "충남",
+      "description": "일반열차"
     },
     {
       "title": "인주역",
@@ -702,7 +789,8 @@
       "lng": 126.88123852852245,
       "address": "충남 아산시 인주면 해암리 340-2",
       "url": "http://place.map.kakao.com/174931325",
-      "region": "충남"
+      "region": "충남",
+      "description": "일반열차"
     },
     {
       "title": "웅천역",
@@ -710,7 +798,8 @@
       "lng": 126.606697162801,
       "address": "충남 보령시 웅천읍 대창리 101-1",
       "url": "http://place.map.kakao.com/8473011",
-      "region": "충남"
+      "region": "충남",
+      "description": "일반열차"
     },
     {
       "title": "연산역",
@@ -718,7 +807,8 @@
       "lng": 127.20081634214654,
       "address": "충남 논산시 연산면 선비로275번길 31-2",
       "url": "http://place.map.kakao.com/9300735",
-      "region": "충남"
+      "region": "충남",
+      "description": "일반열차"
     },
     {
       "title": "장항역",
@@ -726,7 +816,8 @@
       "lng": 126.714943880597,
       "address": "충남 서천군 마서면 장항역길 55",
       "url": "http://place.map.kakao.com/17124847",
-      "region": "충남"
+      "region": "충남",
+      "description": "일반열차"
     },
     {
       "title": "도고온천역",
@@ -734,7 +825,8 @@
       "lng": 126.889660739915,
       "address": "충남 아산시 도고면 온천대로 304",
       "url": "http://place.map.kakao.com/7837436",
-      "region": "충남"
+      "region": "충남",
+      "description": "일반열차"
     },
     {
       "title": "서천역",
@@ -742,7 +834,8 @@
       "lng": 126.708120778685,
       "address": "충남 서천군 서천읍 서천역길 57",
       "url": "http://place.map.kakao.com/11147714",
-      "region": "충남"
+      "region": "충남",
+      "description": "일반열차"
     },
     {
       "title": "신례원역",
@@ -750,7 +843,8 @@
       "lng": 126.848532995899,
       "address": "충남 예산군 예산읍 신례원로212번길 19-12",
       "url": "http://place.map.kakao.com/7973947",
-      "region": "충남"
+      "region": "충남",
+      "description": "일반열차"
     },
     {
       "title": "청소역",
@@ -758,7 +852,8 @@
       "lng": 126.590665541976,
       "address": "충남 보령시 청소면 청소큰길 176",
       "url": "http://place.map.kakao.com/8578563",
-      "region": "충남"
+      "region": "충남",
+      "description": "일반열차"
     },
     {
       "title": "연무대화물역",
@@ -766,7 +861,8 @@
       "lng": 127.087761423059,
       "address": "충남 논산시 연무읍 왕릉로70번길 55-1",
       "url": "http://place.map.kakao.com/8499652",
-      "region": "충남"
+      "region": "충남",
+      "description": "일반열차"
     },
     {
       "title": "신창역",
@@ -774,7 +870,8 @@
       "lng": 126.949968427888,
       "address": "충남 아산시 신창면 행목로 50",
       "url": "http://place.map.kakao.com/1269356421",
-      "region": "충남"
+      "region": "충남",
+      "description": "일반열차"
     },
     {
       "title": "신성화물역",
@@ -782,7 +879,8 @@
       "lng": 126.662036707571,
       "address": "충남 홍성군 홍성읍 대학길 179",
       "url": "http://place.map.kakao.com/23794331",
-      "region": "충남"
+      "region": "충남",
+      "description": "일반열차"
     },
     {
       "title": "군산역",
@@ -790,7 +888,8 @@
       "lng": 126.75978937469446,
       "address": "전북특별자치도 군산시 내흥2길 197",
       "url": "http://place.map.kakao.com/8202386",
-      "region": "전북특별자치도"
+      "region": "전북특별자치도",
+      "description": "일반열차"
     },
     {
       "title": "삼례역",
@@ -798,7 +897,8 @@
       "lng": 127.066265962047,
       "address": "전북특별자치도 완주군 삼례읍 삼례역로 85-32",
       "url": "http://place.map.kakao.com/7927288",
-      "region": "전북특별자치도"
+      "region": "전북특별자치도",
+      "description": "일반열차"
     },
     {
       "title": "임실역",
@@ -806,7 +906,8 @@
       "lng": 127.289923367353,
       "address": "전북특별자치도 임실군 임실읍 춘향로 2932",
       "url": "http://place.map.kakao.com/10738596",
-      "region": "전북특별자치도"
+      "region": "전북특별자치도",
+      "description": "일반열차"
     },
     {
       "title": "함열역",
@@ -814,7 +915,8 @@
       "lng": 126.95695903956,
       "address": "전북특별자치도 익산시 함열읍 함열로 71",
       "url": "http://place.map.kakao.com/8148706",
-      "region": "전북특별자치도"
+      "region": "전북특별자치도",
+      "description": "일반열차"
     },
     {
       "title": "신태인역",
@@ -822,7 +924,8 @@
       "lng": 126.884446681919,
       "address": "전북특별자치도 정읍시 신태인읍 정신로 1163",
       "url": "http://place.map.kakao.com/7988433",
-      "region": "전북특별자치도"
+      "region": "전북특별자치도",
+      "description": "일반열차"
     },
     {
       "title": "대야역",
@@ -830,7 +933,8 @@
       "lng": 126.82404650104158,
       "address": "전북특별자치도 군산시 대야면 대야관통로 162",
       "url": "http://place.map.kakao.com/21188975",
-      "region": "전북특별자치도"
+      "region": "전북특별자치도",
+      "description": "일반열차"
     },
     {
       "title": "황등화물역",
@@ -838,7 +942,8 @@
       "lng": 126.943134461598,
       "address": "전북특별자치도 익산시 황등면 황등중앙로 91",
       "url": "http://place.map.kakao.com/8185716",
-      "region": "전북특별자치도"
+      "region": "전북특별자치도",
+      "description": "일반열차"
     },
     {
       "title": "오수역",
@@ -846,7 +951,8 @@
       "lng": 127.32057667225652,
       "address": "전북특별자치도 임실군 오수면 충효로 1967-19",
       "url": "http://place.map.kakao.com/8494422",
-      "region": "전북특별자치도"
+      "region": "전북특별자치도",
+      "description": "일반열차"
     },
     {
       "title": "동산화물역",
@@ -854,7 +960,8 @@
       "lng": 127.08780148316953,
       "address": "전북특별자치도 전주시 덕진구 고랑동 782",
       "url": "http://place.map.kakao.com/8335843",
-      "region": "전북특별자치도"
+      "region": "전북특별자치도",
+      "description": "일반열차"
     },
     {
       "title": "동익산화물역",
@@ -862,7 +969,8 @@
       "lng": 126.95711186773,
       "address": "전북특별자치도 익산시 옛둑2길 84",
       "url": "http://place.map.kakao.com/7848211",
-      "region": "전북특별자치도"
+      "region": "전북특별자치도",
+      "description": "호남선, 전라선"
     },
     {
       "title": "북전주화물역",
@@ -870,7 +978,8 @@
       "lng": 127.09714905273849,
       "address": "전북특별자치도 전주시 덕진구 팔과정로 219-20",
       "url": "http://place.map.kakao.com/21087347",
-      "region": "전북특별자치도"
+      "region": "전북특별자치도",
+      "description": "전라선"
     },
     {
       "title": "해남역",
@@ -878,7 +987,8 @@
       "lng": 126.63754104327062,
       "address": "전남 해남군 계곡면 반계리 177",
       "url": "http://place.map.kakao.com/1943877637",
-      "region": "전남"
+      "region": "전남",
+      "description": "일반열차"
     },
     {
       "title": "벌교역",
@@ -886,7 +996,8 @@
       "lng": 127.345305170015,
       "address": "전남 보성군 벌교읍 채동선로 228",
       "url": "http://place.map.kakao.com/7893610",
-      "region": "전남"
+      "region": "전남",
+      "description": "일반열차"
     },
     {
       "title": "강진역",
@@ -894,7 +1005,8 @@
       "lng": 126.77241674122835,
       "address": "전남 강진군 강진읍 목리 125-11",
       "url": "http://place.map.kakao.com/102607646",
-      "region": "전남"
+      "region": "전남",
+      "description": "일반열차"
     },
     {
       "title": "보성역",
@@ -902,7 +1014,8 @@
       "lng": 127.081646243704,
       "address": "전남 보성군 보성읍 현충로 90",
       "url": "http://place.map.kakao.com/7891886",
-      "region": "전남"
+      "region": "전남",
+      "description": "일반열차"
     },
     {
       "title": "영암역",
@@ -910,7 +1023,8 @@
       "lng": 126.53115073191688,
       "address": "전남 영암군 학산면 은곡리 235-15",
       "url": "http://place.map.kakao.com/1167126268",
-      "region": "전남"
+      "region": "전남",
+      "description": "일반열차"
     },
     {
       "title": "백양사역",
@@ -918,7 +1032,8 @@
       "lng": 126.808097496173,
       "address": "전남 장성군 북이면 백양로 2-14",
       "url": "http://place.map.kakao.com/7893816",
-      "region": "전남"
+      "region": "전남",
+      "description": "일반열차"
     },
     {
       "title": "광양역",
@@ -926,7 +1041,8 @@
       "lng": 127.587713961496,
       "address": "전남 광양시 광양읍 해광로 800",
       "url": "http://place.map.kakao.com/11418437",
-      "region": "전남"
+      "region": "전남",
+      "description": "일반열차"
     },
     {
       "title": "신보성역",
@@ -934,7 +1050,8 @@
       "lng": 127.08550000002741,
       "address": "전남 보성군 보성읍 우산리 83-5",
       "url": "http://place.map.kakao.com/131940641",
-      "region": "전남"
+      "region": "전남",
+      "description": "일반열차"
     },
     {
       "title": "함평역",
@@ -942,7 +1059,8 @@
       "lng": 126.538734216487,
       "address": "전남 함평군 학교면 영산로 3530",
       "url": "http://place.map.kakao.com/8154168",
-      "region": "전남"
+      "region": "전남",
+      "description": "일반열차"
     },
     {
       "title": "임성리역",
@@ -950,7 +1068,8 @@
       "lng": 126.434990774648,
       "address": "전남 목포시 임성로62번길 18",
       "url": "http://place.map.kakao.com/8060849",
-      "region": "전남"
+      "region": "전남",
+      "description": "일반열차"
     },
     {
       "title": "화순역",
@@ -958,7 +1077,8 @@
       "lng": 126.96218386068135,
       "address": "전남 화순군 화순읍 오성로 488-5",
       "url": "http://place.map.kakao.com/8693299",
-      "region": "전남"
+      "region": "전남",
+      "description": "일반열차"
     },
     {
       "title": "무안역",
@@ -966,7 +1086,8 @@
       "lng": 126.516942595985,
       "address": "전남 무안군 몽탄면 우명길 16-32",
       "url": "http://place.map.kakao.com/7875613",
-      "region": "전남"
+      "region": "전남",
+      "description": "일반열차"
     },
     {
       "title": "득량역",
@@ -974,7 +1095,8 @@
       "lng": 127.170162825553,
       "address": "전남 보성군 득량면 역전길 28",
       "url": "http://place.map.kakao.com/7854112",
-      "region": "전남"
+      "region": "전남",
+      "description": "일반열차"
     },
     {
       "title": "전남장흥역",
@@ -982,7 +1104,8 @@
       "lng": 126.91073934842503,
       "address": "전남 장흥군 장흥읍 평화우산길 74",
       "url": "http://place.map.kakao.com/131884877",
-      "region": "전남"
+      "region": "전남",
+      "description": "일반열차"
     },
     {
       "title": "능주역",
@@ -990,7 +1113,8 @@
       "lng": 126.963992403475,
       "address": "전남 화순군 능주면 학포로 1896-10",
       "url": "http://place.map.kakao.com/8218316",
-      "region": "전남"
+      "region": "전남",
+      "description": "일반열차"
     },
     {
       "title": "태금화물역",
@@ -998,7 +1122,8 @@
       "lng": 127.715341282735,
       "address": "전남 광양시 제철로 1706",
       "url": "http://place.map.kakao.com/10819408",
-      "region": "전남"
+      "region": "전남",
+      "description": "일반열차"
     },
     {
       "title": "다시역",
@@ -1006,7 +1131,8 @@
       "lng": 126.641125734174,
       "address": "전남 나주시 다시면 다시로 218",
       "url": "http://place.map.kakao.com/8197761",
-      "region": "전남"
+      "region": "전남",
+      "description": "일반열차"
     },
     {
       "title": "진상역",
@@ -1014,7 +1140,8 @@
       "lng": 127.71943277884498,
       "address": "전남 광양시 진상면 옥진로 1112",
       "url": "http://place.map.kakao.com/8084359",
-      "region": "전남"
+      "region": "전남",
+      "description": "일반열차"
     },
     {
       "title": "일로역",
@@ -1022,7 +1149,8 @@
       "lng": 126.477723935725,
       "address": "전남 무안군 삼향읍 국사로 5-11",
       "url": "http://place.map.kakao.com/8047219",
-      "region": "전남"
+      "region": "전남",
+      "description": "일반열차"
     },
     {
       "title": "조성역",
@@ -1030,7 +1158,8 @@
       "lng": 127.248037411417,
       "address": "전남 보성군 조성면 조성4길 14",
       "url": "http://place.map.kakao.com/10810098",
-      "region": "전남"
+      "region": "전남",
+      "description": "일반열차"
     },
     {
       "title": "몽탄역",
@@ -1038,7 +1167,8 @@
       "lng": 126.503226518288,
       "address": "전남 무안군 몽탄면 몽탄로 869",
       "url": "http://place.map.kakao.com/11298805",
-      "region": "전남"
+      "region": "전남",
+      "description": "일반열차"
     },
     {
       "title": "예당역",
@@ -1046,7 +1176,8 @@
       "lng": 127.202295585755,
       "address": "전남 보성군 득량면 예당역전길 3-1",
       "url": "http://place.map.kakao.com/25020227",
-      "region": "전남"
+      "region": "전남",
+      "description": "일반열차"
     },
     {
       "title": "장동역",
@@ -1054,7 +1185,8 @@
       "lng": 126.995067776932,
       "address": "전남 장흥군 장동면 곰치로 23",
       "url": "http://place.map.kakao.com/1610754120",
-      "region": "전남"
+      "region": "전남",
+      "description": "일반열차"
     },
     {
       "title": "이양역",
@@ -1062,7 +1194,8 @@
       "lng": 126.989755863349,
       "address": "전남 화순군 이양면 이양로 134",
       "url": "http://place.map.kakao.com/8057352",
-      "region": "전남"
+      "region": "전남",
+      "description": "일반열차"
     },
     {
       "title": "덕양화물역",
@@ -1070,7 +1203,8 @@
       "lng": 127.627430767654,
       "address": "전남 여수시 소라면 여순로 56",
       "url": "http://place.map.kakao.com/26452991",
-      "region": "전남"
+      "region": "전남",
+      "description": "일반열차"
     },
     {
       "title": "명봉역",
@@ -1078,7 +1212,8 @@
       "lng": 127.075466555353,
       "address": "전남 보성군 노동면 예재로 384",
       "url": "http://place.map.kakao.com/8299880",
-      "region": "전남"
+      "region": "전남",
+      "description": "일반열차"
     },
     {
       "title": "왜관역",
@@ -1086,7 +1221,8 @@
       "lng": 128.40001871182642,
       "address": "경북 칠곡군 왜관읍 중앙로8길 10",
       "url": "http://place.map.kakao.com/9276313",
-      "region": "경북"
+      "region": "경북",
+      "description": "일반열차"
     },
     {
       "title": "하양역",
@@ -1094,7 +1230,8 @@
       "lng": 128.81823430664986,
       "address": "경북 경산시 하양읍 하양역길 1",
       "url": "http://place.map.kakao.com/8639125",
-      "region": "경북"
+      "region": "경북",
+      "description": "일반열차"
     },
     {
       "title": "울진역",
@@ -1102,7 +1239,8 @@
       "lng": 129.3949026417064,
       "address": "경북 울진군 울진읍 울진북로 379",
       "url": "http://place.map.kakao.com/417306317",
-      "region": "경북"
+      "region": "경북",
+      "description": "일반열차"
     },
     {
       "title": "양원역",
@@ -1110,7 +1248,8 @@
       "lng": 129.09127875721,
       "address": "경북 봉화군 소천면 분천리 113-2",
       "url": "http://place.map.kakao.com/11470892",
-      "region": "경북"
+      "region": "경북",
+      "description": "일반열차"
     },
     {
       "title": "청도역",
@@ -1118,7 +1257,8 @@
       "lng": 128.746499369061,
       "address": "경북 청도군 청도읍 청화로 214",
       "url": "http://place.map.kakao.com/8587791",
-      "region": "경북"
+      "region": "경북",
+      "description": "일반열차"
     },
     {
       "title": "분천역",
@@ -1126,7 +1266,8 @@
       "lng": 129.058471280582,
       "address": "경북 봉화군 소천면 분천길 49",
       "url": "http://place.map.kakao.com/7906489",
-      "region": "경북"
+      "region": "경북",
+      "description": "일반열차"
     },
     {
       "title": "서경주역",
@@ -1134,7 +1275,8 @@
       "lng": 129.1803471762241,
       "address": "경북 경주시 현곡면 하구리 992-1",
       "url": "http://place.map.kakao.com/10511052",
-      "region": "경북"
+      "region": "경북",
+      "description": "일반열차"
     },
     {
       "title": "점촌역",
@@ -1142,7 +1284,8 @@
       "lng": 128.203389853517,
       "address": "경북 문경시 신흥로 170",
       "url": "http://place.map.kakao.com/8508180",
-      "region": "경북"
+      "region": "경북",
+      "description": "일반열차"
     },
     {
       "title": "승부역",
@@ -1150,7 +1293,8 @@
       "lng": 129.08388030654817,
       "address": "경북 봉화군 석포면 승부길 1162-5",
       "url": "http://place.map.kakao.com/7967876",
-      "region": "경북"
+      "region": "경북",
+      "description": "일반열차"
     },
     {
       "title": "상주역",
@@ -1158,7 +1302,8 @@
       "lng": 128.163815432684,
       "address": "경북 상주시 남문1길 24",
       "url": "http://place.map.kakao.com/25020216",
-      "region": "경북"
+      "region": "경북",
+      "description": "일반열차"
     },
     {
       "title": "영덕역",
@@ -1166,7 +1311,8 @@
       "lng": 129.37742725765492,
       "address": "경북 영덕군 영덕읍 중앙길 29",
       "url": "http://place.map.kakao.com/323346912",
-      "region": "경북"
+      "region": "경북",
+      "description": "일반열차"
     },
     {
       "title": "죽변역",
@@ -1174,7 +1320,8 @@
       "lng": 129.40421665335592,
       "address": "경북 울진군 죽변면 봉평리 산 9-28",
       "url": "http://place.map.kakao.com/362124239",
-      "region": "경북"
+      "region": "경북",
+      "description": "일반열차"
     },
     {
       "title": "약목역",
@@ -1182,7 +1329,8 @@
       "lng": 128.36420527933464,
       "address": "경북 칠곡군 약목면 칠곡대로 635",
       "url": "http://place.map.kakao.com/7997440",
-      "region": "경북"
+      "region": "경북",
+      "description": "일반열차"
     },
     {
       "title": "고래불역",
@@ -1190,7 +1338,8 @@
       "lng": 129.40647320395473,
       "address": "경북 영덕군 병곡면 동해대로 7417-17",
       "url": "http://place.map.kakao.com/468058343",
-      "region": "경북"
+      "region": "경북",
+      "description": "일반열차"
     },
     {
       "title": "흥부역",
@@ -1198,7 +1347,8 @@
       "lng": 129.36936393386665,
       "address": "경북 울진군 북면 울진북로 2017",
       "url": "http://place.map.kakao.com/1329053410",
-      "region": "경북"
+      "region": "경북",
+      "description": "일반열차"
     },
     {
       "title": "영해역",
@@ -1206,7 +1356,8 @@
       "lng": 129.3966546062759,
       "address": "경북 영덕군 영해면 창수영해로 480-45",
       "url": "http://place.map.kakao.com/164226126",
-      "region": "경북"
+      "region": "경북",
+      "description": "일반열차"
     },
     {
       "title": "월포역",
@@ -1214,7 +1365,8 @@
       "lng": 129.366734648558,
       "address": "경북 포항시 북구 청하면 월포로 137",
       "url": "http://place.map.kakao.com/2119853278",
-      "region": "경북"
+      "region": "경북",
+      "description": "일반열차"
     },
     {
       "title": "예천역",
@@ -1222,7 +1374,8 @@
       "lng": 128.4443773142049,
       "address": "경북 예천군 예천읍 역전길 4",
       "url": "http://place.map.kakao.com/8490855",
-      "region": "경북"
+      "region": "경북",
+      "description": "일반열차"
     },
     {
       "title": "춘양역",
@@ -1230,7 +1383,8 @@
       "lng": 128.919856339763,
       "address": "경북 봉화군 춘양면 운곡길 22-2",
       "url": "http://place.map.kakao.com/8116746",
-      "region": "경북"
+      "region": "경북",
+      "description": "일반열차"
     },
     {
       "title": "함창역",
@@ -1238,7 +1392,8 @@
       "lng": 128.174882340074,
       "address": "경북 상주시 함창읍 가야로 3",
       "url": "http://place.map.kakao.com/10921424",
-      "region": "경북"
+      "region": "경북",
+      "description": "일반열차"
     },
     {
       "title": "후포역",
@@ -1246,7 +1401,8 @@
       "lng": 129.43720697301657,
       "address": "경북 울진군 후포면 삼덕로 60-17",
       "url": "http://place.map.kakao.com/1441182739",
-      "region": "경북"
+      "region": "경북",
+      "description": "일반열차"
     },
     {
       "title": "봉화역",
@@ -1254,7 +1410,8 @@
       "lng": 128.726975090851,
       "address": "경북 봉화군 봉화읍 봉화로 1072-1",
       "url": "http://place.map.kakao.com/7900575",
-      "region": "경북"
+      "region": "경북",
+      "description": "일반열차"
     },
     {
       "title": "안강역",
@@ -1262,7 +1419,8 @@
       "lng": 129.23310830355092,
       "address": "경북 경주시 안강읍 갑산리 900-2",
       "url": "http://place.map.kakao.com/8433453",
-      "region": "경북"
+      "region": "경북",
+      "description": "일반열차"
     },
     {
       "title": "용궁역",
@@ -1270,7 +1428,8 @@
       "lng": 128.2734436198738,
       "address": "경북 예천군 용궁면 용궁로 80",
       "url": "http://place.map.kakao.com/8465172",
-      "region": "경북"
+      "region": "경북",
+      "description": "일반열차"
     },
     {
       "title": "석포역",
@@ -1278,7 +1437,8 @@
       "lng": 129.061143782175,
       "address": "경북 봉화군 석포면 석포로 134",
       "url": "http://place.map.kakao.com/7944936",
-      "region": "경북"
+      "region": "경북",
+      "description": "일반열차"
     },
     {
       "title": "강구역",
@@ -1286,7 +1446,8 @@
       "lng": 129.37197310388734,
       "address": "경북 영덕군 강구면 강산로 67",
       "url": "http://place.map.kakao.com/1096685801",
-      "region": "경북"
+      "region": "경북",
+      "description": "일반열차"
     },
     {
       "title": "삼랑진역",
@@ -1294,7 +1455,8 @@
       "lng": 128.843088032844,
       "address": "경남 밀양시 삼랑진읍 천태로 72",
       "url": "http://place.map.kakao.com/7927284",
-      "region": "경남"
+      "region": "경남",
+      "description": "일반열차"
     },
     {
       "title": "원동역",
@@ -1302,7 +1464,8 @@
       "lng": 128.920810300237,
       "address": "경남 양산시 원동면 원동마을길 13",
       "url": "http://place.map.kakao.com/9307644",
-      "region": "경남"
+      "region": "경남",
+      "description": "일반열차"
     },
     {
       "title": "상동역",
@@ -1310,7 +1473,8 @@
       "lng": 128.760760821996,
       "address": "경남 밀양시 상동면 금산7길 4",
       "url": "http://place.map.kakao.com/7931802",
-      "region": "경남"
+      "region": "경남",
+      "description": "일반열차"
     },
     {
       "title": "중리역",
@@ -1318,7 +1482,8 @@
       "lng": 128.518840958009,
       "address": "경남 창원시 마산회원구 내서읍 함마대로 2803-3",
       "url": "http://place.map.kakao.com/8071492",
-      "region": "경남"
+      "region": "경남",
+      "description": "일반열차"
     },
     {
       "title": "함안역",
@@ -1326,7 +1491,8 @@
       "lng": 128.424983503091,
       "address": "경남 함안군 함안면 진함로 1637",
       "url": "http://place.map.kakao.com/18353584",
-      "region": "경남"
+      "region": "경남",
+      "description": "일반열차"
     },
     {
       "title": "진례역",
@@ -1334,7 +1500,8 @@
       "lng": 128.763092094486,
       "address": "경남 김해시 진례면 담안리 684",
       "url": "http://place.map.kakao.com/12748261",
-      "region": "경남"
+      "region": "경남",
+      "description": "일반열차"
     },
     {
       "title": "하동역",
@@ -1342,7 +1509,8 @@
       "lng": 127.76179368400078,
       "address": "경남 하동군 하동읍 너뱅이길 30",
       "url": "http://place.map.kakao.com/9529877",
-      "region": "경남"
+      "region": "경남",
+      "description": "일반열차"
     },
     {
       "title": "군북역",
@@ -1350,7 +1518,8 @@
       "lng": 128.3518883620817,
       "address": "경남 함안군 군북면 의산삼일로 1992",
       "url": "http://place.map.kakao.com/18343432",
-      "region": "경남"
+      "region": "경남",
+      "description": "일반열차"
     },
     {
       "title": "한림정역",
@@ -1358,7 +1527,8 @@
       "lng": 128.803556540955,
       "address": "경남 김해시 한림면 장방리 1253-161",
       "url": "http://place.map.kakao.com/8147650",
-      "region": "경남"
+      "region": "경남",
+      "description": "일반열차"
     },
     {
       "title": "완사역",
@@ -1366,7 +1536,8 @@
       "lng": 127.977385905861,
       "address": "경남 사천시 곤명면 경서대로 3435",
       "url": "http://place.map.kakao.com/8023747",
-      "region": "경남"
+      "region": "경남",
+      "description": "일반열차"
     },
     {
       "title": "북천역",
@@ -1374,7 +1545,8 @@
       "lng": 127.88362764124476,
       "address": "경남 하동군 북천면 경서대로 2347",
       "url": "http://place.map.kakao.com/9800588",
-      "region": "경남"
+      "region": "경남",
+      "description": "일반열차"
     },
     {
       "title": "신창원화물역",
@@ -1382,7 +1554,8 @@
       "lng": 128.6400119095861,
       "address": "경남 창원시 의창구 차상로150번길 76",
       "url": "http://place.map.kakao.com/25020207",
-      "region": "경남"
+      "region": "경남",
+      "description": "일반열차"
     },
     {
       "title": "반성역",
@@ -1390,7 +1563,8 @@
       "lng": 128.258037681081,
       "address": "경남 진주시 일반성면 일사로 787",
       "url": "http://place.map.kakao.com/18343439",
-      "region": "경남"
+      "region": "경남",
+      "description": "일반열차"
     },
     {
       "title": "횡천역",
@@ -1398,7 +1572,8 @@
       "lng": 127.80166003231,
       "address": "경남 하동군 횡천면 남산리 524",
       "url": "http://place.map.kakao.com/8619400",
-      "region": "경남"
+      "region": "경남",
+      "description": "일반열차"
     },
     {
       "title": "양산화물역",
@@ -1406,7 +1581,8 @@
       "lng": 129.01108241279,
       "address": "경남 양산시 물금읍 증산리 1609",
       "url": "http://place.map.kakao.com/27323720",
-      "region": "경남"
+      "region": "경남",
+      "description": "일반열차"
     },
     {
       "title": "남춘천역",
@@ -1414,7 +1590,8 @@
       "lng": 127.723818912124,
       "address": "강원특별자치도 춘천시 영서로 2260",
       "url": "http://place.map.kakao.com/8220814",
-      "region": "강원특별자치도"
+      "region": "강원특별자치도",
+      "description": "일반열차"
     },
     {
       "title": "태백역",
@@ -1422,7 +1599,8 @@
       "lng": 128.98416056436,
       "address": "강원특별자치도 태백시 서황지로 79",
       "url": "http://place.map.kakao.com/8110640",
-      "region": "강원특별자치도"
+      "region": "강원특별자치도",
+      "description": "일반열차"
     },
     {
       "title": "삼척역",
@@ -1430,7 +1608,8 @@
       "lng": 129.17873961480723,
       "address": "강원특별자치도 삼척시 중앙로 13",
       "url": "http://place.map.kakao.com/7927165",
-      "region": "강원특별자치도"
+      "region": "강원특별자치도",
+      "description": "일반열차"
     },
     {
       "title": "영월역",
@@ -1438,7 +1617,8 @@
       "lng": 128.480802522579,
       "address": "강원특별자치도 영월군 영월읍 영월로 2106",
       "url": "http://place.map.kakao.com/10645478",
-      "region": "강원특별자치도"
+      "region": "강원특별자치도",
+      "description": "일반열차"
     },
     {
       "title": "철암역",
@@ -1446,7 +1626,8 @@
       "lng": 129.036556981873,
       "address": "강원특별자치도 태백시 동태백로 389",
       "url": "http://place.map.kakao.com/1164610074",
-      "region": "강원특별자치도"
+      "region": "강원특별자치도",
+      "description": "일반열차"
     },
     {
       "title": "사북역",
@@ -1454,7 +1635,8 @@
       "lng": 128.817082854422,
       "address": "강원특별자치도 정선군 사북읍 지장천로 616-12",
       "url": "http://place.map.kakao.com/7915902",
-      "region": "강원특별자치도"
+      "region": "강원특별자치도",
+      "description": "일반열차"
     },
     {
       "title": "백마고지역",
@@ -1462,7 +1644,8 @@
       "lng": 127.166430987934,
       "address": "강원특별자치도 철원군 철원읍 평화로 3591",
       "url": "http://place.map.kakao.com/18502294",
-      "region": "강원특별자치도"
+      "region": "강원특별자치도",
+      "description": "일반열차"
     },
     {
       "title": "민둥산역",
@@ -1470,7 +1653,8 @@
       "lng": 128.7736693452625,
       "address": "강원특별자치도 정선군 남면 무릉1로 128",
       "url": "http://place.map.kakao.com/11387432",
-      "region": "강원특별자치도"
+      "region": "강원특별자치도",
+      "description": "일반열차"
     },
     {
       "title": "예미역",
@@ -1478,7 +1662,8 @@
       "lng": 128.64833760680807,
       "address": "강원특별자치도 정선군 신동읍 함백로 55",
       "url": "http://place.map.kakao.com/8457185",
-      "region": "강원특별자치도"
+      "region": "강원특별자치도",
+      "description": "일반열차"
     },
     {
       "title": "도계역",
@@ -1486,7 +1671,8 @@
       "lng": 129.043883303081,
       "address": "강원특별자치도 삼척시 도계읍 도계로 222",
       "url": "http://place.map.kakao.com/7837536",
-      "region": "강원특별자치도"
+      "region": "강원특별자치도",
+      "description": "일반열차"
     },
     {
       "title": "정선역",
@@ -1494,7 +1680,8 @@
       "lng": 128.672074674783,
       "address": "강원특별자치도 정선군 정선읍 녹송8길 55",
       "url": "http://place.map.kakao.com/8058566",
-      "region": "강원특별자치도"
+      "region": "강원특별자치도",
+      "description": "일반열차"
     },
     {
       "title": "고한역",
@@ -1502,7 +1689,8 @@
       "lng": 128.852885184614,
       "address": "강원특별자치도 정선군 고한읍 고한로 166",
       "url": "http://place.map.kakao.com/8665332",
-      "region": "강원특별자치도"
+      "region": "강원특별자치도",
+      "description": "일반열차"
     },
     {
       "title": "나전역",
@@ -1510,7 +1698,8 @@
       "lng": 128.66839808905783,
       "address": "강원특별자치도 정선군 북평면 북평8길 38",
       "url": "http://place.map.kakao.com/17264408",
-      "region": "강원특별자치도"
+      "region": "강원특별자치도",
+      "description": "일반열차"
     },
     {
       "title": "삼척해변역",
@@ -1518,7 +1707,8 @@
       "lng": 129.166293509124,
       "address": "강원특별자치도 삼척시 수로부인길 542",
       "url": "http://place.map.kakao.com/7935330",
-      "region": "강원특별자치도"
+      "region": "강원특별자치도",
+      "description": "일반열차"
     },
     {
       "title": "근덕역",
@@ -1526,7 +1716,8 @@
       "lng": 129.27738820820383,
       "address": "강원특별자치도 삼척시 근덕면 삼척로 2717",
       "url": "http://place.map.kakao.com/1705818541",
-      "region": "강원특별자치도"
+      "region": "강원특별자치도",
+      "description": "일반열차"
     },
     {
       "title": "아우라지역",
@@ -1534,7 +1725,8 @@
       "lng": 128.722071569173,
       "address": "강원특별자치도 정선군 여량면 여량6길 17",
       "url": "http://place.map.kakao.com/10603073",
-      "region": "강원특별자치도"
+      "region": "강원특별자치도",
+      "description": "일반열차"
     },
     {
       "title": "동백산역",
@@ -1542,7 +1734,8 @@
       "lng": 129.03453006634766,
       "address": "강원특별자치도 태백시 동태백로 1024",
       "url": "http://place.map.kakao.com/17720667",
-      "region": "강원특별자치도"
+      "region": "강원특별자치도",
+      "description": "일반열차"
     },
     {
       "title": "임원역",
@@ -1550,7 +1743,8 @@
       "lng": 129.32673259053166,
       "address": "강원특별자치도 삼척시 원덕읍 임원안길 266",
       "url": "http://place.map.kakao.com/1767057495",
-      "region": "강원특별자치도"
+      "region": "강원특별자치도",
+      "description": "일반열차"
     },
     {
       "title": "추암역",
@@ -1558,7 +1752,8 @@
       "lng": 129.15724669712912,
       "address": "강원특별자치도 동해시 추암동 468-2",
       "url": "http://place.map.kakao.com/8095804",
-      "region": "강원특별자치도"
+      "region": "강원특별자치도",
+      "description": "일반열차"
     },
     {
       "title": "쌍룡역",
@@ -1566,7 +1761,8 @@
       "lng": 128.328496846284,
       "address": "강원특별자치도 영월군 한반도면 용정원길 9",
       "url": "http://place.map.kakao.com/10606998",
-      "region": "강원특별자치도"
+      "region": "강원특별자치도",
+      "description": "일반열차"
     },
     {
       "title": "신기역",
@@ -1574,7 +1770,8 @@
       "lng": 129.084995018829,
       "address": "강원특별자치도 삼척시 신기면 신기역길 89",
       "url": "http://place.map.kakao.com/7969705",
-      "region": "강원특별자치도"
+      "region": "강원특별자치도",
+      "description": "일반열차"
     },
     {
       "title": "옥원역",
@@ -1582,7 +1779,8 @@
       "lng": 129.32446104435044,
       "address": "강원특별자치도 삼척시 원덕읍 옥원이천로 94",
       "url": "http://place.map.kakao.com/362250091",
-      "region": "강원특별자치도"
+      "region": "강원특별자치도",
+      "description": "일반열차"
     }
   ]
 }
