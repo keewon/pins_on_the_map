@@ -53,6 +53,36 @@
       "title": "일반기차역",
       "description": "무궁화/새마을/ITX 정차역",
       "color": "#5c6bc0"
+    },
+    {
+      "id": 10,
+      "title": "롯데리아",
+      "description": "롯데리아 매장 위치",
+      "color": "#e53935"
+    },
+    {
+      "id": 11,
+      "title": "버거킹",
+      "description": "버거킹 매장 위치",
+      "color": "#ff6f00"
+    },
+    {
+      "id": 12,
+      "title": "파리바게뜨",
+      "description": "파리바게뜨 매장 위치",
+      "color": "#1976d2"
+    },
+    {
+      "id": 13,
+      "title": "스타벅스",
+      "description": "스타벅스 매장 위치",
+      "color": "#00704a"
+    },
+    {
+      "id": 14,
+      "title": "뚜레쥬르",
+      "description": "뚜레쥬르 매장 위치",
+      "color": "#c62828"
     }
   ]
 }

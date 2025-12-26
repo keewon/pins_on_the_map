@@ -28,6 +28,7 @@ const LIST_ICONS = {
     2: [ // 맥도날드
         { name: 'color', value: 'color', label: '색상' },
         { name: 'emoji', value: '🍔', label: '🍔' },
+        { name: 'korean', value: '맥', label: '맥' },
     ],
     3: [ // 서브웨이
         { name: 'color', value: 'color', label: '색상' },
@@ -41,8 +42,33 @@ const LIST_ICONS = {
     5: [ // 수영장
         { name: 'color', value: 'color', label: '색상' },
         { name: 'emoji', value: '🏊', label: '🏊' },
-        { name: 'korean', value: '수', label: '수' },
-        { name: 'hanja', value: '泳', label: '泳' },
+        { name: 'hanja', value: '水', label: '水' },
+        { name: 'hanja2', value: '泳', label: '泳' },
+    ],
+    10: [ // 롯데리아
+        { name: 'color', value: 'color', label: '색상' },
+        { name: 'emoji', value: '🍔', label: '🍔' },
+        { name: 'korean', value: '롯', label: '롯' },
+    ],
+    11: [ // 버거킹
+        { name: 'color', value: 'color', label: '색상' },
+        { name: 'emoji', value: '🍔', label: '🍔' },
+        { name: 'korean', value: '킹', label: '킹' },
+    ],
+    12: [ // 파리바게뜨
+        { name: 'color', value: 'color', label: '색상' },
+        { name: 'emoji', value: '🥐', label: '🥐' },
+        { name: 'korean', value: '빵', label: '빵' },
+    ],
+    13: [ // 스타벅스
+        { name: 'color', value: 'color', label: '색상' },
+        { name: 'emoji', value: '☕', label: '☕' },
+        { name: 'korean', value: '별', label: '별' },
+    ],
+    14: [ // 뚜레쥬르
+        { name: 'color', value: 'color', label: '색상' },
+        { name: 'emoji', value: '🥐', label: '🥐' },
+        { name: 'korean', value: '뚜', label: '뚜' },
     ],
     9: [ // 고등학교
         { name: 'color', value: 'color', label: '색상' },
@@ -939,7 +965,7 @@ function createMarker(pin, color, listTitle, listId) {
                 iconAnchor: [16, 32],
                 popupAnchor: [0, -32],
             });
-        } else if (['🏫', '🍔', '🥪', '📚', '🏊'].includes(selectedIcon)) {
+        } else if (['🏫', '🍔', '🥪', '📚', '🏊', '☕', '🥐'].includes(selectedIcon)) {
             // 이모지 마커
             icon = L.divIcon({
                 className: 'emoji-marker-wrapper',

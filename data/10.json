@@ -1,0 +1,5524 @@
+{
+  "pins": [
+    {
+      "lat": 37.5343673877606,
+      "lng": 127.136308315839,
+      "title": "롯데리아 길동점",
+      "description": "서울 강동구 천호대로 1124",
+      "url": "http://place.map.kakao.com/17941537",
+      "region": "서울특별시"
+    },
+    {
+      "lat": 37.4842888118053,
+      "lng": 126.903075369205,
+      "title": "롯데리아 구로디지털역점",
+      "description": "서울 관악구 시흥대로 578",
+      "url": "http://place.map.kakao.com/17124942",
+      "region": "서울특별시"
+    },
+    {
+      "lat": 37.5936617968203,
+      "lng": 127.017777299151,
+      "title": "롯데리아 성신여대점",
+      "description": "서울 성북구 동소문로 117",
+      "url": "http://place.map.kakao.com/10361910",
+      "region": "서울특별시"
+    },
+    {
+      "lat": 37.56577608432339,
+      "lng": 126.96600934891048,
+      "title": "롯데리아 서대문역점",
+      "description": "서울 서대문구 통일로 127",
+      "url": "http://place.map.kakao.com/27272866",
+      "region": "서울특별시"
+    },
+    {
+      "lat": 37.52128354111716,
+      "lng": 126.8738670274396,
+      "title": "롯데리아 목동점",
+      "description": "서울 양천구 신목로 72",
+      "url": "http://place.map.kakao.com/18775188",
+      "region": "서울특별시"
+    },
+    {
+      "lat": 37.56580304774062,
+      "lng": 126.98210934296787,
+      "title": "롯데리아 소공2호점",
+      "description": "서울 중구 을지로1가 140-1",
+      "url": "http://place.map.kakao.com/857085291",
+      "region": "서울특별시"
+    },
+    {
+      "lat": 37.5130230096634,
+      "lng": 126.940029468812,
+      "title": "롯데리아 노량진점",
+      "description": "서울 동작구 장승배기로 171",
+      "url": "http://place.map.kakao.com/7857083",
+      "region": "서울특별시"
+    },
+    {
+      "lat": 37.5149869390675,
+      "lng": 127.03321879987563,
+      "title": "롯데리아 학동역점",
+      "description": "서울 강남구 학동로 219",
+      "url": "http://place.map.kakao.com/21852012",
+      "region": "서울특별시"
+    },
+    {
+      "lat": 37.4839037700014,
+      "lng": 126.929311544328,
+      "title": "롯데리아 신림역점",
+      "description": "서울 관악구 남부순환로 1610",
+      "url": "http://place.map.kakao.com/11078202",
+      "region": "서울특별시"
+    },
+    {
+      "lat": 37.5126787264297,
+      "lng": 126.924180949329,
+      "title": "롯데리아 대방역점",
+      "description": "서울 영등포구 영등포로 416",
+      "url": "http://place.map.kakao.com/17118813",
+      "region": "서울특별시"
+    },
+    {
+      "lat": 37.480055318702505,
+      "lng": 126.95218372307559,
+      "title": "롯데리아 서울대입구역점",
+      "description": "서울 관악구 관악로 165",
+      "url": "http://place.map.kakao.com/26931496",
+      "region": "서울특별시"
+    },
+    {
+      "lat": 37.566495308534726,
+      "lng": 127.00612131905258,
+      "title": "롯데리아 동대문역사문화공원역점",
+      "description": "서울 중구 을지로 251",
+      "url": "http://place.map.kakao.com/7856443",
+      "region": "서울특별시"
+    },
+    {
+      "lat": 37.54353565389,
+      "lng": 126.972113995765,
+      "title": "롯데리아 숙대입구역점",
+      "description": "서울 용산구 한강대로 283",
+      "url": "http://place.map.kakao.com/8343273",
+      "region": "서울특별시"
+    },
+    {
+      "lat": 37.55426527218926,
+      "lng": 126.97057199663817,
+      "title": "롯데리아 서울역사점",
+      "description": "서울 중구 한강대로 405",
+      "url": "http://place.map.kakao.com/7857647",
+      "region": "서울특별시"
+    },
+    {
+      "lat": 37.55239565531198,
+      "lng": 126.96391048808343,
+      "title": "롯데리아 용산서계점",
+      "description": "서울 용산구 만리재로 150-1",
+      "url": "http://place.map.kakao.com/27284799",
+      "region": "서울특별시"
+    },
+    {
+      "lat": 37.6558112164762,
+      "lng": 127.062242903876,
+      "title": "롯데리아 노원역점",
+      "description": "서울 노원구 상계로 64",
+      "url": "http://place.map.kakao.com/7856268",
+      "region": "서울특별시"
+    },
+    {
+      "lat": 37.485149213958,
+      "lng": 127.015928911667,
+      "title": "롯데리아 남부터미널점",
+      "description": "서울 서초구 효령로 289",
+      "url": "http://place.map.kakao.com/7860341",
+      "region": "서울특별시"
+    },
+    {
+      "lat": 37.528897667722376,
+      "lng": 126.96420238256992,
+      "title": "롯데리아 용산역사점",
+      "description": "서울 용산구 한강대로23길 55",
+      "url": "http://place.map.kakao.com/10361540",
+      "region": "서울특별시"
+    },
+    {
+      "lat": 37.5857884602544,
+      "lng": 127.0006430855,
+      "title": "롯데리아 혜화점",
+      "description": "서울 종로구 창경궁로 273",
+      "url": "http://place.map.kakao.com/10356756",
+      "region": "서울특별시"
+    },
+    {
+      "lat": 37.6370918764591,
+      "lng": 127.02432488286,
+      "title": "롯데리아 수유역점",
+      "description": "서울 강북구 도봉로 323",
+      "url": "http://place.map.kakao.com/1458445355",
+      "region": "서울특별시"
+    },
+    {
+      "lat": 37.5582541923167,
+      "lng": 126.928775075002,
+      "title": "롯데리아 창천점",
+      "description": "서울 서대문구 신촌로 15",
+      "url": "http://place.map.kakao.com/888517228",
+      "region": "서울특별시"
+    },
+    {
+      "lat": 37.4822166252654,
+      "lng": 126.941677680995,
+      "title": "롯데리아 봉천역점",
+      "description": "서울 관악구 남부순환로 1724",
+      "url": "http://place.map.kakao.com/22425089",
+      "region": "서울특별시"
+    },
+    {
+      "lat": 37.55579909414032,
+      "lng": 126.92184211724226,
+      "title": "롯데리아 홍대점",
+      "description": "서울 마포구 양화로 141",
+      "url": "http://place.map.kakao.com/1747184802",
+      "region": "서울특별시"
+    },
+    {
+      "lat": 37.572607761011,
+      "lng": 127.0150600377,
+      "title": "롯데리아 동묘역점",
+      "description": "서울 종로구 종로 336",
+      "url": "http://place.map.kakao.com/17942549",
+      "region": "서울특별시"
+    },
+    {
+      "lat": 37.6263492277623,
+      "lng": 127.074348431068,
+      "title": "롯데리아 공릉역점",
+      "description": "서울 노원구 동일로192길 27",
+      "url": "http://place.map.kakao.com/12719942",
+      "region": "서울특별시"
+    },
+    {
+      "lat": 37.50975777246234,
+      "lng": 127.12370558585188,
+      "title": "롯데리아 방이역점",
+      "description": "서울 송파구 마천로 23",
+      "url": "http://place.map.kakao.com/24073918",
+      "region": "서울특별시"
+    },
+    {
+      "lat": 37.4919766463006,
+      "lng": 126.923288214094,
+      "title": "롯데리아 보라매타운점",
+      "description": "서울 동작구 보라매로5길 35",
+      "url": "http://place.map.kakao.com/1040911227",
+      "region": "서울특별시"
+    },
+    {
+      "lat": 37.488370913238,
+      "lng": 126.981944649045,
+      "title": "롯데리아 이수역점",
+      "description": "서울 동작구 동작대로 129",
+      "url": "http://place.map.kakao.com/319710342",
+      "region": "서울특별시"
+    },
+    {
+      "lat": 37.48271646823365,
+      "lng": 127.03638159380071,
+      "title": "롯데리아 양재역점",
+      "description": "서울 서초구 강남대로 206",
+      "url": "http://place.map.kakao.com/1540627030",
+      "region": "서울특별시"
+    },
+    {
+      "lat": 37.503390647054495,
+      "lng": 127.11356405912018,
+      "title": "롯데리아 송파점",
+      "description": "서울 송파구 가락로 164",
+      "url": "http://place.map.kakao.com/14925735",
+      "region": "서울특별시"
+    },
+    {
+      "lat": 37.495277932335,
+      "lng": 127.027860135405,
+      "title": "롯데리아 강남역SELECT점",
+      "description": "서울 서초구 서초대로78길 28",
+      "url": "http://place.map.kakao.com/1870572055",
+      "region": "서울특별시"
+    },
+    {
+      "lat": 37.4923044874572,
+      "lng": 127.087278128334,
+      "title": "롯데리아 강남일원점",
+      "description": "서울 강남구 양재대로55길 21",
+      "url": "http://place.map.kakao.com/854574144",
+      "region": "서울특별시"
+    },
+    {
+      "lat": 37.5817657284958,
+      "lng": 127.088446660404,
+      "title": "롯데리아 사가정역점",
+      "description": "서울 중랑구 면목로 333",
+      "url": "http://place.map.kakao.com/12127735",
+      "region": "서울특별시"
+    },
+    {
+      "lat": 37.5397617070131,
+      "lng": 127.124016513749,
+      "title": "롯데리아 천호역점",
+      "description": "서울 강동구 올림픽로 654",
+      "url": "http://place.map.kakao.com/21553808",
+      "region": "서울특별시"
+    },
+    {
+      "lat": 37.4807074082908,
+      "lng": 126.885099985873,
+      "title": "롯데리아 가산디지털단지점",
+      "description": "서울 금천구 벚꽃로36길 30",
+      "url": "http://place.map.kakao.com/736355118",
+      "region": "서울특별시"
+    },
+    {
+      "lat": 37.601986620360286,
+      "lng": 127.07968627312566,
+      "title": "롯데리아 중화역점",
+      "description": "서울 중랑구 동일로 802",
+      "url": "http://place.map.kakao.com/375048426",
+      "region": "서울특별시"
+    },
+    {
+      "lat": 37.5654928800013,
+      "lng": 127.019319022393,
+      "title": "롯데리아 신당역점",
+      "description": "서울 중구 퇴계로 428-1",
+      "url": "http://place.map.kakao.com/10362607",
+      "region": "서울특별시"
+    },
+    {
+      "lat": 37.5696683301646,
+      "lng": 126.982179731242,
+      "title": "롯데리아 영풍문고 종각종로본점",
+      "description": "서울 종로구 청계천로 41",
+      "url": "http://place.map.kakao.com/1923325829",
+      "region": "서울특별시"
+    },
+    {
+      "lat": 37.60451254002928,
+      "lng": 127.02242643204737,
+      "title": "롯데리아 길음뉴타운점",
+      "description": "서울 성북구 길음로7길 6",
+      "url": "http://place.map.kakao.com/20010777",
+      "region": "서울특별시"
+    },
+    {
+      "lat": 37.5809033812147,
+      "lng": 127.045850810247,
+      "title": "롯데리아 청량리점",
+      "description": "서울 동대문구 왕산로 209",
+      "url": "http://place.map.kakao.com/7859081",
+      "region": "서울특별시"
+    },
+    {
+      "lat": 37.4897857397185,
+      "lng": 126.891534701459,
+      "title": "롯데리아 구로시장점",
+      "description": "서울 구로구 도림로 73",
+      "url": "http://place.map.kakao.com/17941542",
+      "region": "서울특별시"
+    },
+    {
+      "lat": 37.5023757409859,
+      "lng": 127.094554955251,
+      "title": "롯데리아 송파삼전점",
+      "description": "서울 송파구 백제고분로 254",
+      "url": "http://place.map.kakao.com/17706071",
+      "region": "서울특별시"
+    },
+    {
+      "lat": 37.58065011723611,
+      "lng": 127.04832206169196,
+      "title": "롯데리아 청량리역사점",
+      "description": "서울 동대문구 왕산로 214",
+      "url": "http://place.map.kakao.com/17135871",
+      "region": "서울특별시"
+    },
+    {
+      "lat": 37.4830130558721,
+      "lng": 126.996942749076,
+      "title": "롯데리아 방배역점",
+      "description": "서울 서초구 방배로 96",
+      "url": "http://place.map.kakao.com/1119303357",
+      "region": "서울특별시"
+    },
+    {
+      "lat": 37.5082854574892,
+      "lng": 126.96146837065,
+      "title": "롯데리아 중앙대점",
+      "description": "서울 동작구 흑석로 110-1",
+      "url": "http://place.map.kakao.com/13017108",
+      "region": "서울특별시"
+    },
+    {
+      "lat": 35.0982357042781,
+      "lng": 129.029341334813,
+      "title": "롯데리아 부산비프광장점",
+      "description": "부산 중구 구덕로 58-1",
+      "url": "http://place.map.kakao.com/27264155",
+      "region": "부산광역시"
+    },
+    {
+      "lat": 35.1153840120211,
+      "lng": 129.039387206433,
+      "title": "롯데리아 부산역점",
+      "description": "부산 동구 중앙대로 201",
+      "url": "http://place.map.kakao.com/7864591",
+      "region": "부산광역시"
+    },
+    {
+      "lat": 35.15481813435004,
+      "lng": 129.0580404530418,
+      "title": "롯데리아 서면일번가점",
+      "description": "부산 부산진구 서면로 46",
+      "url": "http://place.map.kakao.com/23943076",
+      "region": "부산광역시"
+    },
+    {
+      "lat": 35.186462068442914,
+      "lng": 129.08245830430255,
+      "title": "롯데리아 부산연산점",
+      "description": "부산 연제구 반송로 8",
+      "url": "http://place.map.kakao.com/20460088",
+      "region": "부산광역시"
+    },
+    {
+      "lat": 35.10548723633982,
+      "lng": 128.96874098302254,
+      "title": "롯데리아 부산하단점",
+      "description": "부산 사하구 낙동대로 457",
+      "url": "http://place.map.kakao.com/13277131",
+      "region": "부산광역시"
+    },
+    {
+      "lat": 35.2352540284019,
+      "lng": 129.010694537448,
+      "title": "롯데리아 부산화명점",
+      "description": "부산 북구 화명신도시로 127",
+      "url": "http://place.map.kakao.com/11082773",
+      "region": "부산광역시"
+    },
+    {
+      "lat": 35.0987251477356,
+      "lng": 129.027234998455,
+      "title": "롯데리아 부산남포점",
+      "description": "부산 중구 비프광장로 17",
+      "url": "http://place.map.kakao.com/24812423",
+      "region": "부산광역시"
+    },
+    {
+      "lat": 35.164004263029135,
+      "lng": 128.9835898184651,
+      "title": "롯데리아 부산사상점",
+      "description": "부산 사상구 사상로 211",
+      "url": "http://place.map.kakao.com/10361778",
+      "region": "부산광역시"
+    },
+    {
+      "lat": 35.15462842806908,
+      "lng": 129.0665350442866,
+      "title": "롯데리아 부산전포점",
+      "description": "부산 부산진구 전포대로200번길 17",
+      "url": "http://place.map.kakao.com/1792019642",
+      "region": "부산광역시"
+    },
+    {
+      "lat": 35.1372214421436,
+      "lng": 129.069551603715,
+      "title": "롯데리아 문현점",
+      "description": "부산 남구 수영로 15",
+      "url": "http://place.map.kakao.com/10355251",
+      "region": "부산광역시"
+    },
+    {
+      "lat": 35.1677500668346,
+      "lng": 129.117246761247,
+      "title": "롯데리아 수영로타리점",
+      "description": "부산 수영구 수영로 710-1",
+      "url": "http://place.map.kakao.com/20013224",
+      "region": "부산광역시"
+    },
+    {
+      "lat": 35.19887425756693,
+      "lng": 129.1114487589705,
+      "title": "롯데리아 부산안락점",
+      "description": "부산 동래구 안락로 134",
+      "url": "http://place.map.kakao.com/10360730",
+      "region": "부산광역시"
+    },
+    {
+      "lat": 35.1709904914183,
+      "lng": 129.069296636079,
+      "title": "롯데리아 부산양정점",
+      "description": "부산 부산진구 중앙대로 901-1",
+      "url": "http://place.map.kakao.com/8343268",
+      "region": "부산광역시"
+    },
+    {
+      "lat": 35.134687717987,
+      "lng": 129.08843462378,
+      "title": "롯데리아 부산대연점",
+      "description": "부산 남구 수영로 200",
+      "url": "http://place.map.kakao.com/10350758",
+      "region": "부산광역시"
+    },
+    {
+      "lat": 35.2095793545515,
+      "lng": 129.00736109337663,
+      "title": "롯데리아 부산덕천점",
+      "description": "부산 북구 만덕대로16번길 19",
+      "url": "http://place.map.kakao.com/7856441",
+      "region": "부산광역시"
+    },
+    {
+      "lat": 35.157660873588,
+      "lng": 129.11290767816,
+      "title": "롯데리아 부산광안역점",
+      "description": "부산 수영구 수영로 581",
+      "url": "http://place.map.kakao.com/1794672972",
+      "region": "부산광역시"
+    },
+    {
+      "lat": 35.15342208665987,
+      "lng": 129.02727247323162,
+      "title": "롯데리아 부산개금점",
+      "description": "부산 부산진구 가야대로 497",
+      "url": "http://place.map.kakao.com/1745653874",
+      "region": "부산광역시"
+    },
+    {
+      "lat": 35.2061993849318,
+      "lng": 128.9967736198507,
+      "title": "롯데리아 구포점",
+      "description": "부산 북구 낙동대로 1698",
+      "url": "http://place.map.kakao.com/11082206",
+      "region": "부산광역시"
+    },
+    {
+      "lat": 35.13672188985793,
+      "lng": 129.09910785484885,
+      "title": "롯데리아 부산경성대점",
+      "description": "부산 남구 수영로 300",
+      "url": "http://place.map.kakao.com/11737176",
+      "region": "부산광역시"
+    },
+    {
+      "lat": 35.2151827573053,
+      "lng": 129.104023296569,
+      "title": "롯데리아 부산서동점",
+      "description": "부산 금정구 서동로 159-7",
+      "url": "http://place.map.kakao.com/2083501987",
+      "region": "부산광역시"
+    },
+    {
+      "lat": 35.1917713810088,
+      "lng": 129.067808150672,
+      "title": "롯데리아 부산거제점",
+      "description": "부산 연제구 아시아드대로 80",
+      "url": "http://place.map.kakao.com/7857341",
+      "region": "부산광역시"
+    },
+    {
+      "lat": 35.1757103075212,
+      "lng": 129.086441311966,
+      "title": "롯데리아 부산물만골역점",
+      "description": "부산 연제구 월드컵대로 12",
+      "url": "http://place.map.kakao.com/26305903",
+      "region": "부산광역시"
+    },
+    {
+      "lat": 35.17287380729834,
+      "lng": 129.16737341136337,
+      "title": "롯데리아 부산해운대좌동점",
+      "description": "부산 해운대구 좌동순환로 74",
+      "url": "http://place.map.kakao.com/771847976",
+      "region": "부산광역시"
+    },
+    {
+      "lat": 35.20512780243774,
+      "lng": 129.077677682176,
+      "title": "롯데리아 부산동래역점",
+      "description": "부산 동래구 중앙대로 1319",
+      "url": "http://place.map.kakao.com/12127744",
+      "region": "부산광역시"
+    },
+    {
+      "lat": 35.2310599554052,
+      "lng": 129.087013483436,
+      "title": "롯데리아 부산대점",
+      "description": "부산 금정구 부산대학로 39",
+      "url": "http://place.map.kakao.com/1429662112",
+      "region": "부산광역시"
+    },
+    {
+      "lat": 35.1505512722266,
+      "lng": 129.007234121191,
+      "title": "롯데리아 부산주례역점",
+      "description": "부산 사상구 가야대로 316",
+      "url": "http://place.map.kakao.com/11311003",
+      "region": "부산광역시"
+    },
+    {
+      "lat": 35.17053060233282,
+      "lng": 129.13349320987584,
+      "title": "롯데리아 홈플러스센텀시티점",
+      "description": "부산 해운대구 센텀동로 6",
+      "url": "http://place.map.kakao.com/21606173",
+      "region": "부산광역시"
+    },
+    {
+      "lat": 35.098509995813,
+      "lng": 128.918204270538,
+      "title": "롯데리아 부산명지국제신도시점",
+      "description": "부산 강서구 명지국제8로 233",
+      "url": "http://place.map.kakao.com/333824448",
+      "region": "부산광역시"
+    },
+    {
+      "lat": 35.1201542454299,
+      "lng": 129.111907624572,
+      "title": "롯데리아 부산용호점",
+      "description": "부산 남구 용호로 136-1",
+      "url": "http://place.map.kakao.com/10361780",
+      "region": "부산광역시"
+    },
+    {
+      "lat": 35.0769487241125,
+      "lng": 129.016233626743,
+      "title": "롯데리아 부산송도점",
+      "description": "부산 서구 충무대로 14",
+      "url": "http://place.map.kakao.com/26922424",
+      "region": "부산광역시"
+    },
+    {
+      "lat": 35.21816737004944,
+      "lng": 129.08371068367748,
+      "title": "롯데리아 부산온천장역점",
+      "description": "부산 동래구 금강공원로 5",
+      "url": "http://place.map.kakao.com/179627113",
+      "region": "부산광역시"
+    },
+    {
+      "lat": 35.11394197357068,
+      "lng": 129.0159165319335,
+      "title": "롯데리아 부산대신점",
+      "description": "부산 서구 구덕로340번길 4",
+      "url": "http://place.map.kakao.com/11082645",
+      "region": "부산광역시"
+    },
+    {
+      "lat": 35.0841223068818,
+      "lng": 128.903860338837,
+      "title": "롯데리아 부산명지점",
+      "description": "부산 강서구 명지오션시티11로 74",
+      "url": "http://place.map.kakao.com/17135879",
+      "region": "부산광역시"
+    },
+    {
+      "lat": 35.1291176577906,
+      "lng": 129.048799020662,
+      "title": "롯데리아 부산진역점",
+      "description": "부산 동구 중앙대로 377",
+      "url": "http://place.map.kakao.com/7864592",
+      "region": "부산광역시"
+    },
+    {
+      "lat": 35.1942981857293,
+      "lng": 129.098496111477,
+      "title": "롯데리아 부산안민점",
+      "description": "부산 동래구 안연로 80",
+      "url": "http://place.map.kakao.com/1103544187",
+      "region": "부산광역시"
+    },
+    {
+      "lat": 35.17295199939852,
+      "lng": 129.10133739670533,
+      "title": "롯데리아 부산망미점",
+      "description": "부산 수영구 연수로 278",
+      "url": "http://place.map.kakao.com/26305902",
+      "region": "부산광역시"
+    },
+    {
+      "lat": 35.2448934148532,
+      "lng": 129.216898904071,
+      "title": "롯데리아 부산기장점",
+      "description": "부산 기장군 기장읍 읍내로 114",
+      "url": "http://place.map.kakao.com/2014128902",
+      "region": "부산광역시"
+    },
+    {
+      "lat": 35.0760691520988,
+      "lng": 129.071820472601,
+      "title": "롯데리아 영도동삼점",
+      "description": "부산 영도구 동삼로 25",
+      "url": "http://place.map.kakao.com/8343957",
+      "region": "부산광역시"
+    },
+    {
+      "lat": 35.0884353274836,
+      "lng": 129.042116822338,
+      "title": "롯데리아 영도남항점",
+      "description": "부산 영도구 영선대로 83",
+      "url": "http://place.map.kakao.com/1518911199",
+      "region": "부산광역시"
+    },
+    {
+      "lat": 35.20423160083166,
+      "lng": 129.06754767896388,
+      "title": "롯데리아 부산미남역점",
+      "description": "부산 동래구 아시아드대로 234",
+      "url": "http://place.map.kakao.com/14600938",
+      "region": "부산광역시"
+    },
+    {
+      "lat": 35.1678916116733,
+      "lng": 129.140564063099,
+      "title": "롯데리아 센텀프라자빌딩점",
+      "description": "부산 해운대구 해운대로 407",
+      "url": "http://place.map.kakao.com/26466167",
+      "region": "부산광역시"
+    },
+    {
+      "lat": 35.183556520658,
+      "lng": 129.10731267671,
+      "title": "롯데리아 부산토곡점",
+      "description": "부산 연제구 과정로 136",
+      "url": "http://place.map.kakao.com/23372678",
+      "region": "부산광역시"
+    },
+    {
+      "lat": 35.1862665070545,
+      "lng": 129.125700622271,
+      "title": "롯데리아 부산재송점",
+      "description": "부산 해운대구 재반로 86",
+      "url": "http://place.map.kakao.com/1362876358",
+      "region": "부산광역시"
+    },
+    {
+      "lat": 35.0805134215174,
+      "lng": 128.96866385754,
+      "title": "롯데리아 부산장림점",
+      "description": "부산 사하구 장평로145번길 77",
+      "url": "http://place.map.kakao.com/7857471",
+      "region": "부산광역시"
+    },
+    {
+      "lat": 35.048546627734325,
+      "lng": 128.96531329867332,
+      "title": "롯데리아 부산다대포점",
+      "description": "부산 사하구 다대로 698",
+      "url": "http://place.map.kakao.com/21341990",
+      "region": "부산광역시"
+    },
+    {
+      "lat": 35.8572415589652,
+      "lng": 128.58998635889,
+      "title": "롯데리아 명덕네거리점",
+      "description": "대구 중구 명덕로 181",
+      "url": "http://place.map.kakao.com/26301329",
+      "region": "대구광역시"
+    },
+    {
+      "lat": 35.8002927016352,
+      "lng": 128.622610906492,
+      "title": "롯데리아 대구가창DT점",
+      "description": "대구 달성군 가창면 가창로 1075",
+      "url": "http://place.map.kakao.com/787365816",
+      "region": "대구광역시"
+    },
+    {
+      "lat": 35.8375120190403,
+      "lng": 128.550672201499,
+      "title": "롯데리아 대구성당DT점",
+      "description": "대구 달서구 구마로 209",
+      "url": "http://place.map.kakao.com/20013363",
+      "region": "대구광역시"
+    },
+    {
+      "lat": 35.854673191473,
+      "lng": 128.548185906436,
+      "title": "롯데리아 대구감삼점",
+      "description": "대구 서구 달구벌대로 1669",
+      "url": "http://place.map.kakao.com/7864078",
+      "region": "대구광역시"
+    },
+    {
+      "lat": 35.876380901821,
+      "lng": 128.629189413393,
+      "title": "롯데리아 동대구점",
+      "description": "대구 동구 동부로30길 7",
+      "url": "http://place.map.kakao.com/990939978",
+      "region": "대구광역시"
+    },
+    {
+      "lat": 35.689450429048,
+      "lng": 128.453657449971,
+      "title": "롯데리아 현풍테크노폴리스점",
+      "description": "대구 달성군 현풍읍 테크노대로 61",
+      "url": "http://place.map.kakao.com/676502483",
+      "region": "대구광역시"
+    },
+    {
+      "lat": 35.81914728989491,
+      "lng": 128.54037901887986,
+      "title": "롯데리아 대구상인점",
+      "description": "대구 달서구 월배로 250",
+      "url": "http://place.map.kakao.com/7864245",
+      "region": "대구광역시"
+    },
+    {
+      "lat": 35.8893146357028,
+      "lng": 128.565878942131,
+      "title": "롯데리아 팔달시장점",
+      "description": "대구 북구 팔달로 145",
+      "url": "http://place.map.kakao.com/12127781",
+      "region": "대구광역시"
+    },
+    {
+      "lat": 35.8798473933772,
+      "lng": 128.61096709557,
+      "title": "롯데리아 대구신암점",
+      "description": "대구 동구 신암로 102-1",
+      "url": "http://place.map.kakao.com/7864247",
+      "region": "대구광역시"
+    },
+    {
+      "lat": 35.8979401737108,
+      "lng": 128.6154138481,
+      "title": "롯데리아 대구복현점",
+      "description": "대구 북구 검단로 8",
+      "url": "http://place.map.kakao.com/7856271",
+      "region": "대구광역시"
+    },
+    {
+      "lat": 35.9212324899202,
+      "lng": 128.599008202041,
+      "title": "롯데리아 대구동서변점",
+      "description": "대구 북구 호국로 219",
+      "url": "http://place.map.kakao.com/7864244",
+      "region": "대구광역시"
+    },
+    {
+      "lat": 35.876901258475,
+      "lng": 128.66886439466,
+      "title": "롯데리아 대구방촌점",
+      "description": "대구 동구 화랑로 409",
+      "url": "http://place.map.kakao.com/10360046",
+      "region": "대구광역시"
+    },
+    {
+      "lat": 35.87036837831023,
+      "lng": 128.59550205287297,
+      "title": "롯데리아 동성로점",
+      "description": "대구 중구 동성로 39",
+      "url": "http://place.map.kakao.com/1792174120",
+      "region": "대구광역시"
+    },
+    {
+      "lat": 35.863695857298,
+      "lng": 128.623778592829,
+      "title": "롯데리아 대구사무소",
+      "description": "대구 수성구 상록로 47",
+      "url": "http://place.map.kakao.com/9784754",
+      "region": "대구광역시"
+    },
+    {
+      "lat": 35.8657216520002,
+      "lng": 128.716322369091,
+      "title": "롯데리아 대구동호DT점",
+      "description": "대구 동구 안심로 288",
+      "url": "http://place.map.kakao.com/17135841",
+      "region": "대구광역시"
+    },
+    {
+      "lat": 35.8389008691717,
+      "lng": 128.574976171356,
+      "title": "롯데리아 대구안지랑점",
+      "description": "대구 남구 대명로 160-2",
+      "url": "http://place.map.kakao.com/17942213",
+      "region": "대구광역시"
+    },
+    {
+      "lat": 35.8437622065023,
+      "lng": 128.531580044258,
+      "title": "롯데리아 대구장기점",
+      "description": "대구 달서구 장기로 264",
+      "url": "http://place.map.kakao.com/647034257",
+      "region": "대구광역시"
+    },
+    {
+      "lat": 35.9438419589177,
+      "lng": 128.564135018877,
+      "title": "롯데리아 대구칠곡구암점",
+      "description": "대구 북구 학정로 440",
+      "url": "http://place.map.kakao.com/7857256",
+      "region": "대구광역시"
+    },
+    {
+      "lat": 35.8452401145888,
+      "lng": 128.5898485479,
+      "title": "롯데리아 영대병원점",
+      "description": "대구 남구 대명로 313",
+      "url": "http://place.map.kakao.com/10361539",
+      "region": "대구광역시"
+    },
+    {
+      "lat": 35.913262491616315,
+      "lng": 128.54746364479786,
+      "title": "롯데리아 대구칠곡매천점",
+      "description": "대구 북구 학정로 42",
+      "url": "http://place.map.kakao.com/14587987",
+      "region": "대구광역시"
+    },
+    {
+      "lat": 35.83717238752395,
+      "lng": 128.55630973062335,
+      "title": "롯데리아 대구서부정류장점",
+      "description": "대구 달서구 구마로 260",
+      "url": "http://place.map.kakao.com/11732002",
+      "region": "대구광역시"
+    },
+    {
+      "lat": 35.8547131970728,
+      "lng": 128.583280984159,
+      "title": "롯데리아 대구계명점",
+      "description": "대구 남구 현충로 250",
+      "url": "http://place.map.kakao.com/17942163",
+      "region": "대구광역시"
+    },
+    {
+      "lat": 35.8913914721169,
+      "lng": 128.590243761427,
+      "title": "롯데리아 대구침산점",
+      "description": "대구 북구 침산로 170-1",
+      "url": "http://place.map.kakao.com/1464456974",
+      "region": "대구광역시"
+    },
+    {
+      "lat": 35.8867067096739,
+      "lng": 128.639211133899,
+      "title": "롯데리아 대구아양교점",
+      "description": "대구 동구 아양로 240",
+      "url": "http://place.map.kakao.com/11737162",
+      "region": "대구광역시"
+    },
+    {
+      "lat": 35.85793967183368,
+      "lng": 128.46433179235717,
+      "title": "롯데리아 대구다사점",
+      "description": "대구 달성군 다사읍 달구벌대로 874",
+      "url": "http://place.map.kakao.com/24424128",
+      "region": "대구광역시"
+    },
+    {
+      "lat": 35.807118708285,
+      "lng": 128.53544276524,
+      "title": "롯데리아 대구대곡점",
+      "description": "대구 달서구 도원로 30",
+      "url": "http://place.map.kakao.com/7857254",
+      "region": "대구광역시"
+    },
+    {
+      "lat": 35.85738920668807,
+      "lng": 128.63563612805143,
+      "title": "롯데리아 대구수성구청점",
+      "description": "대구 수성구 범어로 89",
+      "url": "http://place.map.kakao.com/12127753",
+      "region": "대구광역시"
+    },
+    {
+      "lat": 35.7292349408803,
+      "lng": 128.446860259136,
+      "title": "롯데리아 대구논공점",
+      "description": "대구 달성군 논공읍 논공로 741",
+      "url": "http://place.map.kakao.com/7856270",
+      "region": "대구광역시"
+    },
+    {
+      "lat": 35.8553617354449,
+      "lng": 128.49496374534,
+      "title": "롯데리아 대구신당점",
+      "description": "대구 달서구 계대동문로 24-1",
+      "url": "http://place.map.kakao.com/7860347",
+      "region": "대구광역시"
+    },
+    {
+      "lat": 35.8729382259677,
+      "lng": 128.639675854438,
+      "title": "롯데리아 대구효목점",
+      "description": "대구 수성구 화랑로 116",
+      "url": "http://place.map.kakao.com/7864249",
+      "region": "대구광역시"
+    },
+    {
+      "lat": 35.858501691653366,
+      "lng": 128.52986656422672,
+      "title": "롯데리아 대구용산점",
+      "description": "대구 달서구 평리로 50",
+      "url": "http://place.map.kakao.com/10355246",
+      "region": "대구광역시"
+    },
+    {
+      "lat": 35.87593483370984,
+      "lng": 128.59563029666265,
+      "title": "롯데리아 대구역사점",
+      "description": "대구 북구 태평로 161",
+      "url": "http://place.map.kakao.com/702294548",
+      "region": "대구광역시"
+    },
+    {
+      "lat": 35.8707079884073,
+      "lng": 128.557824565668,
+      "title": "롯데리아 대구평리점",
+      "description": "대구 서구 국채보상로 246",
+      "url": "http://place.map.kakao.com/7856273",
+      "region": "대구광역시"
+    },
+    {
+      "lat": 35.8696589810158,
+      "lng": 128.587014887421,
+      "title": "롯데리아 대구서성네거리점",
+      "description": "대구 중구 서성로 33",
+      "url": "http://place.map.kakao.com/1427360571",
+      "region": "대구광역시"
+    },
+    {
+      "lat": 35.8820449422651,
+      "lng": 128.61990107668,
+      "title": "롯데리아 궁전라벤더점",
+      "description": "대구 동구 아양로 52",
+      "url": "http://place.map.kakao.com/7860174",
+      "region": "대구광역시"
+    },
+    {
+      "lat": 35.80990065018544,
+      "lng": 128.51276808741147,
+      "title": "롯데리아 대구대곡역점",
+      "description": "대구 달성군 화원읍 비슬로 2723",
+      "url": "http://place.map.kakao.com/22064912",
+      "region": "대구광역시"
+    },
+    {
+      "lat": 35.867554375934766,
+      "lng": 128.61858307515297,
+      "title": "롯데리아 대구청구네거리점",
+      "description": "대구 수성구 국채보상로 804",
+      "url": "http://place.map.kakao.com/26305896",
+      "region": "대구광역시"
+    },
+    {
+      "lat": 35.8426064847172,
+      "lng": 128.695977989857,
+      "title": "롯데리아 대구고산점",
+      "description": "대구 수성구 달구벌대로 3100",
+      "url": "http://place.map.kakao.com/1382996691",
+      "region": "대구광역시"
+    },
+    {
+      "lat": 35.8614366973047,
+      "lng": 128.544447265149,
+      "title": "롯데리아 대구퀸스로드점",
+      "description": "대구 서구 평리로35길 18-8",
+      "url": "http://place.map.kakao.com/11077386",
+      "region": "대구광역시"
+    },
+    {
+      "lat": 35.898677808592716,
+      "lng": 128.50978085805363,
+      "title": "롯데리아 대구금호사수점",
+      "description": "대구 북구 내곡로 34",
+      "url": "http://place.map.kakao.com/1007415602",
+      "region": "대구광역시"
+    },
+    {
+      "lat": 35.6559643084259,
+      "lng": 128.418192718823,
+      "title": "롯데리아 대구구지점",
+      "description": "대구 달성군 구지면 과학마을로 45",
+      "url": "http://place.map.kakao.com/56146442",
+      "region": "대구광역시"
+    },
+    {
+      "lat": 35.8784161125075,
+      "lng": 128.571541735168,
+      "title": "롯데리아 북비산점",
+      "description": "대구 서구 달서로 182",
+      "url": "http://place.map.kakao.com/21226501",
+      "region": "대구광역시"
+    },
+    {
+      "lat": 35.93158851744416,
+      "lng": 128.55607545350594,
+      "title": "롯데리아 대구칠곡운암점",
+      "description": "대구 북구 구암로 140",
+      "url": "http://place.map.kakao.com/658579056",
+      "region": "대구광역시"
+    },
+    {
+      "lat": 35.86588874899177,
+      "lng": 128.6031529807928,
+      "title": "롯데리아 대구삼덕점",
+      "description": "대구 중구 동덕로 125",
+      "url": "http://place.map.kakao.com/1254027209",
+      "region": "대구광역시"
+    },
+    {
+      "lat": 35.8634817739638,
+      "lng": 128.694850746514,
+      "title": "롯데리아 대구율하중앙점",
+      "description": "대구 동구 안심로22길 40-5",
+      "url": "http://place.map.kakao.com/27348656",
+      "region": "대구광역시"
+    },
+    {
+      "lat": 37.4915582937342,
+      "lng": 126.724716843341,
+      "title": "롯데리아 부평점",
+      "description": "인천 부평구 경원대로 1399",
+      "url": "http://place.map.kakao.com/13571713",
+      "region": "인천광역시"
+    },
+    {
+      "lat": 37.45558026118945,
+      "lng": 126.72053470277226,
+      "title": "롯데리아 인천구월점",
+      "description": "인천 남동구 구월로 270",
+      "url": "http://place.map.kakao.com/8359102",
+      "region": "인천광역시"
+    },
+    {
+      "lat": 37.5932034939131,
+      "lng": 126.698938546396,
+      "title": "롯데리아 인천원당점",
+      "description": "인천 서구 원당대로 876",
+      "url": "http://place.map.kakao.com/17941855",
+      "region": "인천광역시"
+    },
+    {
+      "lat": 37.5039958008931,
+      "lng": 126.739029765631,
+      "title": "롯데리아 인천부개점",
+      "description": "인천 부평구 길주남로 155",
+      "url": "http://place.map.kakao.com/8269935",
+      "region": "인천광역시"
+    },
+    {
+      "lat": 37.4137736965519,
+      "lng": 126.679519771022,
+      "title": "롯데리아 인천연수점",
+      "description": "인천 연수구 샘말로 55",
+      "url": "http://place.map.kakao.com/1839512457",
+      "region": "인천광역시"
+    },
+    {
+      "lat": 37.4977171647237,
+      "lng": 126.722622504156,
+      "title": "롯데리아 부평시장역점",
+      "description": "인천 부평구 부평대로 70",
+      "url": "http://place.map.kakao.com/1633232511",
+      "region": "인천광역시"
+    },
+    {
+      "lat": 37.513326388303476,
+      "lng": 126.70416185445497,
+      "title": "롯데리아 인천청천점",
+      "description": "인천 부평구 마장로 396",
+      "url": "http://place.map.kakao.com/10356749",
+      "region": "인천광역시"
+    },
+    {
+      "lat": 37.5033481816701,
+      "lng": 126.671573544489,
+      "title": "롯데리아 인천석남점",
+      "description": "인천 서구 거북로 87",
+      "url": "http://place.map.kakao.com/10351582",
+      "region": "인천광역시"
+    },
+    {
+      "lat": 37.47541963507434,
+      "lng": 126.63092923872927,
+      "title": "롯데리아 동인천역전점",
+      "description": "인천 중구 참외전로 122",
+      "url": "http://place.map.kakao.com/11082208",
+      "region": "인천광역시"
+    },
+    {
+      "lat": 37.46053009597718,
+      "lng": 126.73366504106197,
+      "title": "롯데리아 인천만수점",
+      "description": "인천 남동구 만수로 47",
+      "url": "http://place.map.kakao.com/7858098",
+      "region": "인천광역시"
+    },
+    {
+      "lat": 37.5930449732006,
+      "lng": 126.71269661603,
+      "title": "롯데리아 검단신도시점",
+      "description": "인천 서구 이음대로 388",
+      "url": "http://place.map.kakao.com/1031666725",
+      "region": "인천광역시"
+    },
+    {
+      "lat": 37.5950924448742,
+      "lng": 126.672067555536,
+      "title": "롯데리아 인천당하점",
+      "description": "인천 서구 완정로 18",
+      "url": "http://place.map.kakao.com/20012005",
+      "region": "인천광역시"
+    },
+    {
+      "lat": 37.463778587211046,
+      "lng": 126.68005135548376,
+      "title": "롯데리아 주안고려점",
+      "description": "인천 미추홀구 미추홀대로 743",
+      "url": "http://place.map.kakao.com/11475726",
+      "region": "인천광역시"
+    },
+    {
+      "lat": 37.5432976207259,
+      "lng": 126.676490329093,
+      "title": "롯데리아 인천연희DT점",
+      "description": "인천 서구 서곶로 289",
+      "url": "http://place.map.kakao.com/10351583",
+      "region": "인천광역시"
+    },
+    {
+      "lat": 37.4427568220676,
+      "lng": 126.66371139194,
+      "title": "롯데리아 인천학산점",
+      "description": "인천 미추홀구 한나루로 389",
+      "url": "http://place.map.kakao.com/27290348",
+      "region": "인천광역시"
+    },
+    {
+      "lat": 37.44297870966723,
+      "lng": 126.70932305103398,
+      "title": "롯데리아 구월아시아드점",
+      "description": "인천 남동구 인하로 563",
+      "url": "http://place.map.kakao.com/27353410",
+      "region": "인천광역시"
+    },
+    {
+      "lat": 37.5175755028352,
+      "lng": 126.726204918992,
+      "title": "롯데리아 인천갈산점",
+      "description": "인천 부평구 평천로 324",
+      "url": "http://place.map.kakao.com/18636612",
+      "region": "인천광역시"
+    },
+    {
+      "lat": 37.4861934966907,
+      "lng": 126.73972941051,
+      "title": "롯데리아 인천부개역점",
+      "description": "인천 부평구 경인로 1080",
+      "url": "http://place.map.kakao.com/18785175",
+      "region": "인천광역시"
+    },
+    {
+      "lat": 37.4482369565924,
+      "lng": 126.680005675204,
+      "title": "롯데리아 인천신기점",
+      "description": "인천 미추홀구 인하로 287",
+      "url": "http://place.map.kakao.com/7858339",
+      "region": "인천광역시"
+    },
+    {
+      "lat": 37.4244501689917,
+      "lng": 126.750273772176,
+      "title": "롯데리아 인천서창점",
+      "description": "인천 남동구 서창남순환로 2",
+      "url": "http://place.map.kakao.com/25817691",
+      "region": "인천광역시"
+    },
+    {
+      "lat": 37.5476146129684,
+      "lng": 126.740489189539,
+      "title": "롯데리아 인천병방점",
+      "description": "인천 계양구 장제로 907",
+      "url": "http://place.map.kakao.com/11311996",
+      "region": "인천광역시"
+    },
+    {
+      "lat": 37.392888429341774,
+      "lng": 126.643135226863,
+      "title": "롯데리아 송도센트럴파크점",
+      "description": "인천 연수구 센트럴로 160",
+      "url": "http://place.map.kakao.com/26943191",
+      "region": "인천광역시"
+    },
+    {
+      "lat": 37.4393534500497,
+      "lng": 126.67358455005,
+      "title": "롯데리아 인천학익점",
+      "description": "인천 미추홀구 매소홀로 466",
+      "url": "http://place.map.kakao.com/8318707",
+      "region": "인천광역시"
+    },
+    {
+      "lat": 37.4517841107967,
+      "lng": 126.637817341241,
+      "title": "롯데리아 인천용현점",
+      "description": "인천 미추홀구 낙섬중로 42",
+      "url": "http://place.map.kakao.com/14710492",
+      "region": "인천광역시"
+    },
+    {
+      "lat": 37.6019140560063,
+      "lng": 126.656627478598,
+      "title": "롯데리아 인천검단점",
+      "description": "인천 서구 검단로 469",
+      "url": "http://place.map.kakao.com/22645452",
+      "region": "인천광역시"
+    },
+    {
+      "lat": 37.4582497330637,
+      "lng": 126.689751091052,
+      "title": "롯데리아 인천석바위점",
+      "description": "인천 미추홀구 경원대로 848",
+      "url": "http://place.map.kakao.com/20058508",
+      "region": "인천광역시"
+    },
+    {
+      "lat": 37.7468287745705,
+      "lng": 126.484937999253,
+      "title": "롯데리아 인천강화점",
+      "description": "인천 강화군 강화읍 강화대로 419",
+      "url": "http://place.map.kakao.com/17514602",
+      "region": "인천광역시"
+    },
+    {
+      "lat": 37.485717935747815,
+      "lng": 126.50519303733482,
+      "title": "롯데리아 인천허브D/I점",
+      "description": "인천 중구 영종대로 283",
+      "url": "http://place.map.kakao.com/21746970",
+      "region": "인천광역시"
+    },
+    {
+      "lat": 37.46385227439438,
+      "lng": 126.69496936285431,
+      "title": "롯데리아 인천간석점",
+      "description": "인천 남동구 석산로 11",
+      "url": "http://place.map.kakao.com/12127727",
+      "region": "인천광역시"
+    },
+    {
+      "lat": 37.51708359790472,
+      "lng": 126.67274970319205,
+      "title": "롯데리아 인천서구점",
+      "description": "인천 서구 가정로 361",
+      "url": "http://place.map.kakao.com/8269936",
+      "region": "인천광역시"
+    },
+    {
+      "lat": 37.53384574084702,
+      "lng": 126.74138885428744,
+      "title": "롯데리아 인천계양점",
+      "description": "인천 계양구 용종로 2",
+      "url": "http://place.map.kakao.com/21224241",
+      "region": "인천광역시"
+    },
+    {
+      "lat": 37.4493042383594,
+      "lng": 126.451184950486,
+      "title": "롯데리아 인천공항1층점",
+      "description": "인천 중구 공항로 272",
+      "url": "http://place.map.kakao.com/1234951205",
+      "region": "인천광역시"
+    },
+    {
+      "lat": 37.4660832458535,
+      "lng": 126.656575972642,
+      "title": "롯데리아 제물포점",
+      "description": "인천 미추홀구 경인로 124",
+      "url": "http://place.map.kakao.com/11083453",
+      "region": "인천광역시"
+    },
+    {
+      "lat": 37.4874218799449,
+      "lng": 126.708603675592,
+      "title": "롯데리아 인천백운점",
+      "description": "인천 부평구 경원대로 1240",
+      "url": "http://place.map.kakao.com/11078892",
+      "region": "인천광역시"
+    },
+    {
+      "lat": 37.5275663306153,
+      "lng": 126.670019321812,
+      "title": "롯데리아 인천가정점",
+      "description": "인천 서구 염곡로498번안길 18",
+      "url": "http://place.map.kakao.com/1362067934",
+      "region": "인천광역시"
+    },
+    {
+      "lat": 37.543719252612,
+      "lng": 126.7232714027,
+      "title": "롯데리아 인천계산점",
+      "description": "인천 계양구 경명대로 1049",
+      "url": "http://place.map.kakao.com/7862248",
+      "region": "인천광역시"
+    },
+    {
+      "lat": 37.47106781048379,
+      "lng": 126.66290180413422,
+      "title": "롯데리아 인천도화점",
+      "description": "인천 미추홀구 숙골로 100",
+      "url": "http://place.map.kakao.com/1590112711",
+      "region": "인천광역시"
+    },
+    {
+      "lat": 37.44188536865495,
+      "lng": 126.64908384909202,
+      "title": "롯데리아 인천시티오씨엘점",
+      "description": "인천 미추홀구 학익로80번길 11",
+      "url": "http://place.map.kakao.com/823285320",
+      "region": "인천광역시"
+    },
+    {
+      "lat": 37.4023534346904,
+      "lng": 126.710663684938,
+      "title": "롯데리아 인천남동공단점",
+      "description": "인천 남동구 논현로 40",
+      "url": "http://place.map.kakao.com/17941916",
+      "region": "인천광역시"
+    },
+    {
+      "lat": 37.380411229121115,
+      "lng": 126.65594181202674,
+      "title": "롯데리아 홈플러스 송도점",
+      "description": "인천 연수구 송도국제대로 165",
+      "url": "http://place.map.kakao.com/27405322",
+      "region": "인천광역시"
+    },
+    {
+      "lat": 37.4711203589545,
+      "lng": 126.704045660947,
+      "title": "롯데리아 동암남부점",
+      "description": "인천 부평구 동암남로 5",
+      "url": "http://place.map.kakao.com/7857388",
+      "region": "인천광역시"
+    },
+    {
+      "lat": 37.4015469656084,
+      "lng": 126.734045603884,
+      "title": "롯데리아 인천소래포구역점",
+      "description": "인천 남동구 소래역로 50",
+      "url": "http://place.map.kakao.com/94676275",
+      "region": "인천광역시"
+    },
+    {
+      "lat": 37.494368441796,
+      "lng": 126.681315191131,
+      "title": "롯데리아 인천가좌점",
+      "description": "인천 서구 원적로 85",
+      "url": "http://place.map.kakao.com/7858175",
+      "region": "인천광역시"
+    },
+    {
+      "lat": 37.507925090835464,
+      "lng": 126.73179683383076,
+      "title": "롯데리아 롯데마트인천삼산지하1층점",
+      "description": "인천 부평구 길주로 623",
+      "url": "http://place.map.kakao.com/21227525",
+      "region": "인천광역시"
+    },
+    {
+      "lat": 37.4677032161137,
+      "lng": 126.43372829202087,
+      "title": "롯데리아 인천공항제2여객터미널1층점",
+      "description": "인천 중구 운서동 2868",
+      "url": "http://place.map.kakao.com/1298926904",
+      "region": "인천광역시"
+    },
+    {
+      "lat": 35.154606598560235,
+      "lng": 126.88312719744461,
+      "title": "롯데리아 광주농성점",
+      "description": "광주 서구 죽봉대로 15",
+      "url": "http://place.map.kakao.com/26468732",
+      "region": "광주광역시"
+    },
+    {
+      "lat": 35.21878827255186,
+      "lng": 126.8423892565792,
+      "title": "롯데리아 광주첨단점",
+      "description": "광주 광산구 첨단중앙로 152",
+      "url": "http://place.map.kakao.com/1277703186",
+      "region": "광주광역시"
+    },
+    {
+      "lat": 35.14879759941719,
+      "lng": 126.91608779215005,
+      "title": "롯데리아 광주충장점",
+      "description": "광주 동구 충장로 77-7",
+      "url": "http://place.map.kakao.com/10361084",
+      "region": "광주광역시"
+    },
+    {
+      "lat": 35.1774437967679,
+      "lng": 126.912425721667,
+      "title": "롯데리아 전남대점",
+      "description": "광주 북구 우치로 112",
+      "url": "http://place.map.kakao.com/20014443",
+      "region": "광주광역시"
+    },
+    {
+      "lat": 35.15554553580319,
+      "lng": 126.84795059206292,
+      "title": "롯데리아 광주상무점",
+      "description": "광주 서구 상무중앙로 95",
+      "url": "http://place.map.kakao.com/17351371",
+      "region": "광주광역시"
+    },
+    {
+      "lat": 35.15060318779236,
+      "lng": 126.85666582180761,
+      "title": "롯데리아 광주운천점",
+      "description": "광주 서구 상무민주로5번길 21",
+      "url": "http://place.map.kakao.com/791074823",
+      "region": "광주광역시"
+    },
+    {
+      "lat": 35.2036908374801,
+      "lng": 126.89807974429866,
+      "title": "롯데리아 광주일곡점",
+      "description": "광주 북구 설죽로 499",
+      "url": "http://place.map.kakao.com/7864069",
+      "region": "광주광역시"
+    },
+    {
+      "lat": 35.1901507483087,
+      "lng": 126.824218165161,
+      "title": "롯데리아 광주수완점",
+      "description": "광주 광산구 임방울대로 338",
+      "url": "http://place.map.kakao.com/17135859",
+      "region": "광주광역시"
+    },
+    {
+      "lat": 35.1183149996751,
+      "lng": 126.899140588397,
+      "title": "롯데리아 광주진월점",
+      "description": "광주 남구 서문대로 662",
+      "url": "http://place.map.kakao.com/21224614",
+      "region": "광주광역시"
+    },
+    {
+      "lat": 35.1282286596675,
+      "lng": 126.911240859035,
+      "title": "롯데리아 광주봉선점",
+      "description": "광주 남구 봉선중앙로 82",
+      "url": "http://place.map.kakao.com/8341765",
+      "region": "광주광역시"
+    },
+    {
+      "lat": 35.1472309942949,
+      "lng": 126.918673779858,
+      "title": "롯데리아 광주금남로점",
+      "description": "광주 동구 서석로 51",
+      "url": "http://place.map.kakao.com/10350076",
+      "region": "광주광역시"
+    },
+    {
+      "lat": 35.1663636452375,
+      "lng": 126.808537752793,
+      "title": "롯데리아 광주하남점",
+      "description": "광주 광산구 사암로 251",
+      "url": "http://place.map.kakao.com/17942089",
+      "region": "광주광역시"
+    },
+    {
+      "lat": 35.1954092070888,
+      "lng": 126.838428748299,
+      "title": "롯데리아 광주신창점",
+      "description": "광주 광산구 신창로 116",
+      "url": "http://place.map.kakao.com/10354203",
+      "region": "광주광역시"
+    },
+    {
+      "lat": 35.1326384034774,
+      "lng": 126.858412241463,
+      "title": "롯데리아 광주금호점",
+      "description": "광주 서구 금화로 89",
+      "url": "http://place.map.kakao.com/11731995",
+      "region": "광주광역시"
+    },
+    {
+      "lat": 35.142800360893496,
+      "lng": 126.87479001786502,
+      "title": "롯데리아 광주염주점",
+      "description": "광주 서구 염화로 93",
+      "url": "http://place.map.kakao.com/8315842",
+      "region": "광주광역시"
+    },
+    {
+      "lat": 35.1840296223691,
+      "lng": 126.870716203928,
+      "title": "롯데리아 광주운암DI점",
+      "description": "광주 북구 북문대로 177",
+      "url": "http://place.map.kakao.com/19263778",
+      "region": "광주광역시"
+    },
+    {
+      "lat": 35.17681314437731,
+      "lng": 126.80130951286368,
+      "title": "롯데리아 광주하남2지구점",
+      "description": "광주 광산구 용아로379번길 54",
+      "url": "http://place.map.kakao.com/1215885215",
+      "region": "광주광역시"
+    },
+    {
+      "lat": 35.18877260120026,
+      "lng": 126.89924025359595,
+      "title": "롯데리아 광주오치점",
+      "description": "광주 북구 설죽로 328",
+      "url": "http://place.map.kakao.com/272102631",
+      "region": "광주광역시"
+    },
+    {
+      "lat": 35.1424819857978,
+      "lng": 126.90310070366,
+      "title": "롯데리아 광주백운점",
+      "description": "광주 남구 독립로 100-1",
+      "url": "http://place.map.kakao.com/989843042",
+      "region": "광주광역시"
+    },
+    {
+      "lat": 35.13159264459485,
+      "lng": 126.92918506361269,
+      "title": "롯데리아 광주학동점",
+      "description": "광주 동구 남문로 682",
+      "url": "http://place.map.kakao.com/11074790",
+      "region": "광주광역시"
+    },
+    {
+      "lat": 35.1258934982424,
+      "lng": 126.879229589442,
+      "title": "롯데리아 광주풍암점",
+      "description": "광주 서구 풍암1로21번길 9-6",
+      "url": "http://place.map.kakao.com/12127745",
+      "region": "광주광역시"
+    },
+    {
+      "lat": 35.1399650694894,
+      "lng": 126.79555486209,
+      "title": "롯데리아 광주송정점",
+      "description": "광주 광산구 송정로1번길 88",
+      "url": "http://place.map.kakao.com/10354565",
+      "region": "광주광역시"
+    },
+    {
+      "lat": 35.159679194746445,
+      "lng": 126.90105749591662,
+      "title": "롯데리아 광주임동점",
+      "description": "광주 북구 서림로 153",
+      "url": "http://place.map.kakao.com/455685887",
+      "region": "광주광역시"
+    },
+    {
+      "lat": 35.2169045964875,
+      "lng": 126.85251956591,
+      "title": "롯데리아 롯데마트첨단점",
+      "description": "광주 광산구 첨단강변로99번길 22",
+      "url": "http://place.map.kakao.com/7857559",
+      "region": "광주광역시"
+    },
+    {
+      "lat": 35.1714914043893,
+      "lng": 126.868711846653,
+      "title": "롯데리아 광주동림점",
+      "description": "광주 서구 하남대로 696",
+      "url": "http://place.map.kakao.com/21228385",
+      "region": "광주광역시"
+    },
+    {
+      "lat": 35.1620419073798,
+      "lng": 126.936356743681,
+      "title": "롯데리아 광주두암점",
+      "description": "광주 북구 갈마로 53",
+      "url": "http://place.map.kakao.com/13017091",
+      "region": "광주광역시"
+    },
+    {
+      "lat": 35.1474909721431,
+      "lng": 126.777885421815,
+      "title": "롯데리아 광주선운점",
+      "description": "광주 광산구 동곡로 739",
+      "url": "http://place.map.kakao.com/27105554",
+      "region": "광주광역시"
+    },
+    {
+      "lat": 35.1223434019377,
+      "lng": 126.865060728299,
+      "title": "롯데리아 광주운리점",
+      "description": "광주 서구 풍암운리로 8",
+      "url": "http://place.map.kakao.com/886114270",
+      "region": "광주광역시"
+    },
+    {
+      "lat": 35.211049799403455,
+      "lng": 126.87357059068128,
+      "title": "롯데리아 광주양산점",
+      "description": "광주 북구 임방울대로 1068",
+      "url": "http://place.map.kakao.com/17135857",
+      "region": "광주광역시"
+    },
+    {
+      "lat": 35.17844178743104,
+      "lng": 126.80512815421159,
+      "title": "롯데리아 홈플러스광주하남점",
+      "description": "광주 광산구 용아로 390",
+      "url": "http://place.map.kakao.com/7858819",
+      "region": "광주광역시"
+    },
+    {
+      "lat": 35.18513708056028,
+      "lng": 126.92196050671252,
+      "title": "롯데리아 광주문흥점",
+      "description": "광주 북구 서하로 384",
+      "url": "http://place.map.kakao.com/10354564",
+      "region": "광주광역시"
+    },
+    {
+      "lat": 35.2064260084405,
+      "lng": 126.863731329692,
+      "title": "롯데리아 광주신용점",
+      "description": "광주 북구 첨단연신로91번길 6",
+      "url": "http://place.map.kakao.com/25467174",
+      "region": "광주광역시"
+    },
+    {
+      "lat": 35.1706033817301,
+      "lng": 126.921614345187,
+      "title": "롯데리아 광주동강대점",
+      "description": "광주 북구 동문대로 69",
+      "url": "http://place.map.kakao.com/7860262",
+      "region": "광주광역시"
+    },
+    {
+      "lat": 35.156853060196035,
+      "lng": 126.79244502849235,
+      "title": "롯데리아 광주소촌점",
+      "description": "광주 광산구 소촌로 140",
+      "url": "http://place.map.kakao.com/1118309449",
+      "region": "광주광역시"
+    },
+    {
+      "lat": 35.0997813636287,
+      "lng": 126.871756371767,
+      "title": "롯데리아 광주효천점",
+      "description": "광주 남구 효천로 51",
+      "url": "http://place.map.kakao.com/1076857519",
+      "region": "광주광역시"
+    },
+    {
+      "lat": 35.1951418692284,
+      "lng": 126.815352790855,
+      "title": "롯데리아 광주장덕점",
+      "description": "광주 광산구 장덕로 55",
+      "url": "http://place.map.kakao.com/1036717687",
+      "region": "광주광역시"
+    },
+    {
+      "lat": 35.1816910417504,
+      "lng": 126.890349709684,
+      "title": "롯데리아 광주용봉점",
+      "description": "광주 북구 비엔날레로 112",
+      "url": "http://place.map.kakao.com/7855929",
+      "region": "광주광역시"
+    },
+    {
+      "lat": 35.17873022642418,
+      "lng": 126.8245918627301,
+      "title": "롯데리아 광주운남점",
+      "description": "광주 광산구 하남대로 282",
+      "url": "http://place.map.kakao.com/7860263",
+      "region": "광주광역시"
+    },
+    {
+      "lat": 35.12662775808573,
+      "lng": 126.89743638095263,
+      "title": "롯데리아 광주주월점",
+      "description": "광주 남구 서문대로 753",
+      "url": "http://place.map.kakao.com/13278149",
+      "region": "광주광역시"
+    },
+    {
+      "lat": 35.18502646907208,
+      "lng": 126.81866061312763,
+      "title": "롯데리아 하나로마트 광주수완점",
+      "description": "광주 광산구 임방울대로 261",
+      "url": "http://place.map.kakao.com/908561592",
+      "region": "광주광역시"
+    },
+    {
+      "lat": 35.17920926922594,
+      "lng": 126.93000229424494,
+      "title": "롯데리아 홈플러스동광주점",
+      "description": "광주 북구 동문대로 200",
+      "url": "http://place.map.kakao.com/20014447",
+      "region": "광주광역시"
+    },
+    {
+      "lat": 35.19001525159357,
+      "lng": 126.82033272469045,
+      "title": "롯데리아 롯데마트광주수완점",
+      "description": "광주 광산구 장신로 98",
+      "url": "http://place.map.kakao.com/17942516",
+      "region": "광주광역시"
+    },
+    {
+      "lat": 36.35139042508897,
+      "lng": 127.37608706251469,
+      "title": "롯데리아 대전타임월드점",
+      "description": "대전 서구 둔지로 17",
+      "url": "http://place.map.kakao.com/7857385",
+      "region": "대전광역시"
+    },
+    {
+      "lat": 36.3465126279991,
+      "lng": 127.387011801977,
+      "title": "롯데리아 대전시청점",
+      "description": "대전 서구 문정로 70",
+      "url": "http://place.map.kakao.com/19335637",
+      "region": "대전광역시"
+    },
+    {
+      "lat": 36.3547993227232,
+      "lng": 127.337221396179,
+      "title": "롯데리아 대전유성점",
+      "description": "대전 유성구 계룡로 58",
+      "url": "http://place.map.kakao.com/17942544",
+      "region": "대전광역시"
+    },
+    {
+      "lat": 36.3559744510771,
+      "lng": 127.363056135837,
+      "title": "롯데리아 대전월평점",
+      "description": "대전 서구 월평로 54",
+      "url": "http://place.map.kakao.com/26603238",
+      "region": "대전광역시"
+    },
+    {
+      "lat": 36.3360454229231,
+      "lng": 127.41157121512,
+      "title": "롯데리아 대전중촌점",
+      "description": "대전 중구 목중로 22",
+      "url": "http://place.map.kakao.com/11082642",
+      "region": "대전광역시"
+    },
+    {
+      "lat": 36.34051633490771,
+      "lng": 127.43517808318082,
+      "title": "롯데리아 대전성남점",
+      "description": "대전 동구 우암로 159",
+      "url": "http://place.map.kakao.com/1142957385",
+      "region": "대전광역시"
+    },
+    {
+      "lat": 36.36154763709369,
+      "lng": 127.376920322214,
+      "title": "롯데리아 둔산선사점",
+      "description": "대전 서구 청사서로 42",
+      "url": "http://place.map.kakao.com/24921933",
+      "region": "대전광역시"
+    },
+    {
+      "lat": 36.32948293543882,
+      "lng": 127.44335390396037,
+      "title": "롯데리아 대전대동점",
+      "description": "대전 동구 계족로 174",
+      "url": "http://place.map.kakao.com/11077387",
+      "region": "대전광역시"
+    },
+    {
+      "lat": 36.330548901014325,
+      "lng": 127.43032015100775,
+      "title": "롯데리아 대전중동점",
+      "description": "대전 동구 중앙로 189-2",
+      "url": "http://place.map.kakao.com/8342443",
+      "region": "대전광역시"
+    },
+    {
+      "lat": 36.30103356607357,
+      "lng": 127.33514834123466,
+      "title": "롯데리아 대전관저점",
+      "description": "대전 서구 관저중로 98",
+      "url": "http://place.map.kakao.com/7856437",
+      "region": "대전광역시"
+    },
+    {
+      "lat": 36.3553232697406,
+      "lng": 127.449605682762,
+      "title": "롯데리아 대전비래점",
+      "description": "대전 대덕구 비래동로 13",
+      "url": "http://place.map.kakao.com/10350752",
+      "region": "대전광역시"
+    },
+    {
+      "lat": 36.391596519266024,
+      "lng": 127.31354734169217,
+      "title": "롯데리아 대전반석점",
+      "description": "대전 유성구 반석로 9",
+      "url": "http://place.map.kakao.com/10360047",
+      "region": "대전광역시"
+    },
+    {
+      "lat": 36.33284879267666,
+      "lng": 127.38287666236884,
+      "title": "롯데리아 대전가장점",
+      "description": "대전 서구 가장로 106",
+      "url": "http://place.map.kakao.com/8316527",
+      "region": "대전광역시"
+    },
+    {
+      "lat": 36.3658642331609,
+      "lng": 127.439687065411,
+      "title": "롯데리아 대전송촌점",
+      "description": "대전 대덕구 동춘당로94번길 11-7",
+      "url": "http://place.map.kakao.com/8316530",
+      "region": "대전광역시"
+    },
+    {
+      "lat": 36.3285545379523,
+      "lng": 127.425047958271,
+      "title": "롯데리아 대전중앙점",
+      "description": "대전 중구 중앙로 139",
+      "url": "http://place.map.kakao.com/26103025",
+      "region": "대전광역시"
+    },
+    {
+      "lat": 36.34671087487951,
+      "lng": 127.36921467326489,
+      "title": "롯데리아 대전갈마점",
+      "description": "대전 서구 갈마로 64",
+      "url": "http://place.map.kakao.com/7856436",
+      "region": "대전광역시"
+    },
+    {
+      "lat": 36.35374530336095,
+      "lng": 127.44430918209217,
+      "title": "롯데리아 대전가양DT점",
+      "description": "대전 대덕구 동서대로 1772",
+      "url": "http://place.map.kakao.com/20014531",
+      "region": "대전광역시"
+    },
+    {
+      "lat": 36.3187376332852,
+      "lng": 127.415155029104,
+      "title": "롯데리아 대전대사점",
+      "description": "대전 중구 계룡로920번길 36",
+      "url": "http://place.map.kakao.com/143347755",
+      "region": "대전광역시"
+    },
+    {
+      "lat": 36.33218876425622,
+      "lng": 127.4338865641135,
+      "title": "롯데리아 대전역사점",
+      "description": "대전 동구 중앙로 215",
+      "url": "http://place.map.kakao.com/21352993",
+      "region": "대전광역시"
+    },
+    {
+      "lat": 36.4252346387525,
+      "lng": 127.388289752023,
+      "title": "롯데리아 대전관평점",
+      "description": "대전 유성구 관평1로 29",
+      "url": "http://place.map.kakao.com/22577973",
+      "region": "대전광역시"
+    },
+    {
+      "lat": 36.3485398476276,
+      "lng": 127.297121182628,
+      "title": "롯데리아 대전한밭대점",
+      "description": "대전 유성구 학하중앙로 6",
+      "url": "http://place.map.kakao.com/24750672",
+      "region": "대전광역시"
+    },
+    {
+      "lat": 36.362699777207,
+      "lng": 127.347648852788,
+      "title": "롯데리아 충남대점",
+      "description": "대전 유성구 궁동로18번길 6",
+      "url": "http://place.map.kakao.com/13017054",
+      "region": "대전광역시"
+    },
+    {
+      "lat": 36.3590496034448,
+      "lng": 127.35453818234082,
+      "title": "롯데리아 홈플러스 유성점",
+      "description": "대전 유성구 한밭대로 502",
+      "url": "http://place.map.kakao.com/7854777",
+      "region": "대전광역시"
+    },
+    {
+      "lat": 36.34942478331114,
+      "lng": 127.43631939400652,
+      "title": "롯데리아 대전터미널점",
+      "description": "대전 동구 동서대로 1679",
+      "url": "http://place.map.kakao.com/22016514",
+      "region": "대전광역시"
+    },
+    {
+      "lat": 36.37456734304177,
+      "lng": 127.31889265331382,
+      "title": "롯데리아 대전노은점",
+      "description": "대전 유성구 은구비남로33번길 47-8",
+      "url": "http://place.map.kakao.com/21657602",
+      "region": "대전광역시"
+    },
+    {
+      "lat": 36.306202466202,
+      "lng": 127.456142019218,
+      "title": "롯데리아 대전가오점",
+      "description": "대전 동구 은어송로 60",
+      "url": "http://place.map.kakao.com/12574836",
+      "region": "대전광역시"
+    },
+    {
+      "lat": 36.35857817880769,
+      "lng": 127.41163188305414,
+      "title": "롯데리아 대전오정점",
+      "description": "대전 대덕구 한밭대로 1019",
+      "url": "http://place.map.kakao.com/1339023285",
+      "region": "대전광역시"
+    },
+    {
+      "lat": 36.3181819029582,
+      "lng": 127.441968082128,
+      "title": "롯데리아 대전효동점",
+      "description": "대전 동구 계족로 33",
+      "url": "http://place.map.kakao.com/1182473916",
+      "region": "대전광역시"
+    },
+    {
+      "lat": 36.3194552682007,
+      "lng": 127.39266423234,
+      "title": "롯데리아 대전버드내점",
+      "description": "대전 중구 태평로 30",
+      "url": "http://place.map.kakao.com/11737169",
+      "region": "대전광역시"
+    },
+    {
+      "lat": 36.3053494629657,
+      "lng": 127.352342053004,
+      "title": "롯데리아 대전가수원점",
+      "description": "대전 서구 계백로 1161",
+      "url": "http://place.map.kakao.com/20225893",
+      "region": "대전광역시"
+    },
+    {
+      "lat": 36.4505252288582,
+      "lng": 127.429228381237,
+      "title": "롯데리아 신탄진점",
+      "description": "대전 대덕구 신탄진로 818-1",
+      "url": "http://place.map.kakao.com/17941980",
+      "region": "대전광역시"
+    },
+    {
+      "lat": 36.313504373571256,
+      "lng": 127.38052830396039,
+      "title": "롯데리아 대전도마점",
+      "description": "대전 서구 계백로 1435",
+      "url": "http://place.map.kakao.com/8357601",
+      "region": "대전광역시"
+    },
+    {
+      "lat": 36.4342683731164,
+      "lng": 127.387032152247,
+      "title": "롯데리아 송강점",
+      "description": "대전 유성구 구즉로58번길 31-12",
+      "url": "http://place.map.kakao.com/632758613",
+      "region": "대전광역시"
+    },
+    {
+      "lat": 36.34818610729831,
+      "lng": 127.33253521788755,
+      "title": "롯데리아 대전도안점",
+      "description": "대전 유성구 월드컵대로300번길 16-16",
+      "url": "http://place.map.kakao.com/251941072",
+      "region": "대전광역시"
+    },
+    {
+      "lat": 36.3705664302652,
+      "lng": 127.338439413888,
+      "title": "롯데리아 대전죽동점",
+      "description": "대전 유성구 죽동로279번길 16",
+      "url": "http://place.map.kakao.com/1644089855",
+      "region": "대전광역시"
+    },
+    {
+      "lat": 36.3279792449015,
+      "lng": 127.458776998083,
+      "title": "롯데리아 대전용운점",
+      "description": "대전 동구 용운로 148",
+      "url": "http://place.map.kakao.com/26305897",
+      "region": "대전광역시"
+    },
+    {
+      "lat": 36.351440234559725,
+      "lng": 127.43718845738846,
+      "title": "롯데리아 대전동부점",
+      "description": "대전 동구 동서대로1695번길 30",
+      "url": "http://place.map.kakao.com/8316528",
+      "region": "대전광역시"
+    },
+    {
+      "lat": 36.3065017419358,
+      "lng": 127.364772911716,
+      "title": "롯데리아 대전정림점",
+      "description": "대전 서구 정림로 71",
+      "url": "http://place.map.kakao.com/17643845",
+      "region": "대전광역시"
+    },
+    {
+      "lat": 36.351294722138356,
+      "lng": 127.42506681970133,
+      "title": "롯데리아 한남대점",
+      "description": "대전 대덕구 한남로 28",
+      "url": "http://place.map.kakao.com/17407697",
+      "region": "대전광역시"
+    },
+    {
+      "lat": 36.3242372228139,
+      "lng": 127.370553053167,
+      "title": "롯데리아 대전배재점",
+      "description": "대전 서구 배재로 176",
+      "url": "http://place.map.kakao.com/12817221",
+      "region": "대전광역시"
+    },
+    {
+      "lat": 36.3993754466158,
+      "lng": 127.403321450875,
+      "title": "롯데리아 대전전민점",
+      "description": "대전 유성구 유성대로 1746-1",
+      "url": "http://place.map.kakao.com/7864415",
+      "region": "대전광역시"
+    },
+    {
+      "lat": 36.41665692541421,
+      "lng": 127.39337819144228,
+      "title": "롯데리아 대전용산점",
+      "description": "대전 유성구 배울1로 126",
+      "url": "http://place.map.kakao.com/1524265818",
+      "region": "대전광역시"
+    },
+    {
+      "lat": 36.3865556473456,
+      "lng": 127.35010450179,
+      "title": "롯데리아 대전신성점",
+      "description": "대전 유성구 신성남로 45",
+      "url": "http://place.map.kakao.com/7856438",
+      "region": "대전광역시"
+    },
+    {
+      "lat": 36.30064859894174,
+      "lng": 127.32442533064439,
+      "title": "롯데리아 롯데마트서대전점",
+      "description": "대전 유성구 유성대로 26-37",
+      "url": "http://place.map.kakao.com/7864420",
+      "region": "대전광역시"
+    },
+    {
+      "lat": 36.2987818662244,
+      "lng": 127.378225724988,
+      "title": "롯데리아 대전복수점",
+      "description": "대전 서구 복수동로 62",
+      "url": "http://place.map.kakao.com/20014519",
+      "region": "대전광역시"
+    },
+    {
+      "lat": 35.487218438942755,
+      "lng": 129.30462957327126,
+      "title": "롯데리아 울산청량점",
+      "description": "울산 울주군 청량읍 삼정로 826",
+      "url": "http://place.map.kakao.com/1445460700",
+      "region": "울산광역시"
+    },
+    {
+      "lat": 35.6320456030061,
+      "lng": 129.440458381014,
+      "title": "롯데리아 울산정자해변점",
+      "description": "울산 북구 동해안로 1656",
+      "url": "http://place.map.kakao.com/1010215543",
+      "region": "울산광역시"
+    },
+    {
+      "lat": 35.433366974556,
+      "lng": 129.311772310492,
+      "title": "롯데리아 울산온산점",
+      "description": "울산 울주군 온산읍 덕남로 5",
+      "url": "http://place.map.kakao.com/1055173114",
+      "region": "울산광역시"
+    },
+    {
+      "lat": 35.5565849073279,
+      "lng": 129.30733229481,
+      "title": "롯데리아 울산우정점",
+      "description": "울산 중구 유곡로 20",
+      "url": "http://place.map.kakao.com/1691532659",
+      "region": "울산광역시"
+    },
+    {
+      "lat": 35.54020619784324,
+      "lng": 129.33805729044693,
+      "title": "롯데리아 울산삼산점",
+      "description": "울산 남구 삼산로277번길 6-15",
+      "url": "http://place.map.kakao.com/1898289257",
+      "region": "울산광역시"
+    },
+    {
+      "lat": 35.558701244573875,
+      "lng": 129.34288401104254,
+      "title": "롯데리아 울산반구점",
+      "description": "울산 중구 염포로 8",
+      "url": "http://place.map.kakao.com/2008240869",
+      "region": "울산광역시"
+    },
+    {
+      "lat": 35.55234383181433,
+      "lng": 129.26777704470408,
+      "title": "롯데리아 울산삼호점",
+      "description": "울산 남구 북부순환도로 39",
+      "url": "http://place.map.kakao.com/1666295384",
+      "region": "울산광역시"
+    },
+    {
+      "lat": 35.53386073398693,
+      "lng": 129.31500603461004,
+      "title": "롯데리아 롯데마트울산점",
+      "description": "울산 남구 삼산로 74",
+      "url": "http://place.map.kakao.com/16788132",
+      "region": "울산광역시"
+    },
+    {
+      "lat": 35.53675586201541,
+      "lng": 129.3397385583535,
+      "title": "롯데리아 울산터미널점",
+      "description": "울산 남구 화합로 133",
+      "url": "http://place.map.kakao.com/7862245",
+      "region": "울산광역시"
+    },
+    {
+      "lat": 35.5562091507747,
+      "lng": 129.35710393538,
+      "title": "롯데리아 울산명촌점",
+      "description": "울산 북구 명촌로 45",
+      "url": "http://place.map.kakao.com/2082958707",
+      "region": "울산광역시"
+    },
+    {
+      "lat": 35.56396387496629,
+      "lng": 129.33478204620758,
+      "title": "롯데리아 홈플러스울산점",
+      "description": "울산 중구 번영로 475",
+      "url": "http://place.map.kakao.com/22643160",
+      "region": "울산광역시"
+    },
+    {
+      "lat": 35.601709292961786,
+      "lng": 129.36542849587684,
+      "title": "롯데리아 울산송정점",
+      "description": "울산 북구 화산로 109",
+      "url": "http://place.map.kakao.com/1785447604",
+      "region": "울산광역시"
+    },
+    {
+      "lat": 35.50902510706243,
+      "lng": 129.42531616922673,
+      "title": "롯데리아 울산전하점",
+      "description": "울산 동구 진성14길 77",
+      "url": "http://place.map.kakao.com/22645446",
+      "region": "울산광역시"
+    },
+    {
+      "lat": 35.648441501845184,
+      "lng": 129.35432085770051,
+      "title": "롯데리아 울산매곡점",
+      "description": "울산 북구 매곡2로 39",
+      "url": "http://place.map.kakao.com/200489195",
+      "region": "울산광역시"
+    },
+    {
+      "lat": 35.5422608301184,
+      "lng": 129.260582701526,
+      "title": "롯데리아 울산대학점",
+      "description": "울산 남구 대학로84번길 7-1",
+      "url": "http://place.map.kakao.com/1044585507",
+      "region": "울산광역시"
+    },
+    {
+      "lat": 35.53674846435477,
+      "lng": 129.3061310406902,
+      "title": "롯데리아 울산신정점",
+      "description": "울산 남구 돋질로 3",
+      "url": "http://place.map.kakao.com/1919807951",
+      "region": "울산광역시"
+    },
+    {
+      "lat": 35.4831617864673,
+      "lng": 129.418303306819,
+      "title": "롯데리아 울산방어점",
+      "description": "울산 동구 꽃바위로 266",
+      "url": "http://place.map.kakao.com/18239762",
+      "region": "울산광역시"
+    },
+    {
+      "lat": 35.5339177805212,
+      "lng": 129.39037895490517,
+      "title": "롯데리아 울산염포점",
+      "description": "울산 북구 염포로 653",
+      "url": "http://place.map.kakao.com/987730681",
+      "region": "울산광역시"
+    },
+    {
+      "lat": 35.56140226087627,
+      "lng": 129.2282674653461,
+      "title": "롯데리아 울산범서점",
+      "description": "울산 울주군 범서읍 천상길 29",
+      "url": "http://place.map.kakao.com/7858092",
+      "region": "울산광역시"
+    },
+    {
+      "lat": 35.56668722107337,
+      "lng": 129.11752294075347,
+      "title": "롯데리아 언양점",
+      "description": "울산 울주군 언양읍 읍성로 27",
+      "url": "http://place.map.kakao.com/1799679613",
+      "region": "울산광역시"
+    },
+    {
+      "lat": 35.49883839653549,
+      "lng": 129.42139131427277,
+      "title": "롯데리아 울산화정점",
+      "description": "울산 동구 대학길 65",
+      "url": "http://place.map.kakao.com/164281776",
+      "region": "울산광역시"
+    },
+    {
+      "lat": 35.5459369763687,
+      "lng": 129.117712452854,
+      "title": "롯데리아 메가마트언양점",
+      "description": "울산 울주군 삼남읍 반구대로 612",
+      "url": "http://place.map.kakao.com/13017080",
+      "region": "울산광역시"
+    },
+    {
+      "lat": 35.6301872348101,
+      "lng": 129.351465318295,
+      "title": "롯데리아 울산호계점",
+      "description": "울산 북구 호계로 302",
+      "url": "http://place.map.kakao.com/20013250",
+      "region": "울산광역시"
+    },
+    {
+      "lat": 35.5352568870845,
+      "lng": 129.290789630034,
+      "title": "롯데리아 울산옥동타워점",
+      "description": "울산 남구 문수로 339",
+      "url": "http://place.map.kakao.com/55333300",
+      "region": "울산광역시"
+    },
+    {
+      "lat": 35.5742831145232,
+      "lng": 129.240610856522,
+      "title": "롯데리아 울산구영점",
+      "description": "울산 울주군 범서읍 점촌3길 10-10",
+      "url": "http://place.map.kakao.com/27437992",
+      "region": "울산광역시"
+    },
+    {
+      "lat": 35.54800359926955,
+      "lng": 129.3246133926065,
+      "title": "롯데리아 울산세이브존점",
+      "description": "울산 남구 번영로250번길 9",
+      "url": "http://place.map.kakao.com/21243652",
+      "region": "울산광역시"
+    },
+    {
+      "lat": 35.57764962176149,
+      "lng": 129.317674523288,
+      "title": "롯데리아 울산성안점",
+      "description": "울산 중구 성안로 195",
+      "url": "http://place.map.kakao.com/482166400",
+      "region": "울산광역시"
+    },
+    {
+      "lat": 35.41311427270768,
+      "lng": 129.2813688238566,
+      "title": "롯데리아 울산온양점",
+      "description": "울산 울주군 온양읍 대운길 37",
+      "url": "http://place.map.kakao.com/12127761",
+      "region": "울산광역시"
+    },
+    {
+      "lat": 35.539362292436,
+      "lng": 129.424911158937,
+      "title": "롯데리아 울산남목점",
+      "description": "울산 동구 방어진순환도로 1133",
+      "url": "http://place.map.kakao.com/13047509",
+      "region": "울산광역시"
+    },
+    {
+      "lat": 35.58795528474052,
+      "lng": 129.36701139888262,
+      "title": "롯데리아 울산화봉점",
+      "description": "울산 북구 화봉로 74",
+      "url": "http://place.map.kakao.com/20013228",
+      "region": "울산광역시"
+    },
+    {
+      "lat": 35.526697025266664,
+      "lng": 129.32232741097846,
+      "title": "롯데리아 홈플러스울산남구점",
+      "description": "울산 남구 수암로 148",
+      "url": "http://place.map.kakao.com/10361547",
+      "region": "울산광역시"
+    },
+    {
+      "lat": 35.502929003916016,
+      "lng": 129.38131129672703,
+      "title": "롯데리아 장생포점",
+      "description": "울산 남구 장생포고래로 246",
+      "url": "http://place.map.kakao.com/790082230",
+      "region": "울산광역시"
+    },
+    {
+      "lat": 35.63038400924431,
+      "lng": 129.34451688906086,
+      "title": "롯데리아 홈플러스울산북구점",
+      "description": "울산 북구 신답로 26",
+      "url": "http://place.map.kakao.com/11079715",
+      "region": "울산광역시"
+    },
+    {
+      "lat": 35.5418568063862,
+      "lng": 129.339828351975,
+      "title": "KM파크 롯데리아 울산삼산DI점 주차장",
+      "description": "울산 남구 삼산동 1568-1",
+      "url": "http://place.map.kakao.com/837383689",
+      "region": "울산광역시"
+    },
+    {
+      "lat": 35.5418060696128,
+      "lng": 129.339703403133,
+      "title": "카카오T GS리테일롯데리아삼산점 주차장",
+      "description": "울산 남구 화합로 194",
+      "url": "http://place.map.kakao.com/1905989601",
+      "region": "울산광역시"
+    },
+    {
+      "lat": 35.54236191322,
+      "lng": 129.260862261373,
+      "title": "G car zone 롯데리아 울산대학점",
+      "description": "울산 남구 대학로84번길 9-1",
+      "url": "http://place.map.kakao.com/898375694",
+      "region": "울산광역시"
+    },
+    {
+      "lat": 36.6013896847405,
+      "lng": 127.30032319180732,
+      "title": "롯데리아 조치원점",
+      "description": "세종특별자치시 조치원읍 조치원로 32-2",
+      "url": "http://place.map.kakao.com/7858344",
+      "region": "세종특별자치시"
+    },
+    {
+      "lat": 36.47738039976732,
+      "lng": 127.28731406312959,
+      "title": "롯데리아 세종보람디엠시티점",
+      "description": "세종특별자치시 보람동 738",
+      "url": "http://place.map.kakao.com/2014001978",
+      "region": "세종특별자치시"
+    },
+    {
+      "lat": 36.5910595956963,
+      "lng": 127.292112089794,
+      "title": "롯데리아 조치원죽림점",
+      "description": "세종특별자치시 조치원읍 세종로 2282",
+      "url": "http://place.map.kakao.com/491079892",
+      "region": "세종특별자치시"
+    },
+    {
+      "lat": 36.484904938106126,
+      "lng": 127.30053697224287,
+      "title": "롯데리아 세종소담점",
+      "description": "세종특별자치시 한누리대로 2009",
+      "url": "http://place.map.kakao.com/1400665670",
+      "region": "세종특별자치시"
+    },
+    {
+      "lat": 36.48699108950994,
+      "lng": 127.25017250753797,
+      "title": "롯데리아 세종새롬점",
+      "description": "세종특별자치시 새롬중앙로 67",
+      "url": "http://place.map.kakao.com/86241720",
+      "region": "세종특별자치시"
+    },
+    {
+      "lat": 36.5298133823921,
+      "lng": 127.366180517817,
+      "title": "롯데리아 세종부강점",
+      "description": "세종특별자치시 부강면 부강로 42",
+      "url": "http://place.map.kakao.com/221873723",
+      "region": "세종특별자치시"
+    },
+    {
+      "lat": 36.50243296864577,
+      "lng": 127.24774418295877,
+      "title": "롯데리아 세종종촌점",
+      "description": "세종특별자치시 도움1로 108",
+      "url": "http://place.map.kakao.com/1943760218",
+      "region": "세종특별자치시"
+    },
+    {
+      "lat": 36.5201675911262,
+      "lng": 127.23578415450818,
+      "title": "롯데리아 세종고운점",
+      "description": "세종특별자치시 마음안1로 137",
+      "url": "http://place.map.kakao.com/469664376",
+      "region": "세종특별자치시"
+    },
+    {
+      "lat": 36.49184555692218,
+      "lng": 127.32531019081196,
+      "title": "롯데리아 세종테크밸리점",
+      "description": "세종특별자치시 남세종로 73",
+      "url": "http://place.map.kakao.com/369601846",
+      "region": "세종특별자치시"
+    },
+    {
+      "lat": 36.528928725672216,
+      "lng": 127.2636954615793,
+      "title": "롯데리아 세종산울점",
+      "description": "세종특별자치시 산울2로 10",
+      "url": "http://place.map.kakao.com/177252276",
+      "region": "세종특별자치시"
+    },
+    {
+      "lat": 36.5073820607937,
+      "lng": 127.258804476887,
+      "title": "롯데리아 홈플러스세종점",
+      "description": "세종특별자치시 절재로 154",
+      "url": "http://place.map.kakao.com/26570499",
+      "region": "세종특별자치시"
+    },
+    {
+      "lat": 36.4980951411027,
+      "lng": 127.312125580197,
+      "title": "롯데리아 세종반곡점",
+      "description": "세종특별자치시 한누리대로 1824",
+      "url": "http://place.map.kakao.com/1565754015",
+      "region": "세종특별자치시"
+    },
+    {
+      "lat": 37.3022913040971,
+      "lng": 126.864481614191,
+      "title": "롯데리아 안산상록수점",
+      "description": "경기 안산시 상록구 상록수로 40",
+      "url": "http://place.map.kakao.com/11075595",
+      "region": "경기도"
+    },
+    {
+      "lat": 37.2652064298226,
+      "lng": 127.00084327704,
+      "title": "롯데리아 수원역광장점",
+      "description": "경기 수원시 팔달구 덕영대로 924",
+      "url": "http://place.map.kakao.com/7856949",
+      "region": "경기도"
+    },
+    {
+      "lat": 37.5390303646662,
+      "lng": 127.202119394003,
+      "title": "롯데리아 하남덕풍점",
+      "description": "경기 하남시 신장로 147",
+      "url": "http://place.map.kakao.com/10356755",
+      "region": "경기도"
+    },
+    {
+      "lat": 37.4010940303375,
+      "lng": 126.976241768802,
+      "title": "롯데리아 인덕원역점",
+      "description": "경기 안양시 동안구 흥안대로 527",
+      "url": "http://place.map.kakao.com/11731865",
+      "region": "경기도"
+    },
+    {
+      "lat": 37.484070762191315,
+      "lng": 126.78252974768546,
+      "title": "롯데리아 부천역점",
+      "description": "경기 부천시 소사구 부천로 1",
+      "url": "http://place.map.kakao.com/7857565",
+      "region": "경기도"
+    },
+    {
+      "lat": 37.3989812253378,
+      "lng": 126.923383103178,
+      "title": "롯데리아 안양점",
+      "description": "경기 안양시 만안구 안양로292번길 28",
+      "url": "http://place.map.kakao.com/7857993",
+      "region": "경기도"
+    },
+    {
+      "lat": 37.19360497961942,
+      "lng": 127.04306559790099,
+      "title": "롯데리아 오산세교DT점",
+      "description": "경기 오산시 경기대로 859",
+      "url": "http://place.map.kakao.com/1569594071",
+      "region": "경기도"
+    },
+    {
+      "lat": 37.3280734397072,
+      "lng": 126.848124424572,
+      "title": "롯데리아 안산D/T점",
+      "description": "경기 안산시 상록구 예술광장1로 68",
+      "url": "http://place.map.kakao.com/8343955",
+      "region": "경기도"
+    },
+    {
+      "lat": 37.676151604062,
+      "lng": 126.748172059036,
+      "title": "롯데리아 일산대화역점",
+      "description": "경기 고양시 일산서구 중앙로 1564",
+      "url": "http://place.map.kakao.com/26305911",
+      "region": "경기도"
+    },
+    {
+      "lat": 37.029793365376214,
+      "lng": 126.94080488373697,
+      "title": "롯데리아 평택청북DT점",
+      "description": "경기 평택시 청북읍 서해로 1538-1",
+      "url": "http://place.map.kakao.com/27400988",
+      "region": "경기도"
+    },
+    {
+      "lat": 37.24611961990516,
+      "lng": 127.05659688873449,
+      "title": "롯데리아 망포역점",
+      "description": "경기 수원시 영통구 덕영대로 1515",
+      "url": "http://place.map.kakao.com/22461440",
+      "region": "경기도"
+    },
+    {
+      "lat": 37.62540076171367,
+      "lng": 127.15548149922357,
+      "title": "롯데리아 다산진건점",
+      "description": "경기 남양주시 다산순환로 350",
+      "url": "http://place.map.kakao.com/1340466385",
+      "region": "경기도"
+    },
+    {
+      "lat": 37.3273711421962,
+      "lng": 126.789598540464,
+      "title": "롯데리아 안산역사점",
+      "description": "경기 안산시 단원구 중앙대로 462",
+      "url": "http://place.map.kakao.com/7857825",
+      "region": "경기도"
+    },
+    {
+      "lat": 37.3205040427351,
+      "lng": 127.083856928514,
+      "title": "롯데리아 용인신봉점",
+      "description": "경기 용인시 수지구 수지로 217",
+      "url": "http://place.map.kakao.com/13017104",
+      "region": "경기도"
+    },
+    {
+      "lat": 37.501517046246,
+      "lng": 126.774422506182,
+      "title": "롯데리아 부천중동점",
+      "description": "경기 부천시 원미구 중동로254번길 104",
+      "url": "http://place.map.kakao.com/17597964",
+      "region": "경기도"
+    },
+    {
+      "lat": 37.3365400496226,
+      "lng": 126.810963660612,
+      "title": "롯데리아 안산제일점",
+      "description": "경기 안산시 단원구 선부광장1로 56",
+      "url": "http://place.map.kakao.com/7864768",
+      "region": "경기도"
+    },
+    {
+      "lat": 37.483272874886,
+      "lng": 126.7594941054,
+      "title": "롯데리아 부천송내D/T점",
+      "description": "경기 부천시 소사구 경인로 36",
+      "url": "http://place.map.kakao.com/12817234",
+      "region": "경기도"
+    },
+    {
+      "lat": 37.24621997988485,
+      "lng": 126.96534189616129,
+      "title": "롯데리아 오목천DT점",
+      "description": "경기 수원시 권선구 매송고색로 552",
+      "url": "http://place.map.kakao.com/27001757",
+      "region": "경기도"
+    },
+    {
+      "lat": 37.391218087208216,
+      "lng": 126.95055535057669,
+      "title": "롯데리아 안양범계점",
+      "description": "경기 안양시 동안구 시민대로 175",
+      "url": "http://place.map.kakao.com/936246603",
+      "region": "경기도"
+    },
+    {
+      "lat": 37.29792769375492,
+      "lng": 126.97083907943404,
+      "title": "롯데리아 수원성대점",
+      "description": "경기 수원시 장안구 서부로 2119",
+      "url": "http://place.map.kakao.com/21314103",
+      "region": "경기도"
+    },
+    {
+      "lat": 37.4119730188733,
+      "lng": 127.127727402912,
+      "title": "롯데리아 야탑역점",
+      "description": "경기 성남시 분당구 성남대로925번길 11",
+      "url": "http://place.map.kakao.com/21321652",
+      "region": "경기도"
+    },
+    {
+      "lat": 37.203056861385186,
+      "lng": 127.01354556950888,
+      "title": "롯데리아 화성화산DT점",
+      "description": "경기 화성시 효행로 759",
+      "url": "http://place.map.kakao.com/26772590",
+      "region": "경기도"
+    },
+    {
+      "lat": 37.27734594812985,
+      "lng": 127.016225541425,
+      "title": "롯데리아 수원팔달점",
+      "description": "경기 수원시 팔달구 정조로 777",
+      "url": "http://place.map.kakao.com/8318021",
+      "region": "경기도"
+    },
+    {
+      "lat": 37.26485393098087,
+      "lng": 127.03335889163671,
+      "title": "롯데리아 동수원점",
+      "description": "경기 수원시 팔달구 인계로166번길 48-21",
+      "url": "http://place.map.kakao.com/19381462",
+      "region": "경기도"
+    },
+    {
+      "lat": 36.9918704817608,
+      "lng": 127.08822621798,
+      "title": "롯데리아 평택중앙점",
+      "description": "경기 평택시 평택2로10번길 10-3",
+      "url": "http://place.map.kakao.com/7858815",
+      "region": "경기도"
+    },
+    {
+      "lat": 37.73872935843441,
+      "lng": 127.04996417075057,
+      "title": "롯데리아 의정부제일점",
+      "description": "경기 의정부시 시민로131번길 16",
+      "url": "http://place.map.kakao.com/8318705",
+      "region": "경기도"
+    },
+    {
+      "lat": 37.657777287934394,
+      "lng": 127.12548862829364,
+      "title": "롯데리아 별내신도시점",
+      "description": "경기 남양주시 순화궁로 347",
+      "url": "http://place.map.kakao.com/19697291",
+      "region": "경기도"
+    },
+    {
+      "lat": 36.9944548375106,
+      "lng": 127.140542109594,
+      "title": "롯데리아 안성공도DT점",
+      "description": "경기 안성시 공도읍 서동대로 3904-6",
+      "url": "http://place.map.kakao.com/17135850",
+      "region": "경기도"
+    },
+    {
+      "lat": 37.3099067494741,
+      "lng": 126.830807181694,
+      "title": "롯데리아 안산신도시점",
+      "description": "경기 안산시 단원구 광덕대로 154",
+      "url": "http://place.map.kakao.com/16277693",
+      "region": "경기도"
+    },
+    {
+      "lat": 37.4031603031736,
+      "lng": 126.955265172006,
+      "title": "롯데리아 안양관양점",
+      "description": "경기 안양시 동안구 관악대로 291",
+      "url": "http://place.map.kakao.com/17942553",
+      "region": "경기도"
+    },
+    {
+      "lat": 37.4881097598626,
+      "lng": 126.752649085173,
+      "title": "롯데리아 부천송내점",
+      "description": "경기 부천시 원미구 부일로 202-13",
+      "url": "http://place.map.kakao.com/10360857",
+      "region": "경기도"
+    },
+    {
+      "lat": 37.3085141916264,
+      "lng": 126.851259063768,
+      "title": "롯데리아 안산한양대점",
+      "description": "경기 안산시 상록구 광덕1로 379",
+      "url": "http://place.map.kakao.com/7857919",
+      "region": "경기도"
+    },
+    {
+      "lat": 37.52341919693,
+      "lng": 126.80512198947,
+      "title": "롯데리아 부천원종점",
+      "description": "경기 부천시 오정구 소사로 756",
+      "url": "http://place.map.kakao.com/8318016",
+      "region": "경기도"
+    },
+    {
+      "lat": 37.2747641431536,
+      "lng": 127.042818631314,
+      "title": "롯데리아 수원매탄점",
+      "description": "경기 수원시 영통구 중부대로 248",
+      "url": "http://place.map.kakao.com/11082211",
+      "region": "경기도"
+    },
+    {
+      "lat": 37.21369890078115,
+      "lng": 127.04173297187033,
+      "title": "롯데리아 화성태안점",
+      "description": "경기 화성시 병점1로 221",
+      "url": "http://place.map.kakao.com/10352283",
+      "region": "경기도"
+    },
+    {
+      "lat": 37.586813987173,
+      "lng": 127.138192783408,
+      "title": "롯데리아 구리토평점",
+      "description": "경기 구리시 체육관로 26",
+      "url": "http://place.map.kakao.com/13017058",
+      "region": "경기도"
+    },
+    {
+      "lat": 37.607730788795784,
+      "lng": 127.13870033797386,
+      "title": "롯데리아 구리인창점",
+      "description": "경기 구리시 건원대로 75",
+      "url": "http://place.map.kakao.com/14741024",
+      "region": "경기도"
+    },
+    {
+      "lat": 37.69020937323807,
+      "lng": 126.59744148063542,
+      "title": "롯데리아 김포통진점",
+      "description": "경기 김포시 통진읍 김포대로 2242",
+      "url": "http://place.map.kakao.com/15663135",
+      "region": "경기도"
+    },
+    {
+      "lat": 37.25053389678446,
+      "lng": 127.03561590879109,
+      "title": "롯데리아 수원권선점",
+      "description": "경기 수원시 권선구 동수원로242번길 20",
+      "url": "http://place.map.kakao.com/7857741",
+      "region": "경기도"
+    },
+    {
+      "lat": 37.3404131023365,
+      "lng": 126.814650910762,
+      "title": "롯데리아 안산선부점",
+      "description": "경기 안산시 단원구 달미로 63",
+      "url": "http://place.map.kakao.com/7856955",
+      "region": "경기도"
+    },
+    {
+      "lat": 37.31876674902739,
+      "lng": 126.83602543519245,
+      "title": "롯데리아 안산중앙점",
+      "description": "경기 안산시 단원구 고잔로 88",
+      "url": "http://place.map.kakao.com/61850067",
+      "region": "경기도"
+    },
+    {
+      "lat": 37.3877501397064,
+      "lng": 127.11342666842,
+      "title": "롯데리아 판교DT점",
+      "description": "경기 성남시 분당구 동판교로 42",
+      "url": "http://place.map.kakao.com/1471403866",
+      "region": "경기도"
+    },
+    {
+      "lat": 37.4856953619287,
+      "lng": 126.866237129994,
+      "title": "롯데리아 광명철산점",
+      "description": "경기 광명시 시청로 106",
+      "url": "http://place.map.kakao.com/884759632",
+      "region": "경기도"
+    },
+    {
+      "lat": 37.4891397982163,
+      "lng": 126.783496527269,
+      "title": "롯데리아 부천원미점",
+      "description": "경기 부천시 원미구 부천로 53",
+      "url": "http://place.map.kakao.com/7857566",
+      "region": "경기도"
+    },
+    {
+      "lat": 37.360068658052754,
+      "lng": 126.93063566517918,
+      "title": "롯데리아 산본점",
+      "description": "경기 군포시 산본로343번길 21",
+      "url": "http://place.map.kakao.com/7864761",
+      "region": "경기도"
+    },
+    {
+      "lat": 37.3477477554151,
+      "lng": 127.932237859789,
+      "title": "롯데리아 원주단계점",
+      "description": "강원특별자치도 원주시 천사로 63",
+      "url": "http://place.map.kakao.com/17135844",
+      "region": "강원특별자치도"
+    },
+    {
+      "lat": 38.2024260928518,
+      "lng": 128.590092372155,
+      "title": "롯데리아 속초점",
+      "description": "강원특별자치도 속초시 중앙로 128",
+      "url": "http://place.map.kakao.com/21245934",
+      "region": "강원특별자치도"
+    },
+    {
+      "lat": 37.3826218831475,
+      "lng": 127.947401820065,
+      "title": "롯데리아 원주태장점",
+      "description": "강원특별자치도 원주시 북원로 2680",
+      "url": "http://place.map.kakao.com/24521681",
+      "region": "강원특별자치도"
+    },
+    {
+      "lat": 37.8677219201296,
+      "lng": 127.719827140355,
+      "title": "롯데리아 춘천온의점",
+      "description": "강원특별자치도 춘천시 방송길 94-7",
+      "url": "http://place.map.kakao.com/1313677694",
+      "region": "강원특별자치도"
+    },
+    {
+      "lat": 37.7644650108891,
+      "lng": 128.876073068913,
+      "title": "롯데리아 강릉교동점",
+      "description": "강원특별자치도 강릉시 교동광장로 106",
+      "url": "http://place.map.kakao.com/7855923",
+      "region": "강원특별자치도"
+    },
+    {
+      "lat": 37.3251718854325,
+      "lng": 127.980445637184,
+      "title": "롯데리아 원주반곡점",
+      "description": "강원특별자치도 원주시 봄마중길 34",
+      "url": "http://place.map.kakao.com/26431824",
+      "region": "강원특별자치도"
+    },
+    {
+      "lat": 37.17662279015505,
+      "lng": 128.99114896552248,
+      "title": "롯데리아 태백점",
+      "description": "강원특별자치도 태백시 태백로 898",
+      "url": "http://place.map.kakao.com/7862592",
+      "region": "강원특별자치도"
+    },
+    {
+      "lat": 38.20893677351925,
+      "lng": 127.21738875246018,
+      "title": "롯데리아 철원동송점",
+      "description": "강원특별자치도 철원군 동송읍 금학로 229",
+      "url": "http://place.map.kakao.com/7862420",
+      "region": "강원특별자치도"
+    },
+    {
+      "lat": 37.3699242489144,
+      "lng": 127.937104586554,
+      "title": "롯데리아 원주우산점",
+      "description": "강원특별자치도 원주시 우산로 72",
+      "url": "http://place.map.kakao.com/8318027",
+      "region": "강원특별자치도"
+    },
+    {
+      "lat": 38.0779021228936,
+      "lng": 128.626439870571,
+      "title": "롯데리아 양양점",
+      "description": "강원특별자치도 양양군 양양읍 양양로 15-1",
+      "url": "http://place.map.kakao.com/1725198329",
+      "region": "강원특별자치도"
+    },
+    {
+      "lat": 37.6908482420606,
+      "lng": 127.884586152527,
+      "title": "롯데리아 홍천점",
+      "description": "강원특별자치도 홍천군 홍천읍 홍천로6길 22",
+      "url": "http://place.map.kakao.com/7854908",
+      "region": "강원특별자치도"
+    },
+    {
+      "lat": 37.2075467875967,
+      "lng": 128.844202879012,
+      "title": "롯데리아 정선고한점",
+      "description": "강원특별자치도 정선군 고한읍 고한로 45",
+      "url": "http://place.map.kakao.com/1164271476",
+      "region": "강원특별자치도"
+    },
+    {
+      "lat": 38.106576941454556,
+      "lng": 127.98953386661739,
+      "title": "롯데리아 양구점",
+      "description": "강원특별자치도 양구군 양구읍 양록길 99",
+      "url": "http://place.map.kakao.com/21273185",
+      "region": "강원특별자치도"
+    },
+    {
+      "lat": 37.7551306252755,
+      "lng": 128.897326825188,
+      "title": "롯데리아 강릉점",
+      "description": "강원특별자치도 강릉시 경강로 2106",
+      "url": "http://place.map.kakao.com/7855924",
+      "region": "강원특별자치도"
+    },
+    {
+      "lat": 37.523039840198244,
+      "lng": 129.1131405654023,
+      "title": "롯데리아 동해점",
+      "description": "강원특별자치도 동해시 천곡로 74",
+      "url": "http://place.map.kakao.com/7856605",
+      "region": "강원특별자치도"
+    },
+    {
+      "lat": 37.4435404081179,
+      "lng": 129.164173664541,
+      "title": "롯데리아 삼척점",
+      "description": "강원특별자치도 삼척시 진주로 32",
+      "url": "http://place.map.kakao.com/7857569",
+      "region": "강원특별자치도"
+    },
+    {
+      "lat": 37.336085445804486,
+      "lng": 127.92785544996849,
+      "title": "롯데리아 원주무실점",
+      "description": "강원특별자치도 원주시 시청로 86",
+      "url": "http://place.map.kakao.com/7862247",
+      "region": "강원특별자치도"
+    },
+    {
+      "lat": 37.320357089098,
+      "lng": 127.959769421675,
+      "title": "롯데리아 원주단관점",
+      "description": "강원특별자치도 원주시 단관길 125",
+      "url": "http://place.map.kakao.com/1710728571",
+      "region": "강원특별자치도"
+    },
+    {
+      "lat": 37.485974394101575,
+      "lng": 129.10886586183562,
+      "title": "롯데리아 동해쇄운점",
+      "description": "강원특별자치도 동해시 청운1길 52",
+      "url": "http://place.map.kakao.com/17204749",
+      "region": "강원특별자치도"
+    },
+    {
+      "lat": 38.2398108079825,
+      "lng": 127.439403927047,
+      "title": "롯데리아 철원와수점",
+      "description": "강원특별자치도 철원군 서면 와수로 186",
+      "url": "http://place.map.kakao.com/17135868",
+      "region": "강원특별자치도"
+    },
+    {
+      "lat": 37.745484291704784,
+      "lng": 128.8846478529316,
+      "title": "롯데리아 강릉내곡점",
+      "description": "강원특별자치도 강릉시 범일로 663",
+      "url": "http://place.map.kakao.com/1979275660",
+      "region": "강원특별자치도"
+    },
+    {
+      "lat": 38.19036851587055,
+      "lng": 128.59859252581916,
+      "title": "롯데리아 속초터미널점",
+      "description": "강원특별자치도 속초시 동해대로 3988",
+      "url": "http://place.map.kakao.com/18127512",
+      "region": "강원특별자치도"
+    },
+    {
+      "lat": 37.4897257711789,
+      "lng": 127.98632383924,
+      "title": "롯데리아 횡성점",
+      "description": "강원특별자치도 횡성군 횡성읍 문정로 25",
+      "url": "http://place.map.kakao.com/11079716",
+      "region": "강원특별자치도"
+    },
+    {
+      "lat": 37.87316575181452,
+      "lng": 127.7438216062807,
+      "title": "롯데리아 강원대학점",
+      "description": "강원특별자치도 춘천시 서부대성로 231",
+      "url": "http://place.map.kakao.com/8356783",
+      "region": "강원특별자치도"
+    },
+    {
+      "lat": 38.0709576879132,
+      "lng": 127.521255993463,
+      "title": "롯데리아 화천사내점",
+      "description": "강원특별자치도 화천군 사내면 사내로 33",
+      "url": "http://place.map.kakao.com/13017085",
+      "region": "강원특별자치도"
+    },
+    {
+      "lat": 37.77146262468429,
+      "lng": 128.91232830537285,
+      "title": "롯데리아 강릉포남점",
+      "description": "강원특별자치도 강릉시 하평2길 11",
+      "url": "http://place.map.kakao.com/25770887",
+      "region": "강원특별자치도"
+    },
+    {
+      "lat": 37.8535291920984,
+      "lng": 127.737496455622,
+      "title": "롯데리아 하나로마트 춘천퇴계점",
+      "description": "강원특별자치도 춘천시 지석로 11",
+      "url": "http://place.map.kakao.com/2112916853",
+      "region": "강원특별자치도"
+    },
+    {
+      "lat": 37.37420480688442,
+      "lng": 127.87672308812488,
+      "title": "롯데리아 원주기업도시점",
+      "description": "강원특별자치도 원주시 지정면 신지정로 180",
+      "url": "http://place.map.kakao.com/541562691",
+      "region": "강원특별자치도"
+    },
+    {
+      "lat": 37.7593880379295,
+      "lng": 128.920011082052,
+      "title": "롯데리아 강릉입암점",
+      "description": "강원특별자치도 강릉시 성덕포남로 46",
+      "url": "http://place.map.kakao.com/2010505823",
+      "region": "강원특별자치도"
+    },
+    {
+      "lat": 37.3208535784227,
+      "lng": 127.833366612643,
+      "title": "롯데리아 문막점",
+      "description": "강원특별자치도 원주시 문막읍 원문로 1587",
+      "url": "http://place.map.kakao.com/12994481",
+      "region": "강원특별자치도"
+    },
+    {
+      "lat": 38.065911375344626,
+      "lng": 128.17507458204753,
+      "title": "롯데리아 인제터미널점",
+      "description": "강원특별자치도 인제군 인제읍 비봉로 43",
+      "url": "http://place.map.kakao.com/13020335",
+      "region": "강원특별자치도"
+    },
+    {
+      "lat": 37.8993863887079,
+      "lng": 127.732323612061,
+      "title": "롯데리아 춘천우두점",
+      "description": "강원특별자치도 춘천시 충열로 39",
+      "url": "http://place.map.kakao.com/27409530",
+      "region": "강원특별자치도"
+    },
+    {
+      "lat": 37.1834062193128,
+      "lng": 128.466345835401,
+      "title": "롯데리아 영월점",
+      "description": "강원특별자치도 영월군 영월읍 중앙로 24",
+      "url": "http://place.map.kakao.com/10362610",
+      "region": "강원특별자치도"
+    },
+    {
+      "lat": 37.3419432711354,
+      "lng": 127.964855923576,
+      "title": "롯데리아 원주봉산점",
+      "description": "강원특별자치도 원주시 행구로 69",
+      "url": "http://place.map.kakao.com/1579352594",
+      "region": "강원특별자치도"
+    },
+    {
+      "lat": 37.89228026702336,
+      "lng": 127.75732067550466,
+      "title": "롯데리아 춘천장학점",
+      "description": "강원특별자치도 춘천시 동면 춘천순환로 600",
+      "url": "http://place.map.kakao.com/1446287082",
+      "region": "강원특별자치도"
+    },
+    {
+      "lat": 38.3792394408446,
+      "lng": 128.46829670321,
+      "title": "롯데리아 고성간성점",
+      "description": "강원특별자치도 고성군 간성읍 간성로 59-1",
+      "url": "http://place.map.kakao.com/973752463",
+      "region": "강원특별자치도"
+    },
+    {
+      "lat": 37.7546405159636,
+      "lng": 128.879796000723,
+      "title": "롯데리아 강릉터미널점",
+      "description": "강원특별자치도 강릉시 하슬라로 15",
+      "url": "http://place.map.kakao.com/7863907",
+      "region": "강원특별자치도"
+    },
+    {
+      "lat": 38.122904899637284,
+      "lng": 128.20292902186878,
+      "title": "롯데리아 원통점",
+      "description": "강원특별자치도 인제군 북면 원통로147번길 29",
+      "url": "http://place.map.kakao.com/7858167",
+      "region": "강원특별자치도"
+    },
+    {
+      "lat": 37.30065002786709,
+      "lng": 127.9198790193592,
+      "title": "롯데리아 원주흥업점",
+      "description": "강원특별자치도 원주시 흥업면 남원로 52-5",
+      "url": "http://place.map.kakao.com/1637041336",
+      "region": "강원특별자치도"
+    },
+    {
+      "lat": 37.3309234121693,
+      "lng": 127.948784286827,
+      "title": "롯데리아 단구롯데시네마점",
+      "description": "강원특별자치도 원주시 서원대로 396",
+      "url": "http://place.map.kakao.com/852380308",
+      "region": "강원특별자치도"
+    },
+    {
+      "lat": 38.18049658568191,
+      "lng": 128.6132024375244,
+      "title": "롯데리아 롯데속초리조트점",
+      "description": "강원특별자치도 속초시 대포항길 186",
+      "url": "http://place.map.kakao.com/1727772375",
+      "region": "강원특별자치도"
+    },
+    {
+      "lat": 37.890822238030424,
+      "lng": 128.82615002916188,
+      "title": "롯데리아 강릉주문진점",
+      "description": "강원특별자치도 강릉시 주문진읍 주문로 78",
+      "url": "http://place.map.kakao.com/26594228",
+      "region": "강원특별자치도"
+    },
+    {
+      "lat": 37.58118322972138,
+      "lng": 128.3286740797695,
+      "title": "롯데리아 휘닉스파크 센터플라자점",
+      "description": "강원특별자치도 평창군 봉평면 태기로 174",
+      "url": "http://place.map.kakao.com/802852106",
+      "region": "강원특별자치도"
+    },
+    {
+      "lat": 37.341033969095,
+      "lng": 127.939015944964,
+      "title": "롯데리아 원주하나로점",
+      "description": "강원특별자치도 원주시 무실로 182",
+      "url": "http://place.map.kakao.com/7858094",
+      "region": "강원특별자치도"
+    },
+    {
+      "lat": 37.6377476364598,
+      "lng": 128.55879619195682,
+      "title": "롯데리아 평창진부점",
+      "description": "강원특별자치도 평창군 진부면 진부중앙로 71",
+      "url": "http://place.map.kakao.com/1446989511",
+      "region": "강원특별자치도"
+    },
+    {
+      "lat": 36.6337563408553,
+      "lng": 127.460234351616,
+      "title": "롯데리아 청주사창점",
+      "description": "충북 청주시 서원구 내수동로 116",
+      "url": "http://place.map.kakao.com/10356751",
+      "region": "충청북도"
+    },
+    {
+      "lat": 36.620548526233,
+      "lng": 127.445278714688,
+      "title": "롯데리아 청주개신점",
+      "description": "충북 청주시 서원구 경신로 31-1",
+      "url": "http://place.map.kakao.com/7858685",
+      "region": "충청북도"
+    },
+    {
+      "lat": 36.6299095893116,
+      "lng": 127.505548050995,
+      "title": "롯데리아 청주금천점",
+      "description": "충북 청주시 상당구 수영로 285",
+      "url": "http://place.map.kakao.com/1426596395",
+      "region": "충청북도"
+    },
+    {
+      "lat": 37.1378362473806,
+      "lng": 128.21095452271,
+      "title": "롯데리아 제천점",
+      "description": "충북 제천시 풍양로13길 5",
+      "url": "http://place.map.kakao.com/10361544",
+      "region": "충청북도"
+    },
+    {
+      "lat": 36.6511065510092,
+      "lng": 127.488765989315,
+      "title": "롯데리아 청주대학점",
+      "description": "충북 청주시 청원구 상당로 255",
+      "url": "http://place.map.kakao.com/7854443",
+      "region": "충청북도"
+    },
+    {
+      "lat": 36.66882456508583,
+      "lng": 127.49093177120072,
+      "title": "롯데리아 청주율량점",
+      "description": "충북 청주시 청원구 율봉로 197",
+      "url": "http://place.map.kakao.com/7862425",
+      "region": "충청북도"
+    },
+    {
+      "lat": 36.97031349542346,
+      "lng": 127.93270139767178,
+      "title": "롯데리아 충주점",
+      "description": "충북 충주시 예성로 151",
+      "url": "http://place.map.kakao.com/24162106",
+      "region": "충청북도"
+    },
+    {
+      "lat": 36.649476359306,
+      "lng": 127.460976506731,
+      "title": "롯데리아 청주봉명점",
+      "description": "충북 청주시 흥덕구 백봉로 227",
+      "url": "http://place.map.kakao.com/12127733",
+      "region": "충청북도"
+    },
+    {
+      "lat": 36.30132137945921,
+      "lng": 127.5688918173511,
+      "title": "롯데리아 옥천점",
+      "description": "충북 옥천군 옥천읍 금장로 43",
+      "url": "http://place.map.kakao.com/7862082",
+      "region": "충청북도"
+    },
+    {
+      "lat": 36.7112690058626,
+      "lng": 127.428919304675,
+      "title": "롯데리아 오창점",
+      "description": "충북 청주시 청원구 오창읍 중심상업로 7",
+      "url": "http://place.map.kakao.com/7857997",
+      "region": "충청북도"
+    },
+    {
+      "lat": 36.854721430975346,
+      "lng": 127.44471924050049,
+      "title": "롯데리아 진천점",
+      "description": "충북 진천군 진천읍 중앙동로 56",
+      "url": "http://place.map.kakao.com/8318711",
+      "region": "충청북도"
+    },
+    {
+      "lat": 36.6664461436633,
+      "lng": 127.481082201599,
+      "title": "롯데리아 청주사천점",
+      "description": "충북 청주시 청원구 사뜸로 49",
+      "url": "http://place.map.kakao.com/10352279",
+      "region": "충청북도"
+    },
+    {
+      "lat": 36.6109890671371,
+      "lng": 127.485047621073,
+      "title": "롯데리아 청주분평점",
+      "description": "충북 청주시 서원구 월평로 4",
+      "url": "http://place.map.kakao.com/8269941",
+      "region": "충청북도"
+    },
+    {
+      "lat": 36.6106056100241,
+      "lng": 127.503626895268,
+      "title": "롯데리아 청주용암점",
+      "description": "충북 청주시 상당구 월평로 172",
+      "url": "http://place.map.kakao.com/12749124",
+      "region": "충청북도"
+    },
+    {
+      "lat": 36.73180986806366,
+      "lng": 127.45207883340193,
+      "title": "롯데리아 오창2산단점",
+      "description": "충북 청주시 청원구 오창읍 주성1길 5",
+      "url": "http://place.map.kakao.com/355139790",
+      "region": "충청북도"
+    },
+    {
+      "lat": 36.6360690417881,
+      "lng": 127.429727574396,
+      "title": "롯데리아 청주하복대점",
+      "description": "충북 청주시 흥덕구 진재로 56",
+      "url": "http://place.map.kakao.com/7862553",
+      "region": "충청북도"
+    },
+    {
+      "lat": 36.67072620358981,
+      "lng": 127.49630209372394,
+      "title": "롯데리아 청주율량2지구점",
+      "description": "충북 청주시 청원구 주성로 269",
+      "url": "http://place.map.kakao.com/26431832",
+      "region": "충청북도"
+    },
+    {
+      "lat": 37.121891994369015,
+      "lng": 128.2028152134373,
+      "title": "롯데리아 제천강저점",
+      "description": "충북 제천시 강저로 226",
+      "url": "http://place.map.kakao.com/1610169322",
+      "region": "충청북도"
+    },
+    {
+      "lat": 36.6307773033994,
+      "lng": 127.330383317492,
+      "title": "롯데리아 충북오송점",
+      "description": "충북 청주시 흥덕구 오송읍 오송생명로 194",
+      "url": "http://place.map.kakao.com/13113884",
+      "region": "충청북도"
+    },
+    {
+      "lat": 36.6258321900919,
+      "lng": 127.432716129448,
+      "title": "롯데리아 청주터미널점",
+      "description": "충북 청주시 흥덕구 풍산로 18",
+      "url": "http://place.map.kakao.com/26638381",
+      "region": "충청북도"
+    },
+    {
+      "lat": 36.6112095276628,
+      "lng": 127.465930635763,
+      "title": "롯데리아 청주산남점",
+      "description": "충북 청주시 서원구 산남로70번길 3",
+      "url": "http://place.map.kakao.com/7862424",
+      "region": "충청북도"
+    },
+    {
+      "lat": 36.62276717584869,
+      "lng": 127.35842181826358,
+      "title": "롯데리아 청주강내점",
+      "description": "충북 청주시 흥덕구 강내면 태성탑연로 451",
+      "url": "http://place.map.kakao.com/26986266",
+      "region": "충청북도"
+    },
+    {
+      "lat": 36.4826445047025,
+      "lng": 127.718186791788,
+      "title": "롯데리아 보은점",
+      "description": "충북 보은군 보은읍 보은로 95",
+      "url": "http://place.map.kakao.com/21669234",
+      "region": "충청북도"
+    },
+    {
+      "lat": 37.016565256150116,
+      "lng": 127.82451457427543,
+      "title": "롯데리아 서충주신도시점",
+      "description": "충북 충주시 중앙탑면 기업도시로 222",
+      "url": "http://place.map.kakao.com/874498370",
+      "region": "충청북도"
+    },
+    {
+      "lat": 36.8089912365111,
+      "lng": 127.794879623251,
+      "title": "롯데리아 괴산점",
+      "description": "충북 괴산군 괴산읍 괴강로 4",
+      "url": "http://place.map.kakao.com/17031721",
+      "region": "충청북도"
+    },
+    {
+      "lat": 36.9866926823709,
+      "lng": 127.923500062843,
+      "title": "롯데리아 충주칠금점",
+      "description": "충북 충주시 칠금12길 5",
+      "url": "http://place.map.kakao.com/11078897",
+      "region": "충청북도"
+    },
+    {
+      "lat": 36.6223868665176,
+      "lng": 127.48497592619,
+      "title": "롯데리아 서원대점",
+      "description": "충북 청주시 서원구 서원남로 26",
+      "url": "http://place.map.kakao.com/25479483",
+      "region": "충청북도"
+    },
+    {
+      "lat": 36.632255976797,
+      "lng": 127.489398257117,
+      "title": "롯데리아 청주남문성안길점",
+      "description": "충북 청주시 상당구 성안로 51",
+      "url": "http://place.map.kakao.com/1723203619",
+      "region": "충청북도"
+    },
+    {
+      "lat": 36.907709294384325,
+      "lng": 127.5409477731684,
+      "title": "롯데리아 충북혁신도시점",
+      "description": "충북 음성군 맹동면 대하1길 4",
+      "url": "http://place.map.kakao.com/558912718",
+      "region": "충청북도"
+    },
+    {
+      "lat": 36.93495214051407,
+      "lng": 127.69222530238662,
+      "title": "롯데리아 음성점",
+      "description": "충북 음성군 음성읍 수정로 53",
+      "url": "http://place.map.kakao.com/27333493",
+      "region": "충청북도"
+    },
+    {
+      "lat": 36.9901159884311,
+      "lng": 127.445442224873,
+      "title": "롯데리아 광혜원점",
+      "description": "충북 진천군 광혜원면 장기길 104",
+      "url": "http://place.map.kakao.com/14823360",
+      "region": "충청북도"
+    },
+    {
+      "lat": 36.7849667643806,
+      "lng": 127.582168437449,
+      "title": "롯데리아 증평점",
+      "description": "충북 증평군 증평읍 중앙로 215-1",
+      "url": "http://place.map.kakao.com/22218412",
+      "region": "충청북도"
+    },
+    {
+      "lat": 37.1519541889318,
+      "lng": 128.216136892669,
+      "title": "롯데리아 제천청전점",
+      "description": "충북 제천시 청전대로 169",
+      "url": "http://place.map.kakao.com/8347700",
+      "region": "충청북도"
+    },
+    {
+      "lat": 36.6633280694031,
+      "lng": 127.375939165349,
+      "title": "롯데리아 청주옥산점",
+      "description": "충북 청주시 흥덕구 옥산면 청주역로 625",
+      "url": "http://place.map.kakao.com/94108764",
+      "region": "충청북도"
+    },
+    {
+      "lat": 36.99176132700581,
+      "lng": 127.58969883449295,
+      "title": "롯데리아 금왕점",
+      "description": "충북 음성군 금왕읍 무극로 250",
+      "url": "http://place.map.kakao.com/7860339",
+      "region": "충청북도"
+    },
+    {
+      "lat": 36.9849552676227,
+      "lng": 128.369127853596,
+      "title": "롯데리아 단양점",
+      "description": "충북 단양군 단양읍 삼봉로 315",
+      "url": "http://place.map.kakao.com/13017066",
+      "region": "충청북도"
+    },
+    {
+      "lat": 36.7229229521131,
+      "lng": 127.536315505651,
+      "title": "롯데리아 청주내수점",
+      "description": "충북 청주시 청원구 내수읍 마산2길 49",
+      "url": "http://place.map.kakao.com/27546989",
+      "region": "충청북도"
+    },
+    {
+      "lat": 36.6416912275906,
+      "lng": 127.427965185997,
+      "title": "롯데리아 청주지웰점",
+      "description": "충북 청주시 흥덕구 대농로 50",
+      "url": "http://place.map.kakao.com/27418915",
+      "region": "충청북도"
+    },
+    {
+      "lat": 36.96183553493552,
+      "lng": 127.94034784714403,
+      "title": "롯데리아 충주용산점",
+      "description": "충북 충주시 남산로 73",
+      "url": "http://place.map.kakao.com/1462938999",
+      "region": "충청북도"
+    },
+    {
+      "lat": 36.98230341487844,
+      "lng": 127.94108489837194,
+      "title": "롯데리아 충주연수점",
+      "description": "충북 충주시 계명대로 238",
+      "url": "http://place.map.kakao.com/17135854",
+      "region": "충청북도"
+    },
+    {
+      "lat": 36.9814085741901,
+      "lng": 127.914230980937,
+      "title": "롯데리아 충주터미널점",
+      "description": "충북 충주시 봉계1길 49",
+      "url": "http://place.map.kakao.com/7859085",
+      "region": "충청북도"
+    },
+    {
+      "lat": 36.66704873756135,
+      "lng": 127.45193130678365,
+      "title": "롯데리아 청주테크노폴리스점",
+      "description": "충북 청주시 흥덕구 송화로 172-1",
+      "url": "http://place.map.kakao.com/904875449",
+      "region": "충청북도"
+    },
+    {
+      "lat": 36.61995660189848,
+      "lng": 127.32772683380506,
+      "title": "롯데리아 오송역사점",
+      "description": "충북 청주시 흥덕구 오송읍 오송가락로 123",
+      "url": "http://place.map.kakao.com/1614294087",
+      "region": "충청북도"
+    },
+    {
+      "lat": 37.0181117471481,
+      "lng": 127.496028447907,
+      "title": "롯데리아 음성삼성점",
+      "description": "충북 음성군 삼성면 덕정로30번길 7-2",
+      "url": "http://place.map.kakao.com/1600730381",
+      "region": "충청북도"
+    },
+    {
+      "lat": 36.95597945436945,
+      "lng": 127.93374137778447,
+      "title": "롯데리아 충주호암점",
+      "description": "충북 충주시 호암토성2로 1",
+      "url": "http://place.map.kakao.com/316141341",
+      "region": "충청북도"
+    },
+    {
+      "lat": 36.829919393901065,
+      "lng": 127.1335081142765,
+      "title": "롯데리아 천안성정점",
+      "description": "충남 천안시 서북구 서부대로 704",
+      "url": "http://place.map.kakao.com/21092797",
+      "region": "충청남도"
+    },
+    {
+      "lat": 36.78591078122102,
+      "lng": 127.01681256794186,
+      "title": "롯데리아 온양DT점",
+      "description": "충남 아산시 문화로 301-6",
+      "url": "http://place.map.kakao.com/22218973",
+      "region": "충청남도"
+    },
+    {
+      "lat": 36.89464770079868,
+      "lng": 126.63011404685456,
+      "title": "롯데리아 당진점",
+      "description": "충남 당진시 당진중앙1로 108",
+      "url": "http://place.map.kakao.com/8283381",
+      "region": "충청남도"
+    },
+    {
+      "lat": 36.2803785880987,
+      "lng": 126.910800409156,
+      "title": "롯데리아 신부여점",
+      "description": "충남 부여군 부여읍 사비로 86",
+      "url": "http://place.map.kakao.com/7857915",
+      "region": "충청남도"
+    },
+    {
+      "lat": 36.7742973990231,
+      "lng": 126.932741955374,
+      "title": "롯데리아 순천향대학DT점",
+      "description": "충남 아산시 신창면 온천대로 798",
+      "url": "http://place.map.kakao.com/21752387",
+      "region": "충청남도"
+    },
+    {
+      "lat": 36.1342272396657,
+      "lng": 127.10031700408,
+      "title": "롯데리아 논산연무점",
+      "description": "충남 논산시 연무읍 안심로 152",
+      "url": "http://place.map.kakao.com/25130513",
+      "region": "충청남도"
+    },
+    {
+      "lat": 36.3503508028085,
+      "lng": 126.59214567322,
+      "title": "롯데리아 대천점",
+      "description": "충남 보령시 번영로 41",
+      "url": "http://place.map.kakao.com/7857386",
+      "region": "충청남도"
+    },
+    {
+      "lat": 36.88428103730337,
+      "lng": 126.7571546734524,
+      "title": "롯데리아 당진신평점",
+      "description": "충남 당진시 신평면 거산3거리길 79",
+      "url": "http://place.map.kakao.com/26928165",
+      "region": "충청남도"
+    },
+    {
+      "lat": 36.84172757751859,
+      "lng": 127.12514932796614,
+      "title": "롯데리아 천안성성레이크시티점",
+      "description": "충남 천안시 서북구 성성6로 49",
+      "url": "http://place.map.kakao.com/80322995",
+      "region": "충청남도"
+    },
+    {
+      "lat": 36.83994582082399,
+      "lng": 127.17467333047796,
+      "title": "롯데리아 천안안서DT점",
+      "description": "충남 천안시 동남구 망향로 190",
+      "url": "http://place.map.kakao.com/21027554",
+      "region": "충청남도"
+    },
+    {
+      "lat": 36.812314832579226,
+      "lng": 127.10829319121525,
+      "title": "롯데리아 천안불당점",
+      "description": "충남 천안시 서북구 불당33길 24",
+      "url": "http://place.map.kakao.com/781944158",
+      "region": "충청남도"
+    },
+    {
+      "lat": 36.7739484137558,
+      "lng": 127.009014894486,
+      "title": "롯데리아 아산용화점",
+      "description": "충남 아산시 용화로 35",
+      "url": "http://place.map.kakao.com/26807271",
+      "region": "충청남도"
+    },
+    {
+      "lat": 36.7743939231873,
+      "lng": 127.054752804873,
+      "title": "롯데리아 아산배방점",
+      "description": "충남 아산시 배방읍 배방로 25",
+      "url": "http://place.map.kakao.com/8343275",
+      "region": "충청남도"
+    },
+    {
+      "lat": 36.7839325494183,
+      "lng": 127.152609823601,
+      "title": "롯데리아 천안청수점",
+      "description": "충남 천안시 동남구 청수14로 56",
+      "url": "http://place.map.kakao.com/1064599826",
+      "region": "충청남도"
+    },
+    {
+      "lat": 36.4730471328824,
+      "lng": 127.140929418481,
+      "title": "롯데리아 공주신관점",
+      "description": "충남 공주시 흑수골길 34",
+      "url": "http://place.map.kakao.com/17713458",
+      "region": "충청남도"
+    },
+    {
+      "lat": 36.201029715679255,
+      "lng": 127.08955425357837,
+      "title": "롯데리아 논산점",
+      "description": "충남 논산시 중앙로398번길 13-9",
+      "url": "http://place.map.kakao.com/21347677",
+      "region": "충청남도"
+    },
+    {
+      "lat": 36.3055768537488,
+      "lng": 126.517634517602,
+      "title": "롯데리아 대천광장점",
+      "description": "충남 보령시 해수욕장2길 1",
+      "url": "http://place.map.kakao.com/8284370",
+      "region": "충청남도"
+    },
+    {
+      "lat": 36.7908348837673,
+      "lng": 126.95641695687,
+      "title": "롯데리아 아산남성점",
+      "description": "충남 아산시 신창면 남성길 152-12",
+      "url": "http://place.map.kakao.com/493166402",
+      "region": "충청남도"
+    },
+    {
+      "lat": 36.7819794413023,
+      "lng": 127.003813357652,
+      "title": "롯데리아 온양점",
+      "description": "충남 아산시 온궁로 32",
+      "url": "http://place.map.kakao.com/7858091",
+      "region": "충청남도"
+    },
+    {
+      "lat": 36.818701986792725,
+      "lng": 127.15877144887148,
+      "title": "롯데리아 천안신부점",
+      "description": "충남 천안시 동남구 만남로 58",
+      "url": "http://place.map.kakao.com/638884252",
+      "region": "충청남도"
+    },
+    {
+      "lat": 36.103197094054,
+      "lng": 127.489623075639,
+      "title": "롯데리아 금산점",
+      "description": "충남 금산군 금산읍 인삼로 71",
+      "url": "http://place.map.kakao.com/8341767",
+      "region": "충청남도"
+    },
+    {
+      "lat": 36.8356324007599,
+      "lng": 127.145793417427,
+      "title": "롯데리아 천안두정점",
+      "description": "충남 천안시 서북구 봉정로 380",
+      "url": "http://place.map.kakao.com/10361545",
+      "region": "충청남도"
+    },
+    {
+      "lat": 36.6008162966429,
+      "lng": 126.665729965932,
+      "title": "롯데리아 홍성점",
+      "description": "충남 홍성군 홍성읍 아문길29번길 82",
+      "url": "http://place.map.kakao.com/7854907",
+      "region": "충청남도"
+    },
+    {
+      "lat": 36.7737212645036,
+      "lng": 126.44969222821,
+      "title": "롯데리아 서산호수공원점",
+      "description": "충남 서산시 호수공원5로 39",
+      "url": "http://place.map.kakao.com/23141467",
+      "region": "충청남도"
+    },
+    {
+      "lat": 36.809103775561645,
+      "lng": 127.14651747312733,
+      "title": "롯데리아 천안역사점",
+      "description": "충남 천안시 동남구 대흥로 239",
+      "url": "http://place.map.kakao.com/10352278",
+      "region": "충청남도"
+    },
+    {
+      "lat": 36.679381091214,
+      "lng": 126.847664077201,
+      "title": "롯데리아 예산점",
+      "description": "충남 예산군 예산읍 예산로194번길 13-2",
+      "url": "http://place.map.kakao.com/10362611",
+      "region": "충청남도"
+    },
+    {
+      "lat": 36.92754244123991,
+      "lng": 127.03770649181983,
+      "title": "롯데리아 아산둔포점",
+      "description": "충남 아산시 둔포면 둔포중앙로 148",
+      "url": "http://place.map.kakao.com/11737269",
+      "region": "충청남도"
+    },
+    {
+      "lat": 36.74881684833548,
+      "lng": 126.30278563835013,
+      "title": "롯데리아 태안점",
+      "description": "충남 태안군 태안읍 동백로 291-4",
+      "url": "http://place.map.kakao.com/10356753",
+      "region": "충청남도"
+    },
+    {
+      "lat": 36.8050642344383,
+      "lng": 127.13257520208,
+      "title": "롯데리아 천안쌍용점",
+      "description": "충남 천안시 동남구 쌍용대로 84",
+      "url": "http://place.map.kakao.com/8318712",
+      "region": "충청남도"
+    },
+    {
+      "lat": 36.9372824175291,
+      "lng": 126.435533183429,
+      "title": "롯데리아 대산점",
+      "description": "충남 서산시 대산읍 구진로 20",
+      "url": "http://place.map.kakao.com/8341772",
+      "region": "충청남도"
+    },
+    {
+      "lat": 36.797968130295665,
+      "lng": 127.11788119276432,
+      "title": "롯데리아 천안나사렛점",
+      "description": "충남 천안시 서북구 월봉로 79",
+      "url": "http://place.map.kakao.com/1755761426",
+      "region": "충청남도"
+    },
+    {
+      "lat": 36.8414212952408,
+      "lng": 127.104529123571,
+      "title": "롯데리아 천안차암점",
+      "description": "충남 천안시 서북구 3공단6로 58-5",
+      "url": "http://place.map.kakao.com/25753024",
+      "region": "충청남도"
+    },
+    {
+      "lat": 36.782873463621,
+      "lng": 127.092534360065,
+      "title": "롯데리아 아산장재점",
+      "description": "충남 아산시 배방읍 용연로 156-14",
+      "url": "http://place.map.kakao.com/1240145021",
+      "region": "충청남도"
+    },
+    {
+      "lat": 36.773585500733496,
+      "lng": 127.2097116693099,
+      "title": "롯데리아 천안목천점",
+      "description": "충남 천안시 동남구 목천읍 충절로 895",
+      "url": "http://place.map.kakao.com/13017076",
+      "region": "충청남도"
+    },
+    {
+      "lat": 36.79204234111667,
+      "lng": 127.12922628326099,
+      "title": "롯데리아 천안신방점",
+      "description": "충남 천안시 동남구 서부대로 268",
+      "url": "http://place.map.kakao.com/7862255",
+      "region": "충청남도"
+    },
+    {
+      "lat": 36.8259680446187,
+      "lng": 127.14053824583,
+      "title": "롯데리아 롯데마트천안성정점",
+      "description": "충남 천안시 서북구 성정두정로 1",
+      "url": "http://place.map.kakao.com/7857335",
+      "region": "충청남도"
+    },
+    {
+      "lat": 36.80970433704917,
+      "lng": 126.77571991059176,
+      "title": "롯데리아 당진합덕점",
+      "description": "충남 당진시 합덕읍 합덕시장로 214-8",
+      "url": "http://place.map.kakao.com/1709629975",
+      "region": "충청남도"
+    },
+    {
+      "lat": 36.45282714056066,
+      "lng": 126.80322485226048,
+      "title": "롯데리아 청양점",
+      "description": "충남 청양군 청양읍 중앙로 147",
+      "url": "http://place.map.kakao.com/14665467",
+      "region": "충청남도"
+    },
+    {
+      "lat": 36.8056164326921,
+      "lng": 127.15849789682,
+      "title": "롯데리아 GS천안점",
+      "description": "충남 천안시 동남구 충절로 148",
+      "url": "http://place.map.kakao.com/21501997",
+      "region": "충청남도"
+    },
+    {
+      "lat": 36.9165993746987,
+      "lng": 127.132368494925,
+      "title": "롯데리아 성환점",
+      "description": "충남 천안시 서북구 성환읍 성환2로 105",
+      "url": "http://place.map.kakao.com/10355932",
+      "region": "충청남도"
+    },
+    {
+      "lat": 36.7818476858901,
+      "lng": 126.458784263245,
+      "title": "롯데리아 서산터미날점",
+      "description": "충남 서산시 안견로 190",
+      "url": "http://place.map.kakao.com/17556980",
+      "region": "충청남도"
+    },
+    {
+      "lat": 36.963226878120615,
+      "lng": 126.68924808678271,
+      "title": "롯데리아 송산점",
+      "description": "충남 당진시 송산면 유곡2길 21",
+      "url": "http://place.map.kakao.com/1164949139",
+      "region": "충청남도"
+    },
+    {
+      "lat": 36.4536903750397,
+      "lng": 127.124518595076,
+      "title": "롯데리아 공주점",
+      "description": "충남 공주시 웅진로 150",
+      "url": "http://place.map.kakao.com/7855928",
+      "region": "충청남도"
+    },
+    {
+      "lat": 36.8227883678706,
+      "lng": 127.124898794211,
+      "title": "롯데리아 천안백석점",
+      "description": "충남 천안시 서북구 백석4길 4",
+      "url": "http://place.map.kakao.com/7859080",
+      "region": "충청남도"
+    },
+    {
+      "lat": 36.34570243361647,
+      "lng": 126.60227249048162,
+      "title": "롯데리아 보령동대점",
+      "description": "충남 보령시 주공로 5",
+      "url": "http://place.map.kakao.com/27348335",
+      "region": "충청남도"
+    },
+    {
+      "lat": 35.79935321105753,
+      "lng": 126.88746846213613,
+      "title": "롯데리아 김제점",
+      "description": "전북특별자치도 김제시 동서로 170",
+      "url": "http://place.map.kakao.com/8283379",
+      "region": "전북특별자치도"
+    },
+    {
+      "lat": 35.79353498281691,
+      "lng": 127.13254696575099,
+      "title": "롯데리아 전주평화점",
+      "description": "전북특별자치도 전주시 완산구 모악로 4754",
+      "url": "http://place.map.kakao.com/8343964",
+      "region": "전북특별자치도"
+    },
+    {
+      "lat": 35.6512928822019,
+      "lng": 127.519716638608,
+      "title": "롯데리아 전북장수점",
+      "description": "전북특별자치도 장수군 장수읍 성산길 2",
+      "url": "http://place.map.kakao.com/1536995438",
+      "region": "전북특별자치도"
+    },
+    {
+      "lat": 35.819317559391,
+      "lng": 127.146382151376,
+      "title": "롯데리아 전주고사점",
+      "description": "전북특별자치도 전주시 완산구 팔달로 191",
+      "url": "http://place.map.kakao.com/1116132416",
+      "region": "전북특별자치도"
+    },
+    {
+      "lat": 35.9402810525207,
+      "lng": 126.947570486422,
+      "title": "롯데리아 익산역점",
+      "description": "전북특별자치도 익산시 익산대로 158-1",
+      "url": "http://place.map.kakao.com/12800362",
+      "region": "전북특별자치도"
+    },
+    {
+      "lat": 35.96351655823056,
+      "lng": 126.95833167104124,
+      "title": "롯데리아 원광대점",
+      "description": "전북특별자치도 익산시 무왕로 898-1",
+      "url": "http://place.map.kakao.com/10362614",
+      "region": "전북특별자치도"
+    },
+    {
+      "lat": 35.3700212748247,
+      "lng": 127.14071142783,
+      "title": "롯데리아 순창D/I점",
+      "description": "전북특별자치도 순창군 순창읍 순창로 164",
+      "url": "http://place.map.kakao.com/25548536",
+      "region": "전북특별자치도"
+    },
+    {
+      "lat": 35.84311083380204,
+      "lng": 127.12648607621233,
+      "title": "롯데리아 전북대점",
+      "description": "전북특별자치도 전주시 덕진구 명륜4길 13",
+      "url": "http://place.map.kakao.com/2131250554",
+      "region": "전북특별자치도"
+    },
+    {
+      "lat": 35.832004365166725,
+      "lng": 127.12061373718406,
+      "title": "롯데리아 전주서신점",
+      "description": "전북특별자치도 전주시 완산구 당산로 112",
+      "url": "http://place.map.kakao.com/8359104",
+      "region": "전북특별자치도"
+    },
+    {
+      "lat": 35.83149048872102,
+      "lng": 127.16345609387466,
+      "title": "롯데리아 전주아중점",
+      "description": "전북특별자치도 전주시 덕진구 무삼지로 66",
+      "url": "http://place.map.kakao.com/11082891",
+      "region": "전북특별자치도"
+    },
+    {
+      "lat": 35.41599057578094,
+      "lng": 127.3953635574484,
+      "title": "롯데리아 남원도통점",
+      "description": "전북특별자치도 남원시 큰들2길 25",
+      "url": "http://place.map.kakao.com/18035347",
+      "region": "전북특별자치도"
+    },
+    {
+      "lat": 35.4062568214358,
+      "lng": 127.380347181726,
+      "title": "롯데리아 남원점",
+      "description": "전북특별자치도 남원시 남문로 448",
+      "url": "http://place.map.kakao.com/7856267",
+      "region": "전북특별자치도"
+    },
+    {
+      "lat": 35.9613070208126,
+      "lng": 127.127111051252,
+      "title": "롯데리아 완주봉동점",
+      "description": "전북특별자치도 완주군 봉동읍 완주산단9로 15",
+      "url": "http://place.map.kakao.com/21355205",
+      "region": "전북특별자치도"
+    },
+    {
+      "lat": 35.87074018962876,
+      "lng": 127.07693448769328,
+      "title": "롯데리아 전주동산점",
+      "description": "전북특별자치도 전주시 덕진구 편운로 6",
+      "url": "http://place.map.kakao.com/11737263",
+      "region": "전북특별자치도"
+    },
+    {
+      "lat": 35.80685287566941,
+      "lng": 127.11605383486675,
+      "title": "롯데리아 전주효자CGV점",
+      "description": "전북특별자치도 전주시 완산구 용머리로 45",
+      "url": "http://place.map.kakao.com/25722450",
+      "region": "전북특별자치도"
+    },
+    {
+      "lat": 35.9108214370582,
+      "lng": 127.072661528358,
+      "title": "롯데리아 완주삼례점",
+      "description": "전북특별자치도 완주군 삼례읍 삼례로 376",
+      "url": "http://place.map.kakao.com/24852330",
+      "region": "전북특별자치도"
+    },
+    {
+      "lat": 35.9739782814766,
+      "lng": 126.73738654329,
+      "title": "롯데리아 군산조촌DT점",
+      "description": "전북특별자치도 군산시 조촌로 111",
+      "url": "http://place.map.kakao.com/20202097",
+      "region": "전북특별자치도"
+    },
+    {
+      "lat": 35.5674060391489,
+      "lng": 126.85103729627,
+      "title": "롯데리아 정읍점",
+      "description": "전북특별자치도 정읍시 조곡천1길 55",
+      "url": "http://place.map.kakao.com/8318710",
+      "region": "전북특별자치도"
+    },
+    {
+      "lat": 35.8129362594058,
+      "lng": 127.123426350142,
+      "title": "롯데리아 전주중화산점",
+      "description": "전북특별자치도 전주시 완산구 백제대로 224",
+      "url": "http://place.map.kakao.com/20204199",
+      "region": "전북특별자치도"
+    },
+    {
+      "lat": 35.96516369218027,
+      "lng": 126.70205464215395,
+      "title": "롯데리아 군산나운점",
+      "description": "전북특별자치도 군산시 하나운로 73",
+      "url": "http://place.map.kakao.com/12923886",
+      "region": "전북특별자치도"
+    },
+    {
+      "lat": 35.4352765136186,
+      "lng": 126.700707860865,
+      "title": "롯데리아 고창점",
+      "description": "전북특별자치도 고창군 고창읍 중앙로 229",
+      "url": "http://place.map.kakao.com/8315841",
+      "region": "전북특별자치도"
+    },
+    {
+      "lat": 35.86631712909189,
+      "lng": 127.12745079781402,
+      "title": "롯데리아 전주송천점",
+      "description": "전북특별자치도 전주시 덕진구 솔내로 184",
+      "url": "http://place.map.kakao.com/9472114",
+      "region": "전북특별자치도"
+    },
+    {
+      "lat": 36.0079244806295,
+      "lng": 127.66224398649,
+      "title": "롯데리아 무주점",
+      "description": "전북특별자치도 무주군 무주읍 단천로 99",
+      "url": "http://place.map.kakao.com/17135846",
+      "region": "전북특별자치도"
+    },
+    {
+      "lat": 35.84209761671417,
+      "lng": 127.07799710713584,
+      "title": "롯데리아 전주법원점",
+      "description": "전북특별자치도 전주시 덕진구 만성중앙로 60",
+      "url": "http://place.map.kakao.com/1653453025",
+      "region": "전북특별자치도"
+    },
+    {
+      "lat": 35.558918341314424,
+      "lng": 126.86955886156845,
+      "title": "롯데리아 정읍상동점",
+      "description": "전북특별자치도 정읍시 신경2길 28",
+      "url": "http://place.map.kakao.com/1699947149",
+      "region": "전북특별자치도"
+    },
+    {
+      "lat": 35.7285561721225,
+      "lng": 126.737358927796,
+      "title": "롯데리아 부안점",
+      "description": "전북특별자치도 부안군 부안읍 석정로 191",
+      "url": "http://place.map.kakao.com/7864594",
+      "region": "전북특별자치도"
+    },
+    {
+      "lat": 35.8160002689907,
+      "lng": 127.109775423951,
+      "title": "롯데리아 전북도청점",
+      "description": "전북특별자치도 전주시 완산구 홍산남로 71",
+      "url": "http://place.map.kakao.com/38681607",
+      "region": "전북특별자치도"
+    },
+    {
+      "lat": 35.8092037048816,
+      "lng": 127.101752165877,
+      "title": "롯데리아 전주효자서부점",
+      "description": "전북특별자치도 전주시 완산구 호암로 65",
+      "url": "http://place.map.kakao.com/14500709",
+      "region": "전북특별자치도"
+    },
+    {
+      "lat": 35.8327709603804,
+      "lng": 127.101514409697,
+      "title": "롯데리아 전주서곡점",
+      "description": "전북특별자치도 전주시 완산구 세내로 523",
+      "url": "http://place.map.kakao.com/1493299410",
+      "region": "전북특별자치도"
+    },
+    {
+      "lat": 35.95958937159742,
+      "lng": 126.97644154889146,
+      "title": "롯데리아 익산제일점",
+      "description": "전북특별자치도 익산시 무왕로13길 13",
+      "url": "http://place.map.kakao.com/10360726",
+      "region": "전북특별자치도"
+    },
+    {
+      "lat": 35.9574373816338,
+      "lng": 126.990985689395,
+      "title": "롯데리아 익산부송점",
+      "description": "전북특별자치도 익산시 부송로 66",
+      "url": "http://place.map.kakao.com/11263124",
+      "region": "전북특별자치도"
+    },
+    {
+      "lat": 35.9351035915881,
+      "lng": 126.965491066558,
+      "title": "롯데리아 익산동산점",
+      "description": "전북특별자치도 익산시 서동로 130",
+      "url": "http://place.map.kakao.com/20713136",
+      "region": "전북특별자치도"
+    },
+    {
+      "lat": 35.97038771801569,
+      "lng": 126.68426295996815,
+      "title": "롯데리아 군산산북점",
+      "description": "전북특별자치도 군산시 공단대로 566",
+      "url": "http://place.map.kakao.com/13017112",
+      "region": "전북특별자치도"
+    },
+    {
+      "lat": 35.87193210983296,
+      "lng": 127.12728483520132,
+      "title": "롯데리아 전주에코점",
+      "description": "전북특별자치도 전주시 덕진구 세병남로 25",
+      "url": "http://place.map.kakao.com/1342721625",
+      "region": "전북특별자치도"
+    },
+    {
+      "lat": 35.8366847150108,
+      "lng": 127.152975248008,
+      "title": "롯데리아 전주인후점",
+      "description": "전북특별자치도 전주시 덕진구 안덕원로 237",
+      "url": "http://place.map.kakao.com/20014449",
+      "region": "전북특별자치도"
+    },
+    {
+      "lat": 35.95540069265441,
+      "lng": 126.97348871987312,
+      "title": "롯데리아 익산영등점",
+      "description": "전북특별자치도 익산시 약촌로 243",
+      "url": "http://place.map.kakao.com/20402011",
+      "region": "전북특별자치도"
+    },
+    {
+      "lat": 35.7920255755034,
+      "lng": 127.42816325085926,
+      "title": "롯데리아 전북진안점",
+      "description": "전북특별자치도 진안군 진안읍 진무로 1093",
+      "url": "http://place.map.kakao.com/2141034553",
+      "region": "전북특별자치도"
+    },
+    {
+      "lat": 35.837648183656604,
+      "lng": 127.0588711650161,
+      "title": "롯데리아 전주혁신점",
+      "description": "전북특별자치도 전주시 덕진구 안전로 154",
+      "url": "http://place.map.kakao.com/26094222",
+      "region": "전북특별자치도"
+    },
+    {
+      "lat": 35.8276331139997,
+      "lng": 127.14519776869973,
+      "title": "롯데리아 전주시청점",
+      "description": "전북특별자치도 전주시 완산구 기린대로 236",
+      "url": "http://place.map.kakao.com/1560043689",
+      "region": "전북특별자치도"
+    },
+    {
+      "lat": 35.81605107215321,
+      "lng": 127.10224445524935,
+      "title": "롯데리아 롯데마트 전주점",
+      "description": "전북특별자치도 전주시 완산구 우전로 240",
+      "url": "http://place.map.kakao.com/10360727",
+      "region": "전북특별자치도"
+    },
+    {
+      "lat": 35.8617458929938,
+      "lng": 127.15157853971,
+      "title": "롯데리아 전주호성점",
+      "description": "전북특별자치도 전주시 덕진구 동부대로 841",
+      "url": "http://place.map.kakao.com/1279072850",
+      "region": "전북특별자치도"
+    },
+    {
+      "lat": 35.798509772403,
+      "lng": 127.11523411130992,
+      "title": "롯데리아 전주삼천점",
+      "description": "전북특별자치도 전주시 완산구 용리로 46",
+      "url": "http://place.map.kakao.com/17070379",
+      "region": "전북특별자치도"
+    },
+    {
+      "lat": 35.9645003923957,
+      "lng": 126.71052789113,
+      "title": "롯데리아 군산수송점",
+      "description": "전북특별자치도 군산시 서수송1길 2",
+      "url": "http://place.map.kakao.com/17135875",
+      "region": "전북특별자치도"
+    },
+    {
+      "lat": 35.8795389528072,
+      "lng": 127.133666833803,
+      "title": "롯데리아 전주세병호점",
+      "description": "전북특별자치도 전주시 덕진구 세병로 174-11",
+      "url": "http://place.map.kakao.com/1743346555",
+      "region": "전북특별자치도"
+    },
+    {
+      "lat": 35.9521085041216,
+      "lng": 126.709828247216,
+      "title": "롯데리아 군산지곡점",
+      "description": "전북특별자치도 군산시 계산로 51",
+      "url": "http://place.map.kakao.com/137981564",
+      "region": "전북특별자치도"
+    },
+    {
+      "lat": 34.8035424992487,
+      "lng": 126.483540214919,
+      "title": "롯데리아 무안오룡점",
+      "description": "전남 무안군 일로읍 오룡번영3로 40",
+      "url": "http://place.map.kakao.com/820750722",
+      "region": "전라남도"
+    },
+    {
+      "lat": 34.8059074553021,
+      "lng": 126.42421591912,
+      "title": "롯데리아 목포상동점",
+      "description": "전남 목포시 백년대로 339",
+      "url": "http://place.map.kakao.com/12686915",
+      "region": "전라남도"
+    },
+    {
+      "lat": 34.7480398148423,
+      "lng": 127.699948215271,
+      "title": "롯데리아 여수여서점",
+      "description": "전남 여수시 여서로 164-1",
+      "url": "http://place.map.kakao.com/12817219",
+      "region": "전라남도"
+    },
+    {
+      "lat": 35.0602543753921,
+      "lng": 126.992010629147,
+      "title": "롯데리아 화순점",
+      "description": "전남 화순군 화순읍 중앙로 98",
+      "url": "http://place.map.kakao.com/12127726",
+      "region": "전라남도"
+    },
+    {
+      "lat": 35.021907575442,
+      "lng": 126.785273270861,
+      "title": "롯데리아 나주혁신점",
+      "description": "전남 나주시 전력로 6",
+      "url": "http://place.map.kakao.com/26419310",
+      "region": "전라남도"
+    },
+    {
+      "lat": 34.9756394912478,
+      "lng": 127.586777081325,
+      "title": "롯데리아 광양점",
+      "description": "전남 광양시 광양읍 매천로 835",
+      "url": "http://place.map.kakao.com/21274885",
+      "region": "전라남도"
+    },
+    {
+      "lat": 35.3001078897378,
+      "lng": 126.782236429586,
+      "title": "롯데리아 전남장성점",
+      "description": "전남 장성군 장성읍 영천로 166",
+      "url": "http://place.map.kakao.com/26354694",
+      "region": "전라남도"
+    },
+    {
+      "lat": 34.607668476200544,
+      "lng": 127.28216822649688,
+      "title": "롯데리아 전남고흥점",
+      "description": "전남 고흥군 고흥읍 여산당촌길 8",
+      "url": "http://place.map.kakao.com/25648707",
+      "region": "전라남도"
+    },
+    {
+      "lat": 34.9868438767952,
+      "lng": 126.473459986376,
+      "title": "롯데리아 무안점",
+      "description": "전남 무안군 무안읍 면성1길 129",
+      "url": "http://place.map.kakao.com/1094460612",
+      "region": "전라남도"
+    },
+    {
+      "lat": 34.8020737179741,
+      "lng": 126.424767117058,
+      "title": "롯데리아 목포하당점",
+      "description": "전남 목포시 장미로 31",
+      "url": "http://place.map.kakao.com/20014448",
+      "region": "전라남도"
+    },
+    {
+      "lat": 35.312104634939594,
+      "lng": 126.98150432720364,
+      "title": "롯데리아 담양D/I점",
+      "description": "전남 담양군 담양읍 죽향대로 1189",
+      "url": "http://place.map.kakao.com/24366794",
+      "region": "전라남도"
+    },
+    {
+      "lat": 34.74099486799675,
+      "lng": 127.73417890417589,
+      "title": "롯데리아 여수중앙점",
+      "description": "전남 여수시 통제영3길 12",
+      "url": "http://place.map.kakao.com/8358969",
+      "region": "전라남도"
+    },
+    {
+      "lat": 35.0610817341596,
+      "lng": 126.523476270222,
+      "title": "롯데리아 전남함평점",
+      "description": "전남 함평군 함평읍 중앙길 21",
+      "url": "http://place.map.kakao.com/2031613390",
+      "region": "전라남도"
+    },
+    {
+      "lat": 34.935706236665,
+      "lng": 127.695833993393,
+      "title": "롯데리아 광양중동점",
+      "description": "전남 광양시 공영로 62",
+      "url": "http://place.map.kakao.com/7860261",
+      "region": "전라남도"
+    },
+    {
+      "lat": 34.95635473080086,
+      "lng": 127.48433825924069,
+      "title": "롯데리아 순천점",
+      "description": "전남 순천시 중앙로 120-1",
+      "url": "http://place.map.kakao.com/10362605",
+      "region": "전라남도"
+    },
+    {
+      "lat": 34.81205950308422,
+      "lng": 126.4642855158907,
+      "title": "롯데리아 남악점",
+      "description": "전남 무안군 삼향읍 대죽동로 40",
+      "url": "http://place.map.kakao.com/12127758",
+      "region": "전라남도"
+    },
+    {
+      "lat": 34.3167531758057,
+      "lng": 126.74845875872,
+      "title": "롯데리아 완도점",
+      "description": "전남 완도군 완도읍 장보고대로 210",
+      "url": "http://place.map.kakao.com/12976475",
+      "region": "전라남도"
+    },
+    {
+      "lat": 35.27843622567302,
+      "lng": 127.29362046118072,
+      "title": "롯데리아 전남곡성점",
+      "description": "전남 곡성군 곡성읍 곡성로 817",
+      "url": "http://place.map.kakao.com/906825842",
+      "region": "전라남도"
+    },
+    {
+      "lat": 34.8167371484547,
+      "lng": 126.399299317856,
+      "title": "롯데리아 목포용해점",
+      "description": "전남 목포시 용당로 337",
+      "url": "http://place.map.kakao.com/21719954",
+      "region": "전라남도"
+    },
+    {
+      "lat": 34.570974970615374,
+      "lng": 126.59830692008282,
+      "title": "롯데리아 해남점",
+      "description": "전남 해남군 해남읍 중앙2로 22",
+      "url": "http://place.map.kakao.com/1432320468",
+      "region": "전라남도"
+    },
+    {
+      "lat": 34.97316818945828,
+      "lng": 127.49438803313983,
+      "title": "롯데리아 순천용당점",
+      "description": "전남 순천시 삼산로 102",
+      "url": "http://place.map.kakao.com/1306019537",
+      "region": "전라남도"
+    },
+    {
+      "lat": 34.6806494471955,
+      "lng": 126.907199181441,
+      "title": "롯데리아 장흥점",
+      "description": "전남 장흥군 장흥읍 중앙로 54-1",
+      "url": "http://place.map.kakao.com/20457627",
+      "region": "전라남도"
+    },
+    {
+      "lat": 34.63778455404646,
+      "lng": 126.76691567942123,
+      "title": "롯데리아 강진점",
+      "description": "전남 강진군 강진읍 중앙로 88",
+      "url": "http://place.map.kakao.com/21366134",
+      "region": "전라남도"
+    },
+    {
+      "lat": 35.2084307698583,
+      "lng": 127.464595475867,
+      "title": "롯데리아 전남구례점",
+      "description": "전남 구례군 구례읍 봉성로 70",
+      "url": "http://place.map.kakao.com/27162443",
+      "region": "전라남도"
+    },
+    {
+      "lat": 34.9509904379399,
+      "lng": 127.520766766743,
+      "title": "롯데리아 순천연향점",
+      "description": "전남 순천시 연향3로 43",
+      "url": "http://place.map.kakao.com/7857744",
+      "region": "전라남도"
+    },
+    {
+      "lat": 34.96290795709725,
+      "lng": 127.51792966339877,
+      "title": "롯데리아 순천조례점",
+      "description": "전남 순천시 봉화2길 113",
+      "url": "http://place.map.kakao.com/1325647309",
+      "region": "전라남도"
+    },
+    {
+      "lat": 35.2761558409377,
+      "lng": 126.502409259907,
+      "title": "롯데리아 영광점",
+      "description": "전남 영광군 영광읍 신남로 185-2",
+      "url": "http://place.map.kakao.com/14703401",
+      "region": "전라남도"
+    },
+    {
+      "lat": 34.9406444529736,
+      "lng": 127.50906108982826,
+      "title": "롯데리아 순천풍덕점",
+      "description": "전남 순천시 팔마로 212",
+      "url": "http://place.map.kakao.com/7859336",
+      "region": "전라남도"
+    },
+    {
+      "lat": 34.8425931982398,
+      "lng": 127.344410934248,
+      "title": "롯데리아 벌교점",
+      "description": "전남 보성군 벌교읍 채동선로 223-1",
+      "url": "http://place.map.kakao.com/1644557086",
+      "region": "전라남도"
+    },
+    {
+      "lat": 34.7905836811196,
+      "lng": 126.383715766646,
+      "title": "롯데리아 목포점",
+      "description": "전남 목포시 영산로59번길 30",
+      "url": "http://place.map.kakao.com/11737241",
+      "region": "전라남도"
+    },
+    {
+      "lat": 34.73028839115164,
+      "lng": 127.7171804923235,
+      "title": "롯데리아 여수국동점",
+      "description": "전남 여수시 신월로 664",
+      "url": "http://place.map.kakao.com/150431065",
+      "region": "전라남도"
+    },
+    {
+      "lat": 34.9535157750127,
+      "lng": 127.527110668347,
+      "title": "롯데리아 순천금당점",
+      "description": "전남 순천시 조례못등길 25",
+      "url": "http://place.map.kakao.com/8343274",
+      "region": "전라남도"
+    },
+    {
+      "lat": 34.7468038649873,
+      "lng": 127.670985325465,
+      "title": "롯데리아 여수웅천지구점",
+      "description": "전남 여수시 예울마루로 37-16",
+      "url": "http://place.map.kakao.com/24766583",
+      "region": "전라남도"
+    },
+    {
+      "lat": 35.033276612956875,
+      "lng": 126.72022761433807,
+      "title": "롯데리아 나주점",
+      "description": "전남 나주시 나주로 179",
+      "url": "http://place.map.kakao.com/8316524",
+      "region": "전라남도"
+    },
+    {
+      "lat": 34.478658630553134,
+      "lng": 126.26399477574154,
+      "title": "롯데리아 진도점",
+      "description": "전남 진도군 진도읍 남문길 6",
+      "url": "http://place.map.kakao.com/915266062",
+      "region": "전라남도"
+    },
+    {
+      "lat": 34.7656787770059,
+      "lng": 127.662491376114,
+      "title": "롯데리아 여천점",
+      "description": "전남 여수시 시청로 43",
+      "url": "http://place.map.kakao.com/23390951",
+      "region": "전라남도"
+    },
+    {
+      "lat": 34.93435274837764,
+      "lng": 127.5488285381325,
+      "title": "롯데리아 순천신대점",
+      "description": "전남 순천시 해룡면 신대로 119",
+      "url": "http://place.map.kakao.com/25753374",
+      "region": "전라남도"
+    },
+    {
+      "lat": 34.7599146286287,
+      "lng": 127.668212277783,
+      "title": "롯데리아 여수신기점",
+      "description": "전남 여수시 선소로 84",
+      "url": "http://place.map.kakao.com/7857996",
+      "region": "전라남도"
+    },
+    {
+      "lat": 34.7612546077285,
+      "lng": 127.639584435898,
+      "title": "롯데리아 여수죽림점",
+      "description": "전남 여수시 소라면 죽림로 3",
+      "url": "http://place.map.kakao.com/1934218137",
+      "region": "전라남도"
+    },
+    {
+      "lat": 34.7579263765379,
+      "lng": 127.714989264227,
+      "title": "롯데리아 이마트여수점",
+      "description": "전남 여수시 좌수영로 277",
+      "url": "http://place.map.kakao.com/776556284",
+      "region": "전라남도"
+    },
+    {
+      "lat": 34.80604022674828,
+      "lng": 126.37336522028218,
+      "title": "롯데리아 목포북항점",
+      "description": "전남 목포시 청호로 173",
+      "url": "http://place.map.kakao.com/11737240",
+      "region": "전라남도"
+    },
+    {
+      "lat": 34.7516714614413,
+      "lng": 126.45807933088906,
+      "title": "롯데리아 영암대불점",
+      "description": "전남 영암군 삼호읍 대불주거로 145",
+      "url": "http://place.map.kakao.com/1791848127",
+      "region": "전라남도"
+    },
+    {
+      "lat": 34.9508955322894,
+      "lng": 127.486254828853,
+      "title": "롯데리아 순천시청점",
+      "description": "전남 순천시 장명로 22",
+      "url": "http://place.map.kakao.com/7857821",
+      "region": "전라남도"
+    },
+    {
+      "lat": 34.745045330885134,
+      "lng": 126.38005623881499,
+      "title": "롯데리아 삼호한마음점",
+      "description": "전남 영암군 삼호읍 신항로 63-12",
+      "url": "http://place.map.kakao.com/11614928",
+      "region": "전라남도"
+    },
+    {
+      "lat": 34.815747671900226,
+      "lng": 126.41978433788613,
+      "title": "롯데리아 목포석현점",
+      "description": "전남 목포시 영산로 559",
+      "url": "http://place.map.kakao.com/24541041",
+      "region": "전라남도"
+    },
+    {
+      "lat": 37.48376962471056,
+      "lng": 130.90533878427868,
+      "title": "롯데리아 울릉도점",
+      "description": "경북 울릉군 울릉읍 도동길 116",
+      "url": "http://place.map.kakao.com/569732747",
+      "region": "경상북도"
+    },
+    {
+      "lat": 35.83801531443392,
+      "lng": 128.75612322894347,
+      "title": "롯데리아 영남대D/T점",
+      "description": "경북 경산시 대학로 316",
+      "url": "http://place.map.kakao.com/2007101927",
+      "region": "경상북도"
+    },
+    {
+      "lat": 35.8442791501151,
+      "lng": 129.211832154072,
+      "title": "롯데리아 경주점",
+      "description": "경북 경주시 중앙로48번길 3",
+      "url": "http://place.map.kakao.com/18351763",
+      "region": "경상북도"
+    },
+    {
+      "lat": 36.107961321481675,
+      "lng": 128.42282805870502,
+      "title": "롯데리아 구미인동점",
+      "description": "경북 구미시 인동중앙로 36-10",
+      "url": "http://place.map.kakao.com/7856095",
+      "region": "경상북도"
+    },
+    {
+      "lat": 36.4104958117154,
+      "lng": 129.368400652404,
+      "title": "롯데리아 영덕점",
+      "description": "경북 영덕군 영덕읍 남석길 74",
+      "url": "http://place.map.kakao.com/10355291",
+      "region": "경상북도"
+    },
+    {
+      "lat": 36.1214157139936,
+      "lng": 128.362488914509,
+      "title": "롯데리아 구미신평DT점",
+      "description": "경북 구미시 구미대로 389",
+      "url": "http://place.map.kakao.com/848580542",
+      "region": "경상북도"
+    },
+    {
+      "lat": 35.91462708210564,
+      "lng": 128.82080542494526,
+      "title": "롯데리아 하양점",
+      "description": "경북 경산시 하양읍 하양로 126",
+      "url": "http://place.map.kakao.com/7862723",
+      "region": "경상북도"
+    },
+    {
+      "lat": 36.82507615934173,
+      "lng": 128.6249534131713,
+      "title": "롯데리아 영주점",
+      "description": "경북 영주시 번영로 156",
+      "url": "http://place.map.kakao.com/8343958",
+      "region": "경상북도"
+    },
+    {
+      "lat": 36.127892533600196,
+      "lng": 128.33323141961168,
+      "title": "롯데리아 구미점",
+      "description": "경북 구미시 구미중앙로 100",
+      "url": "http://place.map.kakao.com/7860172",
+      "region": "경상북도"
+    },
+    {
+      "lat": 36.0208865349497,
+      "lng": 129.356268006659,
+      "title": "롯데리아 포항죽도점",
+      "description": "경북 포항시 북구 중흥로 187",
+      "url": "http://place.map.kakao.com/8319391",
+      "region": "경상북도"
+    },
+    {
+      "lat": 36.5664350010065,
+      "lng": 128.699539824482,
+      "title": "롯데리아 안동옥동점",
+      "description": "경북 안동시 경북대로 418",
+      "url": "http://place.map.kakao.com/8358286",
+      "region": "경상북도"
+    },
+    {
+      "lat": 36.9927334730815,
+      "lng": 129.404755782137,
+      "title": "롯데리아 울진DI점",
+      "description": "경북 울진군 울진읍 현내항길 7",
+      "url": "http://place.map.kakao.com/1223757859",
+      "region": "경상북도"
+    },
+    {
+      "lat": 36.0940069600519,
+      "lng": 128.432911169872,
+      "title": "롯데리아 구미진평점",
+      "description": "경북 구미시 인동36길 5",
+      "url": "http://place.map.kakao.com/7856096",
+      "region": "경상북도"
+    },
+    {
+      "lat": 35.8397320272191,
+      "lng": 129.290981812209,
+      "title": "롯데리아 경주보문점",
+      "description": "경북 경주시 보문로 465-67",
+      "url": "http://place.map.kakao.com/1712865197",
+      "region": "경상북도"
+    },
+    {
+      "lat": 36.0716531929896,
+      "lng": 129.333650374727,
+      "title": "롯데리아 포항이인점",
+      "description": "경북 포항시 북구 흥해읍 이인로 81",
+      "url": "http://place.map.kakao.com/1065907878",
+      "region": "경상북도"
+    },
+    {
+      "lat": 36.1342541395803,
+      "lng": 128.11787742708,
+      "title": "롯데리아 김천EXP점",
+      "description": "경북 김천시 시청로 66",
+      "url": "http://place.map.kakao.com/7856100",
+      "region": "경상북도"
+    },
+    {
+      "lat": 35.9689095708802,
+      "lng": 129.402962007484,
+      "title": "롯데리아 포항문덕점",
+      "description": "경북 포항시 남구 오천읍 원동로 66",
+      "url": "http://place.map.kakao.com/17801890",
+      "region": "경상북도"
+    },
+    {
+      "lat": 36.4158154082364,
+      "lng": 128.158900896725,
+      "title": "롯데리아 상주점",
+      "description": "경북 상주시 중앙로 185",
+      "url": "http://place.map.kakao.com/7857643",
+      "region": "경상북도"
+    },
+    {
+      "lat": 36.070759985797,
+      "lng": 128.348858591716,
+      "title": "롯데리아 구미오태DT점",
+      "description": "경북 구미시 금오대로 292",
+      "url": "http://place.map.kakao.com/7860266",
+      "region": "경상북도"
+    },
+    {
+      "lat": 36.0781778481661,
+      "lng": 128.41056426557,
+      "title": "롯데리아 칠곡석적점",
+      "description": "경북 칠곡군 석적읍 북중리3길 40",
+      "url": "http://place.map.kakao.com/10356127",
+      "region": "경상북도"
+    },
+    {
+      "lat": 35.9722420027614,
+      "lng": 128.951771356674,
+      "title": "롯데리아 영천DT점",
+      "description": "경북 영천시 영화로 338",
+      "url": "http://place.map.kakao.com/24263176",
+      "region": "경상북도"
+    },
+    {
+      "lat": 36.007416110957,
+      "lng": 129.32909338761,
+      "title": "롯데리아 포항효자점",
+      "description": "경북 포항시 남구 효자동길1번길 12",
+      "url": "http://place.map.kakao.com/1697899241",
+      "region": "경상북도"
+    },
+    {
+      "lat": 35.8732512830125,
+      "lng": 128.819180360346,
+      "title": "롯데리아 경산진량점",
+      "description": "경북 경산시 진량읍 공단로 468",
+      "url": "http://place.map.kakao.com/21126548",
+      "region": "경상북도"
+    },
+    {
+      "lat": 36.56601409947062,
+      "lng": 128.73128871077958,
+      "title": "롯데리아 안동문화의거리점",
+      "description": "경북 안동시 서동문로 176",
+      "url": "http://place.map.kakao.com/2065867047",
+      "region": "경상북도"
+    },
+    {
+      "lat": 36.6565820700484,
+      "lng": 128.455396415673,
+      "title": "롯데리아 예천점",
+      "description": "경북 예천군 예천읍 중앙로 27",
+      "url": "http://place.map.kakao.com/7862080",
+      "region": "경상북도"
+    },
+    {
+      "lat": 36.0601557466189,
+      "lng": 129.375592653944,
+      "title": "롯데리아 포항두호점",
+      "description": "경북 포항시 북구 두호로 26",
+      "url": "http://place.map.kakao.com/7858731",
+      "region": "경상북도"
+    },
+    {
+      "lat": 36.5952865977756,
+      "lng": 128.19823286148,
+      "title": "롯데리아 점촌점",
+      "description": "경북 문경시 호서로 2",
+      "url": "http://place.map.kakao.com/7858342",
+      "region": "경상북도"
+    },
+    {
+      "lat": 35.79841564259624,
+      "lng": 129.13836115795786,
+      "title": "롯데리아 신경주역사점",
+      "description": "경북 경주시 건천읍 화천리 1315",
+      "url": "http://place.map.kakao.com/15109073",
+      "region": "경상북도"
+    },
+    {
+      "lat": 36.5716169762348,
+      "lng": 128.503238722526,
+      "title": "롯데리아 경북도청점",
+      "description": "경북 안동시 풍천면 천년숲서로 29",
+      "url": "http://place.map.kakao.com/1164063920",
+      "region": "경상북도"
+    },
+    {
+      "lat": 36.8151695974954,
+      "lng": 128.605922094471,
+      "title": "롯데리아 영주가흥점",
+      "description": "경북 영주시 대동로31번길 2",
+      "url": "http://place.map.kakao.com/1886508852",
+      "region": "경상북도"
+    },
+    {
+      "lat": 36.0886659021533,
+      "lng": 129.386316768592,
+      "title": "롯데리아 포항법원점",
+      "description": "경북 포항시 북구 신덕로 274",
+      "url": "http://place.map.kakao.com/1673176494",
+      "region": "경상북도"
+    },
+    {
+      "lat": 36.8907558642445,
+      "lng": 128.736133222156,
+      "title": "롯데리아 경북봉화점",
+      "description": "경북 봉화군 봉화읍 신시장1길 9-13",
+      "url": "http://place.map.kakao.com/26427494",
+      "region": "경상북도"
+    },
+    {
+      "lat": 36.10174951041348,
+      "lng": 128.38595670289263,
+      "title": "롯데리아 구미공단점",
+      "description": "경북 구미시 1공단로 212",
+      "url": "http://place.map.kakao.com/25668443",
+      "region": "경상북도"
+    },
+    {
+      "lat": 36.10698744106484,
+      "lng": 128.33634277632814,
+      "title": "롯데리아 구미형곡점",
+      "description": "경북 구미시 형곡동로 54",
+      "url": "http://place.map.kakao.com/11082205",
+      "region": "경상북도"
+    },
+    {
+      "lat": 35.9667951761827,
+      "lng": 128.93859102904156,
+      "title": "롯데리아 영천시장점",
+      "description": "경북 영천시 완산로 73",
+      "url": "http://place.map.kakao.com/7858090",
+      "region": "경상북도"
+    },
+    {
+      "lat": 35.99385004501057,
+      "lng": 128.39922839171788,
+      "title": "롯데리아 경북왜관점",
+      "description": "경북 칠곡군 왜관읍 중앙로 212",
+      "url": "http://place.map.kakao.com/7855927",
+      "region": "경상북도"
+    },
+    {
+      "lat": 36.34949005416292,
+      "lng": 128.69711916101994,
+      "title": "롯데리아 경북의성점",
+      "description": "경북 의성군 의성읍 동서1길 26",
+      "url": "http://place.map.kakao.com/754556388",
+      "region": "경상북도"
+    },
+    {
+      "lat": 36.1214047509236,
+      "lng": 128.182326382837,
+      "title": "롯데리아 김천혁신도시점",
+      "description": "경북 김천시 혁신4로 7",
+      "url": "http://place.map.kakao.com/27516877",
+      "region": "경상북도"
+    },
+    {
+      "lat": 35.8188961924531,
+      "lng": 128.753219158909,
+      "title": "롯데리아 경산사동점",
+      "description": "경북 경산시 원효로32길 23",
+      "url": "http://place.map.kakao.com/11074789",
+      "region": "경상북도"
+    },
+    {
+      "lat": 35.8660353931507,
+      "lng": 129.214686178825,
+      "title": "롯데리아 경주황성점",
+      "description": "경북 경주시 황성로 33",
+      "url": "http://place.map.kakao.com/7860169",
+      "region": "경상북도"
+    },
+    {
+      "lat": 36.1198437601774,
+      "lng": 128.348507149675,
+      "title": "롯데리아 구미동아점",
+      "description": "경북 구미시 송원동로 28",
+      "url": "http://place.map.kakao.com/7856094",
+      "region": "경상북도"
+    },
+    {
+      "lat": 36.1506896752562,
+      "lng": 128.314963740336,
+      "title": "롯데리아 구미봉곡점",
+      "description": "경북 구미시 봉곡동로 4",
+      "url": "http://place.map.kakao.com/17135842",
+      "region": "경상북도"
+    },
+    {
+      "lat": 35.8236336694507,
+      "lng": 128.736009289106,
+      "title": "롯데리아 경산점",
+      "description": "경북 경산시 중앙로 83",
+      "url": "http://place.map.kakao.com/8283376",
+      "region": "경상북도"
+    },
+    {
+      "lat": 36.81032739622352,
+      "lng": 128.62292155256125,
+      "title": "롯데리아 경북신영주점",
+      "description": "경북 영주시 대학로12번길 4",
+      "url": "http://place.map.kakao.com/118690188",
+      "region": "경상북도"
+    },
+    {
+      "lat": 36.1387926431472,
+      "lng": 128.418416506483,
+      "title": "롯데리아 구미양포점",
+      "description": "경북 구미시 옥계북로 7",
+      "url": "http://place.map.kakao.com/11731950",
+      "region": "경상북도"
+    },
+    {
+      "lat": 35.2290556931449,
+      "lng": 128.68013490815,
+      "title": "롯데리아 창원용호점",
+      "description": "경남 창원시 성산구 용지로153번길 7",
+      "url": "http://place.map.kakao.com/7858684",
+      "region": "경상남도"
+    },
+    {
+      "lat": 35.1020570943555,
+      "lng": 128.810886645861,
+      "title": "롯데리아 진해용원점",
+      "description": "경남 창원시 진해구 용원로7번길 18",
+      "url": "http://place.map.kakao.com/11078896",
+      "region": "경상남도"
+    },
+    {
+      "lat": 35.2335732149372,
+      "lng": 128.866777859144,
+      "title": "롯데리아 김해내외D/I점",
+      "description": "경남 김해시 내외중앙로 42",
+      "url": "http://place.map.kakao.com/25986326",
+      "region": "경상남도"
+    },
+    {
+      "lat": 35.2610006432138,
+      "lng": 128.872210527049,
+      "title": "롯데리아 김해북부점",
+      "description": "경남 김해시 가야로 183",
+      "url": "http://place.map.kakao.com/7856101",
+      "region": "경상남도"
+    },
+    {
+      "lat": 35.2209792974808,
+      "lng": 128.68166846175313,
+      "title": "롯데리아 창원상남점",
+      "description": "경남 창원시 성산구 단정로 7",
+      "url": "http://place.map.kakao.com/13017103",
+      "region": "경상남도"
+    },
+    {
+      "lat": 35.2651304983416,
+      "lng": 128.626794825507,
+      "title": "롯데리아 창원소답점",
+      "description": "경남 창원시 의창구 읍성로79번길 2",
+      "url": "http://place.map.kakao.com/13017071",
+      "region": "경상남도"
+    },
+    {
+      "lat": 35.2031738610123,
+      "lng": 128.809115019618,
+      "title": "롯데리아 김해장유점",
+      "description": "경남 김해시 능동로167번길 1",
+      "url": "http://place.map.kakao.com/7856265",
+      "region": "경상남도"
+    },
+    {
+      "lat": 35.2386268215749,
+      "lng": 128.583072816493,
+      "title": "롯데리아 마산터미널점",
+      "description": "경남 창원시 마산회원구 3.15대로 750",
+      "url": "http://place.map.kakao.com/7857561",
+      "region": "경상남도"
+    },
+    {
+      "lat": 35.3046053910532,
+      "lng": 128.734566111805,
+      "title": "롯데리아 김해진영점",
+      "description": "경남 김해시 진영읍 여래로 18",
+      "url": "http://place.map.kakao.com/7857079",
+      "region": "경상남도"
+    },
+    {
+      "lat": 35.3177147916345,
+      "lng": 129.000618209708,
+      "title": "롯데리아 양산물금점",
+      "description": "경남 양산시 물금읍 야리로 17",
+      "url": "http://place.map.kakao.com/241665424",
+      "region": "경상남도"
+    },
+    {
+      "lat": 35.1794039191576,
+      "lng": 128.558125422873,
+      "title": "롯데리아 경남대점",
+      "description": "경남 창원시 마산합포구 가포로 8",
+      "url": "http://place.map.kakao.com/1058936108",
+      "region": "경상남도"
+    },
+    {
+      "lat": 35.3354694667736,
+      "lng": 129.028821413489,
+      "title": "롯데리아 양산중부점",
+      "description": "경남 양산시 양산역로 69",
+      "url": "http://place.map.kakao.com/8358288",
+      "region": "경상남도"
+    },
+    {
+      "lat": 35.24549460048362,
+      "lng": 128.90410214631058,
+      "title": "롯데리아 김해어방점",
+      "description": "경남 김해시 인제로 190",
+      "url": "http://place.map.kakao.com/7860340",
+      "region": "경상남도"
+    },
+    {
+      "lat": 35.227758697818,
+      "lng": 128.882372085035,
+      "title": "롯데리아 김해부원점",
+      "description": "경남 김해시 가락로 13",
+      "url": "http://place.map.kakao.com/7864077",
+      "region": "경상남도"
+    },
+    {
+      "lat": 35.19564899794737,
+      "lng": 128.56725846610948,
+      "title": "롯데리아 마산중앙점",
+      "description": "경남 창원시 마산합포구 3.15대로 196",
+      "url": "http://place.map.kakao.com/276360893",
+      "region": "경상남도"
+    },
+    {
+      "lat": 35.17174712868224,
+      "lng": 128.81453390960385,
+      "title": "롯데리아 김해율하점",
+      "description": "경남 김해시 율하3로 42",
+      "url": "http://place.map.kakao.com/12127779",
+      "region": "경상남도"
+    },
+    {
+      "lat": 35.1596937759422,
+      "lng": 128.107818635079,
+      "title": "롯데리아 경상대학점",
+      "description": "경남 진주시 진주대로 594",
+      "url": "http://place.map.kakao.com/10354563",
+      "region": "경상남도"
+    },
+    {
+      "lat": 35.274789962306166,
+      "lng": 128.40143565428622,
+      "title": "롯데리아 경남함안점",
+      "description": "경남 함안군 가야읍 함마대로 1514-25",
+      "url": "http://place.map.kakao.com/22645447",
+      "region": "경상남도"
+    },
+    {
+      "lat": 35.3440921193991,
+      "lng": 129.03736053401,
+      "title": "롯데리아 양산점",
+      "description": "경남 양산시 삼일로 91",
+      "url": "http://place.map.kakao.com/7857994",
+      "region": "경상남도"
+    },
+    {
+      "lat": 35.23377051779077,
+      "lng": 128.58007420490995,
+      "title": "롯데리아 마산역점",
+      "description": "경남 창원시 마산회원구 양덕옛2길 129",
+      "url": "http://place.map.kakao.com/20953868",
+      "region": "경상남도"
+    },
+    {
+      "lat": 35.242007561947084,
+      "lng": 128.68871125862117,
+      "title": "롯데리아 창원대학점",
+      "description": "경남 창원시 의창구 퇴촌로 31-1",
+      "url": "http://place.map.kakao.com/10352277",
+      "region": "경상남도"
+    },
+    {
+      "lat": 35.234016877724805,
+      "lng": 128.8391594934898,
+      "title": "롯데리아 김해주촌점",
+      "description": "경남 김해시 주촌면 천곡로 6",
+      "url": "http://place.map.kakao.com/538204555",
+      "region": "경상남도"
+    },
+    {
+      "lat": 35.315481462174574,
+      "lng": 129.02541718559385,
+      "title": "롯데리아 양산석산점",
+      "description": "경남 양산시 동면 금오로 242",
+      "url": "http://place.map.kakao.com/25918410",
+      "region": "경상남도"
+    },
+    {
+      "lat": 34.97764954801278,
+      "lng": 128.32714589333304,
+      "title": "롯데리아 고성점",
+      "description": "경남 고성군 고성읍 송학로 164",
+      "url": "http://place.map.kakao.com/7860170",
+      "region": "경상남도"
+    },
+    {
+      "lat": 35.25307841208434,
+      "lng": 128.52115474073443,
+      "title": "롯데리아 마산호계점",
+      "description": "경남 창원시 마산회원구 내서읍 호원로 220",
+      "url": "http://place.map.kakao.com/7857562",
+      "region": "경상남도"
+    },
+    {
+      "lat": 35.0793871337777,
+      "lng": 128.087917235871,
+      "title": "롯데리아 사천점",
+      "description": "경남 사천시 정동면 옥산로 46",
+      "url": "http://place.map.kakao.com/1350177193",
+      "region": "경상남도"
+    },
+    {
+      "lat": 35.23190863336185,
+      "lng": 128.5045446251522,
+      "title": "롯데리아 마산내서점",
+      "description": "경남 창원시 마산회원구 내서읍 삼계로 1",
+      "url": "http://place.map.kakao.com/11074792",
+      "region": "경상남도"
+    },
+    {
+      "lat": 34.88957393684459,
+      "lng": 128.62325174650618,
+      "title": "롯데리아 거제고현점",
+      "description": "경남 거제시 서문로 70",
+      "url": "http://place.map.kakao.com/1145400512",
+      "region": "경상남도"
+    },
+    {
+      "lat": 35.2534009057146,
+      "lng": 128.615441716952,
+      "title": "롯데리아 창원팔용점",
+      "description": "경남 창원시 의창구 사화로80번길 1",
+      "url": "http://place.map.kakao.com/16954399",
+      "region": "경상남도"
+    },
+    {
+      "lat": 34.83590182238323,
+      "lng": 127.89469549243505,
+      "title": "롯데리아 남해점",
+      "description": "경남 남해군 남해읍 화전로 52-1",
+      "url": "http://place.map.kakao.com/10361087",
+      "region": "경상남도"
+    },
+    {
+      "lat": 35.20834618657657,
+      "lng": 128.70746924827782,
+      "title": "롯데리아 창원대방점",
+      "description": "경남 창원시 성산구 가양로124번길 13",
+      "url": "http://place.map.kakao.com/10352276",
+      "region": "경상남도"
+    },
+    {
+      "lat": 35.5670770475702,
+      "lng": 128.161750834839,
+      "title": "롯데리아 경남합천점",
+      "description": "경남 합천군 합천읍 동서로 85",
+      "url": "http://place.map.kakao.com/7855926",
+      "region": "경상남도"
+    },
+    {
+      "lat": 34.84244832181265,
+      "lng": 128.42125356015052,
+      "title": "롯데리아 통영점",
+      "description": "경남 통영시 중앙로 111",
+      "url": "http://place.map.kakao.com/7858602",
+      "region": "경상남도"
+    },
+    {
+      "lat": 35.21754876349708,
+      "lng": 128.5708993621933,
+      "title": "롯데리아 북마산점",
+      "description": "경남 창원시 마산회원구 북성로 118",
+      "url": "http://place.map.kakao.com/7857567",
+      "region": "경상남도"
+    },
+    {
+      "lat": 35.32093911043265,
+      "lng": 128.2697872875438,
+      "title": "롯데리아 경남의령점",
+      "description": "경남 의령군 의령읍 행복로 7",
+      "url": "http://place.map.kakao.com/1212475924",
+      "region": "경상남도"
+    },
+    {
+      "lat": 35.387332450621074,
+      "lng": 128.4783556668342,
+      "title": "롯데리아 경남남지점",
+      "description": "경남 창녕군 남지읍 문화길 35-4",
+      "url": "http://place.map.kakao.com/24579545",
+      "region": "경상남도"
+    },
+    {
+      "lat": 35.329158285532,
+      "lng": 129.01316770764478,
+      "title": "롯데리아 양산부산대점",
+      "description": "경남 양산시 물금읍 삽량로 36",
+      "url": "http://place.map.kakao.com/17135832",
+      "region": "경상남도"
+    },
+    {
+      "lat": 35.5426955406427,
+      "lng": 128.496988531592,
+      "title": "롯데리아 경남창녕점",
+      "description": "경남 창녕군 창녕읍 명덕로 70",
+      "url": "http://place.map.kakao.com/8283375",
+      "region": "경상남도"
+    },
+    {
+      "lat": 35.31082882933089,
+      "lng": 129.00927221229261,
+      "title": "롯데리아 양산증산점",
+      "description": "경남 양산시 물금읍 증산역로 177",
+      "url": "http://place.map.kakao.com/66141273",
+      "region": "경상남도"
+    },
+    {
+      "lat": 35.2563336115606,
+      "lng": 128.640480436659,
+      "title": "롯데리아 창원도계점",
+      "description": "경남 창원시 의창구 도계로 99",
+      "url": "http://place.map.kakao.com/7858346",
+      "region": "경상남도"
+    },
+    {
+      "lat": 35.1798334641086,
+      "lng": 128.110463041257,
+      "title": "롯데리아 진주상대점",
+      "description": "경남 진주시 동진로 175",
+      "url": "http://place.map.kakao.com/10352275",
+      "region": "경상남도"
+    },
+    {
+      "lat": 35.2768631152581,
+      "lng": 128.684040835955,
+      "title": "롯데리아 창원동읍점",
+      "description": "경남 창원시 의창구 동읍 의창대로 852",
+      "url": "http://place.map.kakao.com/26305915",
+      "region": "경상남도"
+    },
+    {
+      "lat": 35.130650167867,
+      "lng": 128.706369721671,
+      "title": "롯데리아 진해장천점",
+      "description": "경남 창원시 진해구 충장로657번길 28",
+      "url": "http://place.map.kakao.com/418462485",
+      "region": "경상남도"
+    },
+    {
+      "lat": 34.9391196644583,
+      "lng": 128.08624970692,
+      "title": "롯데리아 삼천포벌리점",
+      "description": "경남 사천시 주공로 9",
+      "url": "http://place.map.kakao.com/7856786",
+      "region": "경상남도"
+    },
+    {
+      "lat": 35.0883933070252,
+      "lng": 128.814954822731,
+      "title": "롯데리아 부산신항점",
+      "description": "경남 창원시 진해구 신항동로 121",
+      "url": "http://place.map.kakao.com/1202789869",
+      "region": "경상남도"
+    },
+    {
+      "lat": 33.5177106817975,
+      "lng": 126.53413425609,
+      "title": "롯데리아 제주항DI점",
+      "description": "제주특별자치도 제주시 임항로 94",
+      "url": "http://place.map.kakao.com/26305912",
+      "region": "제주특별자치도"
+    },
+    {
+      "lat": 33.4932205936821,
+      "lng": 126.430705063924,
+      "title": "롯데리아 제주외도DI점",
+      "description": "제주특별자치도 제주시 일주서로 7335",
+      "url": "http://place.map.kakao.com/26512760",
+      "region": "제주특별자치도"
+    },
+    {
+      "lat": 33.516262049711614,
+      "lng": 126.58035849901638,
+      "title": "롯데리아 제주삼화지구점",
+      "description": "제주특별자치도 제주시 건주로4길 6-4",
+      "url": "http://place.map.kakao.com/25412885",
+      "region": "제주특별자치도"
+    },
+    {
+      "lat": 33.4816958791175,
+      "lng": 126.48367697886,
+      "title": "롯데리아 신제주점",
+      "description": "제주특별자치도 제주시 연북로 22",
+      "url": "http://place.map.kakao.com/18213373",
+      "region": "제주특별자치도"
+    },
+    {
+      "lat": 33.32685884754186,
+      "lng": 126.8365861447994,
+      "title": "롯데리아 제주표선해변점",
+      "description": "제주특별자치도 서귀포시 표선면 표선백사로 127",
+      "url": "http://place.map.kakao.com/1769121491",
+      "region": "제주특별자치도"
+    },
+    {
+      "lat": 33.475255583123,
+      "lng": 126.545554686734,
+      "title": "롯데리아 제주아라점",
+      "description": "제주특별자치도 제주시 인다9길 4",
+      "url": "http://place.map.kakao.com/26092769",
+      "region": "제주특별자치도"
+    },
+    {
+      "lat": 33.248655435511,
+      "lng": 126.562796909814,
+      "title": "롯데리아 서귀포점",
+      "description": "제주특별자치도 서귀포시 중정로61번길 9",
+      "url": "http://place.map.kakao.com/8343269",
+      "region": "제주특별자치도"
+    },
+    {
+      "lat": 33.50707756977683,
+      "lng": 126.49441457742712,
+      "title": "롯데리아 제주공항국내선탑승점",
+      "description": "제주특별자치도 제주시 공항로 2",
+      "url": "http://place.map.kakao.com/988151713",
+      "region": "제주특별자치도"
+    },
+    {
+      "lat": 33.2196121404513,
+      "lng": 126.252284379249,
+      "title": "롯데리아 모슬포점",
+      "description": "제주특별자치도 서귀포시 대정읍 최남단해안로 13",
+      "url": "http://place.map.kakao.com/26951502",
+      "region": "제주특별자치도"
+    },
+    {
+      "lat": 33.2542825735387,
+      "lng": 126.507118572499,
+      "title": "롯데리아 서귀포혁신점",
+      "description": "제주특별자치도 서귀포시 신서귀로97번길 47",
+      "url": "http://place.map.kakao.com/47325073",
+      "region": "제주특별자치도"
+    },
+    {
+      "lat": 33.4462780023967,
+      "lng": 126.911779873135,
+      "title": "롯데리아 하나로제주성산점",
+      "description": "제주특별자치도 서귀포시 성산읍 일주동로 4282",
+      "url": "http://place.map.kakao.com/920532917",
+      "region": "제주특별자치도"
+    },
+    {
+      "lat": 33.4106490010796,
+      "lng": 126.265314965243,
+      "title": "롯데리아 제주한림점",
+      "description": "제주특별자치도 제주시 한림읍 한림중앙로 46",
+      "url": "http://place.map.kakao.com/27448664",
+      "region": "제주특별자치도"
+    },
+    {
+      "lat": 33.5424888492046,
+      "lng": 126.669499519959,
+      "title": "롯데리아 제주함덕점",
+      "description": "제주특별자치도 제주시 조천읍 조함해안로 530",
+      "url": "http://place.map.kakao.com/1258177448",
+      "region": "제주특별자치도"
+    },
+    {
+      "lat": 33.4931071206107,
+      "lng": 126.430732708007,
+      "title": "롯데리아 제주외도DT점 주차장",
+      "description": "제주특별자치도 제주시 외도이동 343-17",
+      "url": "http://place.map.kakao.com/1349456762",
+      "region": "제주특별자치도"
+    },
+    {
+      "lat": 33.493212469676365,
+      "lng": 126.43070296497329,
+      "title": "롯데리아 제주외도 DT 전기차충전소",
+      "description": "제주특별자치도 제주시 일주서로 7335",
+      "url": "http://place.map.kakao.com/531592766",
+      "region": "제주특별자치도"
+    }
+  ]
+}
