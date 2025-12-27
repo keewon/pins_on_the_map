@@ -30,6 +30,11 @@ const COOKIE_MAP_VIEW = 'pins_map_view';
 const COOKIE_THEME = 'pins_theme';
 const COOKIE_EXPIRY_DAYS = 365;
 
+// List IDs for special handling
+const LIST_ID_SUBWAY = 6;  // 지하철역
+const LIST_ID_HIGHSPEED_RAIL = 7;  // 고속철도역 (KTX/SRT)
+const LIST_ID_REGULAR_RAIL = 8;  // 일반기차역 (무궁화/새마을/ITX)
+
 // Map tile URLs (한글 라벨 지원)
 const MAP_TILES = {
     // OpenStreetMap 표준 타일 - 한글 라벨 지원
@@ -164,8 +169,8 @@ function resetSettings() {
     }
 }
 
-// 기본으로 켜져있을 리스트 ID (도서관 = 4)
-const DEFAULT_VISIBLE_LIST_ID = 6;
+// 기본으로 켜져있을 리스트 ID (지하철역 = 6)
+const DEFAULT_VISIBLE_LIST_ID = LIST_ID_SUBWAY;
 
 // Application State
 const state = {
@@ -175,6 +180,7 @@ const state = {
     pinLists: [],
     markers: {}, // Grouped by list id
     clusterGroups: {}, // Cluster groups per list id
+    individualMarkers: {}, // Individual markers (not clustered) per list id
     listColors: {}, // Store selected colors per list
     listIcons: {}, // Store selected icons per list (for schools)
     listVisibility: {}, // Store visibility state per list
@@ -597,7 +603,7 @@ function toggleListVisibility(listId) {
     }
     
     // Toggle subway lines when subway station list is toggled
-    if (listId === 6) {
+    if (listId === LIST_ID_SUBWAY) {
         if (isVisible) {
             showSubwayLines();
         } else {
@@ -606,8 +612,8 @@ function toggleListVisibility(listId) {
     }
     
     // Toggle train lines when train station lists are toggled
-    if (listId === 7 || listId === 8) {
-        const anyTrainListVisible = state.listVisibility[7] || state.listVisibility[8];
+    if (listId === LIST_ID_HIGHSPEED_RAIL || listId === LIST_ID_REGULAR_RAIL) {
+        const anyTrainListVisible = state.listVisibility[LIST_ID_HIGHSPEED_RAIL] || state.listVisibility[LIST_ID_REGULAR_RAIL];
         if (anyTrainListVisible) {
             showTrainLines();
         } else {
@@ -695,9 +701,14 @@ function showMarkers(listId) {
 
     const color = state.listColors[listId];
     
-    // Remove existing cluster group if any
+    // Remove existing cluster group and individual markers if any
     if (state.clusterGroups[listId]) {
         state.map.removeLayer(state.clusterGroups[listId]);
+    }
+    if (state.individualMarkers[listId]) {
+        state.individualMarkers[listId].forEach(marker => {
+            state.map.removeLayer(marker);
+        });
     }
     
     // Create new cluster group with custom icon
@@ -708,6 +719,7 @@ function showMarkers(listId) {
         zoomToBoundsOnClick: true,
         iconCreateFunction: function(cluster) {
             const count = cluster.getChildCount();
+            
             let size = 'small';
             if (count > 50) size = 'large';
             else if (count > 10) size = 'medium';
@@ -727,13 +739,52 @@ function showMarkers(listId) {
         bounds.contains([pin.lat, pin.lng])
     );
 
-    filteredPins.forEach(pin => {
+    // Group nearby pins (within 50 pixels) to check if they should be clustered
+    const CLUSTER_DISTANCE = 50; // pixels
+    const individualMarkers = [];
+    const clusterMarkers = [];
+    
+    // Convert all pins to screen coordinates
+    const pinScreenCoords = filteredPins.map(pin => {
+        const point = state.map.latLngToContainerPoint([pin.lat, pin.lng]);
+        return { pin, point };
+    });
+    
+    pinScreenCoords.forEach(({ pin, point }) => {
         const marker = createMarker(pin, color, list.title, listId);
+        
+        // Check if there are 2 or fewer nearby markers (within CLUSTER_DISTANCE pixels)
+        const nearbyCount = pinScreenCoords.filter(({ point: otherPoint }) => {
+            const dx = point.x - otherPoint.x;
+            const dy = point.y - otherPoint.y;
+            const distance = Math.sqrt(dx * dx + dy * dy);
+            return distance <= CLUSTER_DISTANCE;
+        }).length;
+        
+        if (nearbyCount <= 2) {
+            // 2개 이하는 개별 마커로 추가
+            individualMarkers.push(marker);
+        } else {
+            // 3개 이상은 클러스터 그룹에 추가
+            clusterMarkers.push(marker);
+        }
+    });
+    
+    // Add individual markers directly to map
+    individualMarkers.forEach(marker => {
+        marker.addTo(state.map);
+    });
+    state.individualMarkers[listId] = individualMarkers;
+    
+    // Add cluster markers to cluster group
+    clusterMarkers.forEach(marker => {
         clusterGroup.addLayer(marker);
     });
     
-    clusterGroup.addTo(state.map);
-    state.clusterGroups[listId] = clusterGroup;
+    if (clusterMarkers.length > 0) {
+        clusterGroup.addTo(state.map);
+        state.clusterGroups[listId] = clusterGroup;
+    }
 }
 
 /**
@@ -743,6 +794,12 @@ function hideMarkers(listId) {
     if (state.clusterGroups[listId]) {
         state.map.removeLayer(state.clusterGroups[listId]);
         delete state.clusterGroups[listId];
+    }
+    if (state.individualMarkers[listId]) {
+        state.individualMarkers[listId].forEach(marker => {
+            state.map.removeLayer(marker);
+        });
+        delete state.individualMarkers[listId];
     }
 }
 
@@ -876,7 +933,7 @@ function createMarker(pin, color, listTitle, listId) {
     const list = state.pinLists.find(l => l.id === listId);
     
     // 지하철역은 심플한 동그라미로 표시
-    if (listId === 6) {
+    if (listId === LIST_ID_SUBWAY) {
         const isTransfer = pin.description && pin.description.includes(',');
         const markerClass = isTransfer ? 'subway-marker transfer' : 'subway-marker';
         icon = L.divIcon({
@@ -886,7 +943,7 @@ function createMarker(pin, color, listTitle, listId) {
             iconAnchor: [isTransfer ? 9 : 7, isTransfer ? 9 : 7],
             popupAnchor: [0, isTransfer ? -9 : -7],
         });
-    } else if (listId === 7 || listId === 8) {
+    } else if (listId === LIST_ID_HIGHSPEED_RAIL || listId === LIST_ID_REGULAR_RAIL) {
         // 기차역은 정사각형으로 표시
         icon = L.divIcon({
             className: 'train-marker-wrapper',
