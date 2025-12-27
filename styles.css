@@ -615,25 +615,13 @@ body {
     margin: 16px;
 }
 
+/* 팝업 화살표 숨김 */
 .leaflet-popup-tip {
-    background: var(--bg-secondary);
-    border: 1px solid var(--border-color);
+    display: none !important;
 }
 
-/* 팝업이 마커 아래에 표시될 때 화살표 위로 */
-.popup-bottom .leaflet-popup-tip-container {
-    top: 0;
-    bottom: auto;
-    margin-top: -20px;
-}
-
-.popup-bottom .leaflet-popup-tip {
-    transform: rotate(180deg);
-    box-shadow: 0 -3px 14px rgba(0,0,0,0.2);
-}
-
-.popup-bottom .leaflet-popup-content-wrapper {
-    margin-top: 0;
+.leaflet-popup-tip-container {
+    display: none !important;
 }
 
 .leaflet-popup-close-button {

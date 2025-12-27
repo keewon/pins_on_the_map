@@ -1020,32 +1020,57 @@ function createMarker(pin, color, listTitle, listId) {
     marker.on('popupopen', function(e) {
         const map = state.map;
         const popup = e.popup;
+        const popupEl = popup.getElement();
+        
+        if (!popupEl) return;
+        
         const latlng = marker.getLatLng();
-        const containerPoint = map.latLngToContainerPoint(latlng);
+        const markerPoint = map.latLngToContainerPoint(latlng);
         const mapSize = map.getSize();
+        const popupHeight = popupEl.offsetHeight;
+        const popupWidth = popupEl.offsetWidth;
         
-        // 디버그 로그
-        console.log('=== 팝업 위치 디버그 ===');
-        console.log('containerPoint:', containerPoint);
-        console.log('mapSize:', mapSize);
-        console.log('y 비율:', containerPoint.y / mapSize.y);
-        console.log('isNearTop:', containerPoint.y < mapSize.y * 0.35);
+        // 상단: 마커 위에 팝업이 들어갈 공간이 있는지 확인 (여유 20px)
+        const spaceAbove = markerPoint.y;
+        const needsBottom = spaceAbove < popupHeight + 20;
         
-        // 화면 상단 35% 이내면 팝업을 아래로
-        const isNearTop = containerPoint.y < mapSize.y * 0.35;
+        // 좌측: 마커 왼쪽에 팝업이 들어갈 공간이 있는지 확인 (여유 20px)
+        const spaceLeft = markerPoint.x;
+        const needsRight = spaceLeft < popupWidth / 2 + 20;
         
-        if (isNearTop) {
-            // 팝업 DOM에 클래스 추가하고 위치 조정
-            const popupEl = popup.getElement();
-            if (popupEl) {
-                popupEl.classList.add('popup-bottom');
-                // 팝업을 아래로 이동 (마커 아래로)
-                const currentPos = popup.getLatLng();
-                const point = map.latLngToLayerPoint(currentPos);
-                point.y += 60; // 아래로 이동
-                const newLatLng = map.layerPointToLatLng(point);
-                popup.setLatLng(newLatLng);
-            }
+        // 우측: 마커 오른쪽에 팝업이 들어갈 공간이 있는지 확인 (여유 20px)
+        const spaceRight = mapSize.x - markerPoint.x;
+        const needsLeft = spaceRight < popupWidth / 2 + 20;
+        
+        let offsetX = 0;
+        let offsetY = 0;
+        
+        // 상하 조정
+        if (needsBottom) {
+            popupEl.classList.add('popup-bottom');
+            // 팝업을 마커 아래로 이동 (offset 사용)
+            const currentOffset = popup.options.offset || [0, 0];
+            popup.options.offset = [currentOffset[0], popupHeight + 40]; // 아래로 이동
+            popup.update();
+        }
+        
+        // 좌우 조정 (팝업의 offset 옵션 사용)
+        if (needsRight) {
+            // 왼쪽에 공간이 부족하면 오른쪽으로 이동
+            offsetX = popupWidth / 2 - spaceLeft + 20;
+            popupEl.classList.add('popup-right');
+        } else if (needsLeft) {
+            // 오른쪽에 공간이 부족하면 왼쪽으로 이동
+            offsetX = -(popupWidth / 2 - spaceRight + 20);
+            popupEl.classList.add('popup-left');
+        }
+        
+        if (offsetX !== 0) {
+            // 팝업의 현재 offset에 추가
+            const currentOffset = popup.options.offset || [0, 0];
+            popup.options.offset = [currentOffset[0] + offsetX, currentOffset[1]];
+            // offset 변경 후 다시 위치 업데이트
+            popup.update();
         }
     });
 
