@@ -15,12 +15,14 @@
 - 🌙 **다크 테마**: 눈이 편한 다크 테마 기본 적용
 - 🚇 **노선도 표시**: 지하철 및 기차 노선도 오버레이
 - 🏫 **학교 정보**: 남/녀/공학, 학생수, 학교유형 표시
+- 📍 **스마트 클러스터링**: 2개까지는 개별 마커로 표시, 3개 이상부터 클러스터링
+- 💬 **스마트 팝업**: 화면 가장자리에서도 팝업이 항상 보이도록 위치 자동 조정
 
 ## 📍 포함된 데이터
 
 | 카테고리 | 리스트 |
 |----------|--------|
-| 🏫 교육 | 중학교, 고등학교 (일반고/특목고/자사고/특성화고 등) |
+| 🏫 교육 | 중학교, 고등학교 (일반고/특목고/자사고/특성화고 등), 대학교 |
 | 📚 문화 | 도서관, 수영장 |
 | 🍔 음식점 | 맥도날드, 써브웨이 |
 | 🚇 교통 | 지하철역, 기차역 (노선도 포함) |
@@ -69,6 +71,9 @@ pins_on_the_map/
 │   ├── lists.json      # 리스트 메타데이터 (제목, 색상, 아이콘)
 │   ├── 1.json          # 중학교 데이터
 │   ├── 2.json          # 도서관 데이터
+│   ├── 6.json          # 지하철역 데이터
+│   ├── 9.json          # 고등학교 데이터
+│   ├── 24.json         # 대학교 데이터
 │   ├── ...             # 기타 데이터 파일
 │   ├── subway_lines.json   # 지하철 노선도
 │   └── train_lines.json    # 기차 노선도
@@ -76,6 +81,7 @@ pins_on_the_map/
 │   ├── fetch_apartments.py
 │   ├── fetch_middle_schools.py
 │   ├── fetch_high_schools.py
+│   ├── fetch_universities.py
 │   ├── fetch_school_info.py
 │   ├── fetch_stations.py
 │   └── ...
@@ -188,7 +194,7 @@ pins_on_the_map/
 | 데이터 | 출처 | 라이선스 |
 |--------|------|----------|
 | 맥도날드, 써브웨이, 도서관, 수영장 위치 | [카카오맵 API](https://developers.kakao.com/) | 카카오 API 이용약관 |
-| 중학교, 고등학교 위치 | [카카오맵 API](https://developers.kakao.com/) | 카카오 API 이용약관 |
+| 중학교, 고등학교, 대학교 위치 | [카카오맵 API](https://developers.kakao.com/) | 카카오 API 이용약관 |
 | 중학교, 고등학교 상세정보 (남/녀/공학, 학생수, 학교유형) | [학교알리미](https://www.schoolinfo.go.kr/) | 공공누리 |
 | 지하철역, 기차역 위치 | [카카오맵 API](https://developers.kakao.com/) | 카카오 API 이용약관 |
 | 지하철 노선도 | [OpenStreetMap](https://www.openstreetmap.org/) via Overpass API | ODbL |
