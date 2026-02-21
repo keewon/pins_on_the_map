@@ -1058,11 +1058,42 @@ function createMarker(pin, color, listTitle, listId) {
         }
     }
 
+    // 학업성취도 정보 (중학교)
+    let achievementHtml = '';
+    if (listId === 1 && pin.achievement) {
+        const mainSubjects = ['국어', '수학', '영어', '사회', '과학'];
+        const subjects = pin.achievement.subjects;
+        let subjectRows = '';
+        for (const name of mainSubjects) {
+            const s = subjects[name];
+            if (!s) continue;
+            const avgClass = s.avg >= 80 ? 'high' : s.avg >= 70 ? 'mid' : 'low';
+            subjectRows += `
+                <div class="achievement-subject">
+                    <span class="subject-name">${name}</span>
+                    <span class="subject-avg ${avgClass}">${s.avg}</span>
+                    <div class="grade-bar">
+                        ${s.A ? `<div class="grade-a" style="width:${s.A}%" title="A ${s.A}%">${s.A >= 10 ? 'A' : ''}</div>` : ''}
+                        ${s.B ? `<div class="grade-b" style="width:${s.B}%" title="B ${s.B}%">${s.B >= 10 ? 'B' : ''}</div>` : ''}
+                        ${s.C ? `<div class="grade-c" style="width:${s.C}%" title="C ${s.C}%">${s.C >= 10 ? 'C' : ''}</div>` : ''}
+                        ${s.D ? `<div class="grade-d" style="width:${s.D}%" title="D ${s.D}%"></div>` : ''}
+                        ${s.E ? `<div class="grade-e" style="width:${s.E}%" title="E ${s.E}%"></div>` : ''}
+                    </div>
+                </div>`;
+        }
+        achievementHtml = `
+            <div class="achievement-info">
+                <div class="achievement-title">2025년 3학년 1학기 학업성취도</div>
+                ${subjectRows}
+            </div>`;
+    }
+
     const popupContent = `
         <div class="popup-content">
             <div class="popup-title">${titleContent}</div>
             <div class="popup-description">${pin.description}</div>
             ${schoolInfoHtml}
+            ${achievementHtml}
             <div class="popup-list-badge" style="background: ${color}">${listTitle}</div>
         </div>
     `;
