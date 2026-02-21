@@ -15,6 +15,7 @@
 - 🌙 **다크 테마**: 눈이 편한 다크 테마 기본 적용
 - 🚇 **노선도 표시**: 지하철 및 기차 노선도 오버레이
 - 🏫 **학교 정보**: 남/녀/공학, 학생수, 학교유형 표시
+- 📊 **학업성취도**: 중학교 교과별 평균 점수 및 성취등급(A~E) 분포 바 차트 표시
 - 📍 **스마트 클러스터링**: 2개까지는 개별 마커로 표시, 3개 이상부터 클러스터링
 - 💬 **스마트 팝업**: 화면 가장자리에서도 팝업이 항상 보이도록 위치 자동 조정
 
@@ -77,7 +78,12 @@ pins_on_the_map/
 │   ├── ...             # 기타 데이터 파일
 │   ├── subway_lines.json   # 지하철 노선도
 │   └── train_lines.json    # 기차 노선도
-├── scripts/            # 데이터 수집 스크립트
+├── raw_data/           # 학교알리미 원본 XLS 파일
+│   ├── 서울-송파-가락중-2025-3-1.xls
+│   ├── 성남-분당-삼평중학교-2025-3-1.xls
+│   └── ...             # {지역}-{학교명}-{년도}-{학년}-{학기}.xls
+├── scripts/            # 데이터 수집 및 변환 스크립트
+│   ├── parse_achievement.py  # 학업성취도 XLS → JSON 변환
 │   ├── fetch_apartments.py
 │   ├── fetch_middle_schools.py
 │   ├── fetch_high_schools.py
@@ -132,6 +138,28 @@ pins_on_the_map/
   "school_type": "일반고"
 }
 ```
+
+### 학업성취도 데이터 (중학교)
+`scripts/parse_achievement.py`로 학교알리미 XLS 파일을 파싱하여 자동 생성됩니다.
+```json
+{
+  "achievement": {
+    "year": "2025-1",
+    "subjects": {
+      "국어": { "avg": 78.5, "A": 32.9, "B": 26.3, "C": 15.6, "D": 9.6, "E": 15.6 },
+      "수학": { "avg": 76.1, "A": 37.7, "B": 19.2, "C": 12.6, "D": 9.0, "E": 21.6 },
+      "영어": { "avg": 77.7, "A": 39.5, "B": 20.4, "C": 14.4, "D": 7.2, "E": 18.6 }
+    }
+  }
+}
+```
+
+XLS 파일은 [학교알리미](https://www.schoolinfo.go.kr/)에서 학교별로 직접 다운로드해야 합니다 (학교알리미 → 학교검색 → 교과별 학업성취사항). 다운로드한 파일을 `raw_data/`에 넣고 변환:
+```bash
+python3 scripts/parse_achievement.py
+```
+
+파일명 규칙: `{지역}-{학교명}-{년도}-{학년}-{학기}.xls` (예: `서울-송파-가락중-2025-3-1.xls`)
 
 ## 🎨 새로운 핀 리스트 추가하기
 
@@ -196,6 +224,7 @@ pins_on_the_map/
 | 맥도날드, 써브웨이, 도서관, 수영장 위치 | [카카오맵 API](https://developers.kakao.com/) | 카카오 API 이용약관 |
 | 중학교, 고등학교, 대학교 위치 | [카카오맵 API](https://developers.kakao.com/) | 카카오 API 이용약관 |
 | 중학교, 고등학교 상세정보 (남/녀/공학, 학생수, 학교유형) | [학교알리미](https://www.schoolinfo.go.kr/) | 공공누리 |
+| 중학교 학업성취도 (교과별 평균, 성취등급 분포) | [학교알리미](https://www.schoolinfo.go.kr/) | 공공누리 |
 | 지하철역, 기차역 위치 | [카카오맵 API](https://developers.kakao.com/) | 카카오 API 이용약관 |
 | 지하철 노선도 | [OpenStreetMap](https://www.openstreetmap.org/) via Overpass API | ODbL |
 | 기차 노선도 | [OpenStreetMap](https://www.openstreetmap.org/) via Overpass API | ODbL |
