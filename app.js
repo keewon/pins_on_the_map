@@ -110,7 +110,7 @@ function loadMapViewFromCookie() {
 }
 
 function clearAllCookies() {
-    const cookies = [COOKIE_VISIBILITY, COOKIE_COLORS, COOKIE_ICONS, COOKIE_FIRST_VISIT, COOKIE_MAP_VIEW, COOKIE_THEME];
+    const cookies = [COOKIE_VISIBILITY, COOKIE_COLORS, COOKIE_ICONS, COOKIE_FIRST_VISIT, COOKIE_MAP_VIEW, COOKIE_THEME, 'pins_commute'];
     cookies.forEach(name => {
         document.cookie = `${name}=;expires=Thu, 01 Jan 1970 00:00:00 GMT;path=/`;
     });
@@ -188,6 +188,7 @@ const state = {
     subwayLinesLayer: null, // Leaflet layer for subway lines
     trainLines: null, // GeoJSON data for train lines
     trainLinesLayer: null, // Leaflet layer for train lines
+    commuteLayer: null, // 출퇴근 그리드 레이어
 };
 
 // DOM Elements
@@ -423,6 +424,11 @@ async function loadPinData() {
         
         // Load train lines GeoJSON
         await loadTrainLines();
+
+        // 출퇴근 시간 등고선 초기화
+        if (typeof initCommute === 'function') {
+            await initCommute();
+        }
 
     } catch (error) {
         console.error('Error loading pin data:', error);

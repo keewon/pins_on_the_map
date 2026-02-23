@@ -1,0 +1,215 @@
+/* ==========================================
+   Commute Grid - 출퇴근 시간 등고선 맵
+   ========================================== */
+
+/* Panel Section */
+.commute-panel {
+    margin-top: 16px;
+    padding-top: 16px;
+    border-top: 1px solid var(--border-color);
+}
+
+.commute-section-title {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+}
+
+/* Toggle Switch */
+.commute-toggle-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.commute-toggle-label {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--text-primary);
+}
+
+.commute-toggle {
+    position: relative;
+    width: 44px;
+    height: 24px;
+    background: var(--bg-hover);
+    border-radius: 12px;
+    cursor: pointer;
+    border: 1px solid var(--border-color);
+    transition: all var(--transition-fast);
+    flex-shrink: 0;
+}
+
+.commute-toggle.active {
+    background: var(--accent-gold);
+    border-color: var(--accent-gold);
+}
+
+.commute-toggle::after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 18px;
+    height: 18px;
+    background: white;
+    border-radius: 50%;
+    transition: transform var(--transition-fast);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.commute-toggle.active::after {
+    transform: translateX(20px);
+}
+
+/* Controls */
+.commute-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.commute-controls.hidden {
+    display: none;
+}
+
+.commute-control-group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.commute-control-label {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+
+.commute-select {
+    width: 100%;
+    padding: 8px 12px;
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-sm);
+    color: var(--text-primary);
+    font-size: 0.85rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%239ca3af' stroke-width='2'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    padding-right: 32px;
+}
+
+.commute-select:hover {
+    border-color: var(--text-muted);
+}
+
+.commute-select:focus {
+    outline: none;
+    border-color: var(--accent-gold);
+}
+
+/* Direction toggle buttons */
+.commute-direction-row {
+    display: flex;
+    gap: 4px;
+}
+
+.commute-dir-btn {
+    flex: 1;
+    padding: 6px 12px;
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-sm);
+    color: var(--text-secondary);
+    font-size: 0.8rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    text-align: center;
+}
+
+.commute-dir-btn:hover {
+    background: var(--bg-hover);
+    color: var(--text-primary);
+}
+
+.commute-dir-btn.active {
+    background: var(--accent-gold);
+    border-color: var(--accent-gold);
+    color: white;
+}
+
+/* Legend */
+.commute-legend {
+    margin-top: 12px;
+    padding-top: 10px;
+    border-top: 1px solid var(--border-color);
+}
+
+.commute-legend-bar {
+    height: 12px;
+    border-radius: 6px;
+    background: linear-gradient(to right,
+        #22c55e 0%,
+        #84cc16 15%,
+        #eab308 30%,
+        #f97316 50%,
+        #ef4444 75%,
+        #991b1b 100%
+    );
+    margin-bottom: 4px;
+}
+
+.commute-legend-labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.65rem;
+    color: var(--text-muted);
+}
+
+/* Status text */
+.commute-status {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    margin-top: 8px;
+    text-align: center;
+    min-height: 16px;
+}
+
+.commute-status.loading {
+    color: var(--accent-gold);
+}
+
+.commute-status.error {
+    color: #ef4444;
+}
+
+/* ==========================================
+   Responsive
+   ========================================== */
+
+@media (max-width: 768px) {
+    .commute-panel {
+        margin-top: 12px;
+        padding-top: 12px;
+    }
+}
+
+@media (max-width: 400px) {
+    .commute-direction-row {
+        flex-direction: column;
+    }
+}
