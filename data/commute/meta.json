@@ -74,6 +74,10 @@
   ],
   "grid_step_km": 2,
   "collected": {
+    "yeoksam": [
+      "0800",
+      "1800"
+    ],
     "pangyo": [
       "0800",
       "1800"
