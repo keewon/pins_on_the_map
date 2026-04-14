@@ -1496,7 +1496,7 @@ body {
    Responsive - Mobile
    ========================================== */
 
-@media (max-width: 768px) {
+@media (max-width: 768px), (hover: none) and (pointer: coarse) {
     :root {
         --sidebar-width: 100%;
         --header-height: 60px;
@@ -1559,6 +1559,28 @@ body {
     body.sidebar-open .leaflet-control-zoom,
     body.sidebar-open .leaflet-control-location {
         display: none;
+    }
+
+    /* Constrain popups so they fit within the mobile viewport */
+    .leaflet-popup-content-wrapper {
+        max-width: calc(100vw - 40px);
+    }
+
+    .leaflet-popup-content {
+        margin: 12px;
+        max-width: calc(100vw - 64px);
+    }
+
+    .popup-content {
+        min-width: 0;
+    }
+
+    .popup-title {
+        font-size: 1rem;
+    }
+
+    .popup-description {
+        font-size: 0.85rem;
     }
 }
 

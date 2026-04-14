@@ -1104,8 +1104,13 @@ function createMarker(pin, color, listTitle, listId) {
         </div>
     `;
 
+    const isTouchDevice = window.matchMedia('(hover: none) and (pointer: coarse)').matches;
+    const popupMaxWidth = (window.innerWidth <= 768 || isTouchDevice)
+        ? Math.min(260, window.innerWidth - 40)
+        : 280;
+
     marker.bindPopup(popupContent, {
-        maxWidth: 280,
+        maxWidth: popupMaxWidth,
         closeButton: true,
         autoPan: false,
     });
